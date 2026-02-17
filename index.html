@@ -3,24 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OpenClaw Cases — Real AI Agent Use Cases</title>
+<title>OpenClaw Times — Real AI Agent Use Cases</title>
 <meta name="description" content="Curated real-world OpenClaw use cases. Updated daily.">
-<link rel="canonical" href="https://openclaw-cases.pages.dev/">
-<link rel="alternate" hreflang="en" href="https://openclaw-cases.pages.dev/">
-<link rel="alternate" hreflang="ru" href="https://openclaw-cases.pages.dev/ru/">
-<link rel="alternate" hreflang="x-default" href="https://openclaw-cases.pages.dev/">
+<link rel="canonical" href="https://openclawtimes.com/">
+<link rel="alternate" hreflang="en" href="https://openclawtimes.com/">
+<link rel="alternate" hreflang="ru" href="https://openclawtimes.com/ru/">
+<link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="OpenClaw Cases — Real AI Agent Use Cases">
+<meta property="og:title" content="OpenClaw Times — Real AI Agent Use Cases">
 <meta property="og:description" content="Curated real-world OpenClaw use cases. Updated daily.">
-<meta property="og:url" content="https://openclaw-cases.pages.dev/">
-<meta property="og:site_name" content="OpenClaw Cases">
+<meta property="og:url" content="https://openclawtimes.com/">
+<meta property="og:site_name" content="OpenClaw Times">
 <meta property="og:locale" content="en_US">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="OpenClaw Cases — Real AI Agent Use Cases">
+<meta name="twitter:title" content="OpenClaw Times — Real AI Agent Use Cases">
 <meta name="twitter:description" content="How people use AI agents. Updated daily.">
 
 <!-- JSON-LD -->
@@ -28,8 +28,8 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "OpenClaw Cases",
-  "url": "https://openclaw-cases.pages.dev",
+  "name": "OpenClaw Times",
+  "url": "https://openclawtimes.com",
   "description": "Real-world OpenClaw AI agent use cases",
   "inLanguage": "en"
 }
@@ -105,11 +105,19 @@ nav{display:flex;align-items:center;gap:6px}
 .case-detail-badge{display:inline-block;margin-top:12px;font-size:12px;font-weight:500;color:var(--accent)}
 
 footer{border-top:1px solid var(--border);padding:40px 0;text-align:center}
+.footer-author{font-size:15px;color:var(--text-dim);margin-bottom:16px}
+.footer-author a{color:var(--accent);font-weight:500}
+.footer-author a:hover{text-decoration:underline}
+.footer-divider{margin:0 8px;color:var(--text-muted)}
+.footer-cta{margin-bottom:20px}
+.cta-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:var(--accent);color:#fff;font-size:14px;font-weight:600;border-radius:8px;transition:all .2s}
+.cta-btn:hover{background:#ea580c;transform:translateY(-1px)}
 .footer-links{display:flex;justify-content:center;gap:24px;margin-bottom:16px}
 .footer-links a{font-size:14px;color:var(--text-muted);transition:color .15s}
 .footer-links a:hover{color:var(--text)}
 .footer-copy{font-size:13px;color:var(--text-muted)}
 .footer-copy a{color:var(--accent)}
+.lang-btn{font-size:18px;padding:6px 10px}
 
 /* Case page specific */
 .case-page{padding:40px 0}
@@ -155,11 +163,11 @@ footer{border-top:1px solid var(--border);padding:40px 0;text-align:center}
 <header>
   <div class="container">
     <div class="header-inner">
-      <a href="/" class="logo">🦞 Open<span>Claw</span> Cases</a>
+      <a href="/" class="logo">🦞 Open<span>Claw</span> Times</a>
       <nav>
         <div class="lang-switch">
-          <a href="/" class="lang-btn active">EN</a>
-          <a href="/ru/" class="lang-btn ">RU</a>
+          <a href="/" class="lang-btn active" title="English" onclick="localStorage.setItem('lang-override','en')">🇬🇧</a>
+          <a href="/ru/" class="lang-btn " title="Русский" onclick="localStorage.setItem('lang-override','ru')">🇷🇺</a>
         </div>
       </nav>
     </div>
@@ -1416,15 +1424,35 @@ footer{border-top:1px solid var(--border);padding:40px 0;text-align:center}
 
 <footer>
   <div class="container">
+    <div class="footer-author">
+      <span>A project by <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a></span>
+      <span class="footer-divider">·</span>
+      <a href="https://plaan.ai" target="_blank">Plaan.ai</a>
+    </div>
+    <div class="footer-cta">
+      <a href="https://t.me/ffring" target="_blank" class="cta-btn">
+        💬 AI Implementation Consulting
+      </a>
+    </div>
     <div class="footer-links">
       <a href="https://github.com/openclaw/openclaw" target="_blank">GitHub</a>
       <a href="https://discord.com/invite/clawd" target="_blank">Discord</a>
       <a href="https://docs.openclaw.ai" target="_blank">Docs</a>
-      <a href="https://github.com/hesamsheikh/awesome-openclaw-usecases" target="_blank">Submit Case</a>
     </div>
     <div class="footer-copy">Built with <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
   </div>
 </footer>
+
+<!-- Auto-detect Russian language -->
+<script>
+(function(){
+  if (localStorage.getItem('lang-override')) return;
+  var lang = navigator.language || navigator.userLanguage || '';
+  if (lang.toLowerCase().startsWith('ru') && !window.location.pathname.startsWith('/ru')) {
+    window.location.href = '/ru/' + window.location.search;
+  }
+})();
+</script>
 
 </body>
 </html>

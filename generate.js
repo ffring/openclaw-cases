@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * OpenClaw Cases Site Generator v2.2
+ * OpenClaw Times Site Generator v2.2
  * SEO optimized with OG, Twitter Cards, JSON-LD, sitemap
  */
 
@@ -9,7 +9,7 @@ const path = require('path');
 
 const DATA_FILE = path.join(__dirname, 'data', 'cases.json');
 const TEMPLATE_DIR = __dirname;
-const SITE_URL = 'https://openclaw-cases.pages.dev'; // Update when domain is set
+const SITE_URL = 'https://openclawtimes.com';
 
 // Tag colors and labels
 const TAGS = {
@@ -148,11 +148,19 @@ nav{display:flex;align-items:center;gap:6px}
 .case-detail-badge{display:inline-block;margin-top:12px;font-size:12px;font-weight:500;color:var(--accent)}
 
 footer{border-top:1px solid var(--border);padding:40px 0;text-align:center}
+.footer-author{font-size:15px;color:var(--text-dim);margin-bottom:16px}
+.footer-author a{color:var(--accent);font-weight:500}
+.footer-author a:hover{text-decoration:underline}
+.footer-divider{margin:0 8px;color:var(--text-muted)}
+.footer-cta{margin-bottom:20px}
+.cta-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:var(--accent);color:#fff;font-size:14px;font-weight:600;border-radius:8px;transition:all .2s}
+.cta-btn:hover{background:#ea580c;transform:translateY(-1px)}
 .footer-links{display:flex;justify-content:center;gap:24px;margin-bottom:16px}
 .footer-links a{font-size:14px;color:var(--text-muted);transition:color .15s}
 .footer-links a:hover{color:var(--text)}
 .footer-copy{font-size:13px;color:var(--text-muted)}
 .footer-copy a{color:var(--accent)}
+.lang-btn{font-size:18px;padding:6px 10px}
 
 /* Case page specific */
 .case-page{padding:40px 0}
@@ -223,7 +231,7 @@ function generateIndex(lang) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OpenClaw Cases — ${isRu ? 'Реальные кейсы AI-агентов' : 'Real AI Agent Use Cases'}</title>
+<title>OpenClaw Times — ${isRu ? 'Реальные кейсы AI-агентов' : 'Real AI Agent Use Cases'}</title>
 <meta name="description" content="${isRu ? 'Подборка реальных кейсов использования OpenClaw. Обновляется ежедневно.' : 'Curated real-world OpenClaw use cases. Updated daily.'}">
 <link rel="canonical" href="${SITE_URL}${isRu ? '/ru/' : '/'}">
 <link rel="alternate" hreflang="en" href="${SITE_URL}/">
@@ -232,15 +240,15 @@ function generateIndex(lang) {
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="OpenClaw Cases — ${isRu ? 'Реальные кейсы AI-агентов' : 'Real AI Agent Use Cases'}">
+<meta property="og:title" content="OpenClaw Times — ${isRu ? 'Реальные кейсы AI-агентов' : 'Real AI Agent Use Cases'}">
 <meta property="og:description" content="${isRu ? 'Подборка реальных кейсов использования OpenClaw. Обновляется ежедневно.' : 'Curated real-world OpenClaw use cases. Updated daily.'}">
 <meta property="og:url" content="${SITE_URL}${isRu ? '/ru/' : '/'}">
-<meta property="og:site_name" content="OpenClaw Cases">
+<meta property="og:site_name" content="OpenClaw Times">
 <meta property="og:locale" content="${isRu ? 'ru_RU' : 'en_US'}">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="OpenClaw Cases — ${isRu ? 'Реальные кейсы AI-агентов' : 'Real AI Agent Use Cases'}">
+<meta name="twitter:title" content="OpenClaw Times — ${isRu ? 'Реальные кейсы AI-агентов' : 'Real AI Agent Use Cases'}">
 <meta name="twitter:description" content="${isRu ? 'Как люди используют AI-агентов. Обновляется ежедневно.' : 'How people use AI agents. Updated daily.'}">
 
 <!-- JSON-LD -->
@@ -248,7 +256,7 @@ function generateIndex(lang) {
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "OpenClaw Cases",
+  "name": "OpenClaw Times",
   "url": "${SITE_URL}",
   "description": "${isRu ? 'Реальные кейсы использования AI-агента OpenClaw' : 'Real-world OpenClaw AI agent use cases'}",
   "inLanguage": "${isRu ? 'ru' : 'en'}"
@@ -266,11 +274,11 @@ function generateIndex(lang) {
 <header>
   <div class="container">
     <div class="header-inner">
-      <a href="${isRu ? '/ru/' : '/'}" class="logo">🦞 Open<span>Claw</span> Cases</a>
+      <a href="${isRu ? '/ru/' : '/'}" class="logo">🦞 Open<span>Claw</span> Times</a>
       <nav>
         <div class="lang-switch">
-          <a href="/" class="lang-btn ${isRu ? '' : 'active'}">EN</a>
-          <a href="/ru/" class="lang-btn ${isRu ? 'active' : ''}">RU</a>
+          <a href="/" class="lang-btn ${isRu ? '' : 'active'}" title="English" onclick="localStorage.setItem('lang-override','en')">🇬🇧</a>
+          <a href="/ru/" class="lang-btn ${isRu ? 'active' : ''}" title="Русский" onclick="localStorage.setItem('lang-override','ru')">🇷🇺</a>
         </div>
       </nav>
     </div>
@@ -303,15 +311,35 @@ function generateIndex(lang) {
 
 <footer>
   <div class="container">
+    <div class="footer-author">
+      <span>${isRu ? 'Проект' : 'A project by'} <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a></span>
+      <span class="footer-divider">·</span>
+      <a href="https://plaan.ai" target="_blank">Plaan.ai</a>
+    </div>
+    <div class="footer-cta">
+      <a href="https://t.me/ffring" target="_blank" class="cta-btn">
+        ${isRu ? '💬 Консультация по внедрению ИИ' : '💬 AI Implementation Consulting'}
+      </a>
+    </div>
     <div class="footer-links">
       <a href="https://github.com/openclaw/openclaw" target="_blank">GitHub</a>
       <a href="https://discord.com/invite/clawd" target="_blank">Discord</a>
       <a href="https://docs.openclaw.ai" target="_blank">Docs</a>
-      <a href="https://github.com/hesamsheikh/awesome-openclaw-usecases" target="_blank">${texts.navSubmit}</a>
     </div>
-    <div class="footer-copy">${isRu ? 'Сделано на' : 'Built with'} <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
+    <div class="footer-copy">${isRu ? 'Собрано с помощью' : 'Built with'} <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
   </div>
 </footer>
+
+${!isRu ? `<!-- Auto-detect Russian language -->
+<script>
+(function(){
+  if (localStorage.getItem('lang-override')) return;
+  var lang = navigator.language || navigator.userLanguage || '';
+  if (lang.toLowerCase().startsWith('ru') && !window.location.pathname.startsWith('/ru')) {
+    window.location.href = '/ru/' + window.location.search;
+  }
+})();
+</script>` : ''}
 
 </body>
 </html>`;
@@ -356,7 +384,7 @@ function generateCasePage(c, lang) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${title} | OpenClaw Cases</title>
+<title>${title} | OpenClaw Times</title>
 <meta name="description" content="${desc}">
 <link rel="canonical" href="${SITE_URL}${isRu ? '/ru' : ''}/case/${c.id}.html">
 <link rel="alternate" hreflang="en" href="${SITE_URL}/case/${c.id}.html">
@@ -367,7 +395,7 @@ function generateCasePage(c, lang) {
 <meta property="og:title" content="${title}">
 <meta property="og:description" content="${desc}">
 <meta property="og:url" content="${SITE_URL}${isRu ? '/ru' : ''}/case/${c.id}.html">
-<meta property="og:site_name" content="OpenClaw Cases">
+<meta property="og:site_name" content="OpenClaw Times">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary">
@@ -383,7 +411,7 @@ function generateCasePage(c, lang) {
   "description": "${desc}",
   "url": "${SITE_URL}${isRu ? '/ru' : ''}/case/${c.id}.html",
   "datePublished": "${c.date}",
-  "publisher": {"@type": "Organization", "name": "OpenClaw Cases"}
+  "publisher": {"@type": "Organization", "name": "OpenClaw Times"}
 }
 </script>
 
@@ -401,8 +429,8 @@ function generateCasePage(c, lang) {
       <a href="${isRu ? '/ru/' : '/'}" class="logo">🦞 Open<span>Claw</span> Cases</a>
       <nav>
         <div class="lang-switch">
-          <a href="/case/${c.id}.html" class="lang-btn ${isRu ? '' : 'active'}">EN</a>
-          <a href="/ru/case/${c.id}.html" class="lang-btn ${isRu ? 'active' : ''}">RU</a>
+          <a href="/case/${c.id}.html" class="lang-btn ${isRu ? '' : 'active'}" title="English" onclick="localStorage.setItem('lang-override','en')">🇬🇧</a>
+          <a href="/ru/case/${c.id}.html" class="lang-btn ${isRu ? 'active' : ''}" title="Русский" onclick="localStorage.setItem('lang-override','ru')">🇷🇺</a>
         </div>
       </nav>
     </div>
@@ -439,12 +467,22 @@ function generateCasePage(c, lang) {
 
 <footer>
   <div class="container">
+    <div class="footer-author">
+      <span>${isRu ? 'Проект' : 'A project by'} <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a></span>
+      <span class="footer-divider">·</span>
+      <a href="https://plaan.ai" target="_blank">Plaan.ai</a>
+    </div>
+    <div class="footer-cta">
+      <a href="https://t.me/ffring" target="_blank" class="cta-btn">
+        ${isRu ? '💬 Консультация по внедрению ИИ' : '💬 AI Implementation Consulting'}
+      </a>
+    </div>
     <div class="footer-links">
       <a href="https://github.com/openclaw/openclaw" target="_blank">GitHub</a>
       <a href="https://discord.com/invite/clawd" target="_blank">Discord</a>
       <a href="https://docs.openclaw.ai" target="_blank">Docs</a>
     </div>
-    <div class="footer-copy">${isRu ? 'Сделано на' : 'Built with'} <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
+    <div class="footer-copy">${isRu ? 'Собрано с помощью' : 'Built with'} <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
   </div>
 </footer>
 
@@ -459,7 +497,7 @@ fs.mkdirSync(path.join(TEMPLATE_DIR, 'case'), { recursive: true });
 fs.mkdirSync(path.join(TEMPLATE_DIR, 'ru', 'case'), { recursive: true });
 
 // Write files
-console.log('Generating OpenClaw Cases site...');
+console.log('Generating OpenClaw Times site...');
 
 // EN index
 fs.writeFileSync(path.join(TEMPLATE_DIR, 'index.html'), generateIndex('en'));

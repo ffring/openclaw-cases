@@ -3,18 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Local Data Analyst with Ollama Integration | OpenClaw Cases</title>
+<title>Local Data Analyst with Ollama Integration | OpenClaw Times</title>
 <meta name="description" content="Privacy-focused data analysis system using OpenClaw and local Ollama models for CSV analysis and visualization.">
-<link rel="canonical" href="https://openclaw-cases.pages.dev/case/local-data-analyst-ollama.html">
-<link rel="alternate" hreflang="en" href="https://openclaw-cases.pages.dev/case/local-data-analyst-ollama.html">
-<link rel="alternate" hreflang="ru" href="https://openclaw-cases.pages.dev/ru/case/local-data-analyst-ollama.html">
+<link rel="canonical" href="https://openclawtimes.com/case/local-data-analyst-ollama.html">
+<link rel="alternate" hreflang="en" href="https://openclawtimes.com/case/local-data-analyst-ollama.html">
+<link rel="alternate" hreflang="ru" href="https://openclawtimes.com/ru/case/local-data-analyst-ollama.html">
 
 <!-- Open Graph -->
 <meta property="og:type" content="article">
 <meta property="og:title" content="Local Data Analyst with Ollama Integration">
 <meta property="og:description" content="Privacy-focused data analysis system using OpenClaw and local Ollama models for CSV analysis and visualization.">
-<meta property="og:url" content="https://openclaw-cases.pages.dev/case/local-data-analyst-ollama.html">
-<meta property="og:site_name" content="OpenClaw Cases">
+<meta property="og:url" content="https://openclawtimes.com/case/local-data-analyst-ollama.html">
+<meta property="og:site_name" content="OpenClaw Times">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary">
@@ -28,9 +28,9 @@
   "@type": "Article",
   "headline": "Local Data Analyst with Ollama Integration",
   "description": "Privacy-focused data analysis system using OpenClaw and local Ollama models for CSV analysis and visualization.",
-  "url": "https://openclaw-cases.pages.dev/case/local-data-analyst-ollama.html",
+  "url": "https://openclawtimes.com/case/local-data-analyst-ollama.html",
   "datePublished": "2026-02-17",
-  "publisher": {"@type": "Organization", "name": "OpenClaw Cases"}
+  "publisher": {"@type": "Organization", "name": "OpenClaw Times"}
 }
 </script>
 
@@ -104,11 +104,19 @@ nav{display:flex;align-items:center;gap:6px}
 .case-detail-badge{display:inline-block;margin-top:12px;font-size:12px;font-weight:500;color:var(--accent)}
 
 footer{border-top:1px solid var(--border);padding:40px 0;text-align:center}
+.footer-author{font-size:15px;color:var(--text-dim);margin-bottom:16px}
+.footer-author a{color:var(--accent);font-weight:500}
+.footer-author a:hover{text-decoration:underline}
+.footer-divider{margin:0 8px;color:var(--text-muted)}
+.footer-cta{margin-bottom:20px}
+.cta-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:var(--accent);color:#fff;font-size:14px;font-weight:600;border-radius:8px;transition:all .2s}
+.cta-btn:hover{background:#ea580c;transform:translateY(-1px)}
 .footer-links{display:flex;justify-content:center;gap:24px;margin-bottom:16px}
 .footer-links a{font-size:14px;color:var(--text-muted);transition:color .15s}
 .footer-links a:hover{color:var(--text)}
 .footer-copy{font-size:13px;color:var(--text-muted)}
 .footer-copy a{color:var(--accent)}
+.lang-btn{font-size:18px;padding:6px 10px}
 
 /* Case page specific */
 .case-page{padding:40px 0}
@@ -157,8 +165,8 @@ footer{border-top:1px solid var(--border);padding:40px 0;text-align:center}
       <a href="/" class="logo">🦞 Open<span>Claw</span> Cases</a>
       <nav>
         <div class="lang-switch">
-          <a href="/case/local-data-analyst-ollama.html" class="lang-btn active">EN</a>
-          <a href="/ru/case/local-data-analyst-ollama.html" class="lang-btn ">RU</a>
+          <a href="/case/local-data-analyst-ollama.html" class="lang-btn active" title="English" onclick="localStorage.setItem('lang-override','en')">🇬🇧</a>
+          <a href="/ru/case/local-data-analyst-ollama.html" class="lang-btn " title="Русский" onclick="localStorage.setItem('lang-override','ru')">🇷🇺</a>
         </div>
       </nav>
     </div>
@@ -210,6 +218,16 @@ footer{border-top:1px solid var(--border);padding:40px 0;text-align:center}
 
 <footer>
   <div class="container">
+    <div class="footer-author">
+      <span>A project by <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a></span>
+      <span class="footer-divider">·</span>
+      <a href="https://plaan.ai" target="_blank">Plaan.ai</a>
+    </div>
+    <div class="footer-cta">
+      <a href="https://t.me/ffring" target="_blank" class="cta-btn">
+        💬 AI Implementation Consulting
+      </a>
+    </div>
     <div class="footer-links">
       <a href="https://github.com/openclaw/openclaw" target="_blank">GitHub</a>
       <a href="https://discord.com/invite/clawd" target="_blank">Discord</a>
