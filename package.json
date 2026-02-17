@@ -1,0 +1,20 @@
+{
+  "name": "openclaw-cases",
+  "version": "2.0.0",
+  "description": "OpenClaw Cases — Real AI Agent Use Cases. Daily curated EN + RU.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate": "node generate.js",
+    "parse": "node scripts/parse-cases.js"
+  },
+  "keywords": ["openclaw", "ai", "agents", "cases"],
+  "author": "Alfred",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
