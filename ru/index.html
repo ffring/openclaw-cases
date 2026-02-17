@@ -3,158 +3,155 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OpenClaw Times — Реальные кейсы AI-агентов</title>
-<meta name="description" content="Подборка реальных кейсов использования OpenClaw. Обновляется ежедневно.">
+<title>OpenClaw Times — Лучшие кейсы AI-агентов</title>
+<meta name="description" content="Ежедневная подборка лучших кейсов использования OpenClaw и AI-агентов.">
 <link rel="canonical" href="https://openclawtimes.com/ru/">
 <link rel="alternate" hreflang="en" href="https://openclawtimes.com/">
 <link rel="alternate" hreflang="ru" href="https://openclawtimes.com/ru/">
-<link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/">
-
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="OpenClaw Times — Реальные кейсы AI-агентов">
-<meta property="og:description" content="Подборка реальных кейсов использования OpenClaw. Обновляется ежедневно.">
+<meta property="og:title" content="OpenClaw Times">
+<meta property="og:description" content="Лучшие кейсы использования AI-агентов. Обновляется ежедневно.">
 <meta property="og:url" content="https://openclawtimes.com/ru/">
-<meta property="og:site_name" content="OpenClaw Times">
-<meta property="og:locale" content="ru_RU">
-
-<!-- Twitter Card -->
+<meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="OpenClaw Times — Реальные кейсы AI-агентов">
-<meta name="twitter:description" content="Как люди используют AI-агентов. Обновляется ежедневно.">
-
-<!-- JSON-LD -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "OpenClaw Times",
-  "url": "https://openclawtimes.com",
-  "description": "Реальные кейсы использования AI-агента OpenClaw",
-  "inLanguage": "ru"
-}
-</script>
-
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#09090b;--bg-subtle:#18181b;--bg-hover:#27272a;
-  --border:#27272a;--text:#fafafa;--text-dim:#a1a1aa;--text-muted:#71717a;
-  --accent:#f97316;--accent-dim:rgba(249,115,22,0.15);
-  --green:#22c55e;--blue:#3b82f6;--purple:#a855f7;--cyan:#06b6d4;--pink:#ec4899;--yellow:#eab308;
+  --bg:#0a0a0b;--bg-card:#111113;--bg-hover:#1a1a1d;
+  --border:#222225;--text:#fafafa;--text-dim:#a0a0a5;--text-muted:#707075;
+  --accent:#ff6154;--accent-dim:rgba(255,97,84,0.12);
+  --green:#10b981;--blue:#3b82f6;--purple:#8b5cf6;--cyan:#06b6d4;--pink:#ec4899;--yellow:#f59e0b;--orange:#f97316;
   --font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',monospace;
 }
 html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
 body{font-family:var(--font-sans);background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
 a{color:inherit;text-decoration:none}
 ::selection{background:var(--accent);color:#fff}
-.container{max-width:720px;margin:0 auto;padding:0 20px}
+.container{max-width:900px;margin:0 auto;padding:0 20px}
 
-header{border-bottom:1px solid var(--border);padding:20px 0;position:sticky;top:0;background:rgba(9,9,11,0.9);backdrop-filter:blur(12px);z-index:100}
-.header-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
-.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px}
+/* Header */
+header{border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:0;background:rgba(10,10,11,0.95);backdrop-filter:blur(12px);z-index:100}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;align-items:center;gap:8px;font-weight:700;font-size:20px}
 .logo span{color:var(--accent)}
-nav{display:flex;align-items:center;gap:6px}
-.lang-switch{display:flex;gap:2px;padding:4px;background:var(--bg-subtle);border-radius:8px}
-.lang-btn{padding:6px 12px;border-radius:6px;font-size:13px;font-weight:500;color:var(--text-muted);transition:all .15s;border:none;background:none;cursor:pointer}
-.lang-btn:hover{color:var(--text-dim)}
-.lang-btn.active{background:var(--bg-hover);color:var(--text)}
+.header-right{display:flex;align-items:center;gap:16px}
+.lang-switch{display:flex;gap:4px;padding:4px;background:var(--bg-card);border-radius:8px;border:1px solid var(--border)}
+.lang-btn{padding:6px 10px;border-radius:6px;font-size:16px;transition:all .15s;cursor:pointer}
+.lang-btn:hover{background:var(--bg-hover)}
+.lang-btn.active{background:var(--accent-dim)}
 
-.hero{padding:60px 0 40px;text-align:center;border-bottom:1px solid var(--border)}
-.hero-badge{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;background:var(--accent-dim);border:1px solid rgba(249,115,22,0.3);border-radius:999px;font-size:12px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:20px}
-.hero-badge::before{content:'';width:6px;height:6px;background:var(--accent);border-radius:50%;animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-.hero h1{font-size:clamp(28px,5vw,44px);font-weight:700;letter-spacing:-0.03em;line-height:1.1;margin-bottom:16px}
+/* Search */
+.search-box{position:relative}
+.search-input{width:240px;padding:10px 16px 10px 40px;background:var(--bg-card);border:1px solid var(--border);border-radius:10px;color:var(--text);font-size:14px;transition:all .2s}
+.search-input:focus{outline:none;border-color:var(--accent);width:300px}
+.search-input::placeholder{color:var(--text-muted)}
+.search-icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--text-muted);font-size:14px}
+
+/* Hero */
+.hero{padding:48px 0 32px;text-align:center}
+.hero h1{font-size:clamp(28px,5vw,40px);font-weight:700;letter-spacing:-0.03em;margin-bottom:12px}
 .hero h1 span{color:var(--accent)}
-.hero p{font-size:17px;color:var(--text-dim);max-width:500px;margin:0 auto}
+.hero p{font-size:16px;color:var(--text-dim);max-width:500px;margin:0 auto}
 
-.stats{display:flex;justify-content:center;gap:40px;padding:32px 0;border-bottom:1px solid var(--border)}
+/* Stats Bar */
+.stats-bar{display:flex;justify-content:center;gap:32px;padding:20px 0;margin-bottom:24px;border-bottom:1px solid var(--border)}
 .stat{text-align:center}
-.stat-value{font-size:32px;font-weight:700;font-family:var(--font-mono);color:var(--accent)}
-.stat-label{font-size:13px;color:var(--text-muted);margin-top:4px}
+.stat-value{font-size:24px;font-weight:700;font-family:var(--font-mono);color:var(--accent)}
+.stat-label{font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em}
 
-.feed{padding:40px 0}
-.feed-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid var(--border)}
-.feed-title{font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-dim)}
-.feed-date{font-size:13px;color:var(--text-muted);font-family:var(--font-mono)}
+/* Categories */
+.categories{display:flex;gap:8px;padding:16px 0;overflow-x:auto;border-bottom:1px solid var(--border);margin-bottom:24px}
+.categories::-webkit-scrollbar{display:none}
+.cat-btn{padding:8px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:20px;font-size:13px;font-weight:500;color:var(--text-dim);cursor:pointer;transition:all .2s;white-space:nowrap}
+.cat-btn:hover{border-color:var(--text-muted);color:var(--text)}
+.cat-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
 
-.case{display:block;padding:20px;border:1px solid var(--border);border-radius:12px;margin-bottom:12px;transition:all .2s;position:relative}
-.case:hover{border-color:var(--text-muted);background:var(--bg-subtle)}
-.case.has-content::after{content:'';position:absolute;top:12px;right:12px;width:8px;height:8px;background:var(--accent);border-radius:50%}
-.case-header{display:flex;align-items:flex-start;gap:12px;margin-bottom:10px}
-.case-rank{font-family:var(--font-mono);font-size:13px;color:var(--text-muted);padding:4px 8px;background:var(--bg-subtle);border-radius:6px}
-.case-title{font-size:17px;font-weight:600;line-height:1.3}
-.case-meta{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:10px}
-.case-tag{font-size:11px;font-weight:600;padding:4px 10px;border-radius:999px;text-transform:uppercase;letter-spacing:0.03em}
-.case-tag.automation{background:rgba(34,197,94,0.15);color:var(--green)}
-.case-tag.coding{background:rgba(59,130,246,0.15);color:var(--blue)}
-.case-tag.productivity{background:var(--accent-dim);color:var(--accent)}
-.case-tag.research{background:rgba(168,85,247,0.15);color:var(--purple)}
-.case-tag.devops{background:rgba(6,182,212,0.15);color:var(--cyan)}
-.case-tag.marketing{background:rgba(236,72,153,0.15);color:var(--pink)}
-.case-tag.finance{background:rgba(234,179,8,0.15);color:var(--yellow)}
-.case-source{font-size:12px;color:var(--text-muted)}
+/* Featured Case */
+.featured-case{display:block;background:linear-gradient(135deg,var(--accent-dim),transparent);border:1px solid var(--accent);border-radius:16px;padding:24px;margin-bottom:32px;transition:all .2s}
+.featured-case:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(255,97,84,0.15)}
+.featured-badge{display:inline-block;padding:4px 12px;background:var(--accent);color:#fff;font-size:11px;font-weight:700;border-radius:20px;margin-bottom:16px;letter-spacing:0.05em}
+.featured-title{font-size:24px;font-weight:700;margin-bottom:12px}
+.featured-desc{font-size:15px;color:var(--text-dim);margin-bottom:16px;line-height:1.6}
+.featured-meta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+
+/* Case Cards */
+.cases-list{display:flex;flex-direction:column;gap:12px}
+.case-card{display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--bg-card);border:1px solid var(--border);border-radius:12px;transition:all .2s}
+.case-card:hover{border-color:var(--text-muted);background:var(--bg-hover);transform:translateX(4px)}
+.case-card.hidden{display:none}
+.case-rank{font-family:var(--font-mono);font-size:14px;color:var(--text-muted);min-width:28px}
+.case-body{flex:1;min-width:0}
+.case-title{font-size:16px;font-weight:600;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.case-desc{font-size:13px;color:var(--text-dim);margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.case-footer{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.case-source{font-size:11px;color:var(--text-muted)}
 .case-tools{font-size:11px;color:var(--text-dim);font-family:var(--font-mono)}
-.case-points{display:flex;align-items:center;gap:4px;font-family:var(--font-mono);font-size:13px;color:var(--accent)}
-.case-points svg{width:14px;height:14px}
-.case-desc{font-size:14px;color:var(--text-dim);line-height:1.5}
-.case-detail-badge{display:inline-block;margin-top:12px;font-size:12px;font-weight:500;color:var(--accent)}
+.case-vote{display:flex;flex-direction:column;align-items:center;padding:8px 12px;background:var(--bg);border:1px solid var(--border);border-radius:8px;min-width:50px}
+.vote-arrow{color:var(--accent);font-size:12px}
+.vote-count{font-family:var(--font-mono);font-size:14px;font-weight:600}
 
-footer{border-top:1px solid var(--border);padding:40px 0;text-align:center}
-.footer-author{font-size:15px;color:var(--text-dim);margin-bottom:16px}
+/* Tag Pills */
+.tag-pill{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.02em}
+.tag-pill.automation{background:rgba(16,185,129,0.15);color:var(--green)}
+.tag-pill.coding{background:rgba(59,130,246,0.15);color:var(--blue)}
+.tag-pill.productivity{background:rgba(249,115,22,0.15);color:var(--orange)}
+.tag-pill.research{background:rgba(139,92,246,0.15);color:var(--purple)}
+.tag-pill.devops{background:rgba(6,182,212,0.15);color:var(--cyan)}
+.tag-pill.marketing{background:rgba(236,72,153,0.15);color:var(--pink)}
+.tag-pill.finance{background:rgba(245,158,11,0.15);color:var(--yellow)}
+.meta-source{font-size:12px;color:var(--text-muted)}
+.meta-points{font-family:var(--font-mono);font-size:13px;color:var(--accent)}
+
+/* Footer */
+footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-align:center}
+.footer-author{font-size:15px;color:var(--text-dim);margin-bottom:20px}
 .footer-author a{color:var(--accent);font-weight:500}
 .footer-author a:hover{text-decoration:underline}
 .footer-divider{margin:0 8px;color:var(--text-muted)}
-.footer-cta{margin-bottom:20px}
-.cta-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:var(--accent);color:#fff;font-size:14px;font-weight:600;border-radius:8px;transition:all .2s}
-.cta-btn:hover{background:#ea580c;transform:translateY(-1px)}
+.footer-cta{margin-bottom:24px}
+.cta-btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--accent);color:#fff;font-size:14px;font-weight:600;border-radius:10px;transition:all .2s}
+.cta-btn:hover{filter:brightness(1.1);transform:translateY(-2px)}
 .footer-links{display:flex;justify-content:center;gap:24px;margin-bottom:16px}
 .footer-links a{font-size:14px;color:var(--text-muted);transition:color .15s}
 .footer-links a:hover{color:var(--text)}
 .footer-copy{font-size:13px;color:var(--text-muted)}
 .footer-copy a{color:var(--accent)}
-.lang-btn{font-size:18px;padding:6px 10px}
 
-/* Case page specific */
+/* Case Page */
 .case-page{padding:40px 0}
 .case-page .back{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--text-muted);margin-bottom:24px;transition:color .15s}
 .case-page .back:hover{color:var(--text)}
-.case-page h1{font-size:clamp(24px,4vw,36px);font-weight:700;letter-spacing:-0.02em;line-height:1.2;margin-bottom:16px}
-.case-page .meta{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-bottom:24px;padding-bottom:24px;border-bottom:1px solid var(--border)}
-
-/* Tools section */
-.tools-section{margin:24px 0;padding:20px;background:var(--bg-subtle);border-radius:12px;border:1px solid var(--border)}
-.tools-section h4{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-dim);margin-bottom:12px}
+.case-page h1{font-size:clamp(24px,4vw,32px);font-weight:700;margin-bottom:16px}
+.case-page .meta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:24px;padding-bottom:24px;border-bottom:1px solid var(--border)}
+.tools-section{margin:24px 0;padding:20px;background:var(--bg-card);border-radius:12px;border:1px solid var(--border)}
+.tools-section h4{font-size:13px;font-weight:600;text-transform:uppercase;color:var(--text-dim);margin-bottom:12px}
 .tools-list{display:flex;flex-wrap:wrap;gap:8px}
-.tool-tag{padding:6px 12px;background:var(--bg-hover);border-radius:6px;font-size:13px;font-family:var(--font-mono);color:var(--text)}
-
-/* Results section */
-.results-section{margin:24px 0;padding:20px;background:var(--accent-dim);border-radius:12px;border:1px solid rgba(249,115,22,0.3)}
-.results-section h4{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--accent);margin-bottom:8px}
-.results-section p{font-size:15px;color:var(--text);font-weight:500}
-
-/* Content styling */
+.tool-tag{padding:6px 12px;background:var(--bg-hover);border-radius:6px;font-size:13px;font-family:var(--font-mono)}
+.results-section{margin:24px 0;padding:20px;background:var(--accent-dim);border-radius:12px;border:1px solid rgba(255,97,84,0.3)}
+.results-section h4{font-size:13px;font-weight:600;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.results-section p{font-size:15px;font-weight:500}
 .content{font-size:15px;line-height:1.7;color:var(--text-dim)}
-.content h2{font-size:20px;font-weight:600;color:var(--text);margin:32px 0 16px;padding-top:16px;border-top:1px solid var(--border)}
+.content h2{font-size:20px;font-weight:600;color:var(--text);margin:32px 0 16px}
 .content h3{font-size:17px;font-weight:600;color:var(--text);margin:24px 0 12px}
 .content p{margin-bottom:16px}
-.content ul{margin:16px 0;padding-left:24px}
-.content li{margin-bottom:8px}
-.content code{font-family:var(--font-mono);font-size:13px;padding:2px 6px;background:var(--bg-subtle);border-radius:4px;color:var(--accent)}
-.content strong{color:var(--text);font-weight:600}
-
-.source-link{display:inline-flex;align-items:center;gap:8px;margin-top:32px;padding:12px 20px;background:var(--bg-subtle);border:1px solid var(--border);border-radius:8px;font-size:14px;font-weight:500;transition:all .15s}
+.content code{font-family:var(--font-mono);font-size:13px;padding:2px 6px;background:var(--bg-card);border-radius:4px;color:var(--accent)}
+.source-link{display:inline-flex;align-items:center;gap:8px;margin-top:32px;padding:12px 20px;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;font-size:14px;font-weight:500;transition:all .15s}
 .source-link:hover{border-color:var(--accent);background:var(--accent-dim)}
 
-@media(max-width:600px){
-  .stats{gap:24px}
-  .stat-value{font-size:24px}
-  .case-meta{gap:8px}
-  .tools-list{gap:6px}
+/* No Results */
+.no-results{text-align:center;padding:48px 20px;color:var(--text-muted)}
+.no-results-icon{font-size:48px;margin-bottom:16px}
+
+@media(max-width:640px){
+  .header-inner{flex-wrap:wrap}
+  .search-input{width:100%}
+  .search-input:focus{width:100%}
+  .case-card{flex-wrap:wrap}
+  .case-vote{width:100%;flex-direction:row;justify-content:center;gap:8px}
+  .stats-bar{gap:20px}
+  .categories{gap:6px}
 }
 </style>
 </head>
@@ -163,1269 +160,1205 @@ footer{border-top:1px solid var(--border);padding:40px 0;text-align:center}
 <header>
   <div class="container">
     <div class="header-inner">
-      <a href="/ru/" class="logo">🦞 Open<span>Claw</span> Times</a>
-      <nav>
-        <div class="lang-switch">
-          <a href="/" class="lang-btn " title="English" onclick="localStorage.setItem('lang-override','en')">🇬🇧</a>
-          <a href="/ru/" class="lang-btn active" title="Русский" onclick="localStorage.setItem('lang-override','ru')">🇷🇺</a>
+      <a href="/ru/" class="logo">🦞 OpenClaw <span>Times</span></a>
+      <div class="header-right">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" class="search-input" id="search" placeholder="Поиск кейсов...">
         </div>
-      </nav>
+        <div class="lang-switch">
+          <a href="/" class="lang-btn " onclick="localStorage.setItem('lang-override','en')">🇬🇧</a>
+          <a href="/ru/" class="lang-btn active" onclick="localStorage.setItem('lang-override','ru')">🇷🇺</a>
+        </div>
+      </div>
     </div>
   </div>
 </header>
 
-<section class="hero">
+<main>
   <div class="container">
-    <div class="hero-badge">Обновляется ежедневно</div>
-    <h1>Реальные кейсы <span>OpenClaw</span></h1>
-    <p>Как люди используют AI-агентов для автоматизации жизни и бизнеса</p>
-  </div>
-</section>
-
-<section class="stats">
-  <div class="stat"><div class="stat-value">72</div><div class="stat-label">Всего кейсов</div></div>
-  <div class="stat"><div class="stat-value">64</div><div class="stat-label">Сегодня</div></div>
-  <div class="stat"><div class="stat-value">72</div><div class="stat-label">За неделю</div></div>
-</section>
-
-<main class="feed">
-  <div class="container">
-    <div class="feed-header">
-      <div class="feed-title">Топ кейсы</div>
-      <div class="feed-date">17 фев 2026</div>
+    <section class="hero">
+      <h1>OpenClaw <span>Times</span></h1>
+      <p>Лучшие кейсы использования AI-агентов. Обновляется ежедневно.</p>
+    </section>
+    
+    <div class="stats-bar">
+      <div class="stat"><div class="stat-value">72</div><div class="stat-label">Кейсов</div></div>
+      <div class="stat"><div class="stat-value">64</div><div class="stat-label">Сегодня</div></div>
+      <div class="stat"><div class="stat-value">72</div><div class="stat-label">За неделю</div></div>
     </div>
     
-    <a href="/ru/case/whatsapp-saas-builder.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">01</span>
+    <nav class="categories">
+      <button class="cat-btn active" data-cat="all">Все</button>
+      <button class="cat-btn" data-cat="automation">⚡ Автоматизация</button><button class="cat-btn" data-cat="coding">💻 Код</button><button class="cat-btn" data-cat="productivity">📈 Продуктивность</button><button class="cat-btn" data-cat="research">🔬 Ресёрч</button><button class="cat-btn" data-cat="devops">🔧 DevOps</button><button class="cat-btn" data-cat="marketing">📣 Маркетинг</button><button class="cat-btn" data-cat="finance">💰 Финансы</button>
+    </nav>
+    
+    
+    <a href="/ru/case/daily-reddit-digest.html" class="featured-case" data-tag="automation">
+      <div class="featured-badge">🏆 КЕЙС ДНЯ</div>
+      <div class="featured-content">
+        <h2 class="featured-title">Дейли-дайджест Reddit — AI собирает топ из любимых сабреддитов</h2>
+        <p class="featured-desc">Получай ежедневную подборку из любимых сабреддитов по твоим интересам. Не пропускай важные обсуждения — фильтрация автоматическая.</p>
+        <div class="featured-meta">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="meta-source">GitHub</span>
+          <span class="meta-points">▲ 342</span>
+        </div>
+      </div>
+    </a>
+    
+    <div class="cases-list" id="cases-list">
+      
+    <a href="/ru/case/whatsapp-saas-builder.html" class="case-card" data-tag="coding" data-title="создатель saas через whatsapp с openclaw" data-desc="создал полноценное социальное приложение используя openclaw + minimax api через интерфейс whatsapp всего за 48 минут без фронтенда/бэкенда.">
+      <div class="case-rank">01</div>
+      <div class="case-body">
         <h3 class="case-title">Создатель SaaS через WhatsApp с OpenClaw</h3>
+        <p class="case-desc">Создал полноценное социальное приложение используя OpenClaw + Minimax API через интерфейс WhatsApp всего за 48 минут без фронтенда/бэкенда.</p>
+        <div class="case-footer">
+          <span class="tag-pill coding">💻 Код</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · WhatsApp</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag coding">Код</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · WhatsApp · Minimax API</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          210
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">210</span>
       </div>
-      <p class="case-desc">Создал полноценное социальное приложение используя OpenClaw + Minimax API через интерфейс WhatsApp всего за 48 минут без фронтенда/бэкенда.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/btc-trading-bot.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">02</span>
+    <a href="/ru/case/btc-trading-bot.html" class="case-card" data-tag="finance" data-title="бот для торговли btc за 5 минут с openclaw" data-desc="создал автоматизированного торгового бота для 5-минутных btc рынков, масштабировав с $50 до $823 с возможностями 2x кредитного плеча.">
+      <div class="case-rank">02</div>
+      <div class="case-body">
         <h3 class="case-title">Бот для торговли BTC за 5 минут с OpenClaw</h3>
+        <p class="case-desc">Создал автоматизированного торгового бота для 5-минутных BTC рынков, масштабировав с $50 до $823 с возможностями 2x кредитного плеча.</p>
+        <div class="case-footer">
+          <span class="tag-pill finance">💰 Финансы</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · Bitcoin exchanges</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag finance">Финансы</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · Bitcoin exchanges · Trading APIs</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          135
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">135</span>
       </div>
-      <p class="case-desc">Создал автоматизированного торгового бота для 5-минутных BTC рынков, масштабировав с $50 до $823 с возможностями 2x кредитного плеча.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/restaurant-calling-automation.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">03</span>
+    <a href="/ru/case/restaurant-calling-automation.html" class="case-card" data-tag="automation" data-title="система автоматических звонков в рестораны" data-desc="создал ии-систему для ав��оматических звонков в рестораны используя голосовой ии, интегрируя openclaw с imessage, браузером и twilio voice api.">
+      <div class="case-rank">03</div>
+      <div class="case-body">
         <h3 class="case-title">Система автоматических звонков в рестораны</h3>
+        <p class="case-desc">Создал ИИ-систему для ав��оматических звонков в рестораны используя голосовой ИИ, интегрируя OpenClaw с iMessage, браузером и Twilio voice API.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · OpenAI Realtime Voice API</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · OpenAI Realtime Voice API · Twilio</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          294
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">294</span>
       </div>
-      <p class="case-desc">Создал ИИ-систему для ав��оматических звонков в рестораны используя голосовой ИИ, интегрируя OpenClaw с iMessage, браузером и Twilio voice API.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/binance-trading-automation.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">04</span>
+    <a href="/ru/case/binance-trading-automation.html" class="case-card" data-tag="finance" data-title="разработка автоматизированного торгового бота для binance" data-desc="разработал локально работающий торговый бот для binance используя openclaw после непрерывной отладки, улучшая торговые стратегии и реализацию кода.">
+      <div class="case-rank">04</div>
+      <div class="case-body">
         <h3 class="case-title">Разработка автоматизированного торгового бота для Binance</h3>
+        <p class="case-desc">Разработал локально работающий торговый бот для Binance используя OpenClaw после непрерывной отладки, улучшая торговые стратегии и реализацию кода.</p>
+        <div class="case-footer">
+          <span class="tag-pill finance">💰 Финансы</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · Binance API</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag finance">Финансы</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · Binance API · Mac laptop</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          158
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">158</span>
       </div>
-      <p class="case-desc">Разработал локально работающий торговый бот для Binance используя OpenClaw после непрерывной отладки, улучшая торговые стратегии и реализацию кода.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/reddit-narrative-builder.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">05</span>
+    <a href="/ru/case/reddit-narrative-builder.html" class="case-card" data-tag="research" data-title="анализ нарративов reddit с openclaw" data-desc="создал построитель нарративов reddit используя рекурсивный скрапинг для анализа настроений в субреддитах по ии, спорту и путешествиям.">
+      <div class="case-rank">05</div>
+      <div class="case-body">
         <h3 class="case-title">Анализ нарративов Reddit с OpenClaw</h3>
+        <p class="case-desc">Создал построитель нарративов Reddit используя рекурсивный скрапинг для анализа настроений в субреддитах по ИИ, спорту и путешествиям.</p>
+        <div class="case-footer">
+          <span class="tag-pill research">🔬 Ресёрч</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · Reddit API</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag research">Ресёрч</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · Reddit API · Recursive scraping algorithms</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          225
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">225</span>
       </div>
-      <p class="case-desc">Создал построитель нарративов Reddit используя рекурсивный скрапинг для анализа настроений в субреддитах по ИИ, спорту и путешествиям.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/automated-coding-tasks-github.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">06</span>
+    <a href="/ru/case/automated-coding-tasks-github.html" class="case-card" data-tag="coding" data-title="автоматизация решения github issues с openclaw" data-desc="автоматизация мелких задач программирования путем создания github pr, итераций на основе отзывов и управления полным циклом разработки.">
+      <div class="case-rank">06</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизация решения GitHub Issues с OpenClaw</h3>
+        <p class="case-desc">Автоматизация мелких задач программирования путем создания GitHub PR, итераций на основе отзывов и управления полным циклом разработки.</p>
+        <div class="case-footer">
+          <span class="tag-pill coding">💻 Код</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · GitHub</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag coding">Код</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · GitHub · OpenCode</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          117
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">117</span>
       </div>
-      <p class="case-desc">Автоматизация мелких задач программирования путем создания GitHub PR, итераций на основе отзывов и управления полным циклом разработки.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/tiktok-marketing-automation.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">07</span>
+    <a href="/ru/case/tiktok-marketing-automation.html" class="case-card" data-tag="marketing" data-title="автоматизация маркетинга tiktok, заработавшая $4k за 24 часа" data-desc="larry, агент openclaw, полностью автоматизировал маркетинговые процессы, генерируя 200k просмотров tiktok, 200+ подписчиков x и новых подписчиков.">
+      <div class="case-rank">07</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизация маркетинга TikTok, заработавшая $4K за 24 часа</h3>
+        <p class="case-desc">Larry, агент OpenClaw, полностью автоматизировал маркетинговые процессы, генерируя 200k просмотров TikTok, 200+ подписчиков X и новых подписчиков.</p>
+        <div class="case-footer">
+          <span class="tag-pill marketing">📣 Маркетинг</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · TikTok</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag marketing">Маркетинг</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · TikTok · X/Twitter</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          255
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">255</span>
       </div>
-      <p class="case-desc">Larry, агент OpenClaw, полностью автоматизировал маркетинговые процессы, генерируя 200k просмотров TikTok, 200+ подписчиков X и новых подписчиков.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/social-media-content-automation.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">08</span>
+    <a href="/ru/case/social-media-content-automation.html" class="case-card" data-tag="automation" data-title="автоматизированная генерация контента для ии социальной сети" data-desc="полная система автоматизации для постинга и комментирования в moltbook с использованием openclaw для генерации саркастического ии контента со скриптами.">
+      <div class="case-rank">08</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизированная генерация контента для ИИ социальной сети</h3>
+        <p class="case-desc">Полная система автоматизации для постинга и комментирования в Moltbook с использованием OpenClaw для генерации саркастического ИИ контента со скриптами.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · Moltbook</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · Moltbook · Shell Scripts</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          201
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">201</span>
       </div>
-      <p class="case-desc">Полная система автоматизации для постинга и комментирования в Moltbook с использованием OpenClaw для генерации саркастического ИИ контента со скриптами.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/vc-daily-briefing-automation.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">09</span>
+    <a href="/ru/case/vc-daily-briefing-automation.html" class="case-card" data-tag="finance" data-title="автоматизация ежедневных сводок для вк с openclaw" data-desc="автоматизированные утренние сводки для венчурных капиталистов с использованием cron-заданий для анализа рынков, обновлений портфеля и новостей.">
+      <div class="case-rank">09</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизация ежедневных сводок для ВК с OpenClaw</h3>
+        <p class="case-desc">Автоматизированные утренние сводки для венчурных капиталистов с использованием cron-заданий для анализа рынков, обновлений портфеля и новостей.</p>
+        <div class="case-footer">
+          <span class="tag-pill finance">💰 Финансы</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · cron</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag finance">Финансы</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · cron</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          237
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">237</span>
       </div>
-      <p class="case-desc">Автоматизированные утренние сводки для венчурных капиталистов с использованием cron-заданий для анализа рынков, обновлений портфеля и новостей.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/daily-deal-finder-crm.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">10</span>
+    <a href="/ru/case/daily-deal-finder-crm.html" class="case-card" data-tag="automation" data-title="автоматизация crm для поиска сделок" data-desc="агент openclaw, который анализирует данные crm и записи продаж для выявления и бронирования встреч с потенциальными клиентами.">
+      <div class="case-rank">10</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизация CRM для поиска сделок</h3>
+        <p class="case-desc">Агент OpenClaw, который анализирует данные CRM и записи продаж для выявления и бронирования встреч с потенциальными клиентами.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · CRM</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · CRM · NLP</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          249
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">249</span>
       </div>
-      <p class="case-desc">Агент OpenClaw, который анализирует данные CRM и записи продаж для выявления и бронирования встреч с потенциальными клиентами.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/daily-deal-finder-crm-agent.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">11</span>
+    <a href="/ru/case/daily-deal-finder-crm-agent.html" class="case-card" data-tag="automation" data-title="daily deal finder - автоматизированный crm агент продаж" data-desc="openclaw агент, который анализирует данные crm и записи продаж для поиска потенциальных клиентов и записи встреч с крупными компаниями.">
+      <div class="case-rank">11</div>
+      <div class="case-body">
         <h3 class="case-title">Daily Deal Finder - Автоматизированный CRM Агент Продаж</h3>
+        <p class="case-desc">OpenClaw агент, который анализирует данные CRM и записи продаж для поиска потенциальных клиентов и записи встреч с крупными компаниями.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · CRM</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · CRM · Sales Transcripts</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          141
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">141</span>
       </div>
-      <p class="case-desc">OpenClaw агент, который анализирует данные CRM и записи продаж для поиска потенциальных клиентов и записи встреч с крупными компаниями.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/vc-morning-briefing-agent.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">12</span>
+    <a href="/ru/case/vc-morning-briefing-agent.html" class="case-card" data-tag="finance" data-title="агент автоматизации утренних брифингов для вк" data-desc="автоматизированная система утренних брифингов для вк, использующая openclaw cron задачи для генерации ежедневных инвестиционных инсайтов и обновлений рынка.">
+      <div class="case-rank">12</div>
+      <div class="case-body">
         <h3 class="case-title">Агент Автоматизации Утренних Брифингов для ВК</h3>
+        <p class="case-desc">Автоматизированная система утренних брифингов для ВК, использующая OpenClaw cron задачи для генерации ежедневных инвестиционных инсайтов и обновлений рынка.</p>
+        <div class="case-footer">
+          <span class="tag-pill finance">💰 Финансы</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · Cron</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag finance">Финансы</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · Cron · Market Data APIs</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          173
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">173</span>
       </div>
-      <p class="case-desc">Автоматизированная система утренних брифингов для ВК, использующая OpenClaw cron задачи для генерации ежедневных инвестиционных инсайтов и обновлений рынка.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/multi-agent-system-dennis.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">13</span>
+    <a href="/ru/case/multi-agent-system-dennis.html" class="case-card" data-tag="automation" data-title="мультиагентная система dennis с разделением ролей" data-desc="openclaw агент, который создает и управляет под-агентами с конкретными ролями, используя файлы agents.md и soul.md для разделения задач.">
+      <div class="case-rank">13</div>
+      <div class="case-body">
         <h3 class="case-title">Мультиагентная Система Dennis с Разделением Ролей</h3>
+        <p class="case-desc">OpenClaw агент, который создает и управляет под-агентами с конкретными ролями, используя файлы AGENTS.MD и SOUL.MD для разделения задач.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · AGENTS.MD</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · AGENTS.MD · SOUL.MD</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          292
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">292</span>
       </div>
-      <p class="case-desc">OpenClaw агент, который создает и управляет под-агентами с конкретными ролями, используя файлы AGENTS.MD и SOUL.MD для разделения задач.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/fix-test-deploy-openclaw-agent.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">14</span>
+    <a href="/ru/case/fix-test-deploy-openclaw-agent.html" class="case-card" data-tag="automation" data-title="исправление, тестирование и развертывание openclaw агента с claude code" data-desc="отладка и исправление автоматизации ежедневных статей в x, которая перестала работать, используя интеграцию claude code с openclaw.">
+      <div class="case-rank">14</div>
+      <div class="case-body">
         <h3 class="case-title">Исправление, тестирование и развертывание OpenClaw агента с Claude Code</h3>
+        <p class="case-desc">Отладка и исправление автоматизации ежедневных статей в X, которая перестала работать, используя интеграцию Claude Code с OpenClaw.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · Claude Code</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · Claude Code · X/Twitter API</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          197
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">197</span>
       </div>
-      <p class="case-desc">Отладка и исправление автоматизации ежедневных статей в X, которая перестала работать, используя интеграцию Claude Code с OpenClaw.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/jarvis-command-center-convex.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">15</span>
+    <a href="/ru/case/jarvis-command-center-convex.html" class="case-card" data-tag="productivity" data-title="командный центр openclaw агента - персональная система джарвис" data-desc="создание комплексной системы управления жизнью с использованием openclaw и convex, вдохновленной ии-помощником джарвис тони старка.">
+      <div class="case-rank">15</div>
+      <div class="case-body">
         <h3 class="case-title">Командный центр OpenClaw агента - персональная система Джарвис</h3>
+        <p class="case-desc">Создание комплексной системы управления жизнью с использованием OpenClaw и Convex, вдохновленной ИИ-помощником Джарвис Тони Старка.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · Convex</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · Convex · Calendar APIs</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          216
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">216</span>
       </div>
-      <p class="case-desc">Создание комплексной системы управления жизнью с использованием OpenClaw и Convex, вдохновленной ИИ-помощником Джарвис Тони Старка.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/multi-agent-system-dennis.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">16</span>
+    <a href="/ru/case/multi-agent-system-dennis.html" class="case-card" data-tag="automation" data-title="деннис: мультиагентная система с подагентами на основе ролей" data-desc="создание иерархической агентной системы, где основной openclaw агент порождает специализированных подагентов с определенными ролями и документацией.">
+      <div class="case-rank">16</div>
+      <div class="case-body">
         <h3 class="case-title">Деннис: мультиагентная система с подагентами на основе ролей</h3>
+        <p class="case-desc">Создание иерархической агентной системы, где основной OpenClaw агент порождает специализированных подагентов с определенными ролями и документацией.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Twitter</span>
+          <span class="case-tools">OpenClaw · Agent orchestration</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Twitter</span>
-        <span class="case-tools">OpenClaw · Agent orchestration · Markdown documentation</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          180
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">180</span>
       </div>
-      <p class="case-desc">Создание иерархической агентной системы, где основной OpenClaw агент порождает специализированных подагентов с определенными ролями и документацией.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/browser-automation-data-entry.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">17</span>
+    <a href="/ru/case/browser-automation-data-entry.html" class="case-card" data-tag="automation" data-title="автоматизация браузера для веб-задач и ввода данных" data-desc="ежедневная автоматизация браузера для повторяющегося заполнения форм и извлечения данных с использованием интеграции headless chrome в openclaw.">
+      <div class="case-rank">17</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизация браузера для веб-задач и ввода данных</h3>
+        <p class="case-desc">Ежедневная автоматизация браузера для повторяющегося заполнения форм и извлечения данных с использованием интеграции headless Chrome в OpenClaw.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Reddit</span>
+          <span class="case-tools">OpenClaw · Chrome</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Reddit</span>
-        <span class="case-tools">OpenClaw · Chrome · Claude API</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          196
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">196</span>
       </div>
-      <p class="case-desc">Ежедневная автоматизация браузера для повторяющегося заполнения форм и извлечения данных с использованием интеграции headless Chrome в OpenClaw.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/crypto-trading-autonomous-agent.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">18</span>
+    <a href="/ru/case/crypto-trading-autonomous-agent.html" class="case-card" data-tag="finance" data-title="автономный агент для торговли криптовалютой 24/7" data-desc="ии-агент, который торгует криптовалютой круглосуточно, отправляя обновления в telegram о выполненных арбитражных возможностях.">
+      <div class="case-rank">18</div>
+      <div class="case-body">
         <h3 class="case-title">Автономный агент для торговли криптовалютой 24/7</h3>
+        <p class="case-desc">ИИ-агент, который торгует криптовалютой круглосуточно, отправляя обновления в Telegram о выполненных арбитражных возможностях.</p>
+        <div class="case-footer">
+          <span class="tag-pill finance">💰 Финансы</span>
+          <span class="case-source">Medium</span>
+          <span class="case-tools">OpenClaw · Telegram</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag finance">Финансы</span>
-        <span class="case-source">Medium</span>
-        <span class="case-tools">OpenClaw · Telegram · Cryptocurrency Exchanges</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          156
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">156</span>
       </div>
-      <p class="case-desc">ИИ-агент, который торгует криптовалютой круглосуточно, отправляя обновления в Telegram о выполненных арбитражных возможностях.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/game-development-autonomous.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">19</span>
+    <a href="/ru/case/game-development-autonomous.html" class="case-card" data-tag="coding" data-title="автономная разработка игр во время сна" data-desc="ии-агент создал функционирующее игровое приложение с тысячами пользователей за ночь, пока разработчик спал.">
+      <div class="case-rank">19</div>
+      <div class="case-body">
         <h3 class="case-title">Автономная разработка игр во время сна</h3>
+        <p class="case-desc">ИИ-агент создал функционирующее игровое приложение с тысячами пользователей за ночь, пока разработчик спал.</p>
+        <div class="case-footer">
+          <span class="tag-pill coding">💻 Код</span>
+          <span class="case-source">Medium</span>
+          <span class="case-tools">OpenClaw · Game Development Frameworks</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag coding">Код</span>
-        <span class="case-source">Medium</span>
-        <span class="case-tools">OpenClaw · Game Development Frameworks · App Stores</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          130
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">130</span>
       </div>
-      <p class="case-desc">ИИ-агент создал функционирующее игровое приложение с тысячами пользователей за ночь, пока разработчик спал.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/browser-automation-forms.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">20</span>
+    <a href="/ru/case/browser-automation-forms.html" class="case-card" data-tag="automation" data-title="автоматизация браузера для заполнения форм и извлечения данных" data-desc="ежедневная автоматизация браузера с использованием openclaw и интеграции chrome для повторяющихся задач заполнения форм и извлечения данных.">
+      <div class="case-rank">20</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизация браузера для заполнения форм и извлечения данных</h3>
+        <p class="case-desc">Ежедневная автоматизация браузера с использованием OpenClaw и интеграции Chrome для повторяющихся задач заполнения форм и извлечения данных.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Reddit</span>
+          <span class="case-tools">OpenClaw · Chrome</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Reddit</span>
-        <span class="case-tools">OpenClaw · Chrome · Claude API</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          145
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">145</span>
       </div>
-      <p class="case-desc">Ежедневная автоматизация браузера с использованием OpenClaw и интеграции Chrome для повторяющихся задач заполнения форм и извлечения данных.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/autonomous-game-development.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">21</span>
+    <a href="/ru/case/autonomous-game-development.html" class="case-card" data-tag="coding" data-title="автономная разработка и развертывание игр" data-desc="агент openclaw автономно создал и развернул функциональное игровое приложение, которое привлекло тысячи пользователей за ночь.">
+      <div class="case-rank">21</div>
+      <div class="case-body">
         <h3 class="case-title">Автономная разработка и развертывание игр</h3>
+        <p class="case-desc">Агент OpenClaw автономно создал и развернул функциональное игровое приложение, которое привлекло тысячи пользователей за ночь.</p>
+        <div class="case-footer">
+          <span class="tag-pill coding">💻 Код</span>
+          <span class="case-source">Medium</span>
+          <span class="case-tools">OpenClaw</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag coding">Код</span>
-        <span class="case-source">Medium</span>
-        <span class="case-tools">OpenClaw</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          289
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">289</span>
       </div>
-      <p class="case-desc">Агент OpenClaw автономно создал и развернул функциональное игровое приложение, которое привлекло тысячи пользователей за ночь.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/crypto-trading-agent.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">22</span>
+    <a href="/ru/case/crypto-trading-agent.html" class="case-card" data-tag="finance" data-title="круглосуточная торговля криптовалютой с обновлениями в telegram" data-desc="автономный агент торговли криптовалютой, который выполняет арбитражные возможности 24/7 и отправляет уведомления в telegram в реальном времени.">
+      <div class="case-rank">22</div>
+      <div class="case-body">
         <h3 class="case-title">Круглосуточная торговля криптовалютой с обновлениями в Telegram</h3>
+        <p class="case-desc">Автономный агент торговли криптовалютой, который выполняет арбитражные возможности 24/7 и отправляет уведомления в Telegram в реальном времени.</p>
+        <div class="case-footer">
+          <span class="tag-pill finance">💰 Финансы</span>
+          <span class="case-source">Medium</span>
+          <span class="case-tools">OpenClaw · Telegram</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag finance">Финансы</span>
-        <span class="case-source">Medium</span>
-        <span class="case-tools">OpenClaw · Telegram · Cryptocurrency Exchanges</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          251
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">251</span>
       </div>
-      <p class="case-desc">Автономный агент торговли криптовалютой, который выполняет арбитражные возможности 24/7 и отправляет уведомления в Telegram в реальном времени.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/software-architecture-analysis.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">23</span>
+    <a href="/ru/case/software-architecture-analysis.html" class="case-card" data-tag="devops" data-title="автоматизированный анализ архитектуры по и миграция" data-desc="openclaw обходит репозитории кода для картирования зависимостей, генерации сводок архитектуры, рефакторинга моду��ей и составления планов миграции.">
+      <div class="case-rank">23</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизированный анализ архитектуры ПО и миграция</h3>
+        <p class="case-desc">OpenClaw обходит репозитории кода для картирования зависимостей, генерации сводок архитектуры, рефакторинга моду��ей и составления планов миграции.</p>
+        <div class="case-footer">
+          <span class="tag-pill devops">🔧 DevOps</span>
+          <span class="case-source">Medium</span>
+          <span class="case-tools">OpenClaw · Code Repositories</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag devops">DevOps</span>
-        <span class="case-source">Medium</span>
-        <span class="case-tools">OpenClaw · Code Repositories · Dependency Analysis Tools</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          118
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">118</span>
       </div>
-      <p class="case-desc">OpenClaw обходит репозитории кода для картирования зависимостей, генерации сводок архитектуры, рефакторинга моду��ей и составления планов миграции.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/openclaw-telegram-whatsapp-automation.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">24</span>
+    <a href="/ru/case/openclaw-telegram-whatsapp-automation.html" class="case-card" data-tag="automation" data-title="настройка персонального ассистента openclaw для разных платформ" data-desc="полная настройка ии-агента openclaw с интеграцией telegram/whatsapp для автоматизации задач через естественный диалог.">
+      <div class="case-rank">24</div>
+      <div class="case-body">
         <h3 class="case-title">Настройка персонального ассистента OpenClaw для разных платформ</h3>
+        <p class="case-desc">Полная настройка ИИ-агента OpenClaw с интеграцией Telegram/WhatsApp для автоматизации задач через естественный диалог.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Web</span>
+          <span class="case-tools">OpenClaw · Telegram</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Web</span>
-        <span class="case-tools">OpenClaw · Telegram · WhatsApp</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          246
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">246</span>
       </div>
-      <p class="case-desc">Полная настройка ИИ-агента OpenClaw с интеграцией Telegram/WhatsApp для автоматизации задач через естественный диалог.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/openclaw-comprehensive-agent-system.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">25</span>
+    <a href="/ru/case/openclaw-comprehensive-agent-system.html" class="case-card" data-tag="devops" data-title="полная система агентов openclaw с песочницей docker" data-desc="полное развертывание openclaw, включающее установку, интеграцию ии-моделей, постоянную память, пользовательские навыки и безопасную песочницу docker.">
+      <div class="case-rank">25</div>
+      <div class="case-body">
         <h3 class="case-title">Полная система агентов OpenClaw с песочницей Docker</h3>
+        <p class="case-desc">Полное развертывание OpenClaw, включающее установку, интеграцию ИИ-моделей, постоянную память, пользовательские навыки и безопасную песочницу Docker.</p>
+        <div class="case-footer">
+          <span class="tag-pill devops">🔧 DevOps</span>
+          <span class="case-source">Web</span>
+          <span class="case-tools">OpenClaw · Docker</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag devops">DevOps</span>
-        <span class="case-source">Web</span>
-        <span class="case-tools">OpenClaw · Docker · WhatsApp</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          209
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">209</span>
       </div>
-      <p class="case-desc">Полное развертывание OpenClaw, включающее установку, интеграцию ИИ-моделей, постоянную память, пользовательские навыки и безопасную песочницу Docker.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/google-workspace-ai-assistant.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">26</span>
+    <a href="/ru/case/google-workspace-ai-assistant.html" class="case-card" data-tag="productivity" data-title="ии-помощник для управления google workspace" data-desc="персональный ии-бот для управления календарем, документами и отправки брифингов через интеграцию с google workspace.">
+      <div class="case-rank">26</div>
+      <div class="case-body">
         <h3 class="case-title">ИИ-помощник для управления Google Workspace</h3>
+        <p class="case-desc">Персональный ИИ-бот для управления календарем, документами и отправки брифингов через интеграцию с Google Workspace.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Web</span>
+          <span class="case-tools">OpenClaw · Google Calendar</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Web</span>
-        <span class="case-tools">OpenClaw · Google Calendar · Google Docs</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          222
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">222</span>
       </div>
-      <p class="case-desc">Персональный ИИ-бот для управления календарем, документами и отправки брифингов через интеграцию с Google Workspace.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/local-data-analyst-ollama.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">27</span>
+    <a href="/ru/case/local-data-analyst-ollama.html" class="case-card" data-tag="research" data-title="локальный аналитик данных с интеграцией ollama" data-desc="система анализа данных с акцентом на конфиденциальность, использующая openclaw и локальные модели ollama для анализа csv и визуализации.">
+      <div class="case-rank">27</div>
+      <div class="case-body">
         <h3 class="case-title">Локальный аналитик данных с интеграцией Ollama</h3>
+        <p class="case-desc">Система анализа данных с акцентом на конфиденциальность, использующая OpenClaw и локальные модели Ollama для анализа CSV и визуализации.</p>
+        <div class="case-footer">
+          <span class="tag-pill research">🔬 Ресёрч</span>
+          <span class="case-source">Web</span>
+          <span class="case-tools">OpenClaw · Ollama</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag research">Ресёрч</span>
-        <span class="case-source">Web</span>
-        <span class="case-tools">OpenClaw · Ollama · qwen3:8b</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          171
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">171</span>
       </div>
-      <p class="case-desc">Система анализа данных с акцентом на конфиденциальность, использующая OpenClaw и локальные модели Ollama для анализа CSV и визуализации.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/personal-ai-employee-peter-yang.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">28</span>
+    <a href="/ru/case/personal-ai-employee-peter-yang.html" class="case-card" data-tag="productivity" data-title="личный ии-сотрудник с интеграцией google workspace" data-desc="полная настройка ии-ассистента, управляющего календарём, документами, голосовыми ответами, ежедневными сводками и еженедельными отчётами через текстовые команды.">
+      <div class="case-rank">28</div>
+      <div class="case-body">
         <h3 class="case-title">Личный ИИ-сотрудник с интеграцией Google Workspace</h3>
+        <p class="case-desc">Полная настройка ИИ-ассистента, управляющего календарём, документами, голосовыми ответами, ежедневными сводками и еженедельными отчётами через текстовые команды.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Web</span>
+          <span class="case-tools">OpenClaw · Google Calendar</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Web</span>
-        <span class="case-tools">OpenClaw · Google Calendar · Google Docs</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          147
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">147</span>
       </div>
-      <p class="case-desc">Полная настройка ИИ-ассистента, управляющего календарём, документами, голосовыми ответами, ежедневными сводками и еженедельными отчётами через текстовые команды.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/local-data-analyst-datacamp.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">29</span>
+    <a href="/ru/case/local-data-analyst-datacamp.html" class="case-card" data-tag="research" data-title="локальный аналитик данных с интеграцией ollama" data-desc="полная локальная система ии-анализа данных, использующая openclaw и ollama для приватного ан��лиза csv с визуализациями и отчётами.">
+      <div class="case-rank">29</div>
+      <div class="case-body">
         <h3 class="case-title">Локальный аналитик данных с интеграцией Ollama</h3>
+        <p class="case-desc">Полная локальная система ИИ-анализа данных, использующая OpenClaw и Ollama для приватного ан��лиза CSV с визуализациями и отчётами.</p>
+        <div class="case-footer">
+          <span class="tag-pill research">🔬 Ресёрч</span>
+          <span class="case-source">Web</span>
+          <span class="case-tools">OpenClaw · Ollama</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag research">Ресёрч</span>
-        <span class="case-source">Web</span>
-        <span class="case-tools">OpenClaw · Ollama · qwen3:8b</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          108
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">108</span>
       </div>
-      <p class="case-desc">Полная локальная система ИИ-анализа данных, использующая OpenClaw и Ollama для приватного ан��лиза CSV с визуализациями и отчётами.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/morning-routine-cron-automation.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">30</span>
+    <a href="/ru/case/morning-routine-cron-automation.html" class="case-card" data-tag="productivity" data-title="автоматизированная утренняя рутина с заданиями cron в openclaw" data-desc="полная автоматизация утренних сводок, экономящая 2+ часа ежедневно через запланированные задачи погоды, календаря, мониторинга почты и обслуживания.">
+      <div class="case-rank">30</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизированная утренняя рутина с заданиями Cron в OpenClaw</h3>
+        <p class="case-desc">Полная автоматизация утренних сводок, экономящая 2+ часа ежедневно через запланированные задачи погоды, календаря, мониторинга почты и обслуживания.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Web</span>
+          <span class="case-tools">OpenClaw · Gmail</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Web</span>
-        <span class="case-tools">OpenClaw · Gmail · Google Calendar</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          265
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">265</span>
       </div>
-      <p class="case-desc">Полная автоматизация утренних сводок, экономящая 2+ часа ежедневно через запланированные задачи погоды, календаря, мониторинга почты и обслуживания.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/small-business-automation-suite.html" class="case has-content">
-      <div class="case-header">
-        <span class="case-rank">31</span>
+    <a href="/ru/case/small-business-automation-suite.html" class="case-card" data-tag="automation" data-title="10 бизнес-автоматизаций openclaw, экономящих 15+ часов в неделю" data-desc="комплексный набор автоматизации малого бизнеса, охватывающий поддержку клиентов, планирование, сортировку почты, оповещения о запасах и квалификацию лидов через несколько каналов.">
+      <div class="case-rank">31</div>
+      <div class="case-body">
         <h3 class="case-title">10 бизнес-автоматизаций OpenClaw, экономящих 15+ часов в неделю</h3>
+        <p class="case-desc">Комплексный набор автоматизации малого бизнеса, охватывающий поддержку клиентов, планирование, сортировку почты, оповещения о запасах и квалификацию лидов через несколько каналов.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Web</span>
+          <span class="case-tools">OpenClaw · WhatsApp</span>
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Web</span>
-        <span class="case-tools">OpenClaw · WhatsApp · Telegram</span>
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          194
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">194</span>
       </div>
-      <p class="case-desc">Комплексный набор автоматизации малого бизнеса, охватывающий поддержку клиентов, планирование, сортировку почты, оповещения о запасах и квалификацию лидов через несколько каналов.</p>
-      <span class="case-detail-badge">Подробнее →</span>
     </a>
-    <a href="/ru/case/tiktok-marketing-agent.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">32</span>
+    <a href="/ru/case/tiktok-marketing-agent.html" class="case-card" data-tag="marketing" data-title="агент для маркетинга в tiktok и роста влияния" data-desc="агент openclaw 'larry' автоматизировал маркетинговые активности в tiktok, достигнув миллионов просмотров за неделю.">
+      <div class="case-rank">32</div>
+      <div class="case-body">
         <h3 class="case-title">Агент для маркетинга в TikTok и роста влияния</h3>
+        <p class="case-desc">Агент OpenClaw 'Larry' автоматизировал маркетинговые активности в TikTok, достигнув миллионов просмотров за неделю.</p>
+        <div class="case-footer">
+          <span class="tag-pill marketing">📣 Маркетинг</span>
+          <span class="case-source">Twitter</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag marketing">Маркетинг</span>
-        <span class="case-source">Twitter</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          298
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">298</span>
       </div>
-      <p class="case-desc">Агент OpenClaw 'Larry' автоматизировал маркетинговые активности в TikTok, достигнув миллионов просмотров за неделю.</p>
-      
     </a>
-    <a href="/ru/case/obsidian-vault-builder.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">33</span>
+    <a href="/ru/case/obsidian-vault-builder.html" class="case-card" data-tag="productivity" data-title="автоматическое создание хранилищ obsidian" data-desc="агент openclaw автоматически создает и структурирует хранилища знаний obsidian, обеспечивая простоту использования без ручного управления.">
+      <div class="case-rank">33</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматическое создание хранилищ Obsidian</h3>
+        <p class="case-desc">Агент OpenClaw автоматически создает и структурирует хранилища знаний Obsidian, обеспечивая простоту использования без ручного управления.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Twitter</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Twitter</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          124
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">124</span>
       </div>
-      <p class="case-desc">Агент OpenClaw автоматически создает и структурирует хранилища знаний Obsidian, обеспечивая простоту использования без ручного управления.</p>
-      
     </a>
-    <a href="/ru/case/business-seo-copywriting-automation.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">34</span>
+    <a href="/ru/case/business-seo-copywriting-automation.html" class="case-card" data-tag="marketing" data-title="автоматизация бизнес-seo и копирайтинга" data-desc="рабочие процессы openclaw автоматизируют seo-работу на $45k за 20 минут и копирайтинг на $50k за 15 минут для бизнеса.">
+      <div class="case-rank">34</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизация бизнес-SEO и копирайтинга</h3>
+        <p class="case-desc">Рабочие процессы OpenClaw автоматизируют SEO-работу на $45k за 20 минут и копирайтинг на $50k за 15 минут для бизнеса.</p>
+        <div class="case-footer">
+          <span class="tag-pill marketing">📣 Маркетинг</span>
+          <span class="case-source">Twitter</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag marketing">Маркетинг</span>
-        <span class="case-source">Twitter</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          203
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">203</span>
       </div>
-      <p class="case-desc">Рабочие процессы OpenClaw автоматизируют SEO-работу на $45k за 20 минут и копирайтинг на $50k за 15 минут для бизнеса.</p>
-      
     </a>
-    <a href="/ru/case/trading-workflow-automation.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">35</span>
+    <a href="/ru/case/trading-workflow-automation.html" class="case-card" data-tag="finance" data-title="автоматизация торговых процессов" data-desc="openclaw интегрирован с openalgo для автоматизации торговых процессов и финансовых операций.">
+      <div class="case-rank">35</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизация торговых процессов</h3>
+        <p class="case-desc">OpenClaw интегрирован с OpenAlgo для автоматизации торговых процессов и финансовых операций.</p>
+        <div class="case-footer">
+          <span class="tag-pill finance">💰 Финансы</span>
+          <span class="case-source">Twitter</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag finance">Финансы</span>
-        <span class="case-source">Twitter</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          188
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">188</span>
       </div>
-      <p class="case-desc">OpenClaw интегрирован с OpenAlgo для автоматизации торговых процессов и финансовых операций.</p>
-      
     </a>
-    <a href="/ru/case/vc-daily-workflow-automation.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">36</span>
+    <a href="/ru/case/vc-daily-workflow-automation.html" class="case-card" data-tag="productivity" data-title="автоматизация ежедневных процессов венчурного капитала" data-desc="openclaw автоматизирует ежедневные процессы вк, включая утренние сводки, исследования и задачи инвесторов по расписанию.">
+      <div class="case-rank">36</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизация ежедневных процессов венчурного капитала</h3>
+        <p class="case-desc">OpenClaw автоматизирует ежедневные процессы ВК, включая утренние сводки, исследования и задачи инвесторов по расписанию.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Twitter</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Twitter</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          232
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">232</span>
       </div>
-      <p class="case-desc">OpenClaw автоматизирует ежедневные процессы ВК, включая утренние сводки, исследования и задачи инвесторов по расписанию.</p>
-      
     </a>
-    <a href="/ru/case/launch-operations-ultron-system.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">37</span>
+    <a href="/ru/case/launch-operations-ultron-system.html" class="case-card" data-tag="automation" data-title="система ultron для операций launch" data-desc="система openclaw ultron заменяет ~20 начальных ролей в launch/twist, обеспечивая автоматическое бронирование гостей и операционные процессы.">
+      <div class="case-rank">37</div>
+      <div class="case-body">
         <h3 class="case-title">Система ULTRON для операций LAUNCH</h3>
+        <p class="case-desc">Система OpenClaw ULTRON заменяет ~20 начальных ролей в LAUNCH/TWiST, обеспечивая автоматическое бронирование гостей и операционные процессы.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Twitter</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Twitter</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          113
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">113</span>
       </div>
-      <p class="case-desc">Система OpenClaw ULTRON заменяет ~20 начальных ролей в LAUNCH/TWiST, обеспечивая автоматическое бронирование гостей и операционные процессы.</p>
-      
     </a>
-    <a href="/ru/case/twitter-automation-local-stack.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">38</span>
+    <a href="/ru/case/twitter-automation-local-stack.html" class="case-card" data-tag="automation" data-title="twitter-агент с локальным ai стеком" data-desc="автоматизированный twitter-агент на локальном llama.cpp с nvidia 4070, использующий браузерную автоматизацию и openrouter для сложных случаев.">
+      <div class="case-rank">38</div>
+      <div class="case-body">
         <h3 class="case-title">Twitter-агент с локальным AI стеком</h3>
+        <p class="case-desc">Автоматизированный Twitter-агент на локальном llama.cpp с NVIDIA 4070, использующий браузерную автоматизацию и OpenRouter для сложных случаев.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Twitter</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Twitter</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          295
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">295</span>
       </div>
-      <p class="case-desc">Автоматизированный Twitter-агент на локальном llama.cpp с NVIDIA 4070, использующий браузерную автоматизацию и OpenRouter для сложных случаев.</p>
-      
     </a>
-    <a href="/ru/case/ga4-analytics-skill.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">39</span>
+    <a href="/ru/case/ga4-analytics-skill.html" class="case-card" data-tag="productivity" data-title="навык ga4 analytics для clawdhub" data-desc="создал и опубликовал навык ga4 за 20 минут, позволяющий всем устанавливать и запрашивать данные google analytics через openclaw.">
+      <div class="case-rank">39</div>
+      <div class="case-body">
         <h3 class="case-title">Навык GA4 Analytics для ClawdHub</h3>
+        <p class="case-desc">Создал и опубликовал навык GA4 за 20 минут, позволяющий всем устанавливать и запрашивать данные Google Analytics через OpenClaw.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Twitter</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Twitter</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          116
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">116</span>
       </div>
-      <p class="case-desc">Создал и опубликовал навык GA4 за 20 минут, позволяющий всем устанавливать и запрашивать данные Google Analytics через OpenClaw.</p>
-      
     </a>
-    <a href="/ru/case/voice-game-engine-control.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">40</span>
+    <a href="/ru/case/voice-game-engine-control.html" class="case-card" data-tag="automation" data-title="разработка игр с голосовым управлением" data-desc="система голосового управления ai-агентом, контролирующая 3d персонажей в игровом движке playcanvas в реальном времени через discord.">
+      <div class="case-rank">40</div>
+      <div class="case-body">
         <h3 class="case-title">Разработка игр с голосовым управлением</h3>
+        <p class="case-desc">Система голосового управления AI-агентом, контролирующая 3D персонажей в игровом движке PlayCanvas в реальном времени через Discord.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Twitter</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Twitter</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          264
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">264</span>
       </div>
-      <p class="case-desc">Система голосового управления AI-агентом, контролирующая 3D персонажей в игровом движке PlayCanvas в реальном времени через Discord.</p>
-      
     </a>
-    <a href="/ru/case/unlimited-web-search.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">41</span>
+    <a href="/ru/case/unlimited-web-search.html" class="case-card" data-tag="productivity" data-title="интеграция бесплатного веб-поиска" data-desc="настроил openclaw с неограниченным бесплатным веб-поиском через docker-контейнер searxng, исключив расходы на api и ежемесячные платежи.">
+      <div class="case-rank">41</div>
+      <div class="case-body">
         <h3 class="case-title">Интеграция бесплатного веб-поиска</h3>
+        <p class="case-desc">Настроил OpenClaw с неограниченным бесплатным веб-поиском через Docker-контейнер SearXNG, исключив расходы на API и ежемесячные платежи.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Twitter</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Twitter</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          135
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">135</span>
       </div>
-      <p class="case-desc">Настроил OpenClaw с неограниченным бесплатным веб-поиском через Docker-контейнер SearXNG, исключив расходы на API и ежемесячные платежи.</p>
-      
     </a>
-    <a href="/ru/case/automated-marketing-revenue.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">42</span>
+    <a href="/ru/case/automated-marketing-revenue.html" class="case-card" data-tag="marketing" data-title="автоматизированное создание дохода в маркетинге" data-desc="openclaw агент 'larry' заработал $4000 за 24 часа через автоматическое создание контента в tiktok и привлечение подписчиков.">
+      <div class="case-rank">42</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизированное создание дохода в маркетинге</h3>
+        <p class="case-desc">OpenClaw агент 'Larry' заработал $4000 за 24 часа через автоматическое создание контента в TikTok и привлечение подписчиков.</p>
+        <div class="case-footer">
+          <span class="tag-pill marketing">📣 Маркетинг</span>
+          <span class="case-source">Twitter</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag marketing">Маркетинг</span>
-        <span class="case-source">Twitter</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          194
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">194</span>
       </div>
-      <p class="case-desc">OpenClaw агент 'Larry' заработал $4000 за 24 часа через автоматическое создание контента в TikTok и привлечение подписчиков.</p>
-      
     </a>
-    <a href="/ru/case/blockchain-security-platform.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">43</span>
+    <a href="/ru/case/blockchain-security-platform.html" class="case-card" data-tag="coding" data-title="автономная платформа безопасности блокчейна" data-desc="openclaw автономно создал полную платформу безопасности блокчейна на rust для хакатона solana используя cron-задачи и агента-судью для ревью кода.">
+      <div class="case-rank">43</div>
+      <div class="case-body">
         <h3 class="case-title">Автономная платформа безопасности блокчейна</h3>
+        <p class="case-desc">OpenClaw автономно создал полную платформу безопасности блокчейна на Rust для хакатона Solana используя CRON-задачи и агента-судью для ревью кода.</p>
+        <div class="case-footer">
+          <span class="tag-pill coding">💻 Код</span>
+          <span class="case-source">Twitter</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag coding">Код</span>
-        <span class="case-source">Twitter</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          143
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">143</span>
       </div>
-      <p class="case-desc">OpenClaw автономно создал полную платформу безопасности блокчейна на Rust для хакатона Solana используя CRON-задачи и агента-судью для ревью кода.</p>
-      
     </a>
-    <a href="/ru/case/multi-docker-spawning.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">44</span>
+    <a href="/ru/case/multi-docker-spawning.html" class="case-card" data-tag="devops" data-title="система порождения множественных docker-агентов" data-desc="openclaw агент, который порождает дополнительные docker-контейнеры с другими экземплярами openclaw для распределенных операций агентов.">
+      <div class="case-rank">44</div>
+      <div class="case-body">
         <h3 class="case-title">Система порождения множественных Docker-агентов</h3>
+        <p class="case-desc">OpenClaw агент, который порождает дополнительные Docker-контейнеры с другими экземплярами OpenClaw для распределенных операций агентов.</p>
+        <div class="case-footer">
+          <span class="tag-pill devops">🔧 DevOps</span>
+          <span class="case-source">Twitter</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag devops">DevOps</span>
-        <span class="case-source">Twitter</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          101
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">101</span>
       </div>
-      <p class="case-desc">OpenClaw агент, который порождает дополнительные Docker-контейнеры с другими экземплярами OpenClaw для распределенных операций агентов.</p>
-      
     </a>
-    <a href="/ru/case/qr-barcode-parcel-system.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">45</span>
+    <a href="/ru/case/qr-barcode-parcel-system.html" class="case-card" data-tag="productivity" data-title="система сбора посылок с qr/штрих-кодами" data-desc="создал навык openclaw для генерации qr/штрих-кодов для сбора посылок, с автоматической обработкой голосовых сообщений чере�� whisper.">
+      <div class="case-rank">45</div>
+      <div class="case-body">
         <h3 class="case-title">Система сбора посылок с QR/штрих-кодами</h3>
+        <p class="case-desc">Создал навык OpenClaw для генерации QR/штрих-кодов для сбора посылок, с автоматической обработкой голосовых сообщений чере�� Whisper.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Reddit</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Reddit</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          128
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">128</span>
       </div>
-      <p class="case-desc">Создал навык OpenClaw для генерации QR/штрих-кодов для сбора посылок, с автоматической обработкой голосовых сообщений чере�� Whisper.</p>
-      
     </a>
-    <a href="/ru/case/web-automation-data-entry.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">46</span>
+    <a href="/ru/case/web-automation-data-entry.html" class="case-card" data-tag="automation" data-title="веб-автоматизация для заполнения форм и извлечения данных" data-desc="ежедневная автоматизация браузера для повторяющихся задач, таких как заполнение форм и извлечение данных с использованием headless chrome.">
+      <div class="case-rank">46</div>
+      <div class="case-body">
         <h3 class="case-title">Веб-автоматизация для заполнения форм и извлечения данных</h3>
+        <p class="case-desc">Ежедневная автоматизация браузера для повторяющихся задач, таких как заполнение форм и извлечение данных с использованием headless Chrome.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Reddit</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Reddit</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          260
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">260</span>
       </div>
-      <p class="case-desc">Ежедневная автоматизация браузера для повторяющихся задач, таких как заполнение форм и извлечение данных с использованием headless Chrome.</p>
-      
     </a>
-    <a href="/ru/case/development-assistant.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">47</span>
+    <a href="/ru/case/development-assistant.html" class="case-card" data-tag="coding" data-title="помощник разработчика для задач программирования" data-desc="автоматизированные задачи настройки, повторяющиеся рефакторинги, генерация документации/тестов и исследование репозиториев.">
+      <div class="case-rank">47</div>
+      <div class="case-body">
         <h3 class="case-title">Помощник разработчика для задач программирования</h3>
+        <p class="case-desc">Автоматизированные задачи настройки, повторяющиеся рефакторинги, генерация документации/тестов и исследование репозиториев.</p>
+        <div class="case-footer">
+          <span class="tag-pill coding">💻 Код</span>
+          <span class="case-source">Reddit</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag coding">Код</span>
-        <span class="case-source">Reddit</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          160
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">160</span>
       </div>
-      <p class="case-desc">Автоматизированные задачи настройки, повторяющиеся рефакторинги, генерация документации/тестов и исследование репозиториев.</p>
-      
     </a>
-    <a href="/ru/case/n8n-workflow-replication.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">48</span>
+    <a href="/ru/case/n8n-workflow-replication.html" class="case-card" data-tag="automation" data-title="альтернатива автоматизации рабочих процессов n8n" data-desc="воссоздание основной функциональности openclaw в виде одного рабочего процесса n8n для расширяемой автоматизации.">
+      <div class="case-rank">48</div>
+      <div class="case-body">
         <h3 class="case-title">Альтернатива автоматизации рабочих процессов n8n</h3>
+        <p class="case-desc">Воссоздание основной функциональности OpenClaw в виде одного рабочего процесса n8n для расширяемой автоматизации.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Reddit</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Reddit</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          140
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">140</span>
       </div>
-      <p class="case-desc">Воссоздание основной функциональности OpenClaw в виде одного рабочего процесса n8n для расширяемой автоматизации.</p>
-      
     </a>
-    <a href="/ru/case/crypto-trading-bot.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">49</span>
+    <a href="/ru/case/crypto-trading-bot.html" class="case-card" data-tag="finance" data-title="автоматическая торговля криптовалютой с уведомлениями в telegram" data-desc="торговый агент, работающий 24/7, исполняющий арбитражные возможности и отправляющий уведомления в telegram.">
+      <div class="case-rank">49</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматическая торговля криптовалютой с уведомлениями в Telegram</h3>
+        <p class="case-desc">Торговый агент, работающий 24/7, исполняющий арбитражные возможности и отправляющий уведомления в Telegram.</p>
+        <div class="case-footer">
+          <span class="tag-pill finance">💰 Финансы</span>
+          <span class="case-source">Medium</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag finance">Финансы</span>
-        <span class="case-source">Medium</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          155
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">155</span>
       </div>
-      <p class="case-desc">Торговый агент, работающий 24/7, исполняющий арбитражные возможности и отправляющий уведомления в Telegram.</p>
-      
     </a>
-    <a href="/ru/case/autonomous-game-builder.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">50</span>
+    <a href="/ru/case/autonomous-game-builder.html" class="case-card" data-tag="coding" data-title="автономный агент для разработки игр" data-desc="ии-агент, создающий функциональные игры из простых запросов, разрабатывая приложения с тысячами пользователей за ночь.">
+      <div class="case-rank">50</div>
+      <div class="case-body">
         <h3 class="case-title">Автономный агент для разработки игр</h3>
+        <p class="case-desc">ИИ-агент, создающий функциональные игры из простых запросов, разрабатывая приложения с тысячами пользователей за ночь.</p>
+        <div class="case-footer">
+          <span class="tag-pill coding">💻 Код</span>
+          <span class="case-source">Medium</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag coding">Код</span>
-        <span class="case-source">Medium</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          142
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">142</span>
       </div>
-      <p class="case-desc">ИИ-агент, создающий функциональные игры из простых запросов, разрабатывая приложения с тысячами пользователей за ночь.</p>
-      
     </a>
-    <a href="/ru/case/stock-options-trading.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">51</span>
+    <a href="/ru/case/stock-options-trading.html" class="case-card" data-tag="finance" data-title="агент для торговли акциями и опционами" data-desc="автоматизация торговли акциями, опционами и криптовалютой через api public с интеграцией openclaw.">
+      <div class="case-rank">51</div>
+      <div class="case-body">
         <h3 class="case-title">Агент для торговли акциями и опционами</h3>
+        <p class="case-desc">Автоматизация торговли акциями, опционами и криптовалютой через API Public с интеграцией OpenClaw.</p>
+        <div class="case-footer">
+          <span class="tag-pill finance">💰 Финансы</span>
+          <span class="case-source">YouTube</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag finance">Финансы</span>
-        <span class="case-source">YouTube</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          236
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">236</span>
       </div>
-      <p class="case-desc">Автоматизация торговли акциями, опционами и криптовалютой через API Public с интеграцией OpenClaw.</p>
-      
     </a>
-    <a href="/ru/case/personal-assistant-suite.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">52</span>
+    <a href="/ru/case/personal-assistant-suite.html" class="case-card" data-tag="productivity" data-title="персональный ии-помощник с календарем и документами" data-desc="ии-помощник для управления календарем, редактирования документов, отправки сводок и голосовых ответов.">
+      <div class="case-rank">52</div>
+      <div class="case-body">
         <h3 class="case-title">Персональный ИИ-помощник с календарем и документами</h3>
+        <p class="case-desc">ИИ-помощник для управления календарем, редактирования документов, отправки сводок и голосовых ответов.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">YouTube</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">YouTube</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          153
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">153</span>
       </div>
-      <p class="case-desc">ИИ-помощник для управления календарем, редактирования документов, отправки сводок и голосовых ответов.</p>
-      
     </a>
-    <a href="/ru/case/whatsapp-telegram-integration.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">53</span>
+    <a href="/ru/case/whatsapp-telegram-integration.html" class="case-card" data-tag="automation" data-title="агент интеграции с whatsapp и telegram" data-desc="ии-агент, подключающийся к популярным мессенджерам как whatsapp и telegram для удобного взаимодействия.">
+      <div class="case-rank">53</div>
+      <div class="case-body">
         <h3 class="case-title">Агент интеграции с WhatsApp и Telegram</h3>
+        <p class="case-desc">ИИ-агент, подключающийся к популярным мессенджерам как WhatsApp и Telegram для удобного взаимодействия.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Medium</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Medium</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          218
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">218</span>
       </div>
-      <p class="case-desc">ИИ-агент, подключающийся к популярным мессенджерам как WhatsApp и Telegram для удобного взаимодействия.</p>
-      
     </a>
-    <a href="/ru/case/todoist-automation.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">54</span>
+    <a href="/ru/case/todoist-automation.html" class="case-card" data-tag="productivity" data-title="автоматизация задач в todoist" data-desc="ии-агент, создающий пользовательские навыки для автоматизации задач todoist через интерфейс telegram.">
+      <div class="case-rank">54</div>
+      <div class="case-body">
         <h3 class="case-title">Автоматизация задач в Todoist</h3>
+        <p class="case-desc">ИИ-агент, создающий пользовательские навыки для автоматизации задач Todoist через интерфейс Telegram.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Web</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Web</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          280
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">280</span>
       </div>
-      <p class="case-desc">ИИ-агент, создающий пользовательские навыки для автоматизации задач Todoist через интерфейс Telegram.</p>
-      
     </a>
-    <a href="/ru/case/code-repository-analyzer.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">55</span>
+    <a href="/ru/case/code-repository-analyzer.html" class="case-card" data-tag="coding" data-title="агент анализа репозиториев кода" data-desc="агент разработки по, картографирующий зависимости, генерирующий архитектурные сводки и планы миграции.">
+      <div class="case-rank">55</div>
+      <div class="case-body">
         <h3 class="case-title">Агент анализа репозиториев кода</h3>
+        <p class="case-desc">Агент разработки ПО, картографирующий зависимости, генерирующий архитектурные сводки и планы миграции.</p>
+        <div class="case-footer">
+          <span class="tag-pill coding">💻 Код</span>
+          <span class="case-source">Medium</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag coding">Код</span>
-        <span class="case-source">Medium</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          242
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">242</span>
       </div>
-      <p class="case-desc">Агент разработки ПО, картографирующий зависимости, генерирующий архитектурные сводки и планы миграции.</p>
-      
     </a>
-    <a href="/ru/case/research-assistant.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">56</span>
+    <a href="/ru/case/research-assistant.html" class="case-card" data-tag="research" data-title="автономный исследовательский помощник" data-desc="ии-агент, проводящий глубокие исследования тем, резюмирующий статьи и пред��ставляющий источники с цитатами.">
+      <div class="case-rank">56</div>
+      <div class="case-body">
         <h3 class="case-title">Автономный исследовательский помощник</h3>
+        <p class="case-desc">ИИ-агент, проводящий глубокие исследования тем, резюмирующий статьи и пред��ставляющий источники с цитатами.</p>
+        <div class="case-footer">
+          <span class="tag-pill research">🔬 Ресёрч</span>
+          <span class="case-source">Medium</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag research">Ресёрч</span>
-        <span class="case-source">Medium</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          233
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">233</span>
       </div>
-      <p class="case-desc">ИИ-агент, проводящий глубокие исследования тем, резюмирующий статьи и пред��ставляющий источники с цитатами.</p>
-      
     </a>
-    <a href="/ru/case/voice-journal-automation.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">57</span>
+    <a href="/ru/case/voice-journal-automation.html" class="case-card" data-tag="productivity" data-title="голосовые записи в ежедневный дневник" data-desc="автоматически расшифровывает голосовые записи и преобразует их в аккуратные записи дневника каждый вечер.">
+      <div class="case-rank">57</div>
+      <div class="case-body">
         <h3 class="case-title">Голосовые записи в ежедневный дневник</h3>
+        <p class="case-desc">Автоматически расшифровывает голосовые записи и преобразует их в аккуратные записи дневника каждый вечер.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Web</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Web</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          174
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">174</span>
       </div>
-      <p class="case-desc">Автоматически расшифровывает голосовые записи и преобразует их в аккуратные записи дневника каждый вечер.</p>
-      
     </a>
-    <a href="/ru/case/goal-task-generator.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">58</span>
+    <a href="/ru/case/goal-task-generator.html" class="case-card" data-tag="productivity" data-title="самогенерирующая система управления задачами" data-desc="загружает цели в openclaw, который затем автоматически генерирует и управляет ежедневными задачами на доске канбан.">
+      <div class="case-rank">58</div>
+      <div class="case-body">
         <h3 class="case-title">Самогенерирующая система управления задачами</h3>
+        <p class="case-desc">Загружает цели в OpenClaw, который затем автоматически генерирует и управляет ежедневными задачами на доске Канбан.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Web</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Web</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          100
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">100</span>
       </div>
-      <p class="case-desc">Загружает цели в OpenClaw, который затем автоматически генерирует и управляет ежедневными задачами на доске Канбан.</p>
-      
     </a>
-    <a href="/ru/case/comprehensive-personal-assistant.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">59</span>
+    <a href="/ru/case/comprehensive-personal-assistant.html" class="case-card" data-tag="productivity" data-title="универсальный персональный помощник" data-desc="управляет удалением спама, сообщениями, онлайн-заказами, напоминаниями, github задачами и отслеживанием расходов.">
+      <div class="case-rank">59</div>
+      <div class="case-body">
         <h3 class="case-title">Универсальный персональный помощник</h3>
+        <p class="case-desc">Управляет удалением спама, сообщениями, онлайн-заказами, напоминаниями, GitHub задачами и отслеживанием расходов.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Web</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Web</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          294
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">294</span>
       </div>
-      <p class="case-desc">Управляет удалением спама, сообщениями, онлайн-заказами, напоминаниями, GitHub задачами и отслеживанием расходов.</p>
-      
     </a>
-    <a href="/ru/case/ai-trading-desk.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">60</span>
+    <a href="/ru/case/ai-trading-desk.html" class="case-card" data-tag="finance" data-title="торговый стол из 7 ии-агентов" data-desc="создал мультиагентную систему для автоматизированных торговых операций со специализированными агентами.">
+      <div class="case-rank">60</div>
+      <div class="case-body">
         <h3 class="case-title">Торговый стол из 7 ИИ-агентов</h3>
+        <p class="case-desc">Создал мультиагентную систему для автоматизированных торговых операций со специализированными агентами.</p>
+        <div class="case-footer">
+          <span class="tag-pill finance">💰 Финансы</span>
+          <span class="case-source">Reddit</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag finance">Финансы</span>
-        <span class="case-source">Reddit</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          217
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">217</span>
       </div>
-      <p class="case-desc">Создал мультиагентную систему для автоматизированных торговых операций со специализированными агентами.</p>
-      
     </a>
-    <a href="/ru/case/nightlife-event-scraper.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">61</span>
+    <a href="/ru/case/nightlife-event-scraper.html" class="case-card" data-tag="automation" data-title="автономный агент сбора событий" data-desc="ежедневно автономно собирает 100+ развлекательных мероприятий с 4 платформ, организуя информацию о развлечениях.">
+      <div class="case-rank">61</div>
+      <div class="case-body">
         <h3 class="case-title">Автономный агент сбора событий</h3>
+        <p class="case-desc">Ежедневно автономно собирает 100+ развлекательных мероприятий с 4 платформ, организуя информацию о развлечениях.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">Reddit</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">Reddit</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          284
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">284</span>
       </div>
-      <p class="case-desc">Ежедневно автономно собирает 100+ развлекательных мероприятий с 4 платформ, организуя информацию о развлечениях.</p>
-      
     </a>
-    <a href="/ru/case/proactive-business-assistant.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">62</span>
+    <a href="/ru/case/proactive-business-assistant.html" class="case-card" data-tag="productivity" data-title="проактивный бизнес-помощник" data-desc="проактивно обрабатывает проверку почты, ответы на сообщения, управление linkedin и общие задачи помощника.">
+      <div class="case-rank">62</div>
+      <div class="case-body">
         <h3 class="case-title">Проактивный бизнес-помощник</h3>
+        <p class="case-desc">Проактивно обрабатывает проверку почты, ответы на сообщения, управление LinkedIn и общие задачи помощника.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">Reddit</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">Reddit</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          257
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">257</span>
       </div>
-      <p class="case-desc">Проактивно обрабатывает проверку почты, ответы на сообщения, управление LinkedIn и общие задачи помощника.</p>
-      
     </a>
-    <a href="/ru/case/daily-reddit-digest.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">63</span>
-        <h3 class="case-title">Дейли-дайджест Reddit — AI собирает топ из любимых сабреддитов</h3>
-      </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">GitHub</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          342
-        </span>
-      </div>
-      <p class="case-desc">Получай ежедневную подборку из любимых сабреддитов по твоим интересам. Не пропускай важные обсуждения — фильтрация автоматическая.</p>
-      
-    </a>
-    <a href="/ru/case/overnight-mini-app-builder.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">64</span>
+    <a href="/ru/case/overnight-mini-app-builder.html" class="case-card" data-tag="coding" data-title="ночной сборщик мини-приложений — просыпаешься с готовым продуктом" data-desc="накидываешь цели перед сном — агент сам разбивает на задачи и выполняет. утром просыпаешься с готовыми мини-приложениями.">
+      <div class="case-rank">64</div>
+      <div class="case-body">
         <h3 class="case-title">Ночной сборщик мини-приложений — просыпаешься с готовым продуктом</h3>
+        <p class="case-desc">Накидываешь цели перед сном — агент сам разбивает на задачи и выполняет. Утром просыпаешься с готовыми мини-приложениями.</p>
+        <div class="case-footer">
+          <span class="tag-pill coding">💻 Код</span>
+          <span class="case-source">GitHub</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag coding">Код</span>
-        <span class="case-source">GitHub</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          287
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">287</span>
       </div>
-      <p class="case-desc">Накидываешь цели перед сном — агент сам разбивает на задачи и выполняет. Утром просыпаешься с готовыми мини-приложениями.</p>
-      
     </a>
-    <a href="/ru/case/multi-channel-customer-service.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">65</span>
+    <a href="/ru/case/multi-channel-customer-service.html" class="case-card" data-tag="automation" data-title="ai-поддержка 24/7 в whatsapp, instagram, email" data-desc="объединяй whatsapp, instagram, email и google reviews в одном ai-боксе. автоответы 24/7 — клиенты не ждут, пока ты спишь.">
+      <div class="case-rank">65</div>
+      <div class="case-body">
         <h3 class="case-title">AI-поддержка 24/7 в WhatsApp, Instagram, Email</h3>
+        <p class="case-desc">Объединяй WhatsApp, Instagram, Email и Google Reviews в одном AI-боксе. Автоответы 24/7 — клиенты не ждут, пока ты спишь.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">GitHub</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">GitHub</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          256
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">256</span>
       </div>
-      <p class="case-desc">Объединяй WhatsApp, Instagram, Email и Google Reviews в одном AI-боксе. Автоответы 24/7 — клиенты не ждут, пока ты спишь.</p>
-      
     </a>
-    <a href="/ru/case/self-healing-home-server.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">66</span>
+    <a href="/ru/case/self-healing-home-server.html" class="case-card" data-tag="devops" data-title="самовосстанавливающийся сервер — ai чинит инфраструктуру сам" data-desc="запусти агента с ssh-доступом, автоматическими кронами и самовосстановлением. сервер чинит себя сам.">
+      <div class="case-rank">66</div>
+      <div class="case-body">
         <h3 class="case-title">Самовосстанавливающийся сервер — AI чинит инфраструктуру сам</h3>
+        <p class="case-desc">Запусти агента с SSH-доступом, автоматическими кронами и самовосстановлением. Сервер чинит себя сам.</p>
+        <div class="case-footer">
+          <span class="tag-pill devops">🔧 DevOps</span>
+          <span class="case-source">GitHub</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag devops">DevOps</span>
-        <span class="case-source">GitHub</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          198
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">198</span>
       </div>
-      <p class="case-desc">Запусти агента с SSH-доступом, автоматическими кронами и самовосстановлением. Сервер чинит себя сам.</p>
-      
     </a>
-    <a href="/ru/case/content-factory.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">67</span>
+    <a href="/ru/case/content-factory.html" class="case-card" data-tag="automation" data-title="мульти-агентная контент-фабрика в discord" data-desc="запусти конвейер контента в discord — агенты ресёрча, копирайтинга и дизайна работают в отдельных каналах. фабрика контента.">
+      <div class="case-rank">67</div>
+      <div class="case-body">
         <h3 class="case-title">Мульти-агентная контент-фабрика в Discord</h3>
+        <p class="case-desc">Запусти конвейер контента в Discord — агенты ресёрча, копирайтинга и дизайна работают в отдельных каналах. Фабрика контента.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">GitHub</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">GitHub</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          176
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">176</span>
       </div>
-      <p class="case-desc">Запусти конвейер контента в Discord — агенты ресёрча, копирайтинга и дизайна работают в отдельных каналах. Фабрика контента.</p>
-      
     </a>
-    <a href="/ru/case/personal-crm.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">68</span>
+    <a href="/ru/case/personal-crm.html" class="case-card" data-tag="productivity" data-title="персональная crm — ai ведёт все контакты" data-desc="автоматически находит и отслеживает контакты из почты и календаря. спрашивай на человеческом языке — ai помнит всех.">
+      <div class="case-rank">68</div>
+      <div class="case-body">
         <h3 class="case-title">Персональная CRM — AI ведёт все контакты</h3>
+        <p class="case-desc">Автоматически находит и отслеживает контакты из почты и календаря. Спрашивай на человеческом языке — AI помнит всех.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">GitHub</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">GitHub</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          154
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">154</span>
       </div>
-      <p class="case-desc">Автоматически находит и отслеживает контакты из почты и календаря. Спрашивай на человеческом языке — AI помнит всех.</p>
-      
     </a>
-    <a href="/ru/case/custom-morning-brief.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">69</span>
+    <a href="/ru/case/custom-morning-brief.html" class="case-card" data-tag="productivity" data-title="утренний бриф — ai шлёт персональную сводку каждый день" data-desc="получай персональный утренний бриф — новости, задачи, черновики контента и рекомендации от ai. каждое утро в мессенджер.">
+      <div class="case-rank">69</div>
+      <div class="case-body">
         <h3 class="case-title">Утренний бриф — AI шлёт персональную сводку каждый день</h3>
+        <p class="case-desc">Получай персональный утренний бриф — новости, задачи, черновики контента и рекомендации от AI. Каждое утро в мессенджер.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">GitHub</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">GitHub</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          143
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">143</span>
       </div>
-      <p class="case-desc">Получай персональный утренний бриф — новости, задачи, черновики контента и рекомендации от AI. Каждое утро в мессенджер.</p>
-      
     </a>
-    <a href="/ru/case/second-brain.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">70</span>
+    <a href="/ru/case/second-brain.html" class="case-card" data-tag="productivity" data-title="второй мозг — запоминай всё через чат" data-desc="пиши что угодно боту — он запомнит. ищи по всем воспоминаниям через next.js дашборд. твоя внешняя память.">
+      <div class="case-rank">70</div>
+      <div class="case-body">
         <h3 class="case-title">Второй мозг — запоминай всё через чат</h3>
+        <p class="case-desc">Пиши что угодно боту — он запомнит. Ищи по всем воспоминаниям через Next.js дашборд. Твоя внешняя память.</p>
+        <div class="case-footer">
+          <span class="tag-pill productivity">📈 Продуктивность</span>
+          <span class="case-source">GitHub</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag productivity">Продуктивность</span>
-        <span class="case-source">GitHub</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          132
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">132</span>
       </div>
-      <p class="case-desc">Пиши что угодно боту — он запомнит. Ищи по всем воспоминаниям через Next.js дашборд. Твоя внешняя память.</p>
-      
     </a>
-    <a href="/ru/case/youtube-content-pipeline.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">71</span>
+    <a href="/ru/case/youtube-content-pipeline.html" class="case-card" data-tag="automation" data-title="youtube-конвейер — автоматизируй производство видео" data-desc="автоматизируй поиск идей, ресёрч и трекинг для youtube-канала. от анализа трендов до черновиков сценариев.">
+      <div class="case-rank">71</div>
+      <div class="case-body">
         <h3 class="case-title">YouTube-конвейер — автоматизируй производство видео</h3>
+        <p class="case-desc">Автоматизируй поиск идей, ресёрч и трекинг для YouTube-канала. От анализа трендов до черновиков сценариев.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">GitHub</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">GitHub</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          121
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">121</span>
       </div>
-      <p class="case-desc">Автоматизируй поиск идей, ресёрч и трекинг для YouTube-канала. От анализа трендов до черновиков сценариев.</p>
-      
     </a>
-    <a href="/ru/case/multi-agent-team.html" class="case ">
-      <div class="case-header">
-        <span class="case-rank">72</span>
+    <a href="/ru/case/multi-agent-team.html" class="case-card" data-tag="automation" data-title="команда специализированных агентов в telegram" data-desc="запусти команду агентов (стратег, разраб, маркетолог, бизнес) в одном telegram-чате. координированная работа.">
+      <div class="case-rank">72</div>
+      <div class="case-body">
         <h3 class="case-title">Команда специализированных агентов в Telegram</h3>
+        <p class="case-desc">Запусти команду агентов (стратег, разраб, маркетолог, бизнес) в одном Telegram-чате. Координированная работа.</p>
+        <div class="case-footer">
+          <span class="tag-pill automation">⚡ Автоматизация</span>
+          <span class="case-source">GitHub</span>
+          
+        </div>
       </div>
-      <div class="case-meta">
-        <span class="case-tag automation">Автоматизация</span>
-        <span class="case-source">GitHub</span>
-        
-        <span class="case-points">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-          108
-        </span>
+      <div class="case-vote">
+        <span class="vote-arrow">▲</span>
+        <span class="vote-count">108</span>
       </div>
-      <p class="case-desc">Запусти команду агентов (стратег, разраб, маркетолог, бизнес) в одном Telegram-чате. Координированная работа.</p>
-      
     </a>
+    </div>
+    
+    <div class="no-results" id="no-results" style="display:none">
+      <div class="no-results-icon">🔍</div>
+      <h3>Ничего не найдено</h3>
+      <p>Попробуйте другой запрос или категорию</p>
+    </div>
   </div>
 </main>
 
 <footer>
   <div class="container">
     <div class="footer-author">
-      <span>Проект <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a></span>
+      Проект <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a>
       <span class="footer-divider">·</span>
       <a href="https://plaan.ai" target="_blank">Plaan.ai</a>
     </div>
@@ -1443,7 +1376,53 @@ footer{border-top:1px solid var(--border);padding:40px 0;text-align:center}
   </div>
 </footer>
 
+<script>
+// Category filter
+document.querySelectorAll('.cat-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    filterCases();
+  });
+});
 
+// Search
+document.getElementById('search').addEventListener('input', filterCases);
+
+function filterCases() {
+  const cat = document.querySelector('.cat-btn.active').dataset.cat;
+  const query = document.getElementById('search').value.toLowerCase().trim();
+  const cards = document.querySelectorAll('.case-card');
+  const featured = document.querySelector('.featured-case');
+  let visible = 0;
+  
+  cards.forEach(card => {
+    const matchCat = cat === 'all' || card.dataset.tag === cat;
+    const matchQuery = !query || 
+      card.dataset.title.includes(query) || 
+      card.dataset.desc.includes(query);
+    
+    if (matchCat && matchQuery) {
+      card.classList.remove('hidden');
+      visible++;
+    } else {
+      card.classList.add('hidden');
+    }
+  });
+  
+  // Hide featured if filtered by category
+  if (featured) {
+    const featuredMatch = cat === 'all' || featured.dataset.tag === cat;
+    featured.style.display = featuredMatch ? 'block' : 'none';
+    if (featuredMatch) visible++;
+  }
+  
+  document.getElementById('no-results').style.display = visible === 0 ? 'block' : 'none';
+}
+
+// Auto-detect Russian
+
+</script>
 
 </body>
 </html>
