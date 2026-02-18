@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://openclawtimes.com/</loc><lastmod>2026-02-17</lastmod><priority>1.0</priority></url>
-  <url><loc>https://openclawtimes.com/ru/</loc><lastmod>2026-02-17</lastmod><priority>1.0</priority></url>
+  <url><loc>https://openclawtimes.com/</loc><lastmod>2026-02-18</lastmod><priority>1.0</priority></url>
+  <url><loc>https://openclawtimes.com/ru/</loc><lastmod>2026-02-18</lastmod><priority>1.0</priority></url>
+  <url><loc>https://openclawtimes.com/case/options-flow-data-parser.html</loc><lastmod>2026-02-18</lastmod><priority>0.8</priority></url>
+  <url><loc>https://openclawtimes.com/ru/case/options-flow-data-parser.html</loc><lastmod>2026-02-18</lastmod><priority>0.7</priority></url>
+  <url><loc>https://openclawtimes.com/case/personal-assistant-saul.html</loc><lastmod>2026-02-18</lastmod><priority>0.8</priority></url>
+  <url><loc>https://openclawtimes.com/ru/case/personal-assistant-saul.html</loc><lastmod>2026-02-18</lastmod><priority>0.7</priority></url>
+  <url><loc>https://openclawtimes.com/case/saul-personal-assistant.html</loc><lastmod>2026-02-18</lastmod><priority>0.8</priority></url>
+  <url><loc>https://openclawtimes.com/ru/case/saul-personal-assistant.html</loc><lastmod>2026-02-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://openclawtimes.com/case/whatsapp-saas-builder.html</loc><lastmod>2026-02-17</lastmod><priority>0.8</priority></url>
   <url><loc>https://openclawtimes.com/ru/case/whatsapp-saas-builder.html</loc><lastmod>2026-02-17</lastmod><priority>0.7</priority></url>
   <url><loc>https://openclawtimes.com/case/btc-trading-bot.html</loc><lastmod>2026-02-17</lastmod><priority>0.8</priority></url>
