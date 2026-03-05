@@ -1,0 +1,40 @@
+name: Daily Synth Feed
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # 08:00 UTC = 11:00 MSK
+  workflow_dispatch:       # ручной запуск
+
+permissions:
+  contents: write
+
+jobs:
+  parse-youtube:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Parse YouTube and generate articles
+        run: node scripts/parse-youtube.js
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4o-mini
+
+      - name: Commit and Push
+        env:
+          COMMIT_DATE: ${{ github.event.repository.updated_at }}
+        run: |
+          git config user.name "Synth Bot"
+          git config user.email "bot@synth.media"
+          git add data/synth-feed.json data/seen-videos.json
+          if ! git diff --staged --quiet; then
+            git commit -m "Daily feed update"
+            git push
+          fi

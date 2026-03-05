@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "generate": "node generate.js",
-    "parse": "node scripts/parse-cases.js"
+    "parse": "node scripts/parse-cases.js",
+    "youtube": "node scripts/parse-youtube.js"
   },
   "keywords": ["openclaw", "ai", "agents", "cases"],
   "author": "Alfred",

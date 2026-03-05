@@ -660,6 +660,144 @@ document.querySelectorAll('.nav-item').forEach(item => {
 const urlLang = new URLSearchParams(window.location.search).get('lang');
 const initLang = urlLang && i18n[urlLang] ? urlLang : (localStorage.getItem('synth-lang') || 'ru');
 if (initLang !== 'ru') setLang(initLang);
+
+// ═══════════════════════════════════════════
+// Dynamic Feed Loading (from synth-feed.json)
+// ═══════════════════════════════════════════
+var feedData = null;
+
+var tagLabels = {
+  ru: { ai: 'AI инструменты', startups: 'Стартапы', cases: 'Кейсы', prompts: 'Промпты', trends: 'Тренды' },
+  en: { ai: 'AI Tools', startups: 'Startups', cases: 'Cases', prompts: 'Prompts', trends: 'Trends' },
+  es: { ai: 'Herramientas IA', startups: 'Startups', cases: 'Casos', prompts: 'Prompts', trends: 'Tendencias' }
+};
+
+var monthNames = {
+  ru: ['янв','фев','мар','апр','май','июн','июл','авг','сен','окт','ноя','дек'],
+  en: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+  es: ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic']
+};
+
+function formatDate(dateStr, lang) {
+  var d = new Date(dateStr + 'T00:00:00');
+  var day = d.getDate();
+  var mon = (monthNames[lang] || monthNames.en)[d.getMonth()];
+  var year = d.getFullYear();
+  return day + ' ' + mon + ' ' + year;
+}
+
+function createCard(a, lang) {
+  var labels = tagLabels[lang] || tagLabels.en;
+  var title = a['title_' + lang] || a.title_en || a.title_ru || '';
+  var desc = a['desc_' + lang] || a.desc_en || a.desc_ru || '';
+  var tag = a.tag || 'trends';
+  var tagLabel = labels[tag] || tag;
+  var date = formatDate(a.date, lang);
+  var source = a.channel || a.source || '';
+  var link = a.source_url || '#';
+
+  var article = document.createElement('article');
+  article.className = 'card';
+  article.setAttribute('itemscope', '');
+  article.setAttribute('itemtype', 'https://schema.org/Article');
+
+  // Thumbnail
+  if (a.thumbnail) {
+    var imgLink = document.createElement('a');
+    imgLink.href = link;
+    imgLink.target = '_blank';
+    imgLink.rel = 'noopener';
+    var img = document.createElement('img');
+    img.className = 'card-image';
+    img.src = a.thumbnail;
+    img.alt = title;
+    img.loading = 'lazy';
+    img.width = 480;
+    img.height = 360;
+    img.setAttribute('itemprop', 'image');
+    imgLink.appendChild(img);
+    article.appendChild(imgLink);
+  }
+
+  var body = document.createElement('div');
+  body.className = 'card-body';
+
+  var tagEl = document.createElement('span');
+  tagEl.className = 'card-tag ' + tag;
+  tagEl.setAttribute('itemprop', 'articleSection');
+  tagEl.textContent = tagLabel;
+  body.appendChild(tagEl);
+
+  var titleLink = document.createElement('a');
+  titleLink.href = link;
+  titleLink.target = '_blank';
+  titleLink.rel = 'noopener';
+  titleLink.style.cssText = 'color:inherit;text-decoration:none';
+  var h3 = document.createElement('h3');
+  h3.className = 'card-title';
+  h3.setAttribute('itemprop', 'headline');
+  h3.textContent = title;
+  titleLink.appendChild(h3);
+  body.appendChild(titleLink);
+
+  var p = document.createElement('p');
+  p.className = 'card-desc';
+  p.setAttribute('itemprop', 'description');
+  p.textContent = desc;
+  body.appendChild(p);
+
+  var footer = document.createElement('div');
+  footer.className = 'card-footer';
+  footer.appendChild(document.createTextNode(source + ' '));
+  var dot = document.createElement('span');
+  dot.setAttribute('aria-hidden', 'true');
+  dot.textContent = '\u00B7';
+  footer.appendChild(dot);
+  footer.appendChild(document.createTextNode(' '));
+  var time = document.createElement('time');
+  time.setAttribute('datetime', a.date);
+  time.setAttribute('itemprop', 'datePublished');
+  time.textContent = date;
+  footer.appendChild(time);
+  body.appendChild(footer);
+
+  article.appendChild(body);
+  return article;
+}
+
+function renderCards(articles, lang) {
+  var grid = document.querySelector('.cards-grid');
+  if (!grid || !articles || articles.length === 0) return;
+  grid.textContent = '';
+  for (var i = 0; i < articles.length; i++) {
+    grid.appendChild(createCard(articles[i], lang));
+  }
+}
+
+// Override setLang to also re-render dynamic cards
+var _origSetLang = setLang;
+setLang = function(lang) {
+  _origSetLang(lang);
+  if (feedData && feedData.length > 0) {
+    renderCards(feedData, lang);
+  }
+};
+
+// Load feed from JSON
+function loadFeed() {
+  fetch('/data/synth-feed.json')
+    .then(function(res) { return res.ok ? res.json() : null; })
+    .then(function(data) {
+      if (data && data.articles && data.articles.length > 0) {
+        feedData = data.articles;
+        var lang = localStorage.getItem('synth-lang') || 'ru';
+        renderCards(feedData, lang);
+      }
+    })
+    .catch(function() { /* keep hardcoded fallback cards */ });
+}
+
+loadFeed();
 </script>
 </body>
 </html>
