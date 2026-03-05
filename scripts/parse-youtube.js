@@ -233,6 +233,9 @@ async function generateArticle(video) {
   return parsed;
 }
 
+// Article page generation (shared module)
+var articlePages = require('./article-pages');
+
 // Main
 async function main() {
   console.log('Synth YouTube Parser v1.0');
@@ -333,10 +336,30 @@ async function main() {
   var dataDir = path.join(ROOT, 'data');
   if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
 
-  // Save
+  // Save feed JSON
   fs.writeFileSync(FEED_PATH, JSON.stringify(feed, null, 2));
   fs.writeFileSync(SEEN_PATH, JSON.stringify(Array.from(seenSet), null, 2));
 
+  // Generate individual article HTML pages
+  console.log('\nGenerating article pages...');
+  var articlesDir = path.join(ROOT, 'playground', 'articles');
+  if (!fs.existsSync(articlesDir)) fs.mkdirSync(articlesDir, { recursive: true });
+
+  var pagesGenerated = 0;
+  for (var p = 0; p < feed.articles.length; p++) {
+    var a = feed.articles[p];
+    if (!a.slug || !a.body_en) continue;
+    var pageDir = path.join(articlesDir, a.slug);
+    if (!fs.existsSync(pageDir)) fs.mkdirSync(pageDir, { recursive: true });
+    var html = articlePages.generateArticlePage(a);
+    fs.writeFileSync(path.join(pageDir, 'index.html'), html);
+    pagesGenerated++;
+  }
+
+  // Generate sitemap entries for articles
+  articlePages.generateSitemap(feed.articles, ROOT);
+
+  console.log('Generated ' + pagesGenerated + ' article pages');
   console.log('\nDone! +' + newArticles.length + ' articles (' + feed.articles.length + ' total)');
 }
 

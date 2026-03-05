@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "Synth Bot"
           git config user.email "bot@synth.media"
-          git add data/synth-feed.json data/seen-videos.json
+          git add data/synth-feed.json data/seen-videos.json playground/articles/ sitemap.xml
           if ! git diff --staged --quiet; then
             git commit -m "Daily feed update"
             git push
