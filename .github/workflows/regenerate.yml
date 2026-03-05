@@ -1,0 +1,37 @@
+name: Regenerate Articles
+
+on:
+  workflow_dispatch:  # ручной запуск
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Regenerate all articles with transcripts
+        run: node scripts/regenerate.js
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4.1-mini
+
+      - name: Commit and Push
+        run: |
+          git config user.name "Synth Bot"
+          git config user.email "bot@synth.media"
+          git add data/synth-feed.json playground/articles/ sitemap.xml
+          if ! git diff --staged --quiet; then
+            git commit -m "Regenerate articles: longreads with transcripts"
+            git push
+          fi

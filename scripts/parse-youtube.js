@@ -410,7 +410,20 @@ async function main() {
   console.log('\nDone! +' + newArticles.length + ' articles (' + feed.articles.length + ' total)');
 }
 
-main().catch(function(err) {
-  console.error('Fatal: ' + err.message);
-  process.exit(1);
-});
+// Export for regenerate.js
+module.exports = {
+  getTranscript: getTranscript,
+  generateArticle: generateArticle,
+  cleanUTF8: cleanUTF8,
+  articlePages: articlePages,
+  FEED_PATH: FEED_PATH,
+  ROOT: ROOT
+};
+
+// Run only when called directly
+if (require.main === module) {
+  main().catch(function(err) {
+    console.error('Fatal: ' + err.message);
+    process.exit(1);
+  });
+}
