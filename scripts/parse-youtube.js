@@ -191,35 +191,46 @@ async function generateArticle(video) {
     '  "tag": "ai|startups|cases|prompts|trends",\n' +
     '  "read_time": 7\n' +
     '}\n\n' +
-    'ARTICLE BODY RULES (body_ru, body_en, body_es) — THIS IS CRITICAL:\n' +
-    '- Write a LONGREAD: 1500-2000 words per language. NOT a summary, a FULL article.\n' +
-    '- Structure: intro paragraph → 4-6 H2 sections → FAQ section → conclusion\n' +
-    '- Each H2 section: 200-400 words with specific details, examples, numbers from the transcript\n' +
-    '- MANDATORY elements in every article:\n' +
-    '  * 4-6 <h2> subheadings containing secondary keywords\n' +
-    '  * 2-3 <ul> or <ol> lists with concrete points (for AI/Google snippet extraction)\n' +
-    '  * 1-2 <blockquote> with key insights from the video\n' +
-    '  * <strong> on important terms, product names, metrics\n' +
-    '  * FAQ section: <h2>Frequently Asked Questions</h2> with 3-4 Q&A pairs using <strong> for questions\n' +
-    '- Use semantic HTML only: p, h2, h3, ul, ol, li, strong, em, blockquote\n' +
+    'WORD COUNT — ABSOLUTE REQUIREMENT:\n' +
+    '- MINIMUM 1500 words per language. Articles under 1200 words are UNACCEPTABLE.\n' +
+    '- Target: 1500-2000 words for each of body_ru, body_en, body_es\n' +
+    '- This means each body field should contain AT LEAST 8000 characters of HTML\n' +
+    '- DO NOT cut corners. Write FULL, DETAILED paragraphs. Each paragraph should be 3-5 sentences.\n' +
+    '- If you feel you\'re running out of things to say, add: analysis, implications, comparisons, context, expert perspective, practical applications\n\n' +
+    'ARTICLE STRUCTURE (body_ru, body_en, body_es):\n' +
+    '- Intro: 2-3 paragraphs (150-200 words) — hook + context + what reader will learn\n' +
+    '- 5-6 H2 sections, each 200-350 words with:\n' +
+    '  * 2-3 detailed paragraphs per section\n' +
+    '  * Specific details, examples, numbers from the transcript\n' +
+    '  * At least 1 list (ul/ol) per 2 sections\n' +
+    '  * At least 1 blockquote per article with key insight\n' +
+    '- FAQ section: <h2>Часто задаваемые вопросы</h2> (RU) / <h2>Frequently Asked Questions</h2> (EN/ES)\n' +
+    '  * 4-5 Q&A pairs using <h3> for questions, <p> for answers\n' +
+    '  * Each answer: 2-3 sentences minimum\n' +
+    '- Conclusion: 1-2 paragraphs summarizing key takeaways\n\n' +
+    'HTML RULES:\n' +
+    '- Use ONLY: p, h2, h3, ul, ol, li, strong, em, blockquote\n' +
     '- NO <h1>, <script>, <style>, <div>, <span>, <a>, <table> tags\n' +
+    '- Use <strong> on important terms, product names, metrics\n' +
     '- NO invented statistics, fake quotes, or made-up company names\n' +
     '- If transcript mentions specific numbers, tools, companies — include them accurately\n\n' +
     'SEO/GEO RULES:\n' +
     '- H1 (title): primary keyword in first 3 words\n' +
     '- H2s: structured as questions or "How to..." for featured snippets\n' +
     '- Lists: use parallel structure, start items with action verbs\n' +
-    '- FAQ section: natural questions people would ask Google/ChatGPT\n' +
+    '- FAQ section: natural questions people would ask Google/ChatGPT/AI assistants\n' +
     '- Keywords: mix of head terms + long-tail + question-based\n' +
     '- Slug: 3-5 words, lowercase, hyphens\n' +
     '- read_time: calculate as ceil(total_words / 200)\n\n' +
     'WRITING STYLE:\n' +
     '- tag values: ai=AI tools/models, startups=startup/funding, cases=real use cases, prompts=prompts/workflows, trends=industry trends\n' +
-    '- Write as an expert journalist, not a summarizer. Add context, analysis, implications.\n' +
-    '- Russian: живой язык, без канцелярита, без "следует отметить", без "давайте рассмотрим"\n' +
-    '- English: clear, direct, engaging. No filler phrases.\n' +
+    '- Write as an expert journalist, not a summarizer. Add context, analysis, implications, industry perspective.\n' +
+    '- Expand on ideas: don\'t just state facts, explain WHY they matter, HOW they compare to alternatives, WHAT users should do\n' +
+    '- Russian: живой язык, без канцелярита. НЕ ИСПОЛЬЗУЙ: "следует отметить", "давайте рассмотрим", "в рамках", "необходимо отметить"\n' +
+    '- English: clear, direct, engaging. No filler phrases. Concrete and specific.\n' +
     '- Spanish: natural, conversational, informative\n' +
-    '- Every article must give the reader actionable insights they can use immediately';
+    '- Every article must give the reader actionable insights they can use immediately\n\n' +
+    'REMEMBER: MINIMUM 1500 WORDS PER LANGUAGE. This is the #1 priority. Write comprehensive, detailed content.';
 
   var response = await postJSON('https://api.openai.com/v1/chat/completions', {
     model: OPENAI_MODEL,

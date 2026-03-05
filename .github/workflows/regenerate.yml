@@ -30,7 +30,7 @@ jobs:
         run: node scripts/regenerate.js
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-4.1-mini
+          OPENAI_MODEL: gpt-4.1
 
       - name: Commit and Push
         run: |
