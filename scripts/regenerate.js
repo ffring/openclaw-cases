@@ -26,6 +26,7 @@ const articlePages = parser.articlePages;
 
 const FEED_PATH = parser.FEED_PATH;
 const ROOT = parser.ROOT;
+const TRANSCRIPTS_PATH = path.join(ROOT, 'data', 'transcripts.json');
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -40,6 +41,15 @@ async function main() {
   } catch (e) {
     console.error('Cannot read ' + FEED_PATH);
     process.exit(1);
+  }
+
+  // Load pre-fetched transcripts (from fetch-transcripts.js)
+  var transcripts = {};
+  try {
+    transcripts = JSON.parse(fs.readFileSync(TRANSCRIPTS_PATH, 'utf8'));
+    console.log('Loaded ' + Object.keys(transcripts).length + ' pre-fetched transcripts');
+  } catch (e) {
+    console.log('No pre-fetched transcripts found, will try live fetch');
   }
 
   console.log('Articles to regenerate: ' + feed.articles.length + '\n');
@@ -60,8 +70,11 @@ async function main() {
     process.stdout.write('  [' + (i + 1) + '/' + feed.articles.length + '] ' + shortTitle + ' ');
 
     try {
-      // Fetch transcript
-      var transcript = await parser.getTranscript(videoId);
+      // Use pre-fetched transcript, fallback to live fetch
+      var transcript = transcripts[videoId] || '';
+      if (!transcript) {
+        transcript = await parser.getTranscript(videoId);
+      }
       if (transcript) {
         process.stdout.write('[T:' + Math.round(transcript.length / 1000) + 'k] ');
       } else {
