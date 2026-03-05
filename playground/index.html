@@ -111,6 +111,12 @@ a{color:inherit;text-decoration:none}
 }
 
 .material-symbols-sharp{font-variation-settings:'FILL' 0,'wght' 100,'GRAD' 0,'opsz' 24}
+
+/* Lang switcher */
+.lang-switch{display:flex;gap:4px;padding:3px;border-radius:999px;background:var(--secondary);margin-left:12px}
+.lang-btn{width:32px;height:28px;border:none;border-radius:999px;cursor:pointer;font-size:16px;background:transparent;transition:all .15s;display:flex;align-items:center;justify-content:center;line-height:1}
+.lang-btn:hover{background:var(--sidebar-accent)}
+.lang-btn.active{background:var(--bg);box-shadow:0 1px 3px rgba(0,0,0,.15)}
 </style>
 </head>
 <body>
@@ -125,49 +131,49 @@ a{color:inherit;text-decoration:none}
     <div class="sidebar-search">
       <div class="search-wrap">
         <span class="material-symbols-sharp">search</span>
-        <input type="text" class="search-input" placeholder="Поиск...">
+        <input type="text" class="search-input" placeholder="Поиск..." data-i18n-placeholder="search">
       </div>
     </div>
 
     <nav class="sidebar-section">
-      <div class="section-title">Категории</div>
+      <div class="section-title" data-i18n="nav_categories">Категории</div>
       <a class="nav-item active">
         <span class="material-symbols-sharp">grid_view</span>
-        Все материалы
+        <span data-i18n="nav_all">Все материалы</span>
       </a>
       <a class="nav-item">
         <span class="material-symbols-sharp">smart_toy</span>
-        AI инструменты
+        <span data-i18n="nav_ai">AI инструменты</span>
       </a>
       <a class="nav-item">
         <span class="material-symbols-sharp">rocket_launch</span>
-        Стартапы
+        <span data-i18n="nav_startups">Стартапы</span>
       </a>
       <a class="nav-item">
         <span class="material-symbols-sharp">cases</span>
-        Кейсы
+        <span data-i18n="nav_cases">Кейсы</span>
       </a>
       <a class="nav-item">
         <span class="material-symbols-sharp">edit_note</span>
-        Промпты
+        <span data-i18n="nav_prompts">Промпты</span>
       </a>
       <a class="nav-item">
         <span class="material-symbols-sharp">trending_up</span>
-        Тренды
+        <span data-i18n="nav_trends">Тренды</span>
       </a>
       <div class="section-title" style="margin-top:8px">OpenClaw</div>
       <a class="nav-item">
         <span class="material-symbols-sharp">bug_report</span>
-        Кейсы агентов
+        <span data-i18n="nav_agent_cases">Кейсы агентов</span>
       </a>
       <a class="nav-item">
         <span class="material-symbols-sharp">terminal</span>
-        Интеграции
+        <span data-i18n="nav_integrations">Интеграции</span>
       </a>
     </nav>
 
     <div class="sidebar-tags">
-      <div class="section-title">Теги</div>
+      <div class="section-title" data-i18n="nav_tags">Теги</div>
       <div class="tags-wrap">
         <span class="tag-pill">GPT</span>
         <span class="tag-pill">Claude</span>
@@ -186,7 +192,7 @@ a{color:inherit;text-decoration:none}
       </div>
       <div class="footer-info">
         <div class="footer-name">synth.media</div>
-        <div class="footer-desc">Автонаполняемое медиа</div>
+        <div class="footer-desc" data-i18n="footer_desc">Автонаполняемое медиа</div>
       </div>
     </div>
   </aside>
@@ -196,110 +202,106 @@ a{color:inherit;text-decoration:none}
     <div class="content-header">
       <div class="header-left">
         <span class="material-symbols-sharp">grid_view</span>
-        <h1 class="header-title">Все материалы</h1>
+        <h1 class="header-title" data-i18n="nav_all">Все материалы</h1>
       </div>
       <div class="tabs">
-        <div class="tab active">Новое</div>
-        <div class="tab">Популярное</div>
-        <div class="tab">Кейсы</div>
+        <div class="tab active" data-i18n="tab_new">Новое</div>
+        <div class="tab" data-i18n="tab_popular">Популярное</div>
+        <div class="tab" data-i18n="tab_cases">Кейсы</div>
+      </div>
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="ru" title="Русский">🇷🇺</button>
+        <button class="lang-btn" data-lang="en" title="English">🇬🇧</button>
+        <button class="lang-btn" data-lang="es" title="Español">🇪🇸</button>
       </div>
     </div>
 
     <div class="cards-grid">
-      <!-- Card 1: AI Tool with image -->
       <article class="card">
         <div class="card-image-placeholder" style="background:linear-gradient(135deg,#2a1f45 0%,#4c1d95 50%,#1a1128 100%)">
           <span class="material-symbols-sharp" style="font-size:48px;color:#a78bfa33">code</span>
         </div>
         <div class="card-body">
-          <span class="card-tag ai">AI инструменты</span>
-          <div class="card-title">Cursor добавил Background Agents: код пишется пока вы спите</div>
-          <div class="card-desc">Новая фича позволяет запускать агентов в фоне и получать готовый результат утром.</div>
+          <span class="card-tag ai" data-i18n="tag_ai">AI инструменты</span>
+          <div class="card-title" data-i18n="c1_title">Cursor добавил Background Agents: код пишется пока вы спите</div>
+          <div class="card-desc" data-i18n="c1_desc">Новая фича позволяет запускать агентов в фоне и получать готовый результат утром.</div>
           <div class="card-footer">x.com <span>&middot;</span> 5 мар 2026</div>
         </div>
       </article>
 
-      <!-- Card 2: Startup with image -->
       <article class="card">
         <img class="card-image" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=300&fit=crop" alt="">
         <div class="card-body">
-          <span class="card-tag startups">Стартапы</span>
-          <div class="card-title">Lovable привлёк $100M при оценке $2B — вайбкодинг выходит в мейнстрим</div>
-          <div class="card-desc">Платформа для генерации приложений через промпты продолжает взрывной рост. Разбираем модель.</div>
+          <span class="card-tag startups" data-i18n="tag_startups">Стартапы</span>
+          <div class="card-title" data-i18n="c2_title">Lovable привлёк $100M при оценке $2B — вайбкодинг выходит в мейнстрим</div>
+          <div class="card-desc" data-i18n="c2_desc">Платформа для генерации приложений через промпты продолжает взрывной рост. Разбираем модель.</div>
           <div class="card-footer">reddit.com <span>&middot;</span> 3 мар 2026</div>
         </div>
       </article>
 
-      <!-- Card 3: Trend text-only -->
       <article class="card">
         <div class="card-body">
-          <span class="card-tag trends">Тренды</span>
-          <div class="card-title">MCP серверы становятся новым стандартом для AI-интеграций</div>
-          <div class="card-desc">Почему Model Context Protocol меняет правила игры для разработчиков и бизнеса.</div>
+          <span class="card-tag trends" data-i18n="tag_trends">Тренды</span>
+          <div class="card-title" data-i18n="c3_title">MCP серверы становятся новым стандартом для AI-интеграций</div>
+          <div class="card-desc" data-i18n="c3_desc">Почему Model Context Protocol меняет правила игры для разработчиков и бизнеса.</div>
           <div class="card-footer">x.com <span>&middot;</span> 5 мар 2026</div>
         </div>
       </article>
 
-      <!-- Card 4: Prompt text-only -->
       <article class="card">
         <div class="card-body">
-          <span class="card-tag prompts">Промпты</span>
-          <div class="card-title">Промпт для глубокого ресёрча конкурентов через Claude</div>
-          <div class="card-desc">Системный промпт для анализа 5 конкурентов: позиционирование, цены, воронки, слабые места.</div>
+          <span class="card-tag prompts" data-i18n="tag_prompts">Промпты</span>
+          <div class="card-title" data-i18n="c4_title">Промпт для глубокого ресёрча конкурентов через Claude</div>
+          <div class="card-desc" data-i18n="c4_desc">Системный промпт для анализа 5 конкурентов: позиционирование, цены, воронки, слабые места.</div>
           <div class="card-footer">telegram <span>&middot;</span> 4 мар 2026</div>
         </div>
       </article>
 
-      <!-- Card 5: Case text-only -->
       <article class="card">
         <div class="card-body">
-          <span class="card-tag cases">Кейсы</span>
-          <div class="card-title">Как мы собрали SaaS за 48 часов с Claude Code и запустили на Product Hunt</div>
-          <div class="card-desc">Полный разбор: стек, промпты, ошибки и результаты первого месяца.</div>
+          <span class="card-tag cases" data-i18n="tag_cases">Кейсы</span>
+          <div class="card-title" data-i18n="c5_title">Как мы собрали SaaS за 48 часов с Claude Code и запустили на Product Hunt</div>
+          <div class="card-desc" data-i18n="c5_desc">Полный разбор: стек, промпты, ошибки и результаты первого месяца.</div>
           <div class="card-footer">github.com <span>&middot;</span> 2 мар 2026</div>
         </div>
       </article>
 
-      <!-- Card 6: AI Tool with image -->
       <article class="card">
         <div class="card-image-placeholder" style="background:linear-gradient(135deg,#1e1145,#4c1d95 60%,#7c3aed)">
           <span class="material-symbols-sharp" style="font-size:48px;color:#a78bfa33">neurology</span>
         </div>
         <div class="card-body">
-          <span class="card-tag ai">AI инструменты</span>
-          <div class="card-title">Claude Code 4.6 — обзор Opus и новых возможностей</div>
-          <div class="card-desc">Что нового в Claude Code: команды, хуки, подагенты и работа в команде.</div>
+          <span class="card-tag ai" data-i18n="tag_ai">AI инструменты</span>
+          <div class="card-title" data-i18n="c6_title">Claude Code 4.6 — обзор Opus и новых возможностей</div>
+          <div class="card-desc" data-i18n="c6_desc">Что нового в Claude Code: команды, хуки, подагенты и работа в команде.</div>
           <div class="card-footer">anthropic.com <span>&middot;</span> 4 мар 2026</div>
         </div>
       </article>
 
-      <!-- Card 7: Prompt -->
       <article class="card">
         <div class="card-body">
-          <span class="card-tag prompts">Промпты</span>
-          <div class="card-title">5 промптов для создания контент-плана на месяц за 10 минут</div>
-          <div class="card-desc">Готовые шаблоны для GPT-4 и Claude: от идей до готовых постов для Telegram и Instagram.</div>
+          <span class="card-tag prompts" data-i18n="tag_prompts">Промпты</span>
+          <div class="card-title" data-i18n="c7_title">5 промптов для создания контент-плана на месяц за 10 минут</div>
+          <div class="card-desc" data-i18n="c7_desc">Готовые шаблоны для GPT-4 и Claude: от идей до готовых постов для Telegram и Instagram.</div>
           <div class="card-footer">telegram <span>&middot;</span> 1 мар 2026</div>
         </div>
       </article>
 
-      <!-- Card 8: Case with image -->
       <article class="card">
         <img class="card-image" src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=300&fit=crop" alt="">
         <div class="card-body">
-          <span class="card-tag cases">Кейсы</span>
-          <div class="card-title">Автоматизация маркетинга через n8n + Claude: кейс агентства</div>
-          <div class="card-desc">Как мы сократили время на рутину в 4 раза и масштабировали продакшн контента.</div>
+          <span class="card-tag cases" data-i18n="tag_cases">Кейсы</span>
+          <div class="card-title" data-i18n="c8_title">Автоматизация маркетинга через n8n + Claude: кейс агентства</div>
+          <div class="card-desc" data-i18n="c8_desc">Как мы сократили время на рутину в 4 раза и масштабировали продакшн контента.</div>
           <div class="card-footer">github.com <span>&middot;</span> 28 фев 2026</div>
         </div>
       </article>
 
-      <!-- Card 9: Trend -->
       <article class="card">
         <div class="card-body">
-          <span class="card-tag trends">Тренды</span>
-          <div class="card-title">Вайбкодинг убивает джунов или создаёт новую профессию?</div>
-          <div class="card-desc">Разбираем тренд: кто выиграет и проиграет от массового AI-кодинга.</div>
+          <span class="card-tag trends" data-i18n="tag_trends">Тренды</span>
+          <div class="card-title" data-i18n="c9_title">Вайбкодинг убивает джунов или создаёт новую профессию?</div>
+          <div class="card-desc" data-i18n="c9_desc">Разбираем тренд: кто выиграет и проиграет от массового AI-кодинга.</div>
           <div class="card-footer">x.com <span>&middot;</span> 27 фев 2026</div>
         </div>
       </article>
@@ -308,6 +310,111 @@ a{color:inherit;text-decoration:none}
 </div>
 
 <script>
+const i18n = {
+  ru: {
+    search: "Поиск...", nav_categories: "Категории", nav_all: "Все материалы",
+    nav_ai: "AI инструменты", nav_startups: "Стартапы", nav_cases: "Кейсы",
+    nav_prompts: "Промпты", nav_trends: "Тренды", nav_agent_cases: "Кейсы агентов",
+    nav_integrations: "Интеграции", nav_tags: "Теги", footer_desc: "Автонаполняемое медиа",
+    tab_new: "Новое", tab_popular: "Популярное", tab_cases: "Кейсы",
+    tag_ai: "AI инструменты", tag_startups: "Стартапы", tag_cases: "Кейсы",
+    tag_prompts: "Промпты", tag_trends: "Тренды",
+    c1_title: "Cursor добавил Background Agents: код пишется пока вы спите",
+    c1_desc: "Новая фича позволяет запускать агентов в фоне и получать готовый результат утром.",
+    c2_title: "Lovable привлёк $100M при оценке $2B — вайбкодинг выходит в мейнстрим",
+    c2_desc: "Платформа для генерации приложений через промпты продолжает взрывной рост. Разбираем модель.",
+    c3_title: "MCP серверы становятся новым стандартом для AI-интеграций",
+    c3_desc: "Почему Model Context Protocol меняет правила игры для разработчиков и бизнеса.",
+    c4_title: "Промпт для глубокого ресёрча конкурентов через Claude",
+    c4_desc: "Системный промпт для анализа 5 конкурентов: позиционирование, цены, воронки, слабые места.",
+    c5_title: "Как мы собрали SaaS за 48 часов с Claude Code и запустили на Product Hunt",
+    c5_desc: "Полный разбор: стек, промпты, ошибки и результаты первого месяца.",
+    c6_title: "Claude Code 4.6 — обзор Opus и новых возможностей",
+    c6_desc: "Что нового в Claude Code: команды, хуки, подагенты и работа в команде.",
+    c7_title: "5 промптов для создания контент-плана на месяц за 10 минут",
+    c7_desc: "Готовые шаблоны для GPT-4 и Claude: от идей до готовых постов для Telegram и Instagram.",
+    c8_title: "Автоматизация маркетинга через n8n + Claude: кейс агентства",
+    c8_desc: "Как мы сократили время на рутину в 4 раза и масштабировали продакшн контента.",
+    c9_title: "Вайбкодинг убивает джунов или создаёт новую профессию?",
+    c9_desc: "Разбираем тренд: кто выиграет и проиграет от массового AI-кодинга."
+  },
+  en: {
+    search: "Search...", nav_categories: "Categories", nav_all: "All Posts",
+    nav_ai: "AI Tools", nav_startups: "Startups", nav_cases: "Cases",
+    nav_prompts: "Prompts", nav_trends: "Trends", nav_agent_cases: "Agent Cases",
+    nav_integrations: "Integrations", nav_tags: "Tags", footer_desc: "Auto-populated media",
+    tab_new: "New", tab_popular: "Popular", tab_cases: "Cases",
+    tag_ai: "AI Tools", tag_startups: "Startups", tag_cases: "Cases",
+    tag_prompts: "Prompts", tag_trends: "Trends",
+    c1_title: "Cursor adds Background Agents: code writes itself while you sleep",
+    c1_desc: "New feature lets you run agents in the background and get finished results by morning.",
+    c2_title: "Lovable raises $100M at $2B valuation — vibe coding goes mainstream",
+    c2_desc: "The prompt-to-app platform continues explosive growth. Breaking down the model.",
+    c3_title: "MCP servers become the new standard for AI integrations",
+    c3_desc: "Why Model Context Protocol is changing the game for developers and businesses.",
+    c4_title: "Prompt for deep competitor research via Claude",
+    c4_desc: "System prompt for analyzing 5 competitors: positioning, pricing, funnels, weak spots.",
+    c5_title: "How we built a SaaS in 48 hours with Claude Code and launched on Product Hunt",
+    c5_desc: "Full breakdown: stack, prompts, mistakes and first month results.",
+    c6_title: "Claude Code 4.6 — Opus review and new capabilities",
+    c6_desc: "What's new in Claude Code: commands, hooks, subagents and teamwork.",
+    c7_title: "5 prompts to create a monthly content plan in 10 minutes",
+    c7_desc: "Ready-made templates for GPT-4 and Claude: from ideas to finished posts for Telegram and Instagram.",
+    c8_title: "Marketing automation with n8n + Claude: agency case study",
+    c8_desc: "How we cut routine time by 4x and scaled content production.",
+    c9_title: "Vibe coding kills juniors or creates a new profession?",
+    c9_desc: "Breaking down the trend: who wins and loses from mass AI coding."
+  },
+  es: {
+    search: "Buscar...", nav_categories: "Categorías", nav_all: "Todos",
+    nav_ai: "Herramientas IA", nav_startups: "Startups", nav_cases: "Casos",
+    nav_prompts: "Prompts", nav_trends: "Tendencias", nav_agent_cases: "Casos de agentes",
+    nav_integrations: "Integraciones", nav_tags: "Etiquetas", footer_desc: "Media autogenerado",
+    tab_new: "Nuevo", tab_popular: "Popular", tab_cases: "Casos",
+    tag_ai: "Herramientas IA", tag_startups: "Startups", tag_cases: "Casos",
+    tag_prompts: "Prompts", tag_trends: "Tendencias",
+    c1_title: "Cursor agrega Background Agents: el código se escribe mientras duermes",
+    c1_desc: "La nueva función permite ejecutar agentes en segundo plano y obtener resultados por la mañana.",
+    c2_title: "Lovable recauda $100M con valoración de $2B — el vibe coding se masifica",
+    c2_desc: "La plataforma de generación de apps por prompts sigue en crecimiento explosivo. Analizamos el modelo.",
+    c3_title: "Los servidores MCP se convierten en el nuevo estándar para integraciones de IA",
+    c3_desc: "Por qué el Model Context Protocol cambia las reglas del juego para desarrolladores y negocios.",
+    c4_title: "Prompt para investigación profunda de competidores con Claude",
+    c4_desc: "Prompt de sistema para analizar 5 competidores: posicionamiento, precios, embudos, puntos débiles.",
+    c5_title: "Cómo construimos un SaaS en 48 horas con Claude Code y lo lanzamos en Product Hunt",
+    c5_desc: "Análisis completo: stack, prompts, errores y resultados del primer mes.",
+    c6_title: "Claude Code 4.6 — revisión de Opus y nuevas capacidades",
+    c6_desc: "Novedades en Claude Code: comandos, hooks, subagentes y trabajo en equipo.",
+    c7_title: "5 prompts para crear un plan de contenido mensual en 10 minutos",
+    c7_desc: "Plantillas listas para GPT-4 y Claude: desde ideas hasta publicaciones para Telegram e Instagram.",
+    c8_title: "Automatización de marketing con n8n + Claude: caso de agencia",
+    c8_desc: "Cómo redujimos el tiempo de rutina 4 veces y escalamos la producción de contenido.",
+    c9_title: "¿El vibe coding mata a los juniors o crea una nueva profesión?",
+    c9_desc: "Analizamos la tendencia: quién gana y quién pierde con el AI coding masivo."
+  }
+};
+
+function setLang(lang) {
+  const t = i18n[lang];
+  if (!t) return;
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.dataset.i18n;
+    if (t[key]) el.textContent = t[key];
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    const key = el.dataset.i18nPlaceholder;
+    if (t[key]) el.placeholder = t[key];
+  });
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+  localStorage.setItem('synth-lang', lang);
+}
+
+// Lang switcher
+document.querySelectorAll('.lang-btn').forEach(btn => {
+  btn.addEventListener('click', () => setLang(btn.dataset.lang));
+});
+
 // Tab switching
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
@@ -322,13 +429,17 @@ document.querySelectorAll('.nav-item').forEach(item => {
     e.preventDefault();
     document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
     item.classList.add('active');
+    const titleKey = item.querySelector('[data-i18n]')?.dataset.i18n;
+    if (titleKey) {
+      const lang = localStorage.getItem('synth-lang') || 'ru';
+      document.querySelector('.header-title').textContent = i18n[lang][titleKey] || '';
+    }
   });
 });
 
-// Search focus
-const searchInput = document.querySelector('.search-input');
-searchInput.addEventListener('focus', () => searchInput.style.borderColor = 'var(--primary)');
-searchInput.addEventListener('blur', () => searchInput.style.borderColor = '');
+// Init saved lang
+const savedLang = localStorage.getItem('synth-lang');
+if (savedLang && savedLang !== 'ru') setLang(savedLang);
 </script>
 </body>
 </html>
