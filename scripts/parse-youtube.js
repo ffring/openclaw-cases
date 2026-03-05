@@ -25,7 +25,7 @@ if (fs.existsSync(envPath)) {
 }
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-4o-mini';
+const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-4.1-nano';
 const MAX_ARTICLES = 50;
 const VIDEO_AGE_HOURS = 72;
 
@@ -137,34 +137,60 @@ function decodeXML(str) {
 
 // Generate article via OpenAI
 async function generateArticle(video) {
-  const prompt = 'You are a tech journalist for Synth, a curated AI media platform.\n' +
-    'Based on this YouTube video, write a short article for our news feed.\n\n' +
+  const prompt = 'You are a senior SEO-optimized tech journalist for Synth, a curated AI media platform.\n' +
+    'Based on this YouTube video, write a FULL SEO/GEO-optimized article for our platform.\n\n' +
     'VIDEO:\n' +
     'Title: ' + video.title + '\n' +
     'Channel: ' + video.channelName + '\n' +
     'Description: ' + video.description.slice(0, 1500) + '\n\n' +
     'RESPOND IN VALID JSON:\n' +
     '{\n' +
-    '  "title_ru": "Цепляющий заголовок на русском (макс 80 символов)",\n' +
-    '  "title_en": "Catchy English title (max 80 chars)",\n' +
-    '  "title_es": "Título en español (max 80 chars)",\n' +
-    '  "desc_ru": "1-2 предложения на русском (макс 200 символов)",\n' +
-    '  "desc_en": "1-2 sentences in English (max 200 chars)",\n' +
-    '  "desc_es": "1-2 frases en español (max 200 chars)",\n' +
-    '  "tag": "one of: ai, startups, cases, prompts, trends"\n' +
+    '  "title_ru": "SEO-заголовок на русском (H1, 50-70 символов, содержит ключевое слово)",\n' +
+    '  "title_en": "SEO title in English (H1, 50-70 chars, contains primary keyword)",\n' +
+    '  "title_es": "Título SEO en español (H1, 50-70 chars, contiene palabra clave)",\n' +
+    '  "desc_ru": "Мета-описание на русском (150-160 символов, с CTA)",\n' +
+    '  "desc_en": "Meta description in English (150-160 chars, with CTA)",\n' +
+    '  "desc_es": "Meta descripción en español (150-160 chars, con CTA)",\n' +
+    '  "body_ru": "Полная статья на русском в HTML (см. правила ниже)",\n' +
+    '  "body_en": "Full article in English in HTML (see rules below)",\n' +
+    '  "body_es": "Artículo completo en español en HTML (ver reglas abajo)",\n' +
+    '  "keywords_ru": "5-7 ключевых слов через запятую на русском",\n' +
+    '  "keywords_en": "5-7 keywords comma-separated in English",\n' +
+    '  "keywords_es": "5-7 palabras clave separadas por comas en español",\n' +
+    '  "slug": "url-friendly-slug-in-english",\n' +
+    '  "tag": "one of: ai, startups, cases, prompts, trends",\n' +
+    '  "read_time": 3\n' +
     '}\n\n' +
-    'Rules:\n' +
-    '- Title: informative and catchy, NO clickbait\n' +
-    '- Description: key insight or takeaway\n' +
+    'ARTICLE BODY HTML RULES (body_ru, body_en, body_es):\n' +
+    '- Start with a strong intro paragraph (no H1 — it is the title)\n' +
+    '- Use 2-3 <h2> subheadings with keywords\n' +
+    '- Use <ul><li> or <ol><li> bullet/numbered lists for key points\n' +
+    '- Use <strong> for important terms (good for GEO/AI snippets)\n' +
+    '- Use <blockquote> for key insights or quotes\n' +
+    '- 300-500 words per language\n' +
+    '- End with a conclusion paragraph with a takeaway\n' +
+    '- Include semantic HTML only: p, h2, ul, ol, li, strong, em, blockquote\n' +
+    '- NO <h1>, <script>, <style>, <div>, <span>, <a> tags\n\n' +
+    'SEO/GEO OPTIMIZATION RULES:\n' +
+    '- Title (H1): primary keyword in first 3 words when possible\n' +
+    '- Meta description: includes primary keyword + call-to-action\n' +
+    '- H2 subheadings: contain secondary keywords, structured for featured snippets\n' +
+    '- Lists: formatted for Google/AI snippet extraction\n' +
+    '- Keywords: mix of head terms and long-tail\n' +
+    '- Slug: 3-5 words, lowercase, hyphens only\n' +
+    '- read_time: estimated minutes to read (integer)\n\n' +
+    'WRITING RULES:\n' +
     '- tag: ai=AI tools/models, startups=startup news/funding, cases=real use cases, prompts=prompts/workflows, trends=industry trends\n' +
     '- Write naturally, no corporate speak\n' +
-    '- Russian: без канцелярита, живым языком';
+    '- Russian: без канцелярита, живым языком, по-человечески\n' +
+    '- Spanish: natural, conversational tone\n' +
+    '- Every article must provide actionable value to the reader';
 
   const response = await postJSON('https://api.openai.com/v1/chat/completions', {
     model: OPENAI_MODEL,
     messages: [{ role: 'user', content: prompt }],
     response_format: { type: 'json_object' },
-    max_tokens: 500,
+    max_tokens: 4000,
     temperature: 0.7
   }, {
     'Authorization': 'Bearer ' + OPENAI_API_KEY
@@ -180,7 +206,7 @@ async function generateArticle(video) {
   const parsed = JSON.parse(content);
 
   // Validate
-  var required = ['title_ru', 'title_en', 'desc_ru', 'desc_en', 'tag'];
+  var required = ['title_ru', 'title_en', 'desc_ru', 'desc_en', 'body_ru', 'body_en', 'tag'];
   for (var i = 0; i < required.length; i++) {
     if (!parsed[required[i]]) throw new Error('Missing: ' + required[i]);
   }
@@ -189,6 +215,20 @@ async function generateArticle(video) {
   if (validTags.indexOf(parsed.tag) === -1) {
     parsed.tag = video.defaultTag || 'trends';
   }
+
+  // Sanitize HTML bodies — allow only safe tags
+  var safeTags = ['p', 'h2', 'ul', 'ol', 'li', 'strong', 'em', 'blockquote'];
+  function sanitizeBody(html) {
+    if (!html) return '';
+    // Remove any tags not in safeTags
+    return html.replace(/<\/?([a-zA-Z][a-zA-Z0-9]*)\b[^>]*>/g, function(match, tagName) {
+      if (safeTags.indexOf(tagName.toLowerCase()) !== -1) return match;
+      return '';
+    });
+  }
+  parsed.body_ru = sanitizeBody(parsed.body_ru);
+  parsed.body_en = sanitizeBody(parsed.body_en);
+  parsed.body_es = sanitizeBody(parsed.body_es || '');
 
   return parsed;
 }
@@ -253,13 +293,21 @@ async function main() {
 
       newArticles.push({
         id: video.videoId,
+        slug: article.slug || video.videoId,
         title_ru: article.title_ru,
         title_en: article.title_en,
         title_es: article.title_es || article.title_en,
         desc_ru: article.desc_ru,
         desc_en: article.desc_en,
         desc_es: article.desc_es || article.desc_en,
+        body_ru: article.body_ru,
+        body_en: article.body_en,
+        body_es: article.body_es || article.body_en,
+        keywords_ru: article.keywords_ru || '',
+        keywords_en: article.keywords_en || '',
+        keywords_es: article.keywords_es || '',
         tag: article.tag,
+        read_time: article.read_time || 3,
         source: 'YouTube',
         source_url: video.url,
         channel: video.channelName,

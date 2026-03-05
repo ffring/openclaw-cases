@@ -288,6 +288,30 @@ a{color:inherit;text-decoration:none}
 .card-footer time{color:inherit}
 .card-footer span{opacity:.6}
 
+/* Article Modal */
+.article-modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);z-index:200;display:none;align-items:flex-start;justify-content:center;overflow-y:auto;padding:40px 20px;backdrop-filter:blur(4px)}
+.article-modal-overlay.open{display:flex}
+.article-modal{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;max-width:760px;width:100%;padding:40px;position:relative;animation:modalIn .2s ease}
+@keyframes modalIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.article-modal .modal-close{position:absolute;top:16px;right:16px;background:var(--secondary);border:none;color:var(--foreground);width:36px;height:36px;border-radius:50%;cursor:pointer;font-size:20px;display:flex;align-items:center;justify-content:center;transition:background .15s}
+.article-modal .modal-close:hover{background:var(--border)}
+.article-modal .modal-tag{display:inline-flex;padding:4px 12px;border-radius:999px;font-size:12px;font-weight:500;margin-bottom:12px}
+.article-modal .modal-title{font-size:28px;font-weight:700;line-height:1.3;margin-bottom:8px}
+.article-modal .modal-meta{font-size:13px;color:var(--muted-fg);margin-bottom:24px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.article-modal .modal-meta time{color:var(--muted-fg)}
+.article-modal .modal-meta .read-time{display:flex;align-items:center;gap:4px}
+.article-modal .modal-keywords{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:24px}
+.article-modal .modal-keywords .kw{padding:3px 10px;border-radius:999px;background:var(--secondary);color:var(--muted-fg);font-size:11px;font-family:var(--font-mono)}
+.article-modal .modal-body{font-size:16px;line-height:1.8;color:var(--foreground)}
+.article-modal .modal-body h2{font-size:20px;font-weight:600;margin:24px 0 12px;color:var(--foreground)}
+.article-modal .modal-body p{margin-bottom:16px}
+.article-modal .modal-body ul,.article-modal .modal-body ol{margin:12px 0 16px 24px}
+.article-modal .modal-body li{margin-bottom:8px}
+.article-modal .modal-body strong{color:var(--primary)}
+.article-modal .modal-body blockquote{border-left:3px solid var(--primary);padding:12px 20px;margin:16px 0;background:rgba(167,139,250,.05);border-radius:0 8px 8px 0;font-style:italic}
+.article-modal .modal-source{margin-top:24px;padding-top:16px;border-top:1px solid var(--border);font-size:13px;color:var(--muted-fg)}
+.article-modal .modal-source a{color:var(--primary);text-decoration:underline}
+
 /* Scrollbar */
 ::-webkit-scrollbar{width:6px}
 ::-webkit-scrollbar-track{background:transparent}
@@ -504,6 +528,23 @@ a{color:inherit;text-decoration:none}
   </main>
 </div>
 
+<!-- Article Modal -->
+<div class="article-modal-overlay" id="articleModal" role="dialog" aria-modal="true" aria-label="Статья">
+  <div class="article-modal">
+    <button class="modal-close" id="modalClose" aria-label="Закрыть">&times;</button>
+    <div id="modalTag" class="modal-tag"></div>
+    <h1 id="modalTitle" class="modal-title"></h1>
+    <div class="modal-meta">
+      <time id="modalDate"></time>
+      <span id="modalChannel"></span>
+      <span class="read-time"><span class="material-symbols-sharp" style="font-size:16px" aria-hidden="true">schedule</span> <span id="modalReadTime"></span></span>
+    </div>
+    <div class="modal-keywords" id="modalKeywords"></div>
+    <div class="modal-body" id="modalBody"></div>
+    <div class="modal-source" id="modalSource"></div>
+  </div>
+</div>
+
 <script>
 const i18n = {
   ru: {
@@ -686,6 +727,10 @@ function formatDate(dateStr, lang) {
   return day + ' ' + mon + ' ' + year;
 }
 
+var readTimeLabels = {
+  ru: 'мин чтения', en: 'min read', es: 'min lectura'
+};
+
 function createCard(a, lang) {
   var labels = tagLabels[lang] || tagLabels.en;
   var title = a['title_' + lang] || a.title_en || a.title_ru || '';
@@ -694,19 +739,21 @@ function createCard(a, lang) {
   var tagLabel = labels[tag] || tag;
   var date = formatDate(a.date, lang);
   var source = a.channel || a.source || '';
-  var link = a.source_url || '#';
+  var hasBody = a.body_ru || a.body_en;
 
   var article = document.createElement('article');
   article.className = 'card';
   article.setAttribute('itemscope', '');
   article.setAttribute('itemtype', 'https://schema.org/Article');
+  if (hasBody) article.style.cursor = 'pointer';
+
+  // Click to open full article
+  if (hasBody) {
+    article.addEventListener('click', function() { openArticle(a, lang); });
+  }
 
   // Thumbnail
   if (a.thumbnail) {
-    var imgLink = document.createElement('a');
-    imgLink.href = link;
-    imgLink.target = '_blank';
-    imgLink.rel = 'noopener';
     var img = document.createElement('img');
     img.className = 'card-image';
     img.src = a.thumbnail;
@@ -715,8 +762,7 @@ function createCard(a, lang) {
     img.width = 480;
     img.height = 360;
     img.setAttribute('itemprop', 'image');
-    imgLink.appendChild(img);
-    article.appendChild(imgLink);
+    article.appendChild(img);
   }
 
   var body = document.createElement('div');
@@ -728,17 +774,11 @@ function createCard(a, lang) {
   tagEl.textContent = tagLabel;
   body.appendChild(tagEl);
 
-  var titleLink = document.createElement('a');
-  titleLink.href = link;
-  titleLink.target = '_blank';
-  titleLink.rel = 'noopener';
-  titleLink.style.cssText = 'color:inherit;text-decoration:none';
   var h3 = document.createElement('h3');
   h3.className = 'card-title';
   h3.setAttribute('itemprop', 'headline');
   h3.textContent = title;
-  titleLink.appendChild(h3);
-  body.appendChild(titleLink);
+  body.appendChild(h3);
 
   var p = document.createElement('p');
   p.className = 'card-desc';
@@ -759,11 +799,114 @@ function createCard(a, lang) {
   time.setAttribute('itemprop', 'datePublished');
   time.textContent = date;
   footer.appendChild(time);
+  if (a.read_time) {
+    footer.appendChild(document.createTextNode(' '));
+    var dot2 = document.createElement('span');
+    dot2.setAttribute('aria-hidden', 'true');
+    dot2.textContent = '\u00B7';
+    footer.appendChild(dot2);
+    footer.appendChild(document.createTextNode(' ' + a.read_time + ' ' + (readTimeLabels[lang] || readTimeLabels.en)));
+  }
   body.appendChild(footer);
 
   article.appendChild(body);
   return article;
 }
+
+// Open article modal
+function openArticle(a, lang) {
+  var modal = document.getElementById('articleModal');
+  var labels = tagLabels[lang] || tagLabels.en;
+  var tag = a.tag || 'trends';
+  var title = a['title_' + lang] || a.title_en || a.title_ru || '';
+  var bodyHtml = a['body_' + lang] || a.body_en || a.body_ru || '';
+  var keywords = a['keywords_' + lang] || a.keywords_en || a.keywords_ru || '';
+  var date = formatDate(a.date, lang);
+  var source = a.channel || a.source || '';
+  var sourceUrl = a.source_url || '#';
+  var readTime = a.read_time || 3;
+  var readLabel = readTimeLabels[lang] || readTimeLabels.en;
+
+  document.getElementById('modalTag').className = 'modal-tag card-tag ' + tag;
+  document.getElementById('modalTag').textContent = labels[tag] || tag;
+  document.getElementById('modalTitle').textContent = title;
+  document.getElementById('modalDate').textContent = date;
+  document.getElementById('modalDate').setAttribute('datetime', a.date);
+  document.getElementById('modalChannel').textContent = source;
+  document.getElementById('modalReadTime').textContent = readTime + ' ' + readLabel;
+
+  // Keywords
+  var kwContainer = document.getElementById('modalKeywords');
+  kwContainer.textContent = '';
+  if (keywords) {
+    var kwArr = keywords.split(',');
+    for (var i = 0; i < kwArr.length; i++) {
+      var kw = document.createElement('span');
+      kw.className = 'kw';
+      kw.textContent = kwArr[i].trim();
+      kwContainer.appendChild(kw);
+    }
+  }
+
+  // Body — sanitized HTML from server, insert safely
+  var bodyEl = document.getElementById('modalBody');
+  bodyEl.textContent = '';
+  if (bodyHtml) {
+    // Parse sanitized HTML safely via DOMParser
+    var parser = new DOMParser();
+    var doc = parser.parseFromString(bodyHtml, 'text/html');
+    var nodes = doc.body.childNodes;
+    for (var j = 0; j < nodes.length; j++) {
+      bodyEl.appendChild(document.importNode(nodes[j], true));
+    }
+  }
+
+  // Source link
+  var srcEl = document.getElementById('modalSource');
+  srcEl.textContent = '';
+  var srcLabel = { ru: 'Источник: ', en: 'Source: ', es: 'Fuente: ' };
+  srcEl.appendChild(document.createTextNode(srcLabel[lang] || srcLabel.en));
+  var srcLink = document.createElement('a');
+  srcLink.href = sourceUrl;
+  srcLink.target = '_blank';
+  srcLink.rel = 'noopener';
+  srcLink.textContent = source + ' — YouTube';
+  srcEl.appendChild(srcLink);
+
+  // Update page meta for SEO (dynamic)
+  document.title = title + ' | Synth Media';
+  var metaDesc = a['desc_' + lang] || a.desc_en || '';
+  document.querySelector('meta[name="description"]')?.setAttribute('content', metaDesc);
+  document.querySelector('meta[property="og:title"]')?.setAttribute('content', title);
+  document.querySelector('meta[property="og:description"]')?.setAttribute('content', metaDesc);
+
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+// Close modal
+function closeArticle() {
+  var modal = document.getElementById('articleModal');
+  modal.classList.remove('open');
+  document.body.style.overflow = '';
+  // Restore original meta
+  var lang = localStorage.getItem('synth-lang') || 'ru';
+  var meta = langMeta[lang];
+  if (meta) {
+    document.title = meta.title;
+    document.querySelector('meta[name="description"]')?.setAttribute('content', meta.desc);
+    document.querySelector('meta[property="og:title"]')?.setAttribute('content', meta.title);
+    document.querySelector('meta[property="og:description"]')?.setAttribute('content', meta.desc);
+  }
+}
+
+document.getElementById('modalClose').addEventListener('click', closeArticle);
+document.getElementById('articleModal').addEventListener('click', function(e) {
+  if (e.target === this) closeArticle();
+});
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeArticle();
+});
 
 function renderCards(articles, lang) {
   var grid = document.querySelector('.cards-grid');
