@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
+Disallow: /.git/
+Disallow: /.claude/
+Disallow: /node_modules/
+Disallow: /scripts/
 
-Sitemap: https://openclaw-cases.pages.dev/sitemap.xml
+# Crawl-delay
+Crawl-delay: 1
+
+Sitemap: https://openclawtimes.com/sitemap.xml

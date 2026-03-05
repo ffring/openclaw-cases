@@ -1,14 +1,201 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Synth — AI, Стартапы, Кейсы, Промпты</title>
-<meta name="description" content="Synth — автонаполняемое медиа про AI, стартапы, кейсы и промпты">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
+<title>Synth — AI медиа: инструменты, стартапы, кейсы, промпты</title>
+<meta name="description" content="Synth — автонаполняемое медиа про AI-инструменты, стартапы, кейсы и промпты. Ежедневная курация на русском, английском и испанском.">
+<meta name="keywords" content="AI, искусственный интеллект, стартапы, кейсы, промпты, Claude, GPT, MCP, вайбкодинг, автоматизация, n8n, Cursor">
+<meta name="author" content="Synth Media">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="theme-color" content="#1a1128">
+<meta name="color-scheme" content="dark">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://openclawtimes.com/playground/">
+
+<!-- Hreflang -->
+<link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/?lang=ru">
+<link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/?lang=en">
+<link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/?lang=es">
+<link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Synth Media">
+<meta property="og:title" content="Synth — AI медиа: инструменты, стартапы, кейсы, промпты">
+<meta property="og:description" content="Автонаполняемое медиа про AI. Ежедневная курация: инструменты, стартапы, кейсы, промпты.">
+<meta property="og:url" content="https://openclawtimes.com/playground/">
+<meta property="og:image" content="https://openclawtimes.com/assets/og-synth.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Synth — AI медиа">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="es_ES">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Synth — AI медиа: инструменты, стартапы, кейсы, промпты">
+<meta name="twitter:description" content="Автонаполняемое медиа про AI. Ежедневная курация: инструменты, стартапы, кейсы, промпты.">
+<meta name="twitter:image" content="https://openclawtimes.com/assets/og-synth.png">
+<meta name="twitter:image:alt" content="Synth — AI медиа">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%25' stop-color='%23c084fc'/><stop offset='50%25' stop-color='%237c3aed'/><stop offset='100%25' stop-color='%234f46e5'/></linearGradient></defs><rect width='32' height='32' rx='6' fill='url(%23g)'/><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' fill='white' font-family='system-ui' font-size='18' font-weight='700'>S</text></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect width='180' height='180' rx='36' fill='%237c3aed'/><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' fill='white' font-family='system-ui' font-size='100' font-weight='700'>S</text></svg>">
+
+<!-- Preconnect -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://images.unsplash.com">
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
+
+<!-- JSON-LD: WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Synth Media",
+  "alternateName": ["Synth", "synth."],
+  "url": "https://openclawtimes.com/playground/",
+  "description": "Автонаполняемое медиа про AI-инструменты, стартапы, кейсы и промпты",
+  "inLanguage": ["ru", "en", "es"],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://openclawtimes.com/playground/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- JSON-LD: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Synth Media",
+  "url": "https://openclawtimes.com/playground/",
+  "logo": "https://openclawtimes.com/assets/og-synth.png",
+  "sameAs": [
+    "https://github.com/ffring/openclaw-cases"
+  ]
+}
+</script>
+
+<!-- JSON-LD: ItemList (Card Feed) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "AI медиа — последние материалы",
+  "itemListOrder": "https://schema.org/ItemListOrderDescending",
+  "numberOfItems": 9,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Article",
+        "headline": "Cursor добавил Background Agents: код пишется пока вы спите",
+        "description": "Новая фича позволяет запускать агентов в фоне и получать готовый результат утром.",
+        "datePublished": "2026-03-05",
+        "articleSection": "AI инструменты"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Article",
+        "headline": "Lovable привлёк $100M при оценке $2B — вайбкодинг выходит в мейнстрим",
+        "description": "Платформа для генерации приложений через промпты продолжает взрывной рост.",
+        "datePublished": "2026-03-03",
+        "articleSection": "Стартапы"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Article",
+        "headline": "MCP серверы становятся новым стандартом для AI-интеграций",
+        "description": "Почему Model Context Protocol меняет правила игры для разработчиков и бизнеса.",
+        "datePublished": "2026-03-05",
+        "articleSection": "Тренды"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Article",
+        "headline": "Промпт для глубокого ресёрча конкурентов через Claude",
+        "description": "Системный промпт для анализа 5 конкурентов.",
+        "datePublished": "2026-03-04",
+        "articleSection": "Промпты"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Article",
+        "headline": "Как мы собрали SaaS за 48 часов с Claude Code и запустили на Product Hunt",
+        "description": "Полный разбор: стек, промпты, ошибки и результаты первого месяца.",
+        "datePublished": "2026-03-02",
+        "articleSection": "Кейсы"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Article",
+        "headline": "Claude Code 4.6 — обзор Opus и новых возможностей",
+        "description": "Что нового в Claude Code: команды, хуки, подагенты и работа в команде.",
+        "datePublished": "2026-03-04",
+        "articleSection": "AI инструменты"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Article",
+        "headline": "5 промптов для создания контент-плана на месяц за 10 минут",
+        "description": "Готовые шаблоны для GPT-4 и Claude.",
+        "datePublished": "2026-03-01",
+        "articleSection": "Промпты"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Article",
+        "headline": "Автоматизация маркетинга через n8n + Claude: кейс агентства",
+        "description": "Как мы сократили время на рутину в 4 раза.",
+        "datePublished": "2026-02-28",
+        "articleSection": "Кейсы"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Article",
+        "headline": "Вайбкодинг убивает джунов или создаёт новую профессию?",
+        "description": "Разбираем тренд: кто выиграет и проиграет от массового AI-кодинга.",
+        "datePublished": "2026-02-27",
+        "articleSection": "Тренды"
+      }
+    }
+  ]
+}
+</script>
+
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -31,6 +218,10 @@ html{-webkit-font-smoothing:antialiased;scroll-behavior:smooth}
 body{font-family:var(--font-sans);background:var(--bg);color:var(--foreground);line-height:1.6;min-height:100vh;display:flex}
 a{color:inherit;text-decoration:none}
 ::selection{background:var(--primary);color:#fff}
+
+/* Skip to content (a11y) */
+.skip-link{position:absolute;top:-40px;left:0;background:var(--primary);color:#fff;padding:8px 16px;z-index:100;font-size:14px;border-radius:0 0 4px 0;transition:top .2s}
+.skip-link:focus{top:0}
 
 /* Layout */
 .app{display:flex;width:100%;height:100vh;overflow:hidden}
@@ -74,7 +265,7 @@ a{color:inherit;text-decoration:none}
 .header-left .material-symbols-sharp{font-size:24px;color:var(--primary);font-variation-settings:'wght' 100}
 .header-title{font-size:24px;font-weight:600}
 .tabs{display:flex;gap:0;padding:4px;border-radius:999px;background:var(--secondary)}
-.tab{padding:6px 16px;border-radius:999px;font-size:14px;cursor:pointer;transition:all .15s;color:var(--muted-fg);font-weight:500}
+.tab{padding:6px 16px;border-radius:999px;font-size:14px;cursor:pointer;transition:all .15s;color:var(--muted-fg);font-weight:500;border:none;background:none;font-family:inherit}
 .tab:hover{color:var(--foreground)}
 .tab.active{background:var(--bg);color:var(--foreground);box-shadow:0 1px 3px rgba(0,0,0,.15)}
 
@@ -94,6 +285,7 @@ a{color:inherit;text-decoration:none}
 .card-title{font-size:15px;font-weight:600;line-height:1.4;color:var(--foreground)}
 .card-desc{font-size:13px;line-height:1.5;color:var(--muted-fg)}
 .card-footer{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--muted-fg)}
+.card-footer time{color:inherit}
 .card-footer span{opacity:.6}
 
 /* Scrollbar */
@@ -108,6 +300,7 @@ a{color:inherit;text-decoration:none}
   .sidebar{display:none}
   .content{padding:20px}
   .cards-grid{grid-template-columns:1fr}
+  .content-header{flex-wrap:wrap;gap:12px}
 }
 
 .material-symbols-sharp{font-variation-settings:'FILL' 0,'wght' 100,'GRAD' 0,'opsz' 24}
@@ -120,192 +313,194 @@ a{color:inherit;text-decoration:none}
 </style>
 </head>
 <body>
+<a href="#main-content" class="skip-link">Перейти к контенту</a>
+
 <div class="app">
   <!-- Sidebar -->
-  <aside class="sidebar">
+  <aside class="sidebar" role="complementary" aria-label="Боковое меню">
     <div class="sidebar-logo">
-      <div class="logo-icon">S</div>
+      <div class="logo-icon" role="img" aria-label="Synth логотип">S</div>
       <span class="logo-text">synth.</span>
     </div>
 
-    <div class="sidebar-search">
+    <div class="sidebar-search" role="search">
       <div class="search-wrap">
-        <span class="material-symbols-sharp">search</span>
-        <input type="text" class="search-input" placeholder="Поиск..." data-i18n-placeholder="search">
+        <span class="material-symbols-sharp" aria-hidden="true">search</span>
+        <input type="search" class="search-input" placeholder="Поиск..." data-i18n-placeholder="search" aria-label="Поиск материалов">
       </div>
     </div>
 
-    <nav class="sidebar-section">
-      <div class="section-title" data-i18n="nav_categories">Категории</div>
-      <a class="nav-item active">
-        <span class="material-symbols-sharp">grid_view</span>
+    <nav class="sidebar-section" aria-label="Основная навигация">
+      <h2 class="section-title" data-i18n="nav_categories">Категории</h2>
+      <a href="#all" class="nav-item active" aria-current="page">
+        <span class="material-symbols-sharp" aria-hidden="true">grid_view</span>
         <span data-i18n="nav_all">Все материалы</span>
       </a>
-      <a class="nav-item">
-        <span class="material-symbols-sharp">smart_toy</span>
+      <a href="#ai" class="nav-item">
+        <span class="material-symbols-sharp" aria-hidden="true">smart_toy</span>
         <span data-i18n="nav_ai">AI инструменты</span>
       </a>
-      <a class="nav-item">
-        <span class="material-symbols-sharp">rocket_launch</span>
+      <a href="#startups" class="nav-item">
+        <span class="material-symbols-sharp" aria-hidden="true">rocket_launch</span>
         <span data-i18n="nav_startups">Стартапы</span>
       </a>
-      <a class="nav-item">
-        <span class="material-symbols-sharp">cases</span>
+      <a href="#cases" class="nav-item">
+        <span class="material-symbols-sharp" aria-hidden="true">cases</span>
         <span data-i18n="nav_cases">Кейсы</span>
       </a>
-      <a class="nav-item">
-        <span class="material-symbols-sharp">edit_note</span>
+      <a href="#prompts" class="nav-item">
+        <span class="material-symbols-sharp" aria-hidden="true">edit_note</span>
         <span data-i18n="nav_prompts">Промпты</span>
       </a>
-      <a class="nav-item">
-        <span class="material-symbols-sharp">trending_up</span>
+      <a href="#trends" class="nav-item">
+        <span class="material-symbols-sharp" aria-hidden="true">trending_up</span>
         <span data-i18n="nav_trends">Тренды</span>
       </a>
-      <div class="section-title" style="margin-top:8px">OpenClaw</div>
-      <a class="nav-item">
-        <span class="material-symbols-sharp">bug_report</span>
+      <h2 class="section-title" style="margin-top:8px">OpenClaw</h2>
+      <a href="#agent-cases" class="nav-item">
+        <span class="material-symbols-sharp" aria-hidden="true">bug_report</span>
         <span data-i18n="nav_agent_cases">Кейсы агентов</span>
       </a>
-      <a class="nav-item">
-        <span class="material-symbols-sharp">terminal</span>
+      <a href="#integrations" class="nav-item">
+        <span class="material-symbols-sharp" aria-hidden="true">terminal</span>
         <span data-i18n="nav_integrations">Интеграции</span>
       </a>
     </nav>
 
     <div class="sidebar-tags">
-      <div class="section-title" data-i18n="nav_tags">Теги</div>
-      <div class="tags-wrap">
-        <span class="tag-pill">GPT</span>
-        <span class="tag-pill">Claude</span>
-        <span class="tag-pill">Cursor</span>
-        <span class="tag-pill">n8n</span>
-        <span class="tag-pill">MCP</span>
-        <span class="tag-pill">Lovable</span>
+      <h2 class="section-title" data-i18n="nav_tags">Теги</h2>
+      <div class="tags-wrap" role="list" aria-label="Популярные теги">
+        <span class="tag-pill" role="listitem">GPT</span>
+        <span class="tag-pill" role="listitem">Claude</span>
+        <span class="tag-pill" role="listitem">Cursor</span>
+        <span class="tag-pill" role="listitem">n8n</span>
+        <span class="tag-pill" role="listitem">MCP</span>
+        <span class="tag-pill" role="listitem">Lovable</span>
       </div>
     </div>
 
     <div class="sidebar-spacer"></div>
 
-    <div class="sidebar-footer">
-      <div class="footer-avatar">
-        <span style="font-size:14px">🦞</span>
+    <footer class="sidebar-footer">
+      <div class="footer-avatar" role="img" aria-label="Synth аватар">
+        <span style="font-size:14px" aria-hidden="true">🦞</span>
       </div>
       <div class="footer-info">
         <div class="footer-name">synth.media</div>
         <div class="footer-desc" data-i18n="footer_desc">Автонаполняемое медиа</div>
       </div>
-    </div>
+    </footer>
   </aside>
 
   <!-- Content -->
-  <main class="content">
-    <div class="content-header">
+  <main class="content" id="main-content">
+    <header class="content-header">
       <div class="header-left">
-        <span class="material-symbols-sharp">grid_view</span>
+        <span class="material-symbols-sharp" aria-hidden="true">grid_view</span>
         <h1 class="header-title" data-i18n="nav_all">Все материалы</h1>
       </div>
-      <div class="tabs">
-        <div class="tab active" data-i18n="tab_new">Новое</div>
-        <div class="tab" data-i18n="tab_popular">Популярное</div>
-        <div class="tab" data-i18n="tab_cases">Кейсы</div>
+      <div class="tabs" role="tablist" aria-label="Сортировка">
+        <button class="tab active" role="tab" aria-selected="true" data-i18n="tab_new">Новое</button>
+        <button class="tab" role="tab" aria-selected="false" data-i18n="tab_popular">Популярное</button>
+        <button class="tab" role="tab" aria-selected="false" data-i18n="tab_cases">Кейсы</button>
       </div>
-      <div class="lang-switch">
-        <button class="lang-btn active" data-lang="ru" title="Русский">🇷🇺</button>
-        <button class="lang-btn" data-lang="en" title="English">🇬🇧</button>
-        <button class="lang-btn" data-lang="es" title="Español">🇪🇸</button>
+      <div class="lang-switch" role="group" aria-label="Выбор языка">
+        <button class="lang-btn active" data-lang="ru" title="Русский" aria-label="Русский">🇷🇺</button>
+        <button class="lang-btn" data-lang="en" title="English" aria-label="English">🇬🇧</button>
+        <button class="lang-btn" data-lang="es" title="Español" aria-label="Español">🇪🇸</button>
       </div>
-    </div>
+    </header>
 
-    <div class="cards-grid">
-      <article class="card">
-        <div class="card-image-placeholder" style="background:linear-gradient(135deg,#2a1f45 0%,#4c1d95 50%,#1a1128 100%)">
-          <span class="material-symbols-sharp" style="font-size:48px;color:#a78bfa33">code</span>
+    <section class="cards-grid" aria-label="Лента материалов">
+      <article class="card" itemscope itemtype="https://schema.org/Article">
+        <div class="card-image-placeholder" style="background:linear-gradient(135deg,#2a1f45 0%,#4c1d95 50%,#1a1128 100%)" role="img" aria-label="Иллюстрация: фоновые AI-агенты в IDE">
+          <span class="material-symbols-sharp" style="font-size:48px;color:#a78bfa33" aria-hidden="true">code</span>
         </div>
         <div class="card-body">
-          <span class="card-tag ai" data-i18n="tag_ai">AI инструменты</span>
-          <div class="card-title" data-i18n="c1_title">Cursor добавил Background Agents: код пишется пока вы спите</div>
-          <div class="card-desc" data-i18n="c1_desc">Новая фича позволяет запускать агентов в фоне и получать готовый результат утром.</div>
-          <div class="card-footer">x.com <span>&middot;</span> 5 мар 2026</div>
+          <span class="card-tag ai" data-i18n="tag_ai" itemprop="articleSection">AI инструменты</span>
+          <h3 class="card-title" data-i18n="c1_title" itemprop="headline">Cursor добавил Background Agents: код пишется пока вы спите</h3>
+          <p class="card-desc" data-i18n="c1_desc" itemprop="description">Новая фича позволяет запускать агентов в фоне и получать готовый результат утром.</p>
+          <div class="card-footer">x.com <span aria-hidden="true">&middot;</span> <time datetime="2026-03-05" itemprop="datePublished">5 мар 2026</time></div>
         </div>
       </article>
 
-      <article class="card">
-        <img class="card-image" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=300&fit=crop" alt="">
+      <article class="card" itemscope itemtype="https://schema.org/Article">
+        <img class="card-image" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=300&fit=crop" alt="Команда стартапа работает над проектом" loading="lazy" width="600" height="300" itemprop="image">
         <div class="card-body">
-          <span class="card-tag startups" data-i18n="tag_startups">Стартапы</span>
-          <div class="card-title" data-i18n="c2_title">Lovable привлёк $100M при оценке $2B — вайбкодинг выходит в мейнстрим</div>
-          <div class="card-desc" data-i18n="c2_desc">Платформа для генерации приложений через промпты продолжает взрывной рост. Разбираем модель.</div>
-          <div class="card-footer">reddit.com <span>&middot;</span> 3 мар 2026</div>
+          <span class="card-tag startups" data-i18n="tag_startups" itemprop="articleSection">Стартапы</span>
+          <h3 class="card-title" data-i18n="c2_title" itemprop="headline">Lovable привлёк $100M при оценке $2B — вайбкодинг выходит в мейнстрим</h3>
+          <p class="card-desc" data-i18n="c2_desc" itemprop="description">Платформа для генерации приложений через промпты продолжает взрывной рост. Разбираем модель.</p>
+          <div class="card-footer">reddit.com <span aria-hidden="true">&middot;</span> <time datetime="2026-03-03" itemprop="datePublished">3 мар 2026</time></div>
         </div>
       </article>
 
-      <article class="card">
+      <article class="card" itemscope itemtype="https://schema.org/Article">
         <div class="card-body">
-          <span class="card-tag trends" data-i18n="tag_trends">Тренды</span>
-          <div class="card-title" data-i18n="c3_title">MCP серверы становятся новым стандартом для AI-интеграций</div>
-          <div class="card-desc" data-i18n="c3_desc">Почему Model Context Protocol меняет правила игры для разработчиков и бизнеса.</div>
-          <div class="card-footer">x.com <span>&middot;</span> 5 мар 2026</div>
+          <span class="card-tag trends" data-i18n="tag_trends" itemprop="articleSection">Тренды</span>
+          <h3 class="card-title" data-i18n="c3_title" itemprop="headline">MCP серверы становятся новым стандартом для AI-интеграций</h3>
+          <p class="card-desc" data-i18n="c3_desc" itemprop="description">Почему Model Context Protocol меняет правила игры для разработчиков и бизнеса.</p>
+          <div class="card-footer">x.com <span aria-hidden="true">&middot;</span> <time datetime="2026-03-05" itemprop="datePublished">5 мар 2026</time></div>
         </div>
       </article>
 
-      <article class="card">
+      <article class="card" itemscope itemtype="https://schema.org/Article">
         <div class="card-body">
-          <span class="card-tag prompts" data-i18n="tag_prompts">Промпты</span>
-          <div class="card-title" data-i18n="c4_title">Промпт для глубокого ресёрча конкурентов через Claude</div>
-          <div class="card-desc" data-i18n="c4_desc">Системный промпт для анализа 5 конкурентов: позиционирование, цены, воронки, слабые места.</div>
-          <div class="card-footer">telegram <span>&middot;</span> 4 мар 2026</div>
+          <span class="card-tag prompts" data-i18n="tag_prompts" itemprop="articleSection">Промпты</span>
+          <h3 class="card-title" data-i18n="c4_title" itemprop="headline">Промпт для глубокого ресёрча конкурентов через Claude</h3>
+          <p class="card-desc" data-i18n="c4_desc" itemprop="description">Системный промпт для анализа 5 конкурентов: позиционирование, цены, воронки, слабые места.</p>
+          <div class="card-footer">telegram <span aria-hidden="true">&middot;</span> <time datetime="2026-03-04" itemprop="datePublished">4 мар 2026</time></div>
         </div>
       </article>
 
-      <article class="card">
+      <article class="card" itemscope itemtype="https://schema.org/Article">
         <div class="card-body">
-          <span class="card-tag cases" data-i18n="tag_cases">Кейсы</span>
-          <div class="card-title" data-i18n="c5_title">Как мы собрали SaaS за 48 часов с Claude Code и запустили на Product Hunt</div>
-          <div class="card-desc" data-i18n="c5_desc">Полный разбор: стек, промпты, ошибки и результаты первого месяца.</div>
-          <div class="card-footer">github.com <span>&middot;</span> 2 мар 2026</div>
+          <span class="card-tag cases" data-i18n="tag_cases" itemprop="articleSection">Кейсы</span>
+          <h3 class="card-title" data-i18n="c5_title" itemprop="headline">Как мы собрали SaaS за 48 часов с Claude Code и запустили на Product Hunt</h3>
+          <p class="card-desc" data-i18n="c5_desc" itemprop="description">Полный разбор: стек, промпты, ошибки и результаты первого месяца.</p>
+          <div class="card-footer">github.com <span aria-hidden="true">&middot;</span> <time datetime="2026-03-02" itemprop="datePublished">2 мар 2026</time></div>
         </div>
       </article>
 
-      <article class="card">
-        <div class="card-image-placeholder" style="background:linear-gradient(135deg,#1e1145,#4c1d95 60%,#7c3aed)">
-          <span class="material-symbols-sharp" style="font-size:48px;color:#a78bfa33">neurology</span>
+      <article class="card" itemscope itemtype="https://schema.org/Article">
+        <div class="card-image-placeholder" style="background:linear-gradient(135deg,#1e1145,#4c1d95 60%,#7c3aed)" role="img" aria-label="Иллюстрация: нейросеть и AI-возможности">
+          <span class="material-symbols-sharp" style="font-size:48px;color:#a78bfa33" aria-hidden="true">neurology</span>
         </div>
         <div class="card-body">
-          <span class="card-tag ai" data-i18n="tag_ai">AI инструменты</span>
-          <div class="card-title" data-i18n="c6_title">Claude Code 4.6 — обзор Opus и новых возможностей</div>
-          <div class="card-desc" data-i18n="c6_desc">Что нового в Claude Code: команды, хуки, подагенты и работа в команде.</div>
-          <div class="card-footer">anthropic.com <span>&middot;</span> 4 мар 2026</div>
+          <span class="card-tag ai" data-i18n="tag_ai" itemprop="articleSection">AI инструменты</span>
+          <h3 class="card-title" data-i18n="c6_title" itemprop="headline">Claude Code 4.6 — обзор Opus и новых возможностей</h3>
+          <p class="card-desc" data-i18n="c6_desc" itemprop="description">Что нового в Claude Code: команды, хуки, подагенты и работа в команде.</p>
+          <div class="card-footer">anthropic.com <span aria-hidden="true">&middot;</span> <time datetime="2026-03-04" itemprop="datePublished">4 мар 2026</time></div>
         </div>
       </article>
 
-      <article class="card">
+      <article class="card" itemscope itemtype="https://schema.org/Article">
         <div class="card-body">
-          <span class="card-tag prompts" data-i18n="tag_prompts">Промпты</span>
-          <div class="card-title" data-i18n="c7_title">5 промптов для создания контент-плана на месяц за 10 минут</div>
-          <div class="card-desc" data-i18n="c7_desc">Готовые шаблоны для GPT-4 и Claude: от идей до готовых постов для Telegram и Instagram.</div>
-          <div class="card-footer">telegram <span>&middot;</span> 1 мар 2026</div>
+          <span class="card-tag prompts" data-i18n="tag_prompts" itemprop="articleSection">Промпты</span>
+          <h3 class="card-title" data-i18n="c7_title" itemprop="headline">5 промптов для создания контент-плана на месяц за 10 минут</h3>
+          <p class="card-desc" data-i18n="c7_desc" itemprop="description">Готовые шаблоны для GPT-4 и Claude: от идей до готовых постов для Telegram и Instagram.</p>
+          <div class="card-footer">telegram <span aria-hidden="true">&middot;</span> <time datetime="2026-03-01" itemprop="datePublished">1 мар 2026</time></div>
         </div>
       </article>
 
-      <article class="card">
-        <img class="card-image" src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=300&fit=crop" alt="">
+      <article class="card" itemscope itemtype="https://schema.org/Article">
+        <img class="card-image" src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=300&fit=crop" alt="Рабочее пространство маркетолога с дашбордами" loading="lazy" width="600" height="300" itemprop="image">
         <div class="card-body">
-          <span class="card-tag cases" data-i18n="tag_cases">Кейсы</span>
-          <div class="card-title" data-i18n="c8_title">Автоматизация маркетинга через n8n + Claude: кейс агентства</div>
-          <div class="card-desc" data-i18n="c8_desc">Как мы сократили время на рутину в 4 раза и масштабировали продакшн контента.</div>
-          <div class="card-footer">github.com <span>&middot;</span> 28 фев 2026</div>
+          <span class="card-tag cases" data-i18n="tag_cases" itemprop="articleSection">Кейсы</span>
+          <h3 class="card-title" data-i18n="c8_title" itemprop="headline">Автоматизация маркетинга через n8n + Claude: кейс агентства</h3>
+          <p class="card-desc" data-i18n="c8_desc" itemprop="description">Как мы сократили время на рутину в 4 раза и масштабировали продакшн контента.</p>
+          <div class="card-footer">github.com <span aria-hidden="true">&middot;</span> <time datetime="2026-02-28" itemprop="datePublished">28 фев 2026</time></div>
         </div>
       </article>
 
-      <article class="card">
+      <article class="card" itemscope itemtype="https://schema.org/Article">
         <div class="card-body">
-          <span class="card-tag trends" data-i18n="tag_trends">Тренды</span>
-          <div class="card-title" data-i18n="c9_title">Вайбкодинг убивает джунов или создаёт новую профессию?</div>
-          <div class="card-desc" data-i18n="c9_desc">Разбираем тренд: кто выиграет и проиграет от массового AI-кодинга.</div>
-          <div class="card-footer">x.com <span>&middot;</span> 27 фев 2026</div>
+          <span class="card-tag trends" data-i18n="tag_trends" itemprop="articleSection">Тренды</span>
+          <h3 class="card-title" data-i18n="c9_title" itemprop="headline">Вайбкодинг убивает джунов или создаёт новую профессию?</h3>
+          <p class="card-desc" data-i18n="c9_desc" itemprop="description">Разбираем тренд: кто выиграет и проиграет от массового AI-кодинга.</p>
+          <div class="card-footer">x.com <span aria-hidden="true">&middot;</span> <time datetime="2026-02-27" itemprop="datePublished">27 фев 2026</time></div>
         </div>
       </article>
-    </div>
+    </section>
   </main>
 </div>
 
@@ -394,6 +589,12 @@ const i18n = {
   }
 };
 
+const langMeta = {
+  ru: { title: "Synth — AI медиа: инструменты, стартапы, кейсы, промпты", desc: "Автонаполняемое медиа про AI. Ежедневная курация: инструменты, стартапы, кейсы, промпты." },
+  en: { title: "Synth — AI Media: Tools, Startups, Cases, Prompts", desc: "Auto-populated AI media. Daily curation: tools, startups, cases, prompts." },
+  es: { title: "Synth — AI Media: Herramientas, Startups, Casos, Prompts", desc: "Media AI autogenerado. Curación diaria: herramientas, startups, casos, prompts." }
+};
+
 function setLang(lang) {
   const t = i18n[lang];
   if (!t) return;
@@ -407,7 +608,23 @@ function setLang(lang) {
     if (t[key]) el.placeholder = t[key];
   });
   document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+  // Update meta
+  const meta = langMeta[lang];
+  if (meta) {
+    document.title = meta.title;
+    document.querySelector('meta[name="description"]')?.setAttribute('content', meta.desc);
+    document.querySelector('meta[property="og:title"]')?.setAttribute('content', meta.title);
+    document.querySelector('meta[property="og:description"]')?.setAttribute('content', meta.desc);
+    document.querySelector('meta[name="twitter:title"]')?.setAttribute('content', meta.title);
+    document.querySelector('meta[name="twitter:description"]')?.setAttribute('content', meta.desc);
+  }
   localStorage.setItem('synth-lang', lang);
+  // Update URL for hreflang hint
+  if (history.replaceState) {
+    const url = new URL(window.location);
+    if (lang === 'ru') { url.searchParams.delete('lang'); } else { url.searchParams.set('lang', lang); }
+    history.replaceState(null, '', url);
+  }
 }
 
 // Lang switcher
@@ -418,8 +635,9 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
 // Tab switching
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
     tab.classList.add('active');
+    tab.setAttribute('aria-selected', 'true');
   });
 });
 
@@ -427,8 +645,9 @@ document.querySelectorAll('.tab').forEach(tab => {
 document.querySelectorAll('.nav-item').forEach(item => {
   item.addEventListener('click', (e) => {
     e.preventDefault();
-    document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+    document.querySelectorAll('.nav-item').forEach(i => { i.classList.remove('active'); i.removeAttribute('aria-current'); });
     item.classList.add('active');
+    item.setAttribute('aria-current', 'page');
     const titleKey = item.querySelector('[data-i18n]')?.dataset.i18n;
     if (titleKey) {
       const lang = localStorage.getItem('synth-lang') || 'ru';
@@ -437,9 +656,10 @@ document.querySelectorAll('.nav-item').forEach(item => {
   });
 });
 
-// Init saved lang
-const savedLang = localStorage.getItem('synth-lang');
-if (savedLang && savedLang !== 'ru') setLang(savedLang);
+// Init: check URL param first, then localStorage
+const urlLang = new URLSearchParams(window.location.search).get('lang');
+const initLang = urlLang && i18n[urlLang] ? urlLang : (localStorage.getItem('synth-lang') || 'ru');
+if (initLang !== 'ru') setLang(initLang);
 </script>
 </body>
 </html>
