@@ -63,10 +63,9 @@ function generateArticlePage(a) {
     '<meta name="twitter:image" content="' + escAttr(a.thumbnail) + '">\n' +
     '<meta name="theme-color" content="#1a1128">\n' +
     '<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 32 32\'><rect width=\'32\' height=\'32\' rx=\'6\' fill=\'%237c3aed\'/><text x=\'50%25\' y=\'50%25\' dominant-baseline=\'central\' text-anchor=\'middle\' fill=\'white\' font-family=\'system-ui\' font-size=\'18\' font-weight=\'700\'>S</text></svg>">\n' +
-    '<link rel="preconnect" href="https://fonts.googleapis.com">\n' +
-    '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n' +
-    '<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">\n' +
-    '<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">\n' +
+    '<link rel="preload" href="/assets/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>\n' +
+    '<link rel="preconnect" href="https://i.ytimg.com">\n' +
+    '<link rel="dns-prefetch" href="https://i.ytimg.com">\n' +
     '<script type="application/ld+json">\n' +
     JSON.stringify({
       "@context": "https://schema.org",
@@ -83,8 +82,12 @@ function generateArticlePage(a) {
       "keywords": (a.keywords_en || '').split(',').map(function(k) { return k.trim(); })
     }) + '\n</script>\n' +
     '<style>\n' +
+    '@font-face{font-family:Geist;font-style:normal;font-weight:100 900;font-display:swap;src:url(/assets/fonts/geist-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}\n' +
+    '@font-face{font-family:Geist;font-style:normal;font-weight:100 900;font-display:swap;src:url(/assets/fonts/geist-cyrillic.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}\n' +
+    '@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/jbmono-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}\n' +
+    '@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/jbmono-cyrillic.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}\n' +
     '*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}\n' +
-    ':root{--bg:#1a1128;--bg-card:#251d38;--border:#352d4a;--primary:#a78bfa;--foreground:#f0eaf8;--muted-fg:#8b82a0;--secondary:#2a2040;--font-sans:\'Geist\',system-ui,sans-serif;--font-mono:\'JetBrains Mono\',monospace}\n' +
+    ':root{--bg:#1a1128;--bg-card:#251d38;--border:#352d4a;--primary:#a78bfa;--foreground:#f0eaf8;--muted-fg:#9f97b5;--secondary:#2a2040;--font-sans:Geist,system-ui,sans-serif;--font-mono:"JetBrains Mono",monospace}\n' +
     'html{-webkit-font-smoothing:antialiased;scroll-behavior:smooth}\n' +
     'body{font-family:var(--font-sans);background:var(--bg);color:var(--foreground);line-height:1.6;min-height:100vh}\n' +
     'a{color:var(--primary);text-decoration:none}\n' +
@@ -116,7 +119,7 @@ function generateArticlePage(a) {
     '.lang-btn{width:32px;height:28px;border:none;border-radius:999px;cursor:pointer;font-size:16px;background:transparent;transition:all .15s;display:flex;align-items:center;justify-content:center}\n' +
     '.lang-btn:hover{background:rgba(167,139,250,.2)}\n' +
     '.lang-btn.active{background:var(--bg);box-shadow:0 1px 3px rgba(0,0,0,.15)}\n' +
-    '.material-symbols-sharp{font-variation-settings:\'FILL\' 0,\'wght\' 100,\'GRAD\' 0,\'opsz\' 24}\n' +
+    '.icon{display:inline-block;vertical-align:middle;fill:currentColor;flex-shrink:0}\n' +
     '@media(max-width:600px){.article-title{font-size:24px}.article-body{font-size:15px}}\n' +
     '</style>\n</head>\n<body>\n' +
     '<div class="lang-switch" role="group" aria-label="Language">\n' +
@@ -125,14 +128,14 @@ function generateArticlePage(a) {
     '  <button class="lang-btn" data-lang="es" aria-label="Español">🇪🇸</button>\n' +
     '</div>\n' +
     '<article class="article-page" itemscope itemtype="https://schema.org/Article">\n' +
-    '  <a href="/playground/" class="back-link"><span class="material-symbols-sharp" style="font-size:18px">arrow_back</span> <span data-i18n="back">Назад к ленте</span></a>\n' +
-    '  <img class="article-hero" src="' + escAttr(a.thumbnail) + '" alt="' + escAttr(a.title_en) + '" itemprop="image" width="760" height="400">\n' +
+    '  <a href="/playground/" class="back-link"><svg class="icon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg> <span data-i18n="back">Назад к ленте</span></a>\n' +
+    '  <picture><source type="image/webp" srcset="https://i.ytimg.com/vi_webp/' + escAttr(a.video_id) + '/mqdefault.webp 320w,https://i.ytimg.com/vi_webp/' + escAttr(a.video_id) + '/hqdefault.webp 480w,https://i.ytimg.com/vi_webp/' + escAttr(a.video_id) + '/sddefault.webp 640w" sizes="(max-width:600px) 100vw,760px"><img class="article-hero" src="' + escAttr(a.thumbnail) + '" srcset="https://i.ytimg.com/vi/' + escAttr(a.video_id) + '/mqdefault.jpg 320w,https://i.ytimg.com/vi/' + escAttr(a.video_id) + '/hqdefault.jpg 480w,https://i.ytimg.com/vi/' + escAttr(a.video_id) + '/sddefault.jpg 640w" sizes="(max-width:600px) 100vw,760px" alt="' + escAttr(a.title_en) + '" itemprop="image" width="760" height="400" decoding="async" fetchpriority="high"></picture>\n' +
     '  <span class="article-tag ' + tag + '" itemprop="articleSection" data-i18n="tag_' + tag + '">' + escAttr((tagLabels.ru[tag] || tag)) + '</span>\n' +
     '  <h1 class="article-title" itemprop="headline" data-i18n="title">' + escAttr(a.title_ru) + '</h1>\n' +
     '  <div class="article-meta">\n' +
     '    <time datetime="' + a.date + '" itemprop="datePublished" data-i18n="date">' + a.date + '</time>\n' +
     '    <span>' + escAttr(a.channel) + '</span>\n' +
-    '    <span><span class="material-symbols-sharp" style="font-size:16px;vertical-align:middle">schedule</span> <span data-i18n="read_time">' + (a.read_time || 3) + ' мин чтения</span></span>\n' +
+    '    <span><svg class="icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg> <span data-i18n="read_time">' + (a.read_time || 3) + ' мин чтения</span></span>\n' +
     '  </div>\n' +
     '  <div class="article-keywords" data-i18n-keywords="keywords_ru">' + buildKeywordPills(a.keywords_ru) + '</div>\n' +
     '  <div class="article-body" itemprop="articleBody" data-i18n-body="body_ru">' + (a.body_ru || '') + '</div>\n' +
@@ -142,10 +145,11 @@ function generateArticlePage(a) {
     'var articleData=' + JSON.stringify({
       title_ru: a.title_ru, title_en: a.title_en, title_es: a.title_es,
       desc_ru: a.desc_ru, desc_en: a.desc_en, desc_es: a.desc_es,
-      body_ru: a.body_ru, body_en: a.body_en, body_es: a.body_es,
+      body_en: a.body_en, body_es: a.body_es,
       keywords_ru: a.keywords_ru, keywords_en: a.keywords_en, keywords_es: a.keywords_es,
       tag: a.tag, date: a.date, read_time: a.read_time
     }) + ';\n' +
+    'var origBodyRu=document.querySelector("[data-i18n-body]").innerHTML;\n' +
     'var tagLabels=' + JSON.stringify(tagLabels) + ';\n' +
     'var readLabels={ru:"мин чтения",en:"min read",es:"min lectura"};\n' +
     'var backLabels={ru:"Назад к ленте",en:"Back to feed",es:"Volver al feed"};\n' +
@@ -165,20 +169,22 @@ function generateArticlePage(a) {
     '  document.querySelector("[data-i18n=read_time]").textContent=(articleData.read_time||3)+" "+(readLabels[lang]||readLabels.en);\n' +
     '  var tl=tagLabels[lang]||tagLabels.en;document.querySelector("[data-i18n^=tag_]").textContent=tl[articleData.tag]||articleData.tag;\n' +
     '  var bodyEl=document.querySelector("[data-i18n-body]");\n' +
+    '  if(lang==="ru"){bodyEl.textContent="";var p2=new DOMParser();var d2=p2.parseFromString(origBodyRu,"text/html");var n2=d2.body.childNodes;for(var j2=0;j2<n2.length;j2++){bodyEl.appendChild(document.importNode(n2[j2],true))}}else{\n' +
     '  var bodyHtml=articleData["body_"+lang]||articleData.body_en||"";\n' +
     '  bodyEl.textContent="";\n' +
-    '  if(bodyHtml){var p=new DOMParser();var d=p.parseFromString(bodyHtml,"text/html");var n=d.body.childNodes;for(var j=0;j<n.length;j++){bodyEl.appendChild(document.importNode(n[j],true))}}\n' +
+    '  if(bodyHtml){var p=new DOMParser();var d=p.parseFromString(bodyHtml,"text/html");var n=d.body.childNodes;for(var j=0;j<n.length;j++){bodyEl.appendChild(document.importNode(n[j],true))}}}\n' +
     '  var kwEl=document.querySelector("[data-i18n-keywords]");\n' +
     '  var kws=(articleData["keywords_"+lang]||articleData.keywords_en||"").split(",");\n' +
     '  kwEl.textContent="";\n' +
     '  for(var k=0;k<kws.length;k++){if(!kws[k].trim())continue;var s=document.createElement("span");s.className="kw";s.textContent=kws[k].trim();kwEl.appendChild(s)}\n' +
     '  document.querySelectorAll(".lang-btn").forEach(function(b){b.classList.toggle("active",b.dataset.lang===lang)});\n' +
     '  if(history.replaceState){var u=new URL(window.location);if(lang==="ru"){u.searchParams.delete("lang")}else{u.searchParams.set("lang",lang)}history.replaceState(null,"",u)}\n' +
-    '  localStorage.setItem("synth-lang",lang);\n' +
+    '  try{localStorage.setItem("synth-lang",lang)}catch(e){}\n' +
     '}\n' +
     'document.querySelectorAll(".lang-btn").forEach(function(b){b.addEventListener("click",function(){setLang(b.dataset.lang)})});\n' +
     'var urlLang=new URLSearchParams(window.location.search).get("lang");\n' +
-    'var initLang=urlLang&&["ru","en","es"].indexOf(urlLang)!==-1?urlLang:(localStorage.getItem("synth-lang")||"ru");\n' +
+    'var sl;try{sl=localStorage.getItem("synth-lang")}catch(e){}\n' +
+    'var initLang=urlLang&&["ru","en","es"].indexOf(urlLang)!==-1?urlLang:(sl||"ru");\n' +
     'if(initLang!=="ru")setLang(initLang);\n' +
     'else{document.querySelector("[data-i18n=date]").textContent=formatDate(articleData.date,"ru")}\n' +
     '</script>\n</body>\n</html>';

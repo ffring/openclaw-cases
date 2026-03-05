@@ -45,12 +45,11 @@
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%25' stop-color='%23c084fc'/><stop offset='50%25' stop-color='%237c3aed'/><stop offset='100%25' stop-color='%234f46e5'/></linearGradient></defs><rect width='32' height='32' rx='6' fill='url(%23g)'/><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' fill='white' font-family='system-ui' font-size='18' font-weight='700'>S</text></svg>">
 <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect width='180' height='180' rx='36' fill='%237c3aed'/><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' fill='white' font-family='system-ui' font-size='100' font-weight='700'>S</text></svg>">
 
-<!-- Preconnect -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Resource hints -->
+<link rel="preload" href="/assets/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://i.ytimg.com">
+<link rel="dns-prefetch" href="https://i.ytimg.com">
 <link rel="dns-prefetch" href="https://images.unsplash.com">
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
 
 <!-- JSON-LD: WebSite -->
 <script type="application/ld+json">
@@ -197,6 +196,10 @@
 </script>
 
 <style>
+@font-face{font-family:Geist;font-style:normal;font-weight:100 900;font-display:swap;src:url(/assets/fonts/geist-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Geist;font-style:normal;font-weight:100 900;font-display:swap;src:url(/assets/fonts/geist-cyrillic.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/jbmono-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/jbmono-cyrillic.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --bg:#1a1128;
@@ -209,10 +212,10 @@
   --sidebar-accent-fg:#e8e0f0;
   --primary:#a78bfa;
   --foreground:#f0eaf8;
-  --muted-fg:#8b82a0;
+  --muted-fg:#9f97b5;
   --secondary:#2a2040;
-  --font-sans:'Geist',system-ui,-apple-system,sans-serif;
-  --font-mono:'JetBrains Mono',monospace;
+  --font-sans:Geist,system-ui,-apple-system,sans-serif;
+  --font-mono:"JetBrains Mono",monospace;
 }
 html{-webkit-font-smoothing:antialiased;scroll-behavior:smooth}
 body{font-family:var(--font-sans);background:var(--bg);color:var(--foreground);line-height:1.6;min-height:100vh;display:flex}
@@ -233,17 +236,17 @@ a{color:inherit;text-decoration:none}
 .logo-text{font-family:var(--font-mono);font-size:20px;font-weight:700;color:var(--foreground)}
 .sidebar-search{padding:0 16px 8px}
 .search-input{width:100%;padding:8px 12px 8px 36px;background:transparent;border:1px solid var(--sidebar-border);border-radius:4px;color:var(--foreground);font-size:14px;font-family:var(--font-sans);outline:none;transition:border-color .2s}
-.search-input:focus{border-color:var(--primary)}
+.search-input:focus{border-color:var(--primary);outline:2px solid var(--primary);outline-offset:-1px}
 .search-input::placeholder{color:var(--muted-fg)}
 .search-wrap{position:relative}
-.search-wrap .material-symbols-sharp{position:absolute;left:10px;top:50%;transform:translateY(-50%);font-size:16px;color:var(--muted-fg)}
+.search-wrap .icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--muted-fg)}
 
 .sidebar-section{padding:8px}
 .section-title{padding:12px 16px;font-family:var(--font-mono);font-size:14px;color:var(--sidebar-fg);font-weight:400}
 .nav-item{display:flex;align-items:center;gap:16px;padding:12px 16px;border-radius:100px;cursor:pointer;transition:all .15s;color:var(--sidebar-fg);font-size:16px}
 .nav-item:hover{background:var(--sidebar-accent);color:var(--sidebar-accent-fg)}
 .nav-item.active{background:var(--sidebar-accent);color:var(--sidebar-accent-fg)}
-.nav-item .material-symbols-sharp{font-size:22px;font-variation-settings:'wght' 100}
+.nav-item .icon{flex-shrink:0}
 
 .sidebar-tags{padding:16px}
 .tags-wrap{display:flex;flex-wrap:wrap;gap:8px;padding:4px 0}
@@ -262,7 +265,7 @@ a{color:inherit;text-decoration:none}
 .content{flex:1;height:100vh;overflow-y:auto;padding:32px 40px;display:flex;flex-direction:column;gap:24px}
 .content-header{display:flex;align-items:center;justify-content:space-between}
 .header-left{display:flex;align-items:center;gap:12px}
-.header-left .material-symbols-sharp{font-size:24px;color:var(--primary);font-variation-settings:'wght' 100}
+.header-left .icon{color:var(--primary)}
 .header-title{font-size:24px;font-weight:600}
 .tabs{display:flex;gap:0;padding:4px;border-radius:999px;background:var(--secondary)}
 .tab{padding:6px 16px;border-radius:999px;font-size:14px;cursor:pointer;transition:all .15s;color:var(--muted-fg);font-weight:500;border:none;background:none;font-family:inherit}
@@ -303,7 +306,7 @@ a{color:inherit;text-decoration:none}
   .content-header{flex-wrap:wrap;gap:12px}
 }
 
-.material-symbols-sharp{font-variation-settings:'FILL' 0,'wght' 100,'GRAD' 0,'opsz' 24}
+.icon{display:inline-block;vertical-align:middle;fill:currentColor;flex-shrink:0}
 
 /* Lang switcher */
 .lang-switch{display:flex;gap:4px;padding:3px;border-radius:999px;background:var(--secondary);margin-left:12px}
@@ -325,7 +328,7 @@ a{color:inherit;text-decoration:none}
 
     <div class="sidebar-search" role="search">
       <div class="search-wrap">
-        <span class="material-symbols-sharp" aria-hidden="true">search</span>
+        <svg class="icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
         <input type="search" class="search-input" placeholder="Поиск..." data-i18n-placeholder="search" aria-label="Поиск материалов">
       </div>
     </div>
@@ -333,36 +336,36 @@ a{color:inherit;text-decoration:none}
     <nav class="sidebar-section" aria-label="Основная навигация">
       <h2 class="section-title" data-i18n="nav_categories">Категории</h2>
       <a href="#all" class="nav-item active" aria-current="page">
-        <span class="material-symbols-sharp" aria-hidden="true">grid_view</span>
+        <svg class="icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h8v8H3V3zm0 10h8v8H3v-8zM13 3h8v8h-8V3zm0 10h8v8h-8v-8z"/></svg>
         <span data-i18n="nav_all">Все материалы</span>
       </a>
       <a href="#ai" class="nav-item">
-        <span class="material-symbols-sharp" aria-hidden="true">smart_toy</span>
+        <svg class="icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 9V7c0-1.1-.9-2-2-2h-3c0-1.66-1.34-3-3-3S9 3.34 9 5H6c-1.1 0-2 .9-2 2v2c-1.66 0-3 1.34-3 3s1.34 3 3 3v4c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-4c1.66 0 3-1.34 3-3s-1.34-3-3-3zM7.5 11.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5S9.83 13 9 13s-1.5-.67-1.5-1.5zM16 17H8v-2h8v2zm-1-4c-.83 0-1.5-.67-1.5-1.5S14.17 10 15 10s1.5.67 1.5 1.5S15.83 13 15 13z"/></svg>
         <span data-i18n="nav_ai">AI инструменты</span>
       </a>
       <a href="#startups" class="nav-item">
-        <span class="material-symbols-sharp" aria-hidden="true">rocket_launch</span>
+        <svg class="icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5c0 0-6 7-6 12.5 0 3.31 2.69 6 6 6s6-2.69 6-6c0-5.5-6-12.5-6-12.5zm0 17c-2.49 0-4.5-2.01-4.5-4.5 0-3.88 3.44-8.94 4.5-10.42 1.06 1.48 4.5 6.54 4.5 10.42 0 2.49-2.01 4.5-4.5 4.5z"/></svg>
         <span data-i18n="nav_startups">Стартапы</span>
       </a>
       <a href="#cases" class="nav-item">
-        <span class="material-symbols-sharp" aria-hidden="true">cases</span>
+        <svg class="icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 7h-4V5l-2-2h-4L8 5v2H4c-1.1 0-2 .9-2 2v5c0 .75.4 1.38 1 1.73V19c0 1.11.89 2 2 2h14c1.11 0 2-.89 2-2v-3.28c.59-.35 1-.99 1-1.72V9c0-1.1-.9-2-2-2zM10 5h4v2h-4V5zM4 9h16v5h-5v-3H9v3H4V9zm9 6h-2v-2h2v2zm6 4H5v-3h4v1h6v-1h4v3z"/></svg>
         <span data-i18n="nav_cases">Кейсы</span>
       </a>
       <a href="#prompts" class="nav-item">
-        <span class="material-symbols-sharp" aria-hidden="true">edit_note</span>
+        <svg class="icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10h11v2H3v-2zm0-4h11v2H3V6zm0 8h7v2H3v-2zm15.01-3.13l1.41-1.41 2.12 2.12-1.41 1.41-2.12-2.12zm-.71.71L12 17.88V20h2.12l5.3-5.3-2.12-2.12z"/></svg>
         <span data-i18n="nav_prompts">Промпты</span>
       </a>
       <a href="#trends" class="nav-item">
-        <span class="material-symbols-sharp" aria-hidden="true">trending_up</span>
+        <svg class="icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6h-6z"/></svg>
         <span data-i18n="nav_trends">Тренды</span>
       </a>
       <h2 class="section-title" style="margin-top:8px">OpenClaw</h2>
       <a href="#agent-cases" class="nav-item">
-        <span class="material-symbols-sharp" aria-hidden="true">bug_report</span>
+        <svg class="icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 8h-2.81c-.45-.78-1.07-1.45-1.82-1.96L17 4.41 15.59 3l-2.17 2.17C12.96 5.06 12.49 5 12 5s-.96.06-1.41.17L8.41 3 7 4.41l1.62 1.63C7.88 6.55 7.26 7.22 6.81 8H4v2h2.09c-.05.33-.09.66-.09 1v1H4v2h2v1c0 .34.04.67.09 1H4v2h2.81c1.04 1.79 2.97 3 5.19 3s4.15-1.21 5.19-3H20v-2h-2.09c.05-.33.09-.66.09-1v-1h2v-2h-2v-1c0-.34-.04-.67-.09-1H20V8zm-6 8h-4v-2h4v2zm0-4h-4v-2h4v2z"/></svg>
         <span data-i18n="nav_agent_cases">Кейсы агентов</span>
       </a>
       <a href="#integrations" class="nav-item">
-        <span class="material-symbols-sharp" aria-hidden="true">terminal</span>
+        <svg class="icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.11 0-2 .9-2 2v12c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8h16v10zm-2-1h-6v-2h6v2zM7.5 17l-1.41-1.41L8.67 13l-2.59-2.59L7.5 9l4 4-4 4z"/></svg>
         <span data-i18n="nav_integrations">Интеграции</span>
       </a>
     </nav>
@@ -396,7 +399,7 @@ a{color:inherit;text-decoration:none}
   <main class="content" id="main-content">
     <header class="content-header">
       <div class="header-left">
-        <span class="material-symbols-sharp" aria-hidden="true">grid_view</span>
+        <svg class="icon" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h8v8H3V3zm0 10h8v8H3v-8zM13 3h8v8h-8V3zm0 10h8v8h-8v-8z"/></svg>
         <h1 class="header-title" data-i18n="nav_all">Все материалы</h1>
       </div>
       <div class="tabs" role="tablist" aria-label="Сортировка">
@@ -414,7 +417,7 @@ a{color:inherit;text-decoration:none}
     <section class="cards-grid" aria-label="Лента материалов">
       <article class="card" itemscope itemtype="https://schema.org/Article">
         <div class="card-image-placeholder" style="background:linear-gradient(135deg,#2a1f45 0%,#4c1d95 50%,#1a1128 100%)" role="img" aria-label="Иллюстрация: фоновые AI-агенты в IDE">
-          <span class="material-symbols-sharp" style="font-size:48px;color:#a78bfa33" aria-hidden="true">code</span>
+          <svg class="icon" width="48" height="48" viewBox="0 0 24 24" style="color:#a78bfa33" aria-hidden="true"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
         </div>
         <div class="card-body">
           <span class="card-tag ai" data-i18n="tag_ai" itemprop="articleSection">AI инструменты</span>
@@ -425,7 +428,7 @@ a{color:inherit;text-decoration:none}
       </article>
 
       <article class="card" itemscope itemtype="https://schema.org/Article">
-        <img class="card-image" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=300&fit=crop" alt="Команда стартапа работает над проектом" loading="lazy" width="600" height="300" itemprop="image">
+        <img class="card-image" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=300&fit=crop&fm=webp&q=75" alt="Команда стартапа работает над проектом" loading="lazy" decoding="async" width="600" height="300" itemprop="image">
         <div class="card-body">
           <span class="card-tag startups" data-i18n="tag_startups" itemprop="articleSection">Стартапы</span>
           <h3 class="card-title" data-i18n="c2_title" itemprop="headline">Lovable привлёк $100M при оценке $2B — вайбкодинг выходит в мейнстрим</h3>
@@ -463,7 +466,7 @@ a{color:inherit;text-decoration:none}
 
       <article class="card" itemscope itemtype="https://schema.org/Article">
         <div class="card-image-placeholder" style="background:linear-gradient(135deg,#1e1145,#4c1d95 60%,#7c3aed)" role="img" aria-label="Иллюстрация: нейросеть и AI-возможности">
-          <span class="material-symbols-sharp" style="font-size:48px;color:#a78bfa33" aria-hidden="true">neurology</span>
+          <svg class="icon" width="48" height="48" viewBox="0 0 24 24" style="color:#a78bfa33" aria-hidden="true"><path d="M13 1.07V9h7c0-4.08-3.05-7.44-7-7.93zM4 15c0 4.42 3.58 8 8 8s8-3.58 8-8v-4H4v4zm7-13.93C7.05 1.56 4 4.92 4 9h7V1.07z"/></svg>
         </div>
         <div class="card-body">
           <span class="card-tag ai" data-i18n="tag_ai" itemprop="articleSection">AI инструменты</span>
@@ -619,7 +622,7 @@ function setLang(lang) {
     document.querySelector('meta[name="twitter:title"]')?.setAttribute('content', meta.title);
     document.querySelector('meta[name="twitter:description"]')?.setAttribute('content', meta.desc);
   }
-  localStorage.setItem('synth-lang', lang);
+  try{localStorage.setItem('synth-lang', lang)}catch(e){}
   // Update URL for hreflang hint
   if (history.replaceState) {
     const url = new URL(window.location);
@@ -651,7 +654,7 @@ document.querySelectorAll('.nav-item').forEach(item => {
     item.setAttribute('aria-current', 'page');
     const titleKey = item.querySelector('[data-i18n]')?.dataset.i18n;
     if (titleKey) {
-      const lang = localStorage.getItem('synth-lang') || 'ru';
+      var lang;try{lang=localStorage.getItem('synth-lang')}catch(e){} lang=lang||'ru';
       document.querySelector('.header-title').textContent = i18n[lang][titleKey] || '';
     }
   });
@@ -659,7 +662,8 @@ document.querySelectorAll('.nav-item').forEach(item => {
 
 // Init: check URL param first, then localStorage
 const urlLang = new URLSearchParams(window.location.search).get('lang');
-const initLang = urlLang && i18n[urlLang] ? urlLang : (localStorage.getItem('synth-lang') || 'ru');
+var sl2;try{sl2=localStorage.getItem('synth-lang')}catch(e){}
+const initLang = urlLang && i18n[urlLang] ? urlLang : (sl2 || 'ru');
 if (initLang !== 'ru') setLang(initLang);
 
 // ═══════════════════════════════════════════
@@ -711,17 +715,39 @@ function createCard(a, lang) {
   var cardLink = document.createElement('a');
   cardLink.href = articleUrl;
   cardLink.style.cssText = 'color:inherit;text-decoration:none;display:block';
+  cardLink.setAttribute('aria-label', title);
   if (!hasPage) { cardLink.target = '_blank'; cardLink.rel = 'noopener'; }
 
-  // Thumbnail
-  if (a.thumbnail) {
+  // Thumbnail with WebP + srcset
+  if (a.thumbnail && a.video_id) {
+    var picture = document.createElement('picture');
+    var srcWebp = document.createElement('source');
+    srcWebp.type = 'image/webp';
+    srcWebp.srcset = 'https://i.ytimg.com/vi_webp/' + a.video_id + '/mqdefault.webp 320w,https://i.ytimg.com/vi_webp/' + a.video_id + '/hqdefault.webp 480w';
+    srcWebp.sizes = '(max-width:768px) 100vw,33vw';
+    picture.appendChild(srcWebp);
+    var img = document.createElement('img');
+    img.className = 'card-image';
+    img.src = 'https://i.ytimg.com/vi/' + a.video_id + '/mqdefault.jpg';
+    img.srcset = 'https://i.ytimg.com/vi/' + a.video_id + '/mqdefault.jpg 320w,https://i.ytimg.com/vi/' + a.video_id + '/hqdefault.jpg 480w';
+    img.sizes = '(max-width:768px) 100vw,33vw';
+    img.alt = title;
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    img.width = 320;
+    img.height = 180;
+    img.setAttribute('itemprop', 'image');
+    picture.appendChild(img);
+    cardLink.appendChild(picture);
+  } else if (a.thumbnail) {
     var img = document.createElement('img');
     img.className = 'card-image';
     img.src = a.thumbnail;
     img.alt = title;
     img.loading = 'lazy';
-    img.width = 480;
-    img.height = 360;
+    img.decoding = 'async';
+    img.width = 320;
+    img.height = 180;
     img.setAttribute('itemprop', 'image');
     cardLink.appendChild(img);
   }
@@ -800,14 +826,14 @@ function loadFeed() {
     .then(function(data) {
       if (data && data.articles && data.articles.length > 0) {
         feedData = data.articles;
-        var lang = localStorage.getItem('synth-lang') || 'ru';
-        renderCards(feedData, lang);
+        var lang;try{lang=localStorage.getItem('synth-lang')}catch(e){}
+        renderCards(feedData, lang || 'ru');
       }
     })
     .catch(function() { /* keep hardcoded fallback cards */ });
 }
 
-loadFeed();
+if('requestIdleCallback' in window){requestIdleCallback(loadFeed)}else{setTimeout(loadFeed,100)};
 </script>
 </body>
 </html>
