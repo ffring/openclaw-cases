@@ -12,6 +12,7 @@ const https = require('https');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const { getSubtitles } = require('youtube-caption-extractor');
 
 // Paths
 const ROOT = path.join(__dirname, '..');
@@ -135,63 +136,97 @@ function decodeXML(str) {
     .replace(/&#x27;/g, "'");
 }
 
+// Get YouTube transcript (auto-captions)
+async function getTranscript(videoId) {
+  try {
+    var subs = await getSubtitles({ videoID: videoId, lang: 'en' });
+    if (!subs || subs.length === 0) {
+      subs = await getSubtitles({ videoID: videoId });
+    }
+    if (!subs || subs.length === 0) return '';
+    return subs.map(function(s) { return s.text; }).join(' ').slice(0, 15000);
+  } catch (e) {
+    console.log('  No transcript: ' + e.message);
+    return '';
+  }
+}
+
+// Clean broken UTF-8 characters (mojibake fix)
+function cleanUTF8(str) {
+  if (!str) return '';
+  return str
+    .replace(/\uFFFD/g, '')
+    .replace(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])/g, '')
+    .replace(/(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/g, '');
+}
+
 // Generate article via OpenAI
 async function generateArticle(video) {
-  const prompt = 'You are a senior SEO-optimized tech journalist for Synth, a curated AI media platform.\n' +
-    'Based on this YouTube video, write a FULL SEO/GEO-optimized article for our platform.\n\n' +
-    'VIDEO:\n' +
-    'Title: ' + video.title + '\n' +
-    'Channel: ' + video.channelName + '\n' +
-    'Description: ' + video.description.slice(0, 1500) + '\n\n' +
-    'RESPOND IN VALID JSON:\n' +
-    '{\n' +
-    '  "title_ru": "SEO-заголовок на русском (H1, 50-70 символов, содержит ключевое слово)",\n' +
-    '  "title_en": "SEO title in English (H1, 50-70 chars, contains primary keyword)",\n' +
-    '  "title_es": "Título SEO en español (H1, 50-70 chars, contiene palabra clave)",\n' +
-    '  "desc_ru": "Мета-описание на русском (150-160 символов, с CTA)",\n' +
-    '  "desc_en": "Meta description in English (150-160 chars, with CTA)",\n' +
-    '  "desc_es": "Meta descripción en español (150-160 chars, con CTA)",\n' +
-    '  "body_ru": "Полная статья на русском в HTML (см. правила ниже)",\n' +
-    '  "body_en": "Full article in English in HTML (see rules below)",\n' +
-    '  "body_es": "Artículo completo en español en HTML (ver reglas abajo)",\n' +
-    '  "keywords_ru": "5-7 ключевых слов через запятую на русском",\n' +
-    '  "keywords_en": "5-7 keywords comma-separated in English",\n' +
-    '  "keywords_es": "5-7 palabras clave separadas por comas en español",\n' +
-    '  "slug": "url-friendly-slug-in-english",\n' +
-    '  "tag": "one of: ai, startups, cases, prompts, trends",\n' +
-    '  "read_time": 3\n' +
-    '}\n\n' +
-    'ARTICLE BODY HTML RULES (body_ru, body_en, body_es):\n' +
-    '- Start with a strong intro paragraph (no H1 — it is the title)\n' +
-    '- Use 2-3 <h2> subheadings with keywords\n' +
-    '- Use <ul><li> or <ol><li> bullet/numbered lists for key points\n' +
-    '- Use <strong> for important terms (good for GEO/AI snippets)\n' +
-    '- Use <blockquote> for key insights or quotes\n' +
-    '- 300-500 words per language\n' +
-    '- End with a conclusion paragraph with a takeaway\n' +
-    '- Include semantic HTML only: p, h2, ul, ol, li, strong, em, blockquote\n' +
-    '- NO <h1>, <script>, <style>, <div>, <span>, <a> tags\n\n' +
-    'SEO/GEO OPTIMIZATION RULES:\n' +
-    '- Title (H1): primary keyword in first 3 words when possible\n' +
-    '- Meta description: includes primary keyword + call-to-action\n' +
-    '- H2 subheadings: contain secondary keywords, structured for featured snippets\n' +
-    '- Lists: formatted for Google/AI snippet extraction\n' +
-    '- Keywords: mix of head terms and long-tail\n' +
-    '- Slug: 3-5 words, lowercase, hyphens only\n' +
-    '- read_time: estimated minutes to read (integer)\n\n' +
-    'WRITING RULES:\n' +
-    '- tag: ai=AI tools/models, startups=startup news/funding, cases=real use cases, prompts=prompts/workflows, trends=industry trends\n' +
-    '- Write naturally, no corporate speak\n' +
-    '- Russian: без канцелярита, живым языком, по-человечески\n' +
-    '- Spanish: natural, conversational tone\n' +
-    '- Every article must provide actionable value to the reader';
+  var hasTranscript = video.transcript && video.transcript.length > 100;
+  var sourceBlock = 'VIDEO:\nTitle: ' + video.title + '\nChannel: ' + video.channelName + '\n';
+  if (hasTranscript) {
+    sourceBlock += 'Transcript (full video text):\n' + video.transcript.slice(0, 12000) + '\n';
+  } else {
+    sourceBlock += 'Description: ' + video.description.slice(0, 2000) + '\n';
+    sourceBlock += '(No transcript available — write based on description, but still aim for depth)\n';
+  }
 
-  const response = await postJSON('https://api.openai.com/v1/chat/completions', {
+  var prompt = 'You are a senior tech journalist writing in-depth, SEO/GEO-optimized longread articles for Synth, an AI media platform.\n\n' +
+    sourceBlock + '\n' +
+    'RESPOND IN VALID JSON (UTF-8, no broken characters):\n' +
+    '{\n' +
+    '  "title_ru": "SEO-заголовок на русском (50-70 символов, ключевое слово в начале)",\n' +
+    '  "title_en": "SEO title in English (50-70 chars, keyword first)",\n' +
+    '  "title_es": "Título SEO en español (50-70 chars, palabra clave primero)",\n' +
+    '  "desc_ru": "Мета-описание 150-160 символов, с CTA",\n' +
+    '  "desc_en": "Meta description 150-160 chars, with CTA",\n' +
+    '  "desc_es": "Meta descripción 150-160 chars, con CTA",\n' +
+    '  "body_ru": "LONGREAD статья на русском в HTML",\n' +
+    '  "body_en": "LONGREAD article in English in HTML",\n' +
+    '  "body_es": "LONGREAD artículo en español en HTML",\n' +
+    '  "keywords_ru": "7-10 ключевых слов через запятую",\n' +
+    '  "keywords_en": "7-10 keywords comma-separated",\n' +
+    '  "keywords_es": "7-10 palabras clave separadas por comas",\n' +
+    '  "slug": "url-friendly-slug-3-5-words",\n' +
+    '  "tag": "ai|startups|cases|prompts|trends",\n' +
+    '  "read_time": 7\n' +
+    '}\n\n' +
+    'ARTICLE BODY RULES (body_ru, body_en, body_es) — THIS IS CRITICAL:\n' +
+    '- Write a LONGREAD: 1500-2000 words per language. NOT a summary, a FULL article.\n' +
+    '- Structure: intro paragraph → 4-6 H2 sections → FAQ section → conclusion\n' +
+    '- Each H2 section: 200-400 words with specific details, examples, numbers from the transcript\n' +
+    '- MANDATORY elements in every article:\n' +
+    '  * 4-6 <h2> subheadings containing secondary keywords\n' +
+    '  * 2-3 <ul> or <ol> lists with concrete points (for AI/Google snippet extraction)\n' +
+    '  * 1-2 <blockquote> with key insights from the video\n' +
+    '  * <strong> on important terms, product names, metrics\n' +
+    '  * FAQ section: <h2>Frequently Asked Questions</h2> with 3-4 Q&A pairs using <strong> for questions\n' +
+    '- Use semantic HTML only: p, h2, h3, ul, ol, li, strong, em, blockquote\n' +
+    '- NO <h1>, <script>, <style>, <div>, <span>, <a>, <table> tags\n' +
+    '- NO invented statistics, fake quotes, or made-up company names\n' +
+    '- If transcript mentions specific numbers, tools, companies — include them accurately\n\n' +
+    'SEO/GEO RULES:\n' +
+    '- H1 (title): primary keyword in first 3 words\n' +
+    '- H2s: structured as questions or "How to..." for featured snippets\n' +
+    '- Lists: use parallel structure, start items with action verbs\n' +
+    '- FAQ section: natural questions people would ask Google/ChatGPT\n' +
+    '- Keywords: mix of head terms + long-tail + question-based\n' +
+    '- Slug: 3-5 words, lowercase, hyphens\n' +
+    '- read_time: calculate as ceil(total_words / 200)\n\n' +
+    'WRITING STYLE:\n' +
+    '- tag values: ai=AI tools/models, startups=startup/funding, cases=real use cases, prompts=prompts/workflows, trends=industry trends\n' +
+    '- Write as an expert journalist, not a summarizer. Add context, analysis, implications.\n' +
+    '- Russian: живой язык, без канцелярита, без "следует отметить", без "давайте рассмотрим"\n' +
+    '- English: clear, direct, engaging. No filler phrases.\n' +
+    '- Spanish: natural, conversational, informative\n' +
+    '- Every article must give the reader actionable insights they can use immediately';
+
+  var response = await postJSON('https://api.openai.com/v1/chat/completions', {
     model: OPENAI_MODEL,
     messages: [{ role: 'user', content: prompt }],
     response_format: { type: 'json_object' },
-    max_tokens: 4000,
-    temperature: 0.7
+    max_tokens: 16000,
+    temperature: 0.4
   }, {
     'Authorization': 'Bearer ' + OPENAI_API_KEY
   });
@@ -216,11 +251,17 @@ async function generateArticle(video) {
     parsed.tag = video.defaultTag || 'trends';
   }
 
+  // Clean UTF-8 on all string fields
+  var stringFields = ['title_ru', 'title_en', 'title_es', 'desc_ru', 'desc_en', 'desc_es',
+    'body_ru', 'body_en', 'body_es', 'keywords_ru', 'keywords_en', 'keywords_es', 'slug'];
+  for (var s = 0; s < stringFields.length; s++) {
+    if (parsed[stringFields[s]]) parsed[stringFields[s]] = cleanUTF8(parsed[stringFields[s]]);
+  }
+
   // Sanitize HTML bodies — allow only safe tags
-  var safeTags = ['p', 'h2', 'ul', 'ol', 'li', 'strong', 'em', 'blockquote'];
+  var safeTags = ['p', 'h2', 'h3', 'ul', 'ol', 'li', 'strong', 'em', 'blockquote'];
   function sanitizeBody(html) {
     if (!html) return '';
-    // Remove any tags not in safeTags
     return html.replace(/<\/?([a-zA-Z][a-zA-Z0-9]*)\b[^>]*>/g, function(match, tagName) {
       if (safeTags.indexOf(tagName.toLowerCase()) !== -1) return match;
       return '';
@@ -292,6 +333,12 @@ async function main() {
       var shortTitle = video.title.length > 55 ? video.title.slice(0, 55) + '...' : video.title;
       process.stdout.write('  ' + shortTitle + ' ');
 
+      // Fetch transcript
+      video.transcript = await getTranscript(video.videoId);
+      if (video.transcript) {
+        process.stdout.write('[T:' + Math.round(video.transcript.length / 1000) + 'k] ');
+      }
+
       var article = await generateArticle(video);
 
       newArticles.push({
@@ -322,7 +369,7 @@ async function main() {
       seenSet.add(video.videoId);
       console.log('OK');
 
-      await sleep(600);
+      await sleep(1500);
     } catch (err) {
       console.log('FAIL: ' + err.message);
     }
