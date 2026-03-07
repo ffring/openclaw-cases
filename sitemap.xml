@@ -2,13 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://openclawtimes.com/playground/</loc>
-    <lastmod>2026-03-06</lastmod>
+    <lastmod>2026-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/ai-viral-videos/</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/ai-viral-videos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/ai-viral-videos/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/ai-viral-videos/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/ai-viral-videos/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/openai-anthropic-feud/</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/openai-anthropic-feud/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/openai-anthropic-feud/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/openai-anthropic-feud/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/openai-anthropic-feud/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/ai-news-chatgpt-exodus/</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/ai-news-chatgpt-exodus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/ai-news-chatgpt-exodus/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/ai-news-chatgpt-exodus/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/ai-news-chatgpt-exodus/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/common-mistakes-vibe-sites/</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/common-mistakes-vibe-sites/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/common-mistakes-vibe-sites/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/common-mistakes-vibe-sites/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/common-mistakes-vibe-sites/"/>
   </url>
   <url>
     <loc>https://openclawtimes.com/playground/articles/gpt-5-4-fronteras-ai/</loc>
