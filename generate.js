@@ -77,7 +77,7 @@ function generateCaseCard(c, lang, featured = false) {
         <div class="case-footer">
           <span class="tag-pill ${c.tag}">${tag.emoji} ${tagLabel}</span>
           <span class="case-source">${c.source}</span>
-          ${c.tools?.length ? `<span class="case-tools">${c.tools.slice(0,2).join(' · ')}</span>` : ''}
+          ${(() => { const t = lang === 'ru' ? (c.tools_ru || c.tools || []) : (c.tools_en || c.tools || []); return t?.length ? `<span class="case-tools">${t.slice(0,2).join(' · ')}</span>` : ''; })()}
         </div>
       </div>
       <div class="case-vote">
@@ -420,16 +420,19 @@ function generateCasePage(c, lang) {
   
   const contentHtml = content ? markdownToHtml(content) : `<p>${desc}</p>`;
   
-  const toolsHtml = c.tools?.length ? `
+  const tools = isRu ? (c.tools_ru || c.tools || []) : (c.tools_en || c.tools || []);
+  const results = isRu ? (c.results_ru || c.results || '') : (c.results_en || c.results || '');
+
+  const toolsHtml = tools?.length ? `
     <div class="tools-section">
       <h4>${isRu ? 'Инструменты' : 'Tools Used'}</h4>
-      <div class="tools-list">${c.tools.map(t => `<span class="tool-tag">${t}</span>`).join('')}</div>
+      <div class="tools-list">${tools.map(t => `<span class="tool-tag">${t}</span>`).join('')}</div>
     </div>` : '';
-  
-  const resultsHtml = c.results ? `
+
+  const resultsHtml = results ? `
     <div class="results-section">
       <h4>${isRu ? 'Результаты' : 'Results'}</h4>
-      <p>${c.results}</p>
+      <p>${results}</p>
     </div>` : '';
 
   return `<!DOCTYPE html>

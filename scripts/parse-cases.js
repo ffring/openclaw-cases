@@ -209,12 +209,22 @@ Each case object must have:
   "desc_ru": "Мета-описание 150-160 символов с CTA",
   "tag": "automation|coding|research|devops|productivity|marketing|finance",
   "source_url": "original URL",
-  "tools": ["Tool1", "Tool2"],
-  "results": "Key outcome in one line (e.g. 'Saves 15 hours per week on reporting')",
+  "tools_en": ["Tool1", "Tool2"],
+  "tools_ru": ["Инструмент1", "Инструмент2"],
+  "results_en": "Key outcome in one line (e.g. 'Saves 15 hours per week on reporting')",
+  "results_ru": "Ключевой результат одной строкой (напр. 'Экономит 15 часов в неделю на отчётах')",
 
-  "content_en": "FULL article in English, markdown format (see rules below)",
-  "content_ru": "FULL article in Russian, markdown format (see rules below)"
+  "content_en": "FULL article written ENTIRELY IN ENGLISH, markdown format (see rules below)",
+  "content_ru": "ПОЛНАЯ статья написанная ЦЕЛИКОМ НА РУССКОМ ЯЗЫКЕ, markdown формат (см. правила ниже)"
 }
+
+CRITICAL LANGUAGE RULES:
+- content_ru MUST be written entirely in Russian. Not translated word-by-word, but written naturally in Russian.
+- tools_ru — translate tool descriptions to Russian (tool names stay in English if they are product names)
+- results_ru — write results in Russian
+- desc_ru — write in Russian
+- title_ru — write in Russian
+- If you write content_ru in English, the article is REJECTED. This is the #1 quality check.
 
 ARTICLE RULES (content_en, content_ru):
 
@@ -388,8 +398,10 @@ async function main() {
     desc_ru: (c.desc_ru || c.desc_en || '').slice(0, 200),
     content_en: c.content_en || '',
     content_ru: c.content_ru || c.content_en || '',
-    tools: c.tools || [],
-    results: c.results || '',
+    tools_en: c.tools_en || c.tools || [],
+    tools_ru: c.tools_ru || c.tools || [],
+    results_en: c.results_en || c.results || '',
+    results_ru: c.results_ru || c.results || '',
     tag: c.tag || 'productivity',
     source: extractSourceName(c.source_url),
     source_url: c.source_url,
