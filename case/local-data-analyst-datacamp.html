@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Local Data Analyst with Ollama Integration | OpenClaw Times</title>
-<meta name="description" content="Complete local-first AI data analysis system using OpenClaw and Ollama for private CSV analysis with visualizations and reports.">
+<title>Локальный аналитик данных с интеграцией Ollama | OpenClaw Times</title>
+<meta name="description" content="Полная локальная система ИИ-анализа данных, использующая OpenClaw и Ollama для приватного ан��лиза CSV с визуализациями и отчётами.">
 <link rel="canonical" href="https://openclawtimes.com/case/local-data-analyst-datacamp.html">
-<meta property="og:title" content="Local Data Analyst with Ollama Integration">
-<meta property="og:description" content="Complete local-first AI data analysis system using OpenClaw and Ollama for private CSV analysis with visualizations and reports.">
+<meta property="og:title" content="Локальный аналитик данных с интеграцией Ollama">
+<meta property="og:description" content="Полная локальная система ИИ-анализа данных, использующая OpenClaw и Ollama для приватного ан��лиза CSV с визуализациями и отчётами.">
 <meta property="og:type" content="article">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -158,8 +158,8 @@ footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-al
     <div class="header-inner">
       <a href="/" class="logo">🦞 OpenClaw <span>Times</span></a>
       <div class="lang-switch">
-        <a href="/case/local-data-analyst-datacamp.html" class="lang-btn active" onclick="localStorage.setItem('lang-override','en')">🇬🇧</a>
-        <a href="/ru/case/local-data-analyst-datacamp.html" class="lang-btn " onclick="localStorage.setItem('lang-override','ru')">🇷🇺</a>
+        <a href="/en/case/local-data-analyst-datacamp.html" class="lang-btn ">🇬🇧</a>
+        <a href="/case/local-data-analyst-datacamp.html" class="lang-btn active">🇷🇺</a>
       </div>
     </div>
   </div>
@@ -167,30 +167,30 @@ footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-al
 
 <main class="case-page">
   <div class="container">
-    <a href="/" class="back">← All cases</a>
-    <h1>Local Data Analyst with Ollama Integration</h1>
+    <a href="/" class="back">← Все кейсы</a>
+    <h1>Локальный аналитик данных с интеграцией Ollama</h1>
     <div class="meta">
-      <span class="tag-pill research">🔬 Research</span>
+      <span class="tag-pill research">🔬 Ресёрч</span>
       <span style="color:var(--text-muted)">Web</span>
-      <span style="color:var(--text-muted);font-family:var(--font-mono)">17 Feb 2026</span>
+      <span style="color:var(--text-muted);font-family:var(--font-mono)">17 фев 2026</span>
       <span style="color:var(--accent);font-family:var(--font-mono)">▲ 108</span>
     </div>
     
     
     <div class="tools-section">
-      <h4>Tools Used</h4>
+      <h4>Инструменты</h4>
       <div class="tools-list"><span class="tool-tag">OpenClaw</span><span class="tool-tag">Ollama</span><span class="tool-tag">qwen3:8b</span><span class="tool-tag">Docker</span><span class="tool-tag">Python</span><span class="tool-tag">CSV</span><span class="tool-tag">PDF</span><span class="tool-tag">Markdown</span><span class="tool-tag">ffmpeg</span></div>
     </div>
     
     <div class="results-section">
-      <h4>Results</h4>
+      <h4>Результаты</h4>
       <p>Complete local data analysis with privacy, offline operation after model download, multi-step agent workflows</p>
     </div>
     
-    <div class="content"><h2>Local-First AI Data Analysis System</h2></p><p>DataCamp built a comprehensive local data analyst application that runs entirely on-device using OpenClaw with Ollama for complete data privacy. The system accepts CSV datasets and optional supporting documents (PDF, TXT, Markdown), then performs multi-step analysis workflows to generate insights and visualizations without any external API calls.</p><p><h2>Architecture and Workflow Implementation</h2></p><p>The system operates through <strong>three core components</strong>: (1) Web interface (<code>web_assistant.py</code>) handling file uploads and creating run directories, (2) OpenClaw agent loading workspace skills and coordinating local tool execution, and (3) Analysis engine (<code>main.py</code>) reading datasets, inferring relevant columns, and generating charts. The workflow produces three key artifacts: <code>trend_chart.png</code> for visualizations, <code>analysis_report.md</code> for insights, and <code>tool_trace.json</code> for execution tracking.</p><p><h2>Technical Setup and Configuration</h2></p><p>Implementation requires OpenClaw installation (<code>curl -fsSL https://openclaw.ai/install.sh | bash</code>), Ollama setup with qwen3:8b model (<code>brew install ollama; ollama pull qwen3:8b</code>), and local configuration through <code>.openclaw-local/openclaw.json</code> pointing to the local Ollama instance at <code>http://127.0.0.1:11434/v1</code>. The system uses Docker container isolation and runs OpenClaw as non-root user for security.</p><p><h2>Privacy and Performance Benefits</h2></p><p>This architecture provides <strong>complete data privacy</strong> as all processing occurs locally, with no data transmitted to external services. The system works offline once models are downloaded, offers full transparency with inspectable execution traces, and delivers agent-style multi-step workflows triggered by single user requests. This approach is especially valuable for sensitive financial reports, legal documents, or any scenario where cloud AI solutions are unacceptable due to privacy requirements.</div>
+    <div class="content"><h2>Локальная система ИИ-анализа данных</h2></p><p>DataCamp создал комплексное приложение для анализа данных, работающее полностью локально с использованием OpenClaw и Ollama для полной приватности данных. Система принимает CSV-наборы данных и дополнительные документы (PDF, TXT, Markdown), затем выполняет многоэтапные аналитические процессы для генерации инсайтов и визуализаций без внешних API-вызовов.</p><p><h2>Архитектура и реализация процесса</h2></p><p>Система работает через <strong>три основных компонента</strong>: (1) Веб-интерфейс (<code>web_assistant.py</code>), обрабатывающий загрузку файлов и создание рабочих директорий, (2) Агент OpenClaw, загружающий навыки рабочего пространства и координирующий выполнение локальных инструментов, и (3) Аналитический движок (<code>main.py</code>), читающий наборы данных, определяющий релевантные столбцы и генерирующий графики. Процесс создаёт три ключевых артефакта: <code>trend_chart.png</code> для визуализаций, <code>analysis_report.md</code> для инсайтов, и <code>tool_trace.json</code> для отслеживания выполнения.</p><p><h2>Техническая настройка и конфигурация</h2></p><p>Реализация требует установки OpenClaw (<code>curl -fsSL https://openclaw.ai/install.sh | bash</code>), настройки Ollama с моделью qwen3:8b (<code>brew install ollama; ollama pull qwen3:8b</code>), и локальной конфигурации через <code>.openclaw-local/openclaw.json</code>, указывающей на локальный экземпляр Ollama по адресу <code>http://127.0.0.1:11434/v1</code>. Система использует изоляцию Docker-контейнеров и запускает OpenClaw от имени непривилегированного пользователя для безопасности.</p><p><h2>Преимущества приватности и производительности</h2></p><p>Эта архитектура обеспечивает <strong>полную приватность данных</strong>, поскольку вся обработка происходит локально, без передачи данных внешним сервисам. Система работает офлайн после загрузки моделей, обеспечивает полную прозрачность с проверяемыми трассировками выполнения, и предоставляет агентские многоэтапные процессы, запускаемые одним пользовательским запросом. Такой подход особенно ценен для конфиденциальных финансовых отчётов, юридических документов, или любых сценариев, где облачные ИИ-решения неприемлемы из-за требований приватности.</div>
     
     <a href="https://www.datacamp.com/tutorial/openclaw-ollama-tutorial" target="_blank" class="source-link">
-      🔗 View source
+      🔗 Открыть источник
     </a>
   </div>
 </main>
@@ -198,20 +198,20 @@ footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-al
 <footer>
   <div class="container">
     <div class="footer-author">
-      A project by <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a>
+      Проект <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a>
       <span class="footer-divider">·</span>
       <a href="https://plaan.ai" target="_blank">Plaan.ai</a>
     </div>
     <div class="footer-cta">
       <a href="https://t.me/ffring" target="_blank" class="cta-btn">
-        💬 AI Implementation Consulting
+        💬 Консультация по внедрению ИИ
       </a>
     </div>
     <div class="footer-links">
       <a href="https://github.com/openclaw/openclaw" target="_blank">GitHub</a>
       <a href="https://discord.com/invite/clawd" target="_blank">Discord</a>
     </div>
-    <div class="footer-copy">Built with <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
+    <div class="footer-copy">Собрано с помощью <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
   </div>
 </footer>
 

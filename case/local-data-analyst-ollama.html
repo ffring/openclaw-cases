@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Local Data Analyst with Ollama Integration | OpenClaw Times</title>
-<meta name="description" content="Privacy-focused data analysis system using OpenClaw and local Ollama models for CSV analysis and visualization.">
+<title>Локальный аналитик данных с интеграцией Ollama | OpenClaw Times</title>
+<meta name="description" content="Система анализа данных с акцентом на конфиденциальность, использующая OpenClaw и локальные модели Ollama для анализа CSV и визуализации.">
 <link rel="canonical" href="https://openclawtimes.com/case/local-data-analyst-ollama.html">
-<meta property="og:title" content="Local Data Analyst with Ollama Integration">
-<meta property="og:description" content="Privacy-focused data analysis system using OpenClaw and local Ollama models for CSV analysis and visualization.">
+<meta property="og:title" content="Локальный аналитик данных с интеграцией Ollama">
+<meta property="og:description" content="Система анализа данных с акцентом на конфиденциальность, использующая OpenClaw и локальные модели Ollama для анализа CSV и визуализации.">
 <meta property="og:type" content="article">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -158,8 +158,8 @@ footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-al
     <div class="header-inner">
       <a href="/" class="logo">🦞 OpenClaw <span>Times</span></a>
       <div class="lang-switch">
-        <a href="/case/local-data-analyst-ollama.html" class="lang-btn active" onclick="localStorage.setItem('lang-override','en')">🇬🇧</a>
-        <a href="/ru/case/local-data-analyst-ollama.html" class="lang-btn " onclick="localStorage.setItem('lang-override','ru')">🇷🇺</a>
+        <a href="/en/case/local-data-analyst-ollama.html" class="lang-btn ">🇬🇧</a>
+        <a href="/case/local-data-analyst-ollama.html" class="lang-btn active">🇷🇺</a>
       </div>
     </div>
   </div>
@@ -167,33 +167,33 @@ footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-al
 
 <main class="case-page">
   <div class="container">
-    <a href="/" class="back">← All cases</a>
-    <h1>Local Data Analyst with Ollama Integration</h1>
+    <a href="/" class="back">← Все кейсы</a>
+    <h1>Локальный аналитик данных с интеграцией Ollama</h1>
     <div class="meta">
-      <span class="tag-pill research">🔬 Research</span>
+      <span class="tag-pill research">🔬 Ресёрч</span>
       <span style="color:var(--text-muted)">Web</span>
-      <span style="color:var(--text-muted);font-family:var(--font-mono)">17 Feb 2026</span>
+      <span style="color:var(--text-muted);font-family:var(--font-mono)">17 фев 2026</span>
       <span style="color:var(--accent);font-family:var(--font-mono)">▲ 171</span>
     </div>
     
     
     <div class="tools-section">
-      <h4>Tools Used</h4>
+      <h4>Инструменты</h4>
       <div class="tools-list"><span class="tool-tag">OpenClaw</span><span class="tool-tag">Ollama</span><span class="tool-tag">qwen3:8b</span><span class="tool-tag">Python</span><span class="tool-tag">Docker</span><span class="tool-tag">CSV</span><span class="tool-tag">Pandas</span><span class="tool-tag">Matplotlib</span></div>
     </div>
     
     <div class="results-section">
-      <h4>Results</h4>
+      <h4>Результаты</h4>
       <p>Complete local data analysis with privacy, offline operation, full workflow transparency</p>
     </div>
     
-    <div class="content"><h2>Local-First AI Data Analysis System</h2></p><p>This implementation creates a completely local data analysis workflow where OpenClaw orchestrates multi-step analytics while Ollama provides local LLM reasoning. The system processes CSV datasets and supporting documents entirely on-device without any cloud API calls.</p><p><h2>Architecture and Workflow</h2></p><p>The system consists of three core components working together:
-<li><strong>Web Interface</strong> (<code>web_assistant.py</code>): Handles file uploads, creates run directories, and sends slash commands to OpenClaw</li>
-<li><strong>OpenClaw Agent</strong>: Acts as the execution engine, loading workspace skills and coordinating the full workflow</li>
-<li><strong>Analysis Engine</strong> (<code>main.py</code>): Performs actual data processing, column inference, chart generation, and insight creation</li></p><p><h2>Technical Implementation</h2></p><p>Users upload CSV files through a web interface, which triggers OpenClaw to execute a comprehensive analysis workflow. The system automatically infers relevant columns, generates trend visualizations, and produces three key outputs: <code>trend_chart.png</code> for visual insights, <code>analysis_report.md</code> with detailed findings, and <code>tool_trace.json</code> for workflow transparency.</p><p>The configuration uses Ollama's qwen3:8b model running locally on port 11434, with OpenClaw configured to use this endpoint instead of external APIs. The setup includes Docker-based sandboxing for secure code execution and workspace skills for file management.</p><p><h2>Privacy and Security Benefits</h2></p><p>This architecture ensures complete data privacy - sensitive financial reports, legal documents, or customer records never leave the local machine. The system works offline once models are downloaded and provides full transparency with inspectable execution traces. All processing, from data ingestion to final report generation, happens locally while maintaining agent-style multi-step execution capabilities.</div>
+    <div class="content"><h2>Локальная система ИИ-анализа данных</h2></p><p>Эта реализация создает полностью локальный рабочий процесс анализа данных, где OpenClaw координирует многоэтапную аналитику, а Ollama обеспечивает локальное рассуждение LLM. Система обрабатывает CSV наборы данных и сопроводительные документы полностью на устройстве без каких-либо вызовов облачных API.</p><p><h2>Архитектура и рабочий процесс</h2></p><p>Система состоит из трех основных компонентов, работающих вместе:
+<li><strong>Веб-интерфейс</strong> (<code>web_assistant.py</code>): Обрабатывает загрузку файлов, создает рабочие директории и отправляет slash-команды в OpenClaw</li>
+<li><strong>Агент OpenClaw</strong>: Действует как движок выполнения, загружая навыки рабочего пространства и координируя полный рабочий процесс</li>
+<li><strong>Движок анализа</strong> (<code>main.py</code>): Выполняет фактическую обработку данных, вывод столбцов, генерацию графиков и создание инсайтов</li></p><p><h2>Техническая реализация</h2></p><p>Пользователи загружают CSV файлы через веб-интерфейс, что запускает OpenClaw для выполнения комплексного рабочего процесса анализа. Система автоматически выводит релевантные столбцы, генерирует визуализации трендов и производит три ключевых выхода: <code>trend_chart.png</code> для визуальных инсайтов, <code>analysis_report.md</code> с детальными находками и <code>tool_trace.json</code> для прозрачности рабочего процесса.</p><p>Конфигурация использует модель Ollama qwen3:8b, работающую локально на порту 11434, с OpenClaw, настроенным на использование этой конечной точки вместо внешних API. Настройка включает песочницу на основе Docker для безопасного выполнения кода и навыки рабочего пространства для управления файлами.</p><p><h2>Преимущества конфиденциальности и безопасности</h2></p><p>Эта архитектура обеспечивает полную конфиденциальность данных - чувствительные финансовые отчеты, юридические документы или записи клиентов никогда не покидают локальную машину. Система работает офлайн после загрузки моделей и обеспечивает полную прозрачность с инспектируемыми трассировками выполнения. Вся обработка, от приема данных до генерации финального отчета, происходит локально, сохраняя при этом возможности многоэтапного выполнения в стиле агента.</div>
     
     <a href="https://www.datacamp.com/tutorial/openclaw-ollama-tutorial" target="_blank" class="source-link">
-      🔗 View source
+      🔗 Открыть источник
     </a>
   </div>
 </main>
@@ -201,20 +201,20 @@ footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-al
 <footer>
   <div class="container">
     <div class="footer-author">
-      A project by <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a>
+      Проект <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a>
       <span class="footer-divider">·</span>
       <a href="https://plaan.ai" target="_blank">Plaan.ai</a>
     </div>
     <div class="footer-cta">
       <a href="https://t.me/ffring" target="_blank" class="cta-btn">
-        💬 AI Implementation Consulting
+        💬 Консультация по внедрению ИИ
       </a>
     </div>
     <div class="footer-links">
       <a href="https://github.com/openclaw/openclaw" target="_blank">GitHub</a>
       <a href="https://discord.com/invite/clawd" target="_blank">Discord</a>
     </div>
-    <div class="footer-copy">Built with <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
+    <div class="footer-copy">Собрано с помощью <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
   </div>
 </footer>
 

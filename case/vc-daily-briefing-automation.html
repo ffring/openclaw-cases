@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VC Daily Briefing Automation with OpenClaw | OpenClaw Times</title>
-<meta name="description" content="Automated morning briefings for VCs using cron jobs to analyze markets, portfolio updates, and news.">
+<title>Автоматизация ежедневных сводок для ВК с OpenClaw | OpenClaw Times</title>
+<meta name="description" content="Автоматизированные утренние сводки для венчурных капиталистов с использованием cron-заданий для анализа рынков, обновлений портфеля и новостей.">
 <link rel="canonical" href="https://openclawtimes.com/case/vc-daily-briefing-automation.html">
-<meta property="og:title" content="VC Daily Briefing Automation with OpenClaw">
-<meta property="og:description" content="Automated morning briefings for VCs using cron jobs to analyze markets, portfolio updates, and news.">
+<meta property="og:title" content="Автоматизация ежедневных сводок для ВК с OpenClaw">
+<meta property="og:description" content="Автоматизированные утренние сводки для венчурных капиталистов с использованием cron-заданий для анализа рынков, обновлений портфеля и новостей.">
 <meta property="og:type" content="article">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -158,8 +158,8 @@ footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-al
     <div class="header-inner">
       <a href="/" class="logo">🦞 OpenClaw <span>Times</span></a>
       <div class="lang-switch">
-        <a href="/case/vc-daily-briefing-automation.html" class="lang-btn active" onclick="localStorage.setItem('lang-override','en')">🇬🇧</a>
-        <a href="/ru/case/vc-daily-briefing-automation.html" class="lang-btn " onclick="localStorage.setItem('lang-override','ru')">🇷🇺</a>
+        <a href="/en/case/vc-daily-briefing-automation.html" class="lang-btn ">🇬🇧</a>
+        <a href="/case/vc-daily-briefing-automation.html" class="lang-btn active">🇷🇺</a>
       </div>
     </div>
   </div>
@@ -167,33 +167,33 @@ footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-al
 
 <main class="case-page">
   <div class="container">
-    <a href="/" class="back">← All cases</a>
-    <h1>VC Daily Briefing Automation with OpenClaw</h1>
+    <a href="/" class="back">← Все кейсы</a>
+    <h1>Автоматизация ежедневных сводок для ВК с OpenClaw</h1>
     <div class="meta">
-      <span class="tag-pill finance">💰 Finance</span>
+      <span class="tag-pill finance">💰 Финансы</span>
       <span style="color:var(--text-muted)">Twitter</span>
-      <span style="color:var(--text-muted);font-family:var(--font-mono)">17 Feb 2026</span>
+      <span style="color:var(--text-muted);font-family:var(--font-mono)">17 фев 2026</span>
       <span style="color:var(--accent);font-family:var(--font-mono)">▲ 237</span>
     </div>
     
     
     <div class="tools-section">
-      <h4>Tools Used</h4>
+      <h4>Инструменты</h4>
       <div class="tools-list"><span class="tool-tag">OpenClaw</span><span class="tool-tag">cron</span></div>
     </div>
     
     <div class="results-section">
-      <h4>Results</h4>
+      <h4>Результаты</h4>
       <p>Automated daily market intelligence briefings for VCs</p>
     </div>
     
-    <div class="content"><h2>VC Daily Briefing Automation</h2></p><p>Andre Retterath implemented an automated morning briefing system for venture capitalists using OpenClaw's scheduling capabilities. The system uses cron jobs to generate comprehensive daily reports before the workday begins.</p><p><strong>How It Works Step by Step:</strong>
-The automation is set up using OpenClaw's cron functionality with the command: <code>openclaw cron add --name "Morning Briefing" --cron "0 7 * * *" --tz "Europe/Berlin" --session isolated --message "Write today's morning briefing: 1."</code> This schedules the briefing to run every morning at 7 AM Berlin time in an isolated session.</p><p><strong>Integration and Tools Used:</strong>
-The workflow integrates with various data sources to compile market analysis, portfolio company updates, and relevant news. The system uses OpenClaw's ability to process multiple information streams and synthesize them into actionable intelligence for investment decision-making.</p><p><strong>Results and Impact:</strong>
-This automation ensures VCs start each day with comprehensive, up-to-date market intelligence without manual research time. The isolated session approach prevents context bleeding between different briefing sessions, maintaining consistency and reliability in the daily reports.</div>
+    <div class="content"><h2>Автоматизация ежедневных сводок для ВК</h2></p><p>Андре Реттерат внедрил автоматизированную систему утренних сводок для венчурных капиталистов, используя возможности планирования OpenClaw. Система использует cron-задания для генерации комплексных ежедневных отчетов до начала рабочего дня.</p><p><strong>Как это работает пошагово:</strong>
+Автоматизация настраивается с использованием функции cron OpenClaw командой: <code>openclaw cron add --name "Morning Briefing" --cron "0 7 * * *" --tz "Europe/Berlin" --session isolated --message "Write today's morning briefing: 1."</code> Это планирует запуск сводки каждое утро в 7 утра по берлинскому времени в изолированной сессии.</p><p><strong>Интеграция и используемые инструменты:</strong>
+Рабочий процесс интегрируется с различными источниками данных для составления анализа рынка, обновлений портфельных компаний и релевантных новостей. Система использует способность OpenClaw обрабатывать множественные информационные потоки и синтезировать их в практическую информацию для принятия инвестиционных решений.</p><p><strong>Результаты и влияние:</strong>
+Эта автоматизация обеспечивает ВК началом каждого дня с комплексной, актуальной рыночной аналитикой без времени на ручные исследования. Подход с изолированными сессиями предотвращает смешивание контекста между различными сессиями сводок, поддерживая последовательность и надежность ежедневных отчетов.</div>
     
     <a href="https://x.com/AndreRetterath/status/2020446525688561951" target="_blank" class="source-link">
-      🔗 View source
+      🔗 Открыть источник
     </a>
   </div>
 </main>
@@ -201,20 +201,20 @@ This automation ensures VCs start each day with comprehensive, up-to-date market
 <footer>
   <div class="container">
     <div class="footer-author">
-      A project by <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a>
+      Проект <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a>
       <span class="footer-divider">·</span>
       <a href="https://plaan.ai" target="_blank">Plaan.ai</a>
     </div>
     <div class="footer-cta">
       <a href="https://t.me/ffring" target="_blank" class="cta-btn">
-        💬 AI Implementation Consulting
+        💬 Консультация по внедрению ИИ
       </a>
     </div>
     <div class="footer-links">
       <a href="https://github.com/openclaw/openclaw" target="_blank">GitHub</a>
       <a href="https://discord.com/invite/clawd" target="_blank">Discord</a>
     </div>
-    <div class="footer-copy">Built with <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
+    <div class="footer-copy">Собрано с помощью <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
   </div>
 </footer>
 

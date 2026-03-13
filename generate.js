@@ -54,7 +54,7 @@ function generateCaseCard(c, lang, featured = false) {
   
   if (featured) {
     return `
-    <a href="${lang === 'ru' ? '/ru' : ''}/case/${c.id}.html" class="featured-case" data-tag="${c.tag}">
+    <a href="${lang === 'en' ? '/en' : ''}/case/${c.id}.html" class="featured-case" data-tag="${c.tag}">
       <div class="featured-badge">🏆 ${lang === 'ru' ? 'КЕЙС ДНЯ' : 'CASE OF THE DAY'}</div>
       <div class="featured-content">
         <h2 class="featured-title">${title}</h2>
@@ -69,7 +69,7 @@ function generateCaseCard(c, lang, featured = false) {
   }
   
   return `
-    <a href="${lang === 'ru' ? '/ru' : ''}/case/${c.id}.html" class="case-card" data-tag="${c.tag}" data-title="${title.toLowerCase()}" data-desc="${desc.toLowerCase()}">
+    <a href="${lang === 'en' ? '/en' : ''}/case/${c.id}.html" class="case-card" data-tag="${c.tag}" data-title="${title.toLowerCase()}" data-desc="${desc.toLowerCase()}">
       <div class="case-rank">${String(c.rank).padStart(2, '0')}</div>
       <div class="case-body">
         <h3 class="case-title">${title}</h3>
@@ -271,12 +271,12 @@ function generateIndex(lang) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>OpenClaw Times — ${isRu ? 'Лучшие кейсы AI-агентов' : 'Best AI Agent Use Cases'}</title>
 <meta name="description" content="${isRu ? 'Ежедневная подборка лучших кейсов использования OpenClaw и AI-агентов.' : 'Daily curated best OpenClaw and AI agent use cases.'}">
-<link rel="canonical" href="${SITE_URL}${isRu ? '/ru/' : '/'}">
-<link rel="alternate" hreflang="en" href="${SITE_URL}/">
-<link rel="alternate" hreflang="ru" href="${SITE_URL}/ru/">
+<link rel="canonical" href="${SITE_URL}${isRu ? '/' : '/en/'}">
+<link rel="alternate" hreflang="en" href="${SITE_URL}/en/">
+<link rel="alternate" hreflang="ru" href="${SITE_URL}/">
 <meta property="og:title" content="OpenClaw Times">
 <meta property="og:description" content="${texts.subtitle}">
-<meta property="og:url" content="${SITE_URL}${isRu ? '/ru/' : '/'}">
+<meta property="og:url" content="${SITE_URL}${isRu ? '/' : '/en/'}">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
@@ -289,15 +289,15 @@ function generateIndex(lang) {
 <header>
   <div class="container">
     <div class="header-inner">
-      <a href="${isRu ? '/ru/' : '/'}" class="logo">🦞 OpenClaw <span>Times</span></a>
+      <a href="${isRu ? '/' : '/en/'}" class="logo">🦞 OpenClaw <span>Times</span></a>
       <div class="header-right">
         <div class="search-box">
           <span class="search-icon">🔍</span>
           <input type="text" class="search-input" id="search" placeholder="${texts.search}">
         </div>
         <div class="lang-switch">
-          <a href="/" class="lang-btn ${isRu ? '' : 'active'}" onclick="localStorage.setItem('lang-override','en')">🇬🇧</a>
-          <a href="/ru/" class="lang-btn ${isRu ? 'active' : ''}" onclick="localStorage.setItem('lang-override','ru')">🇷🇺</a>
+          <a href="/en/" class="lang-btn ${isRu ? '' : 'active'}">🇬🇧</a>
+          <a href="/" class="lang-btn ${isRu ? 'active' : ''}">🇷🇺</a>
         </div>
       </div>
     </div>
@@ -401,13 +401,13 @@ function filterCases() {
   document.getElementById('no-results').style.display = visible === 0 ? 'block' : 'none';
 }
 
-// Auto-detect Russian
-${!isRu ? `
+// Auto-detect English speakers → redirect to /en/
+${isRu ? `
 (function(){
   if (localStorage.getItem('lang-override')) return;
   var lang = navigator.language || navigator.userLanguage || '';
-  if (lang.toLowerCase().startsWith('ru')) {
-    window.location.href = '/ru/';
+  if (lang.toLowerCase().startsWith('en')) {
+    window.location.href = '/en/';
   }
 })();
 ` : ''}
@@ -448,7 +448,7 @@ function generateCasePage(c, lang) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${title} | OpenClaw Times</title>
 <meta name="description" content="${desc}">
-<link rel="canonical" href="${SITE_URL}${isRu ? '/ru' : ''}/case/${c.id}.html">
+<link rel="canonical" href="${SITE_URL}${isRu ? '' : '/en'}/case/${c.id}.html">
 <meta property="og:title" content="${title}">
 <meta property="og:description" content="${desc}">
 <meta property="og:type" content="article">
@@ -462,10 +462,10 @@ function generateCasePage(c, lang) {
 <header>
   <div class="container">
     <div class="header-inner">
-      <a href="${isRu ? '/ru/' : '/'}" class="logo">🦞 OpenClaw <span>Times</span></a>
+      <a href="${isRu ? '/' : '/en/'}" class="logo">🦞 OpenClaw <span>Times</span></a>
       <div class="lang-switch">
-        <a href="/case/${c.id}.html" class="lang-btn ${isRu ? '' : 'active'}" onclick="localStorage.setItem('lang-override','en')">🇬🇧</a>
-        <a href="/ru/case/${c.id}.html" class="lang-btn ${isRu ? 'active' : ''}" onclick="localStorage.setItem('lang-override','ru')">🇷🇺</a>
+        <a href="/en/case/${c.id}.html" class="lang-btn ${isRu ? '' : 'active'}">🇬🇧</a>
+        <a href="/case/${c.id}.html" class="lang-btn ${isRu ? 'active' : ''}">🇷🇺</a>
       </div>
     </div>
   </div>
@@ -473,7 +473,7 @@ function generateCasePage(c, lang) {
 
 <main class="case-page">
   <div class="container">
-    <a href="${isRu ? '/ru/' : '/'}" class="back">${backText}</a>
+    <a href="${isRu ? '/' : '/en/'}" class="back">${backText}</a>
     <h1>${title}</h1>
     <div class="meta">
       <span class="tag-pill ${c.tag}">${tag.emoji} ${tagLabel}</span>
@@ -525,16 +525,21 @@ fs.mkdirSync(path.join(TEMPLATE_DIR, 'ru', 'case'), { recursive: true });
 
 console.log('Generating OpenClaw Times v3.0...');
 
-fs.writeFileSync(path.join(TEMPLATE_DIR, 'index.html'), generateIndex('en'));
-fs.writeFileSync(path.join(TEMPLATE_DIR, 'en', 'index.html'), generateIndex('en'));
-console.log('✓ EN index');
-
+// RU = default (root), EN = /en/
+fs.writeFileSync(path.join(TEMPLATE_DIR, 'index.html'), generateIndex('ru'));
 fs.writeFileSync(path.join(TEMPLATE_DIR, 'ru', 'index.html'), generateIndex('ru'));
-console.log('✓ RU index');
+console.log('✓ RU index (root + /ru/)');
+
+fs.writeFileSync(path.join(TEMPLATE_DIR, 'en', 'index.html'), generateIndex('en'));
+console.log('✓ EN index (/en/)');
 
 for (const c of data.cases) {
-  fs.writeFileSync(path.join(TEMPLATE_DIR, 'case', `${c.id}.html`), generateCasePage(c, 'en'));
+  // RU case pages in root /case/ and /ru/case/
+  fs.writeFileSync(path.join(TEMPLATE_DIR, 'case', `${c.id}.html`), generateCasePage(c, 'ru'));
   fs.writeFileSync(path.join(TEMPLATE_DIR, 'ru', 'case', `${c.id}.html`), generateCasePage(c, 'ru'));
+  // EN case pages in /en/case/
+  fs.mkdirSync(path.join(TEMPLATE_DIR, 'en', 'case'), { recursive: true });
+  fs.writeFileSync(path.join(TEMPLATE_DIR, 'en', 'case', `${c.id}.html`), generateCasePage(c, 'en'));
 }
 console.log(`✓ ${data.cases.length} case pages`);
 
@@ -542,10 +547,10 @@ console.log(`✓ ${data.cases.length} case pages`);
 const today = new Date().toISOString().split('T')[0];
 const sitemapUrls = [
   { loc: `${SITE_URL}/`, priority: '1.0' },
-  { loc: `${SITE_URL}/ru/`, priority: '1.0' },
+  { loc: `${SITE_URL}/en/`, priority: '0.9' },
   ...data.cases.flatMap(c => [
     { loc: `${SITE_URL}/case/${c.id}.html`, lastmod: c.date, priority: '0.8' },
-    { loc: `${SITE_URL}/ru/case/${c.id}.html`, lastmod: c.date, priority: '0.7' }
+    { loc: `${SITE_URL}/en/case/${c.id}.html`, lastmod: c.date, priority: '0.7' }
   ])
 ];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

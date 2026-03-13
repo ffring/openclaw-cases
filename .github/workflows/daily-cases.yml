@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "Cases Bot"
           git config user.email "bot@openclawtimes.com"
-          git add data/cases.json data/seen-urls.json index.html en/ ru/ case/ sitemap.xml
+          git add CNAME data/cases.json data/seen-urls.json index.html en/ ru/ case/ sitemap.xml
           if ! git diff --staged --quiet; then
             git commit -m "Daily cases update"
             git push

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Options Flow Data Parser & Analysis System | OpenClaw Times</title>
-<meta name="description" content="Claude-powered OpenClaw agent that ingests 6 months of institutional options data from Discord, creates SQLite database with vector search.">
+<title>Парсер и система анализа потока опционов | OpenClaw Times</title>
+<meta name="description" content="Агент OpenClaw на базе Claude, который обрабатывает 6-месячные данные институциональных опционов из Discord, создает базу SQLite с векторным поиском.">
 <link rel="canonical" href="https://openclawtimes.com/case/options-flow-data-parser.html">
-<meta property="og:title" content="Options Flow Data Parser & Analysis System">
-<meta property="og:description" content="Claude-powered OpenClaw agent that ingests 6 months of institutional options data from Discord, creates SQLite database with vector search.">
+<meta property="og:title" content="Парсер и система анализа потока опционов">
+<meta property="og:description" content="Агент OpenClaw на базе Claude, который обрабатывает 6-месячные данные институциональных опционов из Discord, создает базу SQLite с векторным поиском.">
 <meta property="og:type" content="article">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -158,8 +158,8 @@ footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-al
     <div class="header-inner">
       <a href="/" class="logo">🦞 OpenClaw <span>Times</span></a>
       <div class="lang-switch">
-        <a href="/case/options-flow-data-parser.html" class="lang-btn active" onclick="localStorage.setItem('lang-override','en')">🇬🇧</a>
-        <a href="/ru/case/options-flow-data-parser.html" class="lang-btn " onclick="localStorage.setItem('lang-override','ru')">🇷🇺</a>
+        <a href="/en/case/options-flow-data-parser.html" class="lang-btn ">🇬🇧</a>
+        <a href="/case/options-flow-data-parser.html" class="lang-btn active">🇷🇺</a>
       </div>
     </div>
   </div>
@@ -167,30 +167,30 @@ footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-al
 
 <main class="case-page">
   <div class="container">
-    <a href="/" class="back">← All cases</a>
-    <h1>Options Flow Data Parser & Analysis System</h1>
+    <a href="/" class="back">← Все кейсы</a>
+    <h1>Парсер и система анализа потока опционов</h1>
     <div class="meta">
-      <span class="tag-pill finance">💰 Finance</span>
+      <span class="tag-pill finance">💰 Финансы</span>
       <span style="color:var(--text-muted)">Twitter</span>
-      <span style="color:var(--text-muted);font-family:var(--font-mono)">18 Feb 2026</span>
+      <span style="color:var(--text-muted);font-family:var(--font-mono)">18 фев 2026</span>
       <span style="color:var(--accent);font-family:var(--font-mono)">▲ 209</span>
     </div>
     
     
     <div class="tools-section">
-      <h4>Tools Used</h4>
+      <h4>Инструменты</h4>
       <div class="tools-list"><span class="tool-tag">OpenClaw</span><span class="tool-tag">Claude</span><span class="tool-tag">Discord</span><span class="tool-tag">Python</span><span class="tool-tag">SQLite</span><span class="tool-tag">Vector Search</span></div>
     </div>
     
     <div class="results-section">
-      <h4>Results</h4>
+      <h4>Результаты</h4>
       <p>6 months of options data processed and structured</p>
     </div>
     
-    <div class="content"><h2>Automated Options Flow Data Processing</h2></p><p>Mandeep Bhullar built a sophisticated financial data processing system using OpenClaw with Claude as the AI engine. The system automatically processes institutional options flow data that streams daily into his Discord channel, including <strong>sweeps, blocks, premium size, strike prices, expiry dates, and trade direction</strong>.</p><p><h2>Six Months of Market Intelligence</h2></p><p>After accumulating six months of raw options flow data, the challenge became extracting meaningful signals from the overwhelming noise. The OpenClaw agent was tasked with ingesting all historical data and making it searchable and actionable.</p><p><h2>Technical Implementation</h2></p><p>The Claude-powered agent <strong>wrote its own Python script</strong> to parse the raw Discord messages containing options data. It then structured this unformatted information into a <strong>SQLite database</strong> with proper schema for strikes, expiries, premiums, and trade types. To enable intelligent querying, the system built a <strong>vector layer on top</strong> for semantic search capabilities, allowing natural language queries about market patterns and specific options activity.</p><p><h2>Intelligent Market Analysis</h2></p><p>This automated system transforms months of scattered Discord messages into a queryable intelligence database. Users can now ask complex questions about options flow patterns, identify unusual activity, and spot institutional trading trends that would be impossible to detect manually in raw message streams.</div>
+    <div class="content"><h2>Автоматизированная обработка данных потока опционов</h2></p><p>Мандип Бхуллар создал сложную систему обработки финансовых данных, используя OpenClaw с Claude в качестве ИИ-движка. Система автоматически обрабатывает данные институционального потока опционов, которые ежедневно поступают в его Discord-канал, включая <strong>свипы, блоки, размер премии, цены страйков, даты экспирации и направление сделок</strong>.</p><p><h2>Шесть месяцев рыночной аналитики</h2></p><p>После накопления шестимесячных данных о потоке опционов основной задачей стало извлечение значимых сигналов из огромного количества шума. Агент OpenClaw получил задачу обработать все исторические данные и сделать их доступными для поиска и анализа.</p><p><h2>Техническ��я реализация</h2></p><p>Агент на базе Claude <strong>написал собственный Python-скрипт</strong> для парсинга сырых сообщений Discord, содержащих данные опционов. Затем он структурировал эту неформатированную информацию в <strong>базу данных SQLite</strong> с правильной схемой для страйков, экспираций, премий и типов сделок. Для обеспечения интеллектуального поиска система построила <strong>векторный слой сверху</strong> для возможностей семантического поиска, позволяя делать запросы на естественном языке о рыночных паттернах и конкретной активности опционов.</p><p><h2>Интеллектуальный анализ рынка</h2></p><p>Эта автоматизированная система превращает месяцы разрозненных сообщений Discord в базу данных аналитики с возможностью запросов. Пользователи теперь могут задавать сложные вопросы о паттернах потока оп��ионов, выявлять необычную активность и обнаруживать тренды институциональной торговли, которые невозможно обнаружить вручную в сырых потоках сообщений.</div>
     
     <a href="https://x.com/mbhullar/status/2021041211197489300" target="_blank" class="source-link">
-      🔗 View source
+      🔗 Открыть источник
     </a>
   </div>
 </main>
@@ -198,20 +198,20 @@ footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-al
 <footer>
   <div class="container">
     <div class="footer-author">
-      A project by <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a>
+      Проект <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a>
       <span class="footer-divider">·</span>
       <a href="https://plaan.ai" target="_blank">Plaan.ai</a>
     </div>
     <div class="footer-cta">
       <a href="https://t.me/ffring" target="_blank" class="cta-btn">
-        💬 AI Implementation Consulting
+        💬 Консультация по внедрению ИИ
       </a>
     </div>
     <div class="footer-links">
       <a href="https://github.com/openclaw/openclaw" target="_blank">GitHub</a>
       <a href="https://discord.com/invite/clawd" target="_blank">Discord</a>
     </div>
-    <div class="footer-copy">Built with <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
+    <div class="footer-copy">Собрано с помощью <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
   </div>
 </footer>
 
