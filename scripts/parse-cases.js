@@ -93,20 +93,21 @@ function httpRequest(url, options = {}, redirects = 3) {
 function postJSON(url, body, headers) {
   return new Promise((resolve, reject) => {
     const parsed = new URL(url);
-    const data = JSON.stringify(body);
+    const data = Buffer.from(JSON.stringify(body), 'utf8');
     const req = https.request({
       hostname: parsed.hostname,
       path: parsed.pathname,
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json',
-        'Content-Length': Buffer.byteLength(data),
+        'Content-Type': 'application/json; charset=utf-8',
+        'Content-Length': data.length,
         ...headers
       }
     }, (res) => {
-      let resp = '';
-      res.on('data', chunk => resp += chunk);
+      const chunks = [];
+      res.on('data', chunk => chunks.push(chunk));
       res.on('end', () => {
+        const resp = Buffer.concat(chunks).toString('utf8');
         try { resolve(JSON.parse(resp)); }
         catch { reject(new Error('Invalid JSON: ' + resp.slice(0, 300))); }
       });
