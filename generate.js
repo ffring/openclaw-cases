@@ -401,16 +401,7 @@ function filterCases() {
   document.getElementById('no-results').style.display = visible === 0 ? 'block' : 'none';
 }
 
-// Auto-detect English speakers → redirect to /en/
-${isRu ? `
-(function(){
-  if (localStorage.getItem('lang-override')) return;
-  var lang = navigator.language || navigator.userLanguage || '';
-  if (lang.toLowerCase().startsWith('en')) {
-    window.location.href = '/en/';
-  }
-})();
-` : ''}
+// No auto-redirect — RU is default for everyone
 </script>
 
 </body>
