@@ -281,7 +281,7 @@ Return {"cases": [...]}. Quality over quantity — skip weak sources.`;
       model: OPENAI_MODEL,
       messages: [{ role: 'user', content: prompt }],
       response_format: { type: 'json_object' },
-      max_tokens: 64000,
+      max_tokens: 32000,
       temperature: 0.4
     }, {
       'Authorization': 'Bearer ' + OPENAI_API_KEY
