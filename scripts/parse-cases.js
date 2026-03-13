@@ -184,23 +184,21 @@ async function fetchFullContent(url) {
   }
 }
 
-// OpenAI: extract & generate detailed cases
-async function extractDetailedCases(searchResults, pageContents) {
-  if (searchResults.length === 0) return [];
-
-  const context = searchResults.map((r, i) => ({
-    ...r,
-    pageContent: pageContents[i] || '(page content unavailable)'
-  }));
-
-  const prompt = `You are a senior tech journalist writing in-depth longread articles for OpenClaw Times.
+// OpenAI: generate ONE detailed article per source
+async function generateArticle(source, pageContent) {
+  const prompt = `You are a senior tech journalist writing an in-depth longread article for OpenClaw Times.
 Your audience: entrepreneurs, marketers, business owners in Russia/CIS. NOT developers.
 
-Analyze search results about real AI agent use cases. For each REAL USE CASE (skip tutorials, docs, marketing pages):
+Analyze this source about a real AI agent use case. If it's NOT a real use case (just a tutorial, docs, or marketing page), return {"skip": true}.
 
-RESPOND IN VALID JSON (UTF-8, no broken characters) — an object: {"cases": [...]}
+Source: ${source.title}
+URL: ${source.url}
+Description: ${source.description}
 
-Each case object:
+Page content:
+${(pageContent || '(unavailable)').slice(0, 6000)}
+
+RESPOND IN VALID JSON (UTF-8). Return a single case object:
 {
   "id": "slug-3-5-words",
   "title_en": "SEO title in English (50-70 chars, keyword first)",
@@ -208,7 +206,7 @@ Each case object:
   "desc_en": "Meta description 150-160 chars with CTA",
   "desc_ru": "Мета-описание 150-160 символов с CTA на русском",
   "tag": "automation|coding|research|devops|productivity|marketing|finance",
-  "source_url": "original URL",
+  "source_url": "${source.url}",
   "tools_en": ["Tool1", "Tool2"],
   "tools_ru": ["Описание инструмента1 на русском", "Описание инструмента2 на русском"],
   "results_en": "Key outcome (e.g. 'Saves 15 hours/week on reporting')",
@@ -219,23 +217,23 @@ Each case object:
 
 === ARTICLE STRUCTURE (both content_en and content_ru) ===
 
-MINIMUM 1500 words per language. Articles under 1200 words are REJECTED.
+Write a COMPLETE article. Aim for 1500+ words per language. This is a SINGLE article — give it your full attention and depth.
 
 1. INTRO (2-3 paragraphs, 150-200 words):
    - Hook: why this matters for the reader's business RIGHT NOW
    - Context: what problem exists, what pain point
-   - Promise: what the reader will learn from this article
+   - Promise: what the reader will learn
 
-2. Five to six ## H2 sections (200-350 words each):
+2. Five to seven ## H2 sections (200-350 words each):
    - Each section: 2-3 detailed paragraphs
-   - Include specific details, numbers, examples from the source
-   - At least 1 bullet list (ul/ol) per 2 sections
+   - Specific details, numbers, examples from the source
+   - At least 1 bullet list per 2 sections
    - At least 1 blockquote (>) per article with a key insight
-   - H2s phrased as questions or "How to..." for SEO featured snippets
+   - H2s phrased as questions or "How to..." for SEO
 
 3. ## Frequently Asked Questions (FAQ):
    - 4-5 Q&A pairs
-   - Questions that a non-technical person would ask Google or ChatGPT
+   - Questions a non-technical person would ask
    - Each answer: 2-3 sentences minimum
 
 4. CONCLUSION (1-2 paragraphs):
@@ -244,65 +242,56 @@ MINIMUM 1500 words per language. Articles under 1200 words are REJECTED.
 
 === WRITING STYLE ===
 
-FOR content_ru (CRITICAL — this is the PRIMARY language):
-- Write ENTIRELY in Russian. Every single word must be Russian (except product names like OpenClaw, ChatGPT).
+FOR content_ru (CRITICAL — PRIMARY language):
+- Write ENTIRELY in Russian. Every word must be Russian (except product names).
 - Живой, разговорный язык. Как будто объясняешь другу за кофе.
 - ЗАПРЕЩЕНО: "следует отметить", "давайте рассмотрим", "в рамках", "необходимо подчеркнуть", "данный", "является", "осуществлять"
-- Объясняй технические термины простым языком: "AI-агент — это программа, которая сама выполняет задачи за вас"
+- Объясняй технические термины простым языком
 - Конкретные примеры и аналогии из бизнеса
-- Каждый абзац должен давать читателю что-то полезное
+- Каждый абзац — что-то полезное для читателя
 
 FOR content_en:
 - Direct, clear, engaging. Short sentences. Active voice.
 - No corporate speak, no filler.
 
-=== SEO/GEO OPTIMIZATION ===
+=== SEO/GEO ===
 - Primary keyword in title (first 3 words)
 - H2s as questions for featured snippets
 - FAQ with natural questions people ask AI assistants
-- Keywords: mix head terms + long-tail + questions
-- read_time: ceil(total_words / 200)
 
-=== QUALITY CHECKS ===
-- If content_ru contains English sentences → REJECTED
-- If article is under 1200 words → REJECTED
-- If article is generic without specific details from source → REJECTED
+=== QUALITY ===
+- If content_ru contains English sentences — REWRITE in Russian
 - DO NOT invent statistics or quotes — use only what's in the source
+- Make it LONG and DETAILED. Short articles are useless.
 
-Format: ## headers, **bold**, - bullet lists, > blockquotes
-Use only ASCII-safe characters in JSON strings. Avoid Unicode that might break.
-
-Search results with page content:
-${JSON.stringify(context, null, 2)}
-
-Return {"cases": [...]}. Quality over quantity — skip weak sources.`;
+Format: ## headers, **bold**, - bullet lists, > blockquotes`;
 
   try {
     const response = await postJSON('https://api.openai.com/v1/chat/completions', {
       model: OPENAI_MODEL,
       messages: [{ role: 'user', content: prompt }],
       response_format: { type: 'json_object' },
-      max_tokens: 32000,
-      temperature: 0.4
+      max_tokens: 16000,
+      temperature: 0.5
     }, {
       'Authorization': 'Bearer ' + OPENAI_API_KEY
     });
 
     if (response.error) {
       console.log(`  OpenAI error: ${response.error.message}`);
-      return [];
+      return null;
     }
 
     const text = response.choices?.[0]?.message?.content || '';
-
-    // Parse JSON — could be { cases: [...] } or [...]
     const parsed = JSON.parse(text);
-    const cases = Array.isArray(parsed) ? parsed : (parsed.cases || parsed.results || []);
 
-    return cases;
+    if (parsed.skip) return null;
+    if (!parsed.content_ru || parsed.content_ru.length < 500) return null;
+
+    return parsed;
   } catch (e) {
-    console.log(`  OpenAI extraction error: ${e.message}`);
-    return [];
+    console.log(`  Article generation error: ${e.message}`);
+    return null;
   }
 }
 
@@ -376,22 +365,21 @@ async function main() {
   }
   console.log(' done');
 
-  // Batch AI extraction
-  console.log('\nGenerating articles via OpenAI...');
-  const batches = [];
-  for (let i = 0; i < uniqueResults.length; i += 3) {
-    batches.push({
-      results: uniqueResults.slice(i, i + 3),
-      contents: pageContents.slice(i, i + 3)
-    });
-  }
-
+  // Generate ONE article per source (max quality)
+  console.log('\nGenerating articles via OpenAI (one per source)...');
   let extractedCases = [];
-  for (const batch of batches) {
-    const cases = await extractDetailedCases(batch.results, batch.contents);
-    extractedCases.push(...cases);
-    console.log(`   +${cases.length} articles`);
-    await delay(2000);
+  for (let i = 0; i < uniqueResults.length; i++) {
+    const r = uniqueResults[i];
+    process.stdout.write(`  [${i + 1}/${uniqueResults.length}] ${r.title.slice(0, 50)}... `);
+    const article = await generateArticle(r, pageContents[i]);
+    if (article) {
+      extractedCases.push(article);
+      const words = (article.content_ru || '').split(/\s+/).length;
+      console.log(`OK (${words} words RU)`);
+    } else {
+      console.log('skipped');
+    }
+    await delay(1000);
   }
 
   console.log(`\nTotal extracted: ${extractedCases.length} articles`);
