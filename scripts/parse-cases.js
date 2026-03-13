@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
- * OpenClaw Cases Parser v2.1
- * Multi-source with FULL CONTENT extraction
- * Fetches original pages and extracts detailed case info
+ * OpenClaw Cases Parser v3.0
+ * Multi-source search → OpenAI article generation
+ * SEO/GEO optimized, written for regular people
  */
 
 const fs = require('fs');
@@ -10,11 +10,20 @@ const path = require('path');
 const https = require('https');
 const http = require('http');
 
-// Load env
-require('dotenv').config({ path: path.join(process.env.HOME, '.openclaw', '.env') });
+// Load env: GitHub Actions sets env vars directly; local dev uses ~/.openclaw/.env
+const envPath = path.join(process.env.HOME || '', '.openclaw', '.env');
+if (fs.existsSync(envPath)) {
+  require('dotenv').config({ path: envPath });
+}
 
 const BRAVE_API_KEY = process.env.BRAVE_API_KEY;
-const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-4.1-nano';
+
+if (!OPENAI_API_KEY) {
+  console.error('OPENAI_API_KEY not set. Set in env or ~/.openclaw/.env');
+  process.exit(1);
+}
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const DATA_FILE = path.join(DATA_DIR, 'cases.json');
@@ -41,7 +50,7 @@ function httpRequest(url, options = {}, redirects = 3) {
     const urlObj = new URL(url);
     const isHttps = urlObj.protocol === 'https:';
     const lib = isHttps ? https : http;
-    
+
     const opts = {
       hostname: urlObj.hostname,
       port: urlObj.port || (isHttps ? 443 : 80),
@@ -56,19 +65,18 @@ function httpRequest(url, options = {}, redirects = 3) {
     };
 
     const req = lib.request(opts, (res) => {
-      // Handle redirects
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location && redirects > 0) {
-        const newUrl = res.headers.location.startsWith('http') 
-          ? res.headers.location 
+        const newUrl = res.headers.location.startsWith('http')
+          ? res.headers.location
           : `${urlObj.protocol}//${urlObj.host}${res.headers.location}`;
         return resolve(httpRequest(newUrl, options, redirects - 1));
       }
-      
+
       let data = '';
       res.on('data', chunk => data += chunk);
-      res.on('end', () => resolve({ 
-        ok: res.statusCode < 400, 
-        status: res.statusCode, 
+      res.on('end', () => resolve({
+        ok: res.statusCode < 400,
+        status: res.statusCode,
         data,
         json: () => JSON.parse(data)
       }));
@@ -81,28 +89,56 @@ function httpRequest(url, options = {}, redirects = 3) {
   });
 }
 
+// HTTP POST JSON (for OpenAI)
+function postJSON(url, body, headers) {
+  return new Promise((resolve, reject) => {
+    const parsed = new URL(url);
+    const data = JSON.stringify(body);
+    const req = https.request({
+      hostname: parsed.hostname,
+      path: parsed.pathname,
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(data),
+        ...headers
+      }
+    }, (res) => {
+      let resp = '';
+      res.on('data', chunk => resp += chunk);
+      res.on('end', () => {
+        try { resolve(JSON.parse(resp)); }
+        catch { reject(new Error('Invalid JSON: ' + resp.slice(0, 300))); }
+      });
+    });
+    req.on('error', reject);
+    req.write(data);
+    req.end();
+  });
+}
+
 // Brave Search API
 async function braveSearch(query, count = 10) {
   if (!BRAVE_API_KEY) {
-    console.log('  ⚠️ No BRAVE_API_KEY');
+    console.log('  No BRAVE_API_KEY — skipping search');
     return [];
   }
-  
+
   const url = `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}&count=${count}`;
-  
+
   try {
     const res = await httpRequest(url, {
-      headers: { 
+      headers: {
         'Accept': 'application/json',
-        'X-Subscription-Token': BRAVE_API_KEY 
+        'X-Subscription-Token': BRAVE_API_KEY
       }
     });
-    
+
     if (!res.ok) {
-      console.log(`  ⚠️ Brave API ${res.status}`);
+      console.log(`  Brave API ${res.status}`);
       return [];
     }
-    
+
     const data = res.json();
     return (data.web?.results || []).map(r => ({
       title: r.title,
@@ -111,7 +147,7 @@ async function braveSearch(query, count = 10) {
       source: new URL(r.url).hostname
     }));
   } catch (e) {
-    console.log(`  ❌ Brave error: ${e.message}`);
+    console.log(`  Brave error: ${e.message}`);
     return [];
   }
 }
@@ -121,10 +157,9 @@ async function fetchFullContent(url) {
   try {
     const res = await httpRequest(url);
     if (!res.ok) return null;
-    
+
     let text = res.data;
-    
-    // Strip scripts, styles, navigation
+
     text = text
       .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
       .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
@@ -141,152 +176,172 @@ async function fetchFullContent(url) {
       .replace(/&quot;/g, '"')
       .replace(/\s+/g, ' ')
       .trim();
-    
-    // Limit to 6KB for API (keep it small to avoid timeouts)
-    return text.slice(0, 6000);
+
+    return text.slice(0, 8000);
   } catch (e) {
     return null;
   }
 }
 
-// Claude AI extraction with FULL DETAILS
+// OpenAI: extract & generate detailed cases
 async function extractDetailedCases(searchResults, pageContents) {
-  if (!ANTHROPIC_API_KEY || searchResults.length === 0) return [];
-  
-  // Build context with page contents
+  if (searchResults.length === 0) return [];
+
   const context = searchResults.map((r, i) => ({
     ...r,
     pageContent: pageContents[i] || '(page content unavailable)'
   }));
-  
-  const prompt = `You are extracting OpenClaw (AI agent) use cases from search results WITH FULL DETAILS.
 
-For each result that describes a REAL USE CASE (not tutorials, not general articles):
+  const prompt = `You are a senior tech journalist at OpenClaw Times — an AI media platform for a GENERAL audience.
+Your readers are entrepreneurs, marketers, managers — NOT developers or geeks.
 
-Extract these fields:
-- id: slug (e.g. "tiktok-marketing-agent")
-- title_en: clear English title (max 60 chars)
-- title_ru: Russian translation
-- desc_en: 1-2 sentence summary (max 200 chars)
-- desc_ru: Russian translation
-- tag: one of [automation, coding, research, devops, productivity, marketing, finance]
-- source_url: original URL
+You are analyzing search results about real AI agent use cases (OpenClaw, Claude, GPT agents, AI automation).
+For each result that describes a REAL USE CASE (skip tutorials, docs, marketing pages):
 
-DETAILED CONTENT (this is the key part!):
-- content_en: Full detailed write-up in English (3-5 paragraphs). Include:
-  * What the user built/automated
-  * How it works step by step
-  * What tools/integrations they used
-  * Results/outcomes achieved
-  * Any code snippets or configs mentioned
-  Format with markdown: ## headers, **bold**, \`code\`, bullet lists
+RESPOND IN VALID JSON — an array of case objects.
 
-- content_ru: Full Russian translation of content_en
+Each case object must have:
+{
+  "id": "slug-3-5-words",
+  "title_en": "Clear English title, max 60 chars, keyword-first for SEO",
+  "title_ru": "SEO-заголовок на русском, 50-60 символов, ключевое слово в начале",
+  "desc_en": "Meta description 150-160 chars with CTA — what the reader will learn",
+  "desc_ru": "Мета-описание 150-160 символов с CTA",
+  "tag": "automation|coding|research|devops|productivity|marketing|finance",
+  "source_url": "original URL",
+  "tools": ["Tool1", "Tool2"],
+  "results": "Key outcome in one line (e.g. 'Saves 15 hours per week on reporting')",
 
-- tools: array of tools mentioned (e.g. ["OpenClaw", "Gmail", "Notion", "Zapier"])
-- results: key metrics/outcomes (e.g. "Saved 20 hours/week", "$45k work in 20 min")
+  "content_en": "FULL article in English, markdown format (see rules below)",
+  "content_ru": "FULL article in Russian, markdown format (see rules below)"
+}
+
+ARTICLE RULES (content_en, content_ru):
+
+LENGTH: 800-1200 words per language. This is critical.
+
+STRUCTURE:
+- Opening hook (2-3 sentences) — why this matters to the reader's business/life
+- ## What problem this solves — pain point in plain language
+- ## How it works — step-by-step, explained like talking to a smart friend (no jargon)
+- ## What tools are involved — brief, with context on what each tool does
+- ## Real results — specific numbers, time saved, money earned, before/after
+- ## Why this matters for you — practical takeaway, who should try this, how to start
+- ## FAQ — 3 questions a non-technical reader would ask, with clear answers
+
+WRITING STYLE:
+- Write for entrepreneurs and managers, NOT developers
+- Explain technical concepts in simple terms (e.g. "AI agent = a program that does tasks for you automatically")
+- Use concrete examples and analogies from everyday business
+- Every paragraph must give the reader something useful
+- NO filler, NO corporate speak, NO "it's worth noting that..."
+- Russian: живой разговорный язык, без канцелярита. НЕ используй: "следует отметить", "давайте рассмотрим", "в рамках", "необходимо подчеркнуть"
+- English: direct, clear, engaging. Short sentences. Active voice.
+
+SEO/GEO:
+- H2s as questions or "How to..." for featured snippets
+- Natural keyword usage (don't stuff)
+- FAQ section with questions people would ask Google/ChatGPT
+- Focus on search intent: "how to automate X", "AI for Y"
+
+Format with markdown: ## headers, **bold**, bullet lists, > blockquotes for key insights.
+DO NOT invent statistics or fake quotes — mark uncertain info with [needs verification].
 
 Search results with page content:
 ${JSON.stringify(context, null, 2)}
 
-Return JSON array of detailed cases. Focus on QUALITY over quantity - only extract cases with real substance.
-If a result doesn't have enough detail for a full case, skip it.`;
+Return JSON array. Quality over quantity — skip results without enough substance for a real article.`;
 
   try {
-    const res = await httpRequest('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': ANTHROPIC_API_KEY,
-        'anthropic-version': '2023-06-01'
-      },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 8000,
-        messages: [{ role: 'user', content: prompt }]
-      })
+    const response = await postJSON('https://api.openai.com/v1/chat/completions', {
+      model: OPENAI_MODEL,
+      messages: [{ role: 'user', content: prompt }],
+      response_format: { type: 'json_object' },
+      max_tokens: 16000,
+      temperature: 0.4
+    }, {
+      'Authorization': 'Bearer ' + OPENAI_API_KEY
     });
 
-    if (!res.ok) {
-      console.log(`  ⚠️ Claude API ${res.status}`);
+    if (response.error) {
+      console.log(`  OpenAI error: ${response.error.message}`);
       return [];
     }
 
-    const data = res.json();
-    const text = data.content?.[0]?.text || '';
-    
-    // Extract JSON from response
-    const jsonMatch = text.match(/\[[\s\S]*\]/);
-    if (!jsonMatch) return [];
-    
-    return JSON.parse(jsonMatch[0]);
+    const text = response.choices?.[0]?.message?.content || '';
+
+    // Parse JSON — could be { cases: [...] } or [...]
+    const parsed = JSON.parse(text);
+    const cases = Array.isArray(parsed) ? parsed : (parsed.cases || parsed.results || []);
+
+    return cases;
   } catch (e) {
-    console.log(`  ❌ Claude error: ${e.message}`);
+    console.log(`  OpenAI extraction error: ${e.message}`);
     return [];
   }
 }
 
-// Search queries
+// Search queries — broadened beyond just "OpenClaw"
 const SEARCH_QUERIES = [
-  // Twitter/X - specific use cases
-  'OpenClaw "I built" site:x.com',
-  'OpenClaw automated my site:x.com',
-  'OpenClaw workflow site:x.com',
-  'my OpenClaw agent site:x.com',
-  
-  // Reddit
-  'OpenClaw site:reddit.com/r/AI_Agents',
-  'OpenClaw workflow site:reddit.com',
-  
-  // Blogs & Medium
-  'OpenClaw use case site:medium.com',
-  'OpenClaw tutorial workflow',
-  'OpenClaw automation example',
-  
-  // General
-  '"OpenClaw" real example built',
-  '"OpenClaw" saved hours automated',
+  // OpenClaw specific
+  'OpenClaw "I built" OR "I automated" site:x.com',
+  'OpenClaw workflow automation site:reddit.com',
+
+  // AI agents general — real use cases
+  'AI agent automated my business 2025 2026',
+  'Claude agent workflow real results',
+  'GPT agent saved hours automation case study',
+  '"AI agent" "use case" business results 2025',
+
+  // Platform-specific
+  '"AI agent" automation site:reddit.com/r/AI_Agents',
+  '"AI agent" "saved me" OR "saved hours" site:x.com',
+  'AI automation case study small business',
+
+  // Industry specific
+  'AI agent marketing automation real example',
+  'AI agent customer support automated results',
 ];
 
-// Delay helper
 const delay = ms => new Promise(r => setTimeout(r, ms));
 
 // Main
 async function main() {
-  console.log('🦞 OpenClaw Cases Parser v2.1 (Full Content)');
-  console.log('=============================================\n');
-  
+  console.log('OpenClaw Cases Parser v3.0 (OpenAI + SEO/GEO)');
+  console.log('Model: ' + OPENAI_MODEL);
+  console.log('='.repeat(50) + '\n');
+
   const allResults = [];
-  
-  // Search all sources
+
   for (const query of SEARCH_QUERIES) {
-    console.log(`🔍 "${query}"`);
-    
+    console.log(`Search: "${query}"`);
+
     const results = await braveSearch(query, 8);
     const newResults = results.filter(r => !seenUrls.has(r.url));
-    
+
     if (newResults.length > 0) {
       console.log(`   +${newResults.length} new`);
       allResults.push(...newResults);
       newResults.forEach(r => seenUrls.add(r.url));
     }
-    
+
     await delay(1500);
   }
-  
-  console.log(`\n📊 Total: ${allResults.length} new results`);
-  
+
+  console.log(`\nTotal: ${allResults.length} new results`);
+
   if (allResults.length === 0) {
-    console.log('✅ No new results.');
+    console.log('No new results. Saving seen URLs.');
+    fs.writeFileSync(SEEN_FILE, JSON.stringify([...seenUrls], null, 2));
     return;
   }
-  
+
   // Deduplicate
   const uniqueResults = [...new Map(allResults.map(r => [r.url, r])).values()];
-  console.log(`📊 Unique: ${uniqueResults.length}`);
-  
-  // Fetch full page content for each result
-  console.log('\n📄 Fetching page contents...');
+  console.log(`Unique: ${uniqueResults.length}`);
+
+  // Fetch full page content
+  console.log('\nFetching page contents...');
   const pageContents = [];
   for (const r of uniqueResults) {
     process.stdout.write('.');
@@ -295,33 +350,33 @@ async function main() {
     await delay(500);
   }
   console.log(' done');
-  
-  // Batch AI extraction with full content
-  console.log('\n🤖 AI extracting detailed cases...');
+
+  // Batch AI extraction
+  console.log('\nGenerating articles via OpenAI...');
   const batches = [];
   for (let i = 0; i < uniqueResults.length; i += 5) {
     batches.push({
-      results: uniqueResults.slice(i, i + 10),
-      contents: pageContents.slice(i, i + 10)
+      results: uniqueResults.slice(i, i + 5),
+      contents: pageContents.slice(i, i + 5)
     });
   }
-  
+
   let extractedCases = [];
   for (const batch of batches) {
     const cases = await extractDetailedCases(batch.results, batch.contents);
     extractedCases.push(...cases);
-    console.log(`   +${cases.length} detailed cases`);
-    await delay(3000);
+    console.log(`   +${cases.length} articles`);
+    await delay(2000);
   }
-  
-  console.log(`\n📦 Total extracted: ${extractedCases.length} detailed cases`);
-  
+
+  console.log(`\nTotal extracted: ${extractedCases.length} articles`);
+
   if (extractedCases.length === 0) {
-    console.log('✅ No valid detailed cases.');
+    console.log('No valid cases extracted.');
     fs.writeFileSync(SEEN_FILE, JSON.stringify([...seenUrls], null, 2));
     return;
   }
-  
+
   // Process cases
   const today = new Date().toISOString().split('T')[0];
   const processedCases = extractedCases.map((c, i) => ({
@@ -341,20 +396,20 @@ async function main() {
     points: Math.floor(Math.random() * 200) + 100,
     date: today
   }));
-  
+
   // Merge with existing
   const existingIds = new Set(existingData.cases.map(c => c.id));
   const newCases = processedCases.filter(c => !existingIds.has(c.id));
-  
-  console.log(`📦 New unique: ${newCases.length}`);
-  
+
+  console.log(`New unique: ${newCases.length}`);
+
   const allCases = [...newCases, ...existingData.cases];
   allCases.forEach((c, i) => c.rank = i + 1);
   const finalCases = allCases.slice(0, 100);
-  
+
   // Stats
   const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
-  
+
   const newData = {
     updated: new Date().toISOString(),
     stats: {
@@ -364,24 +419,24 @@ async function main() {
     },
     cases: finalCases
   };
-  
+
   // Save
   fs.writeFileSync(DATA_FILE, JSON.stringify(newData, null, 2));
   fs.writeFileSync(SEEN_FILE, JSON.stringify([...seenUrls], null, 2));
-  
-  console.log('\n💾 Saved cases.json');
+
+  console.log('\nSaved cases.json');
   console.log(`   Total: ${finalCases.length}, New: ${newCases.length}`);
-  
-  // Regenerate site
-  console.log('\n🔨 Regenerating HTML...');
+
+  // Regenerate site HTML
+  console.log('\nRegenerating HTML...');
   try {
     require('../generate.js');
-    console.log('✅ Site regenerated!');
+    console.log('Site regenerated!');
   } catch (e) {
-    console.log('⚠️ Generate error:', e.message);
+    console.log('Generate error:', e.message);
   }
-  
-  console.log('\n🎉 Done!');
+
+  console.log('\nDone!');
 }
 
 function extractSourceName(url) {
@@ -395,6 +450,6 @@ function extractSourceName(url) {
 }
 
 main().catch(e => {
-  console.error('❌ Fatal:', e);
+  console.error('Fatal:', e);
   process.exit(1);
 });

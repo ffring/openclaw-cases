@@ -1,0 +1,40 @@
+name: Daily Cases Update
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # 10:00 UTC = 13:00 MSK (после synth feed)
+  workflow_dispatch:       # ручной запуск
+
+permissions:
+  contents: write
+
+jobs:
+  parse-cases:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Parse cases and generate articles
+        run: node scripts/parse-cases.js
+        env:
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4.1-nano
+
+      - name: Commit and Push
+        run: |
+          git config user.name "Cases Bot"
+          git config user.email "bot@openclawtimes.com"
+          git add data/cases.json data/seen-urls.json index.html en/ ru/ case/ sitemap.xml
+          if ! git diff --staged --quiet; then
+            git commit -m "Daily cases update"
+            git push
+          fi
