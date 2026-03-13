@@ -1,108 +1,14 @@
 {
   "updated": "2026-03-13T16:08:00.039Z",
   "stats": {
-    "total": 79,
-    "today": 4,
+    "total": 75,
+    "today": 0,
     "week": 4
   },
   "cases": [
     {
-      "id": "ai-agent-claims-processing",
-      "rank": 1,
-      "title_en": "AI Agent Automates 91% of Insurance Claims Processing",
-      "title_ru": "Автоматизация страховых выплат: 91% заявок AI агентом",
-      "desc_en": "Discover how AI agents automate 91% of motor claims, speeding processing by 46% and boosting customer satisfaction. Learn practical AI automation benefits.",
-      "desc_ru": "Узнайте, как AI агент автоматизировал 91% страховых выплат, ускорил обработку на 46% и повысил удовлетворённость клиентов. Практические выводы для бизнеса.",
-      "content_en": "## Why AI Agents Matter for Insurance Claims\nInsurance claims processing is complex and time-consuming. Customers want fast, accurate resolutions, but manual handling slows everything down. AI agents can transform this by automating routine claims, freeing human adjusters for complex cases. This means faster payouts, happier customers, and lower costs.\n\n## What Problem This Solves\nManual claims processing is slow and error-prone. It creates backlogs and frustrates customers waiting for decisions. Insurance companies struggle to scale with growing claim volumes without ballooning staff costs.\n\n## How It Works\nAn AI agent platform like Beam AI automates claims by:\n- Receiving claim submissions\n- Extracting key data automatically\n- Validating information against policies\n- Making initial decisions on straightforward claims\n- Escalating complex cases to human adjusters\n\nThis automation handles the bulk of claims without human intervention, speeding up the entire process.\n\n## What Tools Are Involved\n- **Beam AI Agent Platform**: An AI-powered automation system designed for insurance workflows. It uses natural language processing and machine learning to understand claims and act autonomously.\n\n## Real Results\n- 91% of motor claims automated\n- 46% faster claims processing\n- 9% increase in Net Promoter Score (customer satisfaction)\n\nThese improvements mean fewer delays, reduced operational costs, and better customer experience.\n\n## Why This Matters for You\nIf your business handles repetitive, rule-based tasks like claims, AI agents can drastically improve efficiency. Insurance companies, finance firms, and service providers can benefit. Start small with pilot workflows and scale once you see ROI.\n\n## FAQ\n**Q1: Will AI replace human adjusters?**\nNo, AI handles routine claims, allowing humans to focus on complex cases requiring judgment.\n\n**Q2: Is AI reliable for sensitive decisions?**\nAI agents use strict rules and escalate uncertain cases to humans, ensuring quality control.\n\n**Q3: How hard is it to implement?**\nModern AI platforms offer easy integration with existing systems and guided setup, minimizing disruption.\n",
-      "content_ru": "## Почему AI агенты важны для страхования\nОбработка страховых выплат — сложный и долгий процесс. Клиенты хотят быстро получить решение, но ручная работа тормозит процесс. AI агенты ��огут измен��ть ситуацию, автоматизируя рутинные заявки и освобождая экспертов для сложных случаев. Это ускоряет выплаты, повышает удовлетворённость и снижает затраты.\n\n## Какую проблему решает AI агент\nРучная обработка заявок медленная и подвержена ошибкам. Это приводит к очередям и недовольству клиентов, которые ждут решения. Страховым компаниям сложно масштабироваться без роста штата и затрат.\n\n## Как это работает\nПлатформа Beam AI автоматизирует процесс так:\n- Принимает заявки\n- Автоматически извлекает ключевые данные\n- Проверяет информацию по правилам\n- Принимает решения по простым случаям\n- Передаёт сложные случаи экспертам\n\nТаким образом, большая часть заявок обрабатывается без участия человека, что ускоряет процесс.\n\n## Какие инструменты используются\n- **Платформа Beam AI** — система с искусственным интеллектом для страховых процессов. Использует обработку естественного языка и машинное обучение для понимания и самостоятельного выполнения задач.\n\n## Реальные результаты\n- Автоматизация 91% заявок по автострахованию\n- Ускорение обработки на 46%\n- Рост удовлетворённости клиентов (NPS) на 9%\n\nЭто значит меньше задержек, снижение затрат и лучший клиентский опыт.\n\n## Почему это важно для вас\nЕсли в вашем бизнесе много повторяющихся задач, AI агенты помогут повысить эффективность. Особенно актуально для страховых, финансовых и сервисных компаний. Начинайте с пилотных проектов, чтобы увидеть эффект и масштабировать.\n\n## Вопросы и ответы\n**Вопрос 1: Заменит ли AI людей?**\nНет, AI берёт на себя рутинные задачи, а люди занимаются сложными случаями.\n\n**Вопрос 2: Можно ли доверять AI в важных решениях?**\nAI действует по строгим правилам и передаёт сомнительные случаи людям для контроля качества.\n\n**Вопрос 3: Сложно ли внедрять?**\nСовременные платформы легко интегрируются и имеют удобные инструменты для быстрого запуска.\n",
-      "tools_en": [
-        "Beam AI Agent Platform"
-      ],
-      "tools_ru": [
-        "Платформа Beam AI для агентов"
-      ],
-      "results_en": "Automated 91% of claims with 46% faster processing and 9% NPS boost",
-      "results_ru": "��втоматизировано 91% заявок, ускорение обработки на 46%, рост NPS на 9%",
-      "tag": "automation",
-      "source": "Web",
-      "source_url": "https://beam.ai/resources/case-studies",
-      "points": 250,
-      "date": "2026-03-13"
-    },
-    {
-      "id": "ai-agent-customer-service",
-      "rank": 2,
-      "title_en": "AI Agent Boosts Customer Service Efficiency by Automating Queries",
-      "title_ru": "AI агент повышает эффективность службы поддержки за счёт автоматизации",
-      "desc_en": "Learn how AI agents automate 80% of customer queries, reduce response times by 87%, and cut support costs by 93%. Practical guide to AI in customer service.",
-      "desc_ru": "Узнайте, как AI агент автоматизирует 80% запросов, сокращает время ответа на 87% и снижает расходы на поддержку на 93%. Пр��ктическое руководство.",
-      "content_en": "## Why AI Agents Transform Customer Service\nCustomer service teams often drown in repetitive questions. AI agents automate routine queries, freeing human agents to focus on complex issues. This improves response speed, accuracy, and customer satisfaction.\n\n## What Problem This Solves\nHigh volumes of repetitive inquiries cause long wait times and burnout. Hiring more staff is costly and slow. AI agents offer scalable, cost-effective support.\n\n## How It Works\n- AI agents receive incoming queries via chat, email, or messaging apps\n- They understand intent using natural language processing\n- Automatically answer common questions or provide resources\n- Escalate complex issues to human agents with full context\n\nThis hybrid approach balances automation and human touch.\n\n## What Tools Are Involved\n- **Beam AI Agent Platform**: Powers intelligent automation with AI.\n- **Kommunicate**: A no-code platform to build and deploy conversational AI agents across multiple channels.\n\n## Real Results\n- 81% of patient inquiries automated\n- 87% faster response times\n- 93% reduction in support costs\n\nThese results mean faster help for customers and huge savings for businesses.\n\n## Why This Matters for You\nIf you manage customer support, AI agents can reduce workload and improve service quality. Start with automating FAQs and scale to complex workflows.\n\n## FAQ\n**Q1: Will customers accept AI responses?**\nYes, when AI handles routine queries quickly and escalates complex ones appropriately.\n\n**Q2: Do AI agents require technical teams?**\nPlatforms like Kommunicate offer no-code builders for easy setup by non-technical staff.\n\n**Q3: Can AI agents work across channels?**\nYes, they can integrate with web chat, WhatsApp, email, and more.\n",
-      "content_ru": "## Почему AI агенты меняют службу поддержки\nКоманды поддержки часто перегружены однотипными вопросами. AI агенты автоматизируют рутинные запросы, осво��ождая людей для сложных задач. Это ускоряет ответы, повышает точность и улучшает опыт клиентов.\n\n## Какую проблему решает AI агент\nБольшое количество повторяющихся запросов приводит к долгому ожиданию и выгоранию сотрудников. Нанимать новых дорого и долго. AI агенты — масштабируемое и выгодное решение.\n\n## Как это работает\n- AI агент принимает запросы через чат, email или мессенджеры\n- Понимает суть вопроса с помощью обработки естественного языка\n- Автоматически отвечает на частые вопросы или предоставляет информацию\n- Передаёт сложные случаи людям с полной историей переписки\n\nТакой гибридный подход сочетает автоматизацию и человеческое участие.\n\n## Какие инструменты используются\n- **Платформа Beam AI** — для интеллектуальной автома��изации.\n- **Kommunicate** — платформа без кода для создания и запуска AI агентов в разных каналах.\n\n## Реальные результаты\n- Автоматизация 81% запросов пациентов\n- Сокращение времени ответа на 87%\n- Снижение затрат на поддержку на 93%\n\nЭто значит быстрые ответы клиентам и значительную экономию для бизнеса.\n\n## Почему это важно для вас\nЕсли вы управляете поддержкой, AI агенты помогут снизить нагрузку и улучшить качество сервиса. Начинайте с FAQ и расширяйте автоматизацию.\n\n## Вопросы и ответы\n**Вопрос 1: Примут ли клиенты ответы от AI?**\nДа, если AI быстро отвечает на простые вопросы и передаёт сложные людям.\n\n**Вопрос 2: Нужна ли техническая команда?**\nПлатформы вроде Kommunicate позволяют настраивать без кода, даже без технических специалистов.\n\n**Вопрос 3: Работают ли AI агенты в разных каналах?**\nДа, интегрируются с веб-чатом, WhatsApp, email и другими.\n",
-      "tools_en": [
-        "Beam AI Agent Platform",
-        "Kommunicate"
-      ],
-      "tools_ru": [
-        "Платформа Beam AI",
-        "Kommunicate"
-      ],
-      "results_en": "Automated 81% of patient inquiries, cut response time by 87%, reduced costs by 93%",
-      "results_ru": "Автоматизировано 81% запросов, время ответа сокращено на 87%, расходы снижены на 93%",
-      "tag": "automation|productivity",
-      "source": "Web",
-      "source_url": "https://beam.ai/resources/case-studies",
-      "points": 141,
-      "date": "2026-03-13"
-    },
-    {
-      "id": "ai-agent-sales-marketing-automation",
-      "rank": 3,
-      "title_en": "AI Agent Clay Automates B2B Sales and Marketing Outreach",
-      "title_ru": "AI агент Clay автоматизирует B2B продажи и маркетинг",
-      "desc_en": "Explore how Clay AI agent boosts B2B lead generation and personalized outreach, cutting setup from days to hours with 20% response rates. Start automating sales now.",
-      "desc_ru": "Узнайте, как AI агент Clay улучшает генерацию лидов и персонализированный маркетинг, сокращая настройку с дней до часов и достигая 20% отклика. Начните автоматизацию продаж.",
-      "content_en": "## Why Automate Sales and Marketing with AI Agents?\nSales and marketing teams face the challenge of reaching many prospects with personalized messages. Manual outreach is slow and resource-heavy. AI agents like Clay automate lead generation and email sequencing to scale efforts efficiently.\n\n## What Problem This Solves\nSmall teams struggle to personalize outreach at scale. Setting up sequences manually takes days. Without automation, many leads go untouched.\n\n## How It Works\n- Clay connects to over 100 data sources to gather leads\n- Aggregates and enriches contact data\n- Automates personalized email sequences for multiple personas\n- Tracks engagement and adjusts outreach accordingly\n\nThis turns a tedious manual process into a fast, scalable system.\n\n## What Tools Are Involved\n- **Clay AI Agent**: A centralized platform for marketing and sales automation that simplifies lead gen and outreach.\n\n## Real Results\n- 20% response rate on automated campaigns\n- Setup time reduced from 3-4 days to 2 hours\n- Easy for non-technical marketing teams to operate\n\n## Why This Matters for You\nIf you want to scale B2B sales with limited resources, Clay offers a user-friendly, powerful solution. It’s ideal for startups and small teams aiming to automate outbound sales.\n\n## FAQ\n**Q1: Is Clay expensive?**\nIt can be pricey for startups, with plans starting around $134/month.\n\n**Q2: Do I need technical skills?**\nNo, Clay is designed for marketers with no coding needed.\n\n**Q3: Can Clay integrate with CRM systems?**\nYes, it supports many integrations to fit your existing workflow.\n",
-      "content_ru": "## Зачем автоматизировать продажи и маркетинг AI агентами?\nКоманды продаж и маркетинга сталкиваются с задачей массового персонализированного контакта с потенциальными клиентами. Ручная работа медленная и затратная. AI агент Clay автоматизирует генерацию лидов и рассылку, позволяя масштабировать процесс.\n\n## Какую проблему решает Clay\nМаленькие команды не успевают персонализировать сообщения для большого числа лидов. Настройка рассылок вручную занимает дни. Без автоматизации многие лиды остаются ��ез внимания.\n\n## Как это работает\n- Clay подключается к более чем 100 источникам данных для поиска лидов\n- Объединяет и обогащает контактную информацию\n- Автоматизирует персонализированные email-кампании для разных аудиторий\n- Отслеживает отклики и корректирует рассылки\n\nЭто превращает утомительный ручной процесс в быстрый и масштабируемый.\n\n## Какие инструменты используются\n- **AI агент Clay** — централизованная платформа для автоматизации маркетинга и продаж, упрощающая генерацию лидов и рассылки.\n\n## Реальные результаты\n- 20% отклика на автоматизированные кампании\n- Настройка сокращена с 3-4 дней до 2 часов\n- Подходит для маркетинговых команд без технических навыков\n\n## Почему это важно для вас\nЕсли вы хотите масштабировать B2B прод��жи при ограниченных ресурсах, Clay — удобное и мощное решение. Идеально для стартапов и маленьких команд.\n\n## Вопрос�� и ответы\n**Вопрос 1: Clay дорогой?**\nДля стартапов цена может быть высокой — от $134 в месяц.\n\n**Вопрос 2: Нужны ли технические навыки?**\nНет, Clay рассчитан на маркетологов без программирования.\n\n**Вопрос 3: Интегрируется ли Clay с CRM?**\nДа, поддерживает множество интеграций для существующих рабочих процессов.\n",
-      "tools_en": [
-        "Clay AI Agent"
-      ],
-      "tools_ru": [
-        "AI агент Clay"
-      ],
-      "results_en": "20% response rate on automated outreach; setup time cut from 3-4 days to 2 hours",
-      "results_ru": "20% отклика на автоматизирован��ые рассылки; настройка сокращена с 3-4 дней до 2 часов",
-      "tag": "marketing|productivity",
-      "source": "Web",
-      "source_url": "https://www.kommunicate.io/blog/best-ai-agents/",
-      "points": 171,
-      "date": "2026-03-13"
-    },
-    {
-      "id": "agentic-workflow-data-extraction",
-      "rank": 4,
-      "title_en": "Agentic AI Workflow Saves 15+ Hours Weekly on Data Extraction",
-      "title_ru": "Agentic AI экономит 15+ часов в неделю на извлечении данных",
-      "desc_en": "See how agentic AI workflows automate company info extraction, improving data accuracy by 40% and speeding prospect qualification. Learn to implement today.",
-      "desc_ru": "Узнайте, как agentic AI автоматизирует сбор информации о компаниях, повышая точность данных на 40% и ускоряя квалификацию клиентов. Реальные советы по внедрению.",
-      "content_en": "## Why Automate Company Info Extraction?\nSales and research teams spend hours manually gathering company data from websites. This slows down prospecting and decision-making. Agentic AI workflows automate this tedious task, freeing teams for strategic work.\n\n## What Problem This Solves\nManual data collection is slow, error-prone, and repetitive. It delays sales cycles and wastes valuable time.\n\n## How It Works\n- AI agents crawl target websites automatically\n- Extract key business details like industry, size, location, contacts\n- Update CRM systems in real time\n\nThe agentic workflow acts like a team of AI workers coordinating to complete the task end-to-end without human intervention.\n\n## What Tools Are Involved\n- **GPTBots Agentic Workflow**: A customizable AI workflow platform that builds autonomous agents to perform complex tasks.\n\n## Real Results\n- Saved 15+ hours weekly per sales rep\n- Improved data accuracy by 40%\n- Enabled faster prospect qualification\n\nA B2B SaaS startup used this workflow to analyze competitors and got structured data ready for action.\n\n## Why This Matters for You\nIf your team spends time on manual data gathering, agentic AI workflows can boost productivity and data quality. Start with a pilot on a small dataset.\n\n## FAQ\n**Q1: Do I need AI expertise to use agentic workflows?**\nNo, platforms like GPTBots offer user-friendly interfaces to build workflows.\n\n**Q2: Can these workflows integrate with my CRM?**\nYes, they support real-time CRM updates.\n\n**Q3: Are agentic workflows fully autonomous?**\nThey operate independently but can be monitored and adjusted by humans.\n",
-      "content_ru": "## Зачем автоматизировать сбор информации о компаниях?\nКоманды продаж и исследований тратят часы на ручной сбор данных с сайтов. Это замедляет процесс и принятие решений. Agentic AI автоматизирует эту рутинную работу, освобождая время для стратегических задач.\n\n## Какую проблему решает агентский рабочий процесс\nРучной сбор данных медленный, подвержен ошибкам и повторяется много раз. Это тормозит продажи и тратит ресурсы.\n\n## Как это работает\n- AI агенты автоматически обходят нужные сайты\n- Извлекают ключевую информацию: отрасль, размер, контакты\n- Обновляют CRM в реальном времени\n\nAgentic workflow — это команда AI, которая координирует задачи без участия человека.\n\n## Какие инструменты используются\n- **Agentic Workflow GPTBots** — платформа для создания автономных AI рабочих процессов.\n\n## Реальные результаты\n- Экономия 15+ часов в неделю на сотрудника\n- Рост точности данных на 40%\n- Ускорение квалификации клиентов\n\nB2B SaaS стартап использовал этот процесс для анализа конкурентов и получил структурированные данные для работы.\n\n## Почему это важно для вас\nЕсли ваша команда тратит время на сбор данных вручную, agentic AI повысит продуктивность и качество данных. Начинайте с пилотного проекта.\n\n## Вопросы и ответы\n**Вопрос 1: Нужно ли знать AI для работы с agentic workflows?**\nНет, платформы вроде GPTBots имеют удобный интерфейс для создания процессов.\n\n**Вопрос 2: Можно ли интегрировать с CRM?**\nДа, поддерживается обновление CRM в реальном времени.\n\n**Вопрос 3: Работают ли agentic workflows автономно?**\nДа, они работают самостоятельно, но под контролем и с возможностью настройки человеком.\n",
-      "tools_en": [
-        "GPTBots Agentic Workflow"
-      ],
-      "tools_ru": [
-        "Agentic Workflow GPTBots"
-      ],
-      "results_en": "Saved 15+ hours weekly per rep, improved data accuracy by 40%, faster prospect qualification",
-      "results_ru": "Экономия 15+ часов в неделю на сотрудника, точность данных выросла на 40%, ускорена квалификация клиентов",
-      "tag": "automation|productivity|research",
-      "source": "Web",
-      "source_url": "https://www.gptbots.ai/blog/agentic-workflows-examples",
-      "points": 298,
-      "date": "2026-03-13"
-    },
-    {
       "id": "options-flow-data-parser",
-      "rank": 5,
+      "rank": 1,
       "title_en": "Options Flow Data Parser & Analysis System",
       "title_ru": "Парсер и система анализа потока опционов",
       "desc_en": "Claude-powered OpenClaw agent that ingests 6 months of institutional options data from Discord, creates SQLite database with vector search.",
@@ -126,7 +32,7 @@
     },
     {
       "id": "personal-assistant-saul",
-      "rank": 6,
+      "rank": 2,
       "title_en": "Saul: Full-Service Personal Assistant Agent",
       "title_ru": "Саул: Полнофункциональный агент персонального помощника",
       "desc_en": "Persistent PA with Google Workspace access, proactive scheduling, flight booking, and self-improvement capabilities via Telegram interface.",
@@ -152,7 +58,7 @@
     },
     {
       "id": "saul-personal-assistant",
-      "rank": 7,
+      "rank": 3,
       "title_en": "Saul: AI Personal Assistant with Google Workspace Integration",
       "title_ru": "Саул: ИИ-помощник с интеграцией Google Workspace",
       "desc_en": "A persistent AI assistant built with OpenClaw architecture that manages emails, calendars, bookings, and flight check-ins via Telegram.",
@@ -182,7 +88,7 @@
     },
     {
       "id": "whatsapp-saas-builder",
-      "rank": 8,
+      "rank": 4,
       "title_en": "WhatsApp SaaS Builder with OpenClaw",
       "title_ru": "Создатель SaaS через WhatsApp с OpenClaw",
       "desc_en": "Built a complete social app using OpenClaw + Minimax API through WhatsApp interface in just 48 minutes without frontend/backend.",
@@ -203,7 +109,7 @@
     },
     {
       "id": "btc-trading-bot",
-      "rank": 9,
+      "rank": 5,
       "title_en": "5-Minute BTC Trading Bot with OpenClaw",
       "title_ru": "Бот для торговли BTC за 5 минут с OpenClaw",
       "desc_en": "Built an automated trading bot for 5-minute BTC markets, scaling from $50 to $823 with 2x leverage opportunities.",
@@ -224,7 +130,7 @@
     },
     {
       "id": "restaurant-calling-automation",
-      "rank": 10,
+      "rank": 6,
       "title_en": "Automated Restaurant Calling System",
       "title_ru": "Система автоматических звонков в рестораны",
       "desc_en": "Created an AI system that automatically calls restaurants using voice AI, integrating OpenClaw with iMessage, browser, and Twilio voice API.",
@@ -247,7 +153,7 @@
     },
     {
       "id": "binance-trading-automation",
-      "rank": 11,
+      "rank": 7,
       "title_en": "Binance Automated Trading Bot Development",
       "title_ru": "Разработка автоматизированного торгового бота для Binance",
       "desc_en": "Developed a locally-run Binance trading bot using OpenClaw after continuous debugging, refining trading strategies and code implementation.",
@@ -269,7 +175,7 @@
     },
     {
       "id": "reddit-narrative-builder",
-      "rank": 12,
+      "rank": 8,
       "title_en": "Reddit Narrative Analysis with OpenClaw",
       "title_ru": "Анализ нарративов Reddit с OpenClaw",
       "desc_en": "Built a Reddit narrative builder using recursive scraping to analyze sentiment across subreddits for AI, sports, and travel topics.",
@@ -291,7 +197,7 @@
     },
     {
       "id": "automated-coding-tasks-github",
-      "rank": 13,
+      "rank": 9,
       "title_en": "Automated GitHub Issue Resolution with OpenClaw",
       "title_ru": "Автоматизация решения GitHub Issues с OpenClaw",
       "desc_en": "Automated minor coding tasks by creating GitHub PRs, iterating based on reviews, and managing the full development lifecycle.",
@@ -312,7 +218,7 @@
     },
     {
       "id": "tiktok-marketing-automation",
-      "rank": 14,
+      "rank": 10,
       "title_en": "TikTok Marketing Automation Earning $4K in 24 Hours",
       "title_ru": "Автоматизация маркетинга TikTok, заработавшая $4K за 24 часа",
       "desc_en": "Larry, an OpenClaw agent, fully automated marketing workflows generating 200k TikTok views, 200+ X followers, and new subscribers.",
@@ -333,7 +239,7 @@
     },
     {
       "id": "social-media-content-automation",
-      "rank": 15,
+      "rank": 11,
       "title_en": "Automated Social Media Content Generation for AI Network",
       "title_ru": "Автоматизированная генерация контента для ИИ социальной сети",
       "desc_en": "Complete automation system for posting and commenting on Moltbook using OpenClaw to generate sarcastic AI content with shell scripts.",
@@ -354,7 +260,7 @@
     },
     {
       "id": "vc-daily-briefing-automation",
-      "rank": 16,
+      "rank": 12,
       "title_en": "VC Daily Briefing Automation with OpenClaw",
       "title_ru": "Автоматизация ежедневных сводок для ВК с OpenClaw",
       "desc_en": "Automated morning briefings for VCs using cron jobs to analyze markets, portfolio updates, and news.",
@@ -374,7 +280,7 @@
     },
     {
       "id": "daily-deal-finder-crm",
-      "rank": 17,
+      "rank": 13,
       "title_en": "Daily Deal Finder CRM Automation",
       "title_ru": "Автоматизация CRM для поиска сделок",
       "desc_en": "OpenClaw agent that analyzes CRM data and sales transcripts to identify and book meetings with prospects.",
@@ -395,7 +301,7 @@
     },
     {
       "id": "daily-deal-finder-crm-agent",
-      "rank": 18,
+      "rank": 14,
       "title_en": "Daily Deal Finder - Automated CRM Sales Agent",
       "title_ru": "Daily Deal Finder - Автоматизированный CRM Агент Продаж",
       "desc_en": "OpenClaw agent that analyzes CRM data and sales transcripts to identify prospects and book meetings with major companies.",
@@ -416,7 +322,7 @@
     },
     {
       "id": "vc-morning-briefing-agent",
-      "rank": 19,
+      "rank": 15,
       "title_en": "VC Morning Briefing Automation Agent",
       "title_ru": "Агент Автоматизации Утренних Брифингов для ВК",
       "desc_en": "Automated morning briefing system for VCs using OpenClaw cron jobs to generate daily investment insights and market updates.",
@@ -437,7 +343,7 @@
     },
     {
       "id": "multi-agent-system-dennis",
-      "rank": 20,
+      "rank": 16,
       "title_en": "Dennis Multi-Agent System with Role Separation",
       "title_ru": "Мультиагентная Система Dennis с Разделением Ролей",
       "desc_en": "OpenClaw agent that creates and manages sub-agents with specific roles, using AGENTS.MD and SOUL.MD files for task separation.",
@@ -459,7 +365,7 @@
     },
     {
       "id": "fix-test-deploy-openclaw-agent",
-      "rank": 21,
+      "rank": 17,
       "title_en": "Fix, Test, and Deploy OpenClaw Agent With Claude Code",
       "title_ru": "Исправление, тестирование и развертывание OpenClaw агента с Claude Code",
       "desc_en": "Debugging and fixing a daily X article automation that stopped running, using Claude Code integration with OpenClaw.",
@@ -481,7 +387,7 @@
     },
     {
       "id": "jarvis-command-center-convex",
-      "rank": 22,
+      "rank": 18,
       "title_en": "OpenClaw Agent Command Center - Personal Jarvis System",
       "title_ru": "Командный центр OpenClaw агента - персональная система Джарвис",
       "desc_en": "Building a comprehensive life management system using OpenClaw and Convex, inspired by Tony Stark's Jarvis AI assistant.",
@@ -503,7 +409,7 @@
     },
     {
       "id": "multi-agent-system-dennis",
-      "rank": 23,
+      "rank": 19,
       "title_en": "Dennis: Multi-Agent System with Role-Based Sub-Agents",
       "title_ru": "Деннис: мультиагентная система с подагентами на основе ролей",
       "desc_en": "Creating a hierarchical agent system where the main OpenClaw agent spawns specialized sub-agents with defined roles and documentation.",
@@ -525,7 +431,7 @@
     },
     {
       "id": "browser-automation-data-entry",
-      "rank": 24,
+      "rank": 20,
       "title_en": "Browser Automation for Web Tasks & Data Entry",
       "title_ru": "Автоматизация браузера для веб-задач и ввода данных",
       "desc_en": "Daily browser automation for repetitive form filling, data extraction using OpenClaw's headless Chrome integration.",
@@ -546,7 +452,7 @@
     },
     {
       "id": "crypto-trading-autonomous-agent",
-      "rank": 25,
+      "rank": 21,
       "title_en": "24/7 Autonomous Crypto Trading Agent",
       "title_ru": "Автономный агент для торговли криптовалютой 24/7",
       "desc_en": "AI agent that trades crypto around the clock while sending Telegram updates about executed arbitrage opportunities.",
@@ -567,7 +473,7 @@
     },
     {
       "id": "game-development-autonomous",
-      "rank": 26,
+      "rank": 22,
       "title_en": "Autonomous Game Development While Sleeping",
       "title_ru": "Автономная разработка игр во время сна",
       "desc_en": "AI agent built a functioning game app with thousands of users overnight while the developer was sleeping.",
@@ -589,7 +495,7 @@
     },
     {
       "id": "browser-automation-forms",
-      "rank": 27,
+      "rank": 23,
       "title_en": "Browser Automation for Form Filling & Data Extraction",
       "title_ru": "Автоматизация браузера для заполнения форм и извлечения данных",
       "desc_en": "Daily browser automation using OpenClaw with Chrome integration for repetitive form filling and data extraction tasks.",
@@ -610,7 +516,7 @@
     },
     {
       "id": "autonomous-game-development",
-      "rank": 28,
+      "rank": 24,
       "title_en": "Autonomous Game Development & Deployment",
       "title_ru": "Автономная разработка и развертывание игр",
       "desc_en": "OpenClaw agent autonomously built and deployed a functioning game app that attracted thousands of users overnight.",
@@ -629,7 +535,7 @@
     },
     {
       "id": "crypto-trading-agent",
-      "rank": 29,
+      "rank": 25,
       "title_en": "24/7 Crypto Trading with Telegram Updates",
       "title_ru": "Круглосуточная торговля криптовалютой с обновлениями в Telegram",
       "desc_en": "Autonomous crypto trading agent that executes arbitrage opportunities 24/7 and sends real-time Telegram notifications about trades.",
@@ -650,7 +556,7 @@
     },
     {
       "id": "software-architecture-analysis",
-      "rank": 30,
+      "rank": 26,
       "title_en": "Automated Software Architecture Analysis & Migration",
       "title_ru": "Автоматизированный анализ архитектуры ПО и миграция",
       "desc_en": "OpenClaw traverses code repositories to map dependencies, generate architecture summaries, refactor modules, and draft migration plans.",
@@ -671,7 +577,7 @@
     },
     {
       "id": "openclaw-telegram-whatsapp-automation",
-      "rank": 31,
+      "rank": 27,
       "title_en": "OpenClaw Multi-Platform Personal Assistant Setup",
       "title_ru": "Настройка персонального ассистента OpenClaw для разных платформ",
       "desc_en": "Complete setup of OpenClaw AI agent with Telegram/WhatsApp integration, enabling automated task execution through natural language conversations.",
@@ -697,7 +603,7 @@
     },
     {
       "id": "openclaw-comprehensive-agent-system",
-      "rank": 32,
+      "rank": 28,
       "title_en": "Full OpenClaw Agent System with Docker Sandboxing",
       "title_ru": "Полная система агентов OpenClaw с песочницей Docker",
       "desc_en": "Complete OpenClaw deployment covering installation, AI model integration, persistent memory, custom skills, and Docker-based security sandboxing.",
@@ -727,7 +633,7 @@
     },
     {
       "id": "google-workspace-ai-assistant",
-      "rank": 33,
+      "rank": 29,
       "title_en": "AI Assistant for Google Workspace Management",
       "title_ru": "ИИ-помощник для управления Google Workspace",
       "desc_en": "Personal AI bot managing calendar, documents, and sending briefings through Google Workspace integration.",
@@ -753,7 +659,7 @@
     },
     {
       "id": "local-data-analyst-ollama",
-      "rank": 34,
+      "rank": 30,
       "title_en": "Local Data Analyst with Ollama Integration",
       "title_ru": "Локальный аналитик данных с интеграцией Ollama",
       "desc_en": "Privacy-focused data analysis system using OpenClaw and local Ollama models for CSV analysis and visualization.",
@@ -779,7 +685,7 @@
     },
     {
       "id": "personal-ai-employee-peter-yang",
-      "rank": 35,
+      "rank": 31,
       "title_en": "Personal AI Employee with Google Workspace Integration",
       "title_ru": "Личный ИИ-сотрудник с интеграцией Google Workspace",
       "desc_en": "Complete AI assistant setup managing calendar, documents, voice responses, daily briefings, and weekly reports through text commands.",
@@ -807,7 +713,7 @@
     },
     {
       "id": "local-data-analyst-datacamp",
-      "rank": 36,
+      "rank": 32,
       "title_en": "Local Data Analyst with Ollama Integration",
       "title_ru": "Локальный аналитик данных с интеграцией Ollama",
       "desc_en": "Complete local-first AI data analysis system using OpenClaw and Ollama for private CSV analysis with visualizations and reports.",
@@ -834,7 +740,7 @@
     },
     {
       "id": "morning-routine-cron-automation",
-      "rank": 37,
+      "rank": 33,
       "title_en": "Automated Daily Morning Routine with OpenClaw Cron Jobs",
       "title_ru": "Автоматизированная утренняя рутина с заданиями Cron в OpenClaw",
       "desc_en": "Complete morning briefing automation that saves 2+ hours daily through scheduled tasks for weather, calendar, email monitoring, and maintenance.",
@@ -857,7 +763,7 @@
     },
     {
       "id": "small-business-automation-suite",
-      "rank": 38,
+      "rank": 34,
       "title_en": "10 OpenClaw Business Automations Saving 15+ Hours Weekly",
       "title_ru": "10 бизнес-автоматизаций OpenClaw, экономящих 15+ часов в неделю",
       "desc_en": "Comprehensive small business automation suite covering customer support, scheduling, email triage, inventory alerts, and lead qualification across multiple channels.",
@@ -883,7 +789,7 @@
     },
     {
       "id": "tiktok-marketing-agent",
-      "rank": 39,
+      "rank": 35,
       "title_en": "TikTok Marketing Agent for Influencer Growth",
       "title_ru": "Агент для маркетинга в TikTok и роста влияния",
       "desc_en": "OpenClaw agent 'Larry' automated TikTok marketing activities, achieving millions of views in one week for influencer marketing.",
@@ -896,7 +802,7 @@
     },
     {
       "id": "obsidian-vault-builder",
-      "rank": 40,
+      "rank": 36,
       "title_en": "Automated Obsidian Vault Building",
       "title_ru": "Автоматическое создание хранилищ Obsidian",
       "desc_en": "OpenClaw agent automatically builds and structures Obsidian knowledge vaults, providing ease of use without manual tool management.",
@@ -909,7 +815,7 @@
     },
     {
       "id": "business-seo-copywriting-automation",
-      "rank": 41,
+      "rank": 37,
       "title_en": "Business SEO and Copywriting Automation",
       "title_ru": "Автоматизация бизнес-SEO и копирайтинга",
       "desc_en": "OpenClaw workflows automate $45k of pSEO work in 20 minutes and $50k of copywriting in 15 minutes for business operations.",
@@ -922,7 +828,7 @@
     },
     {
       "id": "trading-workflow-automation",
-      "rank": 42,
+      "rank": 38,
       "title_en": "Trading Workflow Automation",
       "title_ru": "Автоматизация торговых процессов",
       "desc_en": "OpenClaw integrated with OpenAlgo to automate trading workflows and financial operations.",
@@ -935,7 +841,7 @@
     },
     {
       "id": "vc-daily-workflow-automation",
-      "rank": 43,
+      "rank": 39,
       "title_en": "VC Daily Workflow Automation",
       "title_ru": "Автоматизация ежедневных процессов венчурного капитала",
       "desc_en": "OpenClaw automates VC daily workflows including morning briefings, research, and investor-specific tasks with scheduled operations.",
@@ -948,7 +854,7 @@
     },
     {
       "id": "launch-operations-ultron-system",
-      "rank": 44,
+      "rank": 40,
       "title_en": "LAUNCH Operations ULTRON System",
       "title_ru": "Система ULTRON для операций LAUNCH",
       "desc_en": "OpenClaw ULTRON system replaces ~20 entry-level roles at LAUNCH/TWiST, providing automated guest booking and operational workflows.",
@@ -961,7 +867,7 @@
     },
     {
       "id": "twitter-automation-local-stack",
-      "rank": 45,
+      "rank": 41,
       "title_en": "Twitter Agent with Local AI Stack",
       "title_ru": "Twitter-агент с локальным AI стеком",
       "desc_en": "Automated Twitter agent running on local llama.cpp with NVIDIA 4070, using browser automation and OpenRouter for edge cases.",
@@ -974,7 +880,7 @@
     },
     {
       "id": "ga4-analytics-skill",
-      "rank": 46,
+      "rank": 42,
       "title_en": "GA4 Analytics Skill for ClawdHub",
       "title_ru": "Навык GA4 Analytics для ClawdHub",
       "desc_en": "Built and published GA4 skill in 20 minutes, allowing anyone to install and query Google Analytics data through OpenClaw.",
@@ -987,7 +893,7 @@
     },
     {
       "id": "voice-game-engine-control",
-      "rank": 47,
+      "rank": 43,
       "title_en": "Voice-Controlled Game Development",
       "title_ru": "Разработка игр с голосовым управлением",
       "desc_en": "Voice-to-AI agent system that controls 3D characters in PlayCanvas game engine in real-time through Discord commands.",
@@ -1000,7 +906,7 @@
     },
     {
       "id": "unlimited-web-search",
-      "rank": 48,
+      "rank": 44,
       "title_en": "Free Web Search Integration",
       "title_ru": "Интеграция бесплатного веб-поиска",
       "desc_en": "Configured OpenClaw with unlimited free web search using SearXNG Docker container, eliminating API costs and monthly bills.",
@@ -1013,7 +919,7 @@
     },
     {
       "id": "automated-marketing-revenue",
-      "rank": 49,
+      "rank": 45,
       "title_en": "Automated Marketing Revenue Generation",
       "title_ru": "Автоматизированное создание дохода в маркетинге",
       "desc_en": "OpenClaw agent 'Larry' generated $4000 in 24 hours through automated TikTok content creation and subscriber acquisition.",
@@ -1026,7 +932,7 @@
     },
     {
       "id": "blockchain-security-platform",
-      "rank": 50,
+      "rank": 46,
       "title_en": "Autonomous Blockchain Security Platform",
       "title_ru": "Автономная платформа безопасности блокчейна",
       "desc_en": "OpenClaw autonomously built entire Rust blockchain security platform for Solana Hackathon using CRON jobs and judge agent for code review.",
@@ -1039,7 +945,7 @@
     },
     {
       "id": "multi-docker-spawning",
-      "rank": 51,
+      "rank": 47,
       "title_en": "Multi-Agent Docker Spawning System",
       "title_ru": "Система порождения множественных Docker-агентов",
       "desc_en": "OpenClaw agent that spawns additional Docker containers with other OpenClaw instances for distributed agent operations.",
@@ -1052,7 +958,7 @@
     },
     {
       "id": "qr-barcode-parcel-system",
-      "rank": 52,
+      "rank": 48,
       "title_en": "QR/Barcode Parcel Collection System",
       "title_ru": "Система сбора посылок с QR/штрих-кодами",
       "desc_en": "Built OpenClaw skill for generating QR/barcodes for parcel collection, with automatic voice message handling using Whisper.",
@@ -1065,7 +971,7 @@
     },
     {
       "id": "web-automation-data-entry",
-      "rank": 53,
+      "rank": 49,
       "title_en": "Web Browser Automation for Form Filling and Data Extraction",
       "title_ru": "Веб-автоматизация для заполнения форм и извлечения данных",
       "desc_en": "Daily browser automation for repetitive tasks like form filling and data extraction using headless Chrome integration.",
@@ -1078,7 +984,7 @@
     },
     {
       "id": "development-assistant",
-      "rank": 54,
+      "rank": 50,
       "title_en": "Development Assistant for Coding Tasks",
       "title_ru": "Помощник разработчика для задач программирования",
       "desc_en": "Automated setup chores, repetitive refactors, generating docs/tests, and exploring repos to find where specific functionality is handled.",
@@ -1091,7 +997,7 @@
     },
     {
       "id": "n8n-workflow-replication",
-      "rank": 55,
+      "rank": 51,
       "title_en": "n8n Workflow Automation Alternative",
       "title_ru": "Альтернатива автоматизации рабочих процессов n8n",
       "desc_en": "Rebuilt OpenClaw's core functionality as a single n8n workflow for extendable workflow automation.",
@@ -1104,7 +1010,7 @@
     },
     {
       "id": "crypto-trading-bot",
-      "rank": 56,
+      "rank": 52,
       "title_en": "Automated Crypto Trading with Telegram Updates",
       "title_ru": "Автоматическая торговля криптовалютой с уведомлениями в Telegram",
       "desc_en": "24/7 crypto trading agent that executes arbitrage opportunities and sends Telegram updates about trades.",
@@ -1117,7 +1023,7 @@
     },
     {
       "id": "autonomous-game-builder",
-      "rank": 57,
+      "rank": 53,
       "title_en": "Autonomous Game Development Agent",
       "title_ru": "Автономный агент для разработки игр",
       "desc_en": "AI agent that builds functioning games from simple prompts, creating apps with thousands of users overnight.",
@@ -1130,7 +1036,7 @@
     },
     {
       "id": "stock-options-trading",
-      "rank": 58,
+      "rank": 54,
       "title_en": "Stock and Options Trading Agent",
       "title_ru": "Агент для торговли акциями и опционами",
       "desc_en": "Trading automation for stocks, options, and crypto using Public's APIs through OpenClaw integration.",
@@ -1143,7 +1049,7 @@
     },
     {
       "id": "personal-assistant-suite",
-      "rank": 59,
+      "rank": 55,
       "title_en": "Personal AI Assistant with Calendar & Documents",
       "title_ru": "Персональный ИИ-помощник с календарем и документами",
       "desc_en": "AI assistant managing calendar, editing documents, sending briefings, and voice replies for productivity.",
@@ -1156,7 +1062,7 @@
     },
     {
       "id": "whatsapp-telegram-integration",
-      "rank": 60,
+      "rank": 56,
       "title_en": "WhatsApp & Telegram Integration Agent",
       "title_ru": "Агент интеграции с WhatsApp и Telegram",
       "desc_en": "AI agent connecting with familiar messaging apps like WhatsApp and Telegram for seamless interaction.",
@@ -1169,7 +1075,7 @@
     },
     {
       "id": "todoist-automation",
-      "rank": 61,
+      "rank": 57,
       "title_en": "Todoist Task Automation",
       "title_ru": "Автоматизация задач в Todoist",
       "desc_en": "AI agent that creates custom skills for Todoist task automation through Telegram chat interface.",
@@ -1182,7 +1088,7 @@
     },
     {
       "id": "code-repository-analyzer",
-      "rank": 62,
+      "rank": 58,
       "title_en": "Code Repository Analysis Agent",
       "title_ru": "Агент анализа репозиториев кода",
       "desc_en": "Software engineering agent that maps dependencies, generates architecture summaries, and drafts migration plans.",
@@ -1195,7 +1101,7 @@
     },
     {
       "id": "research-assistant",
-      "rank": 63,
+      "rank": 59,
       "title_en": "Autonomous Research Assistant",
       "title_ru": "Автономный исследовательский помощник",
       "desc_en": "AI agent conducting deep topic research, summarizing articles, and providing cited sources automatically.",
@@ -1208,7 +1114,7 @@
     },
     {
       "id": "voice-journal-automation",
-      "rank": 64,
+      "rank": 60,
       "title_en": "Voice Recording to Daily Journal",
       "title_ru": "Голосовые записи в ежедневный дневник",
       "desc_en": "Automatically transcribes voice recordings and converts them into clean journal entries each evening using speech-to-text.",
@@ -1221,7 +1127,7 @@
     },
     {
       "id": "goal-task-generator",
-      "rank": 65,
+      "rank": 61,
       "title_en": "Self-Generating Task Management System",
       "title_ru": "Самогенерирующая система управления задачами",
       "desc_en": "Brain dumps goals into OpenClaw, which then generates and manages daily tasks automatically on a Kanban board to achieve those goals.",
@@ -1234,7 +1140,7 @@
     },
     {
       "id": "comprehensive-personal-assistant",
-      "rank": 66,
+      "rank": 62,
       "title_en": "All-in-One Personal Assistant",
       "title_ru": "Универсальный персональный помощник",
       "desc_en": "Manages email spam removal, messaging, online ordering, reminders, GitHub issues, Google Places sync, and expense tracking automatically.",
@@ -1247,7 +1153,7 @@
     },
     {
       "id": "ai-trading-desk",
-      "rank": 67,
+      "rank": 63,
       "title_en": "7-Agent AI Trading Desk",
       "title_ru": "Торговый стол из 7 ИИ-агентов",
       "desc_en": "Built a multi-agent system for automated trading operations with specialized agents handling different aspects of market analysis.",
@@ -1260,7 +1166,7 @@
     },
     {
       "id": "nightlife-event-scraper",
-      "rank": 68,
+      "rank": 64,
       "title_en": "Autonomous Event Scraping Agent",
       "title_ru": "Автономный агент сбора событий",
       "desc_en": "Scrapes 100+ nightlife events from 4 platforms daily, completely autonomously organizing entertainment information.",
@@ -1273,7 +1179,7 @@
     },
     {
       "id": "proactive-business-assistant",
-      "rank": 69,
+      "rank": 65,
       "title_en": "Proactive Business Assistant",
       "title_ru": "Проактивный бизнес-помощник",
       "desc_en": "Proactively handles email checking, message replies, LinkedIn management, and general personal assistant tasks for entrepreneurs.",
@@ -1286,7 +1192,7 @@
     },
     {
       "id": "daily-reddit-digest",
-      "rank": 70,
+      "rank": 66,
       "title_en": "Daily Reddit Digest — AI summarizes your favorite subreddits",
       "title_ru": "Дейли-дайджест Reddit — AI собирает топ из любимых сабреддитов",
       "desc_en": "Get a curated daily digest of your favourite subreddits based on your preferences. Never miss trending discussions, automatically filtered by what matters to you.",
@@ -1299,7 +1205,7 @@
     },
     {
       "id": "overnight-mini-app-builder",
-      "rank": 71,
+      "rank": 67,
       "title_en": "Overnight Mini-App Builder — wake up to working apps",
       "title_ru": "Ночной сборщик мини-приложений — просыпаешься с готовым продуктом",
       "desc_en": "Brain dump your goals and have your agent autonomously generate, schedule, and complete tasks — including building surprise mini-apps while you sleep.",
@@ -1312,7 +1218,7 @@
     },
     {
       "id": "multi-channel-customer-service",
-      "rank": 72,
+      "rank": 68,
       "title_en": "24/7 AI Customer Service across WhatsApp, Instagram, Email",
       "title_ru": "AI-поддержка 24/7 в WhatsApp, Instagram, Email",
       "desc_en": "Unify WhatsApp, Instagram, Email, and Google Reviews in one AI-powered inbox with 24/7 auto-responses. Handle customers while you sleep.",
@@ -1325,7 +1231,7 @@
     },
     {
       "id": "self-healing-home-server",
-      "rank": 73,
+      "rank": 69,
       "title_en": "Self-Healing Home Server — AI fixes infrastructure issues",
       "title_ru": "Самовосстанавливающийся сервер — AI чинит инфраструктуру сам",
       "desc_en": "Run an always-on infrastructure agent with SSH access, automated cron jobs, and self-healing capabilities across your home network.",
@@ -1338,7 +1244,7 @@
     },
     {
       "id": "content-factory",
-      "rank": 74,
+      "rank": 70,
       "title_en": "Multi-Agent Content Factory in Discord",
       "title_ru": "Мульти-агентная контент-фабрика в Discord",
       "desc_en": "Run a multi-agent content pipeline in Discord — research, writing, and thumbnail agents working in dedicated channels. Assembly line for content.",
@@ -1351,7 +1257,7 @@
     },
     {
       "id": "personal-crm",
-      "rank": 75,
+      "rank": 71,
       "title_en": "Personal CRM — AI tracks all your contacts",
       "title_ru": "Персональная CRM — AI ведёт все контакты",
       "desc_en": "Automatically discover and track contacts from your email and calendar, with natural language queries. Never forget who you met.",
@@ -1364,7 +1270,7 @@
     },
     {
       "id": "custom-morning-brief",
-      "rank": 76,
+      "rank": 72,
       "title_en": "Custom Morning Briefing — AI texts you daily summary",
       "title_ru": "Утренний бриф — AI шлёт персональную сводку каждый день",
       "desc_en": "Get a fully customized daily briefing — news, tasks, content drafts, and AI-recommended actions — texted to you every morning.",
@@ -1377,7 +1283,7 @@
     },
     {
       "id": "second-brain",
-      "rank": 77,
+      "rank": 73,
       "title_en": "Second Brain — remember everything via chat",
       "title_ru": "Второй мозг — запоминай всё через чат",
       "desc_en": "Text anything to your bot to remember it, then search through all your memories in a custom Next.js dashboard. Your external memory.",
@@ -1390,7 +1296,7 @@
     },
     {
       "id": "youtube-content-pipeline",
-      "rank": 78,
+      "rank": 74,
       "title_en": "YouTube Content Pipeline — automate video production",
       "title_ru": "YouTube-конвейер — автоматизируй производство видео",
       "desc_en": "Automate video idea scouting, research, and tracking for a YouTube channel. From trend analysis to script outlines.",
@@ -1403,7 +1309,7 @@
     },
     {
       "id": "multi-agent-team",
-      "rank": 79,
+      "rank": 75,
       "title_en": "Multi-Agent Specialized Team via Telegram",
       "title_ru": "Команда специализированных агентов в Telegram",
       "desc_en": "Run multiple specialized agents (strategy, dev, marketing, business) as a coordinated team via a single Telegram chat.",

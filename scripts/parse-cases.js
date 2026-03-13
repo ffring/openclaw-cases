@@ -192,82 +192,96 @@ async function extractDetailedCases(searchResults, pageContents) {
     pageContent: pageContents[i] || '(page content unavailable)'
   }));
 
-  const prompt = `You are a senior tech journalist at OpenClaw Times — an AI media platform for a GENERAL audience.
-Your readers are entrepreneurs, marketers, managers — NOT developers or geeks.
+  const prompt = `You are a senior tech journalist writing in-depth longread articles for OpenClaw Times.
+Your audience: entrepreneurs, marketers, business owners in Russia/CIS. NOT developers.
 
-You are analyzing search results about real AI agent use cases (OpenClaw, Claude, GPT agents, AI automation).
-For each result that describes a REAL USE CASE (skip tutorials, docs, marketing pages):
+Analyze search results about real AI agent use cases. For each REAL USE CASE (skip tutorials, docs, marketing pages):
 
-RESPOND IN VALID JSON — an array of case objects.
+RESPOND IN VALID JSON (UTF-8, no broken characters) — an object: {"cases": [...]}
 
-Each case object must have:
+Each case object:
 {
   "id": "slug-3-5-words",
-  "title_en": "Clear English title, max 60 chars, keyword-first for SEO",
-  "title_ru": "SEO-заголовок на русском, 50-60 символов, ключевое слово в начале",
-  "desc_en": "Meta description 150-160 chars with CTA — what the reader will learn",
-  "desc_ru": "Мета-описание 150-160 символов с CTA",
+  "title_en": "SEO title in English (50-70 chars, keyword first)",
+  "title_ru": "SEO-заголовок на русском (50-70 символов, ключевое слово в начале)",
+  "desc_en": "Meta description 150-160 chars with CTA",
+  "desc_ru": "Мета-описание 150-160 символов с CTA на русском",
   "tag": "automation|coding|research|devops|productivity|marketing|finance",
   "source_url": "original URL",
   "tools_en": ["Tool1", "Tool2"],
-  "tools_ru": ["Инструмент1", "Инструмент2"],
-  "results_en": "Key outcome in one line (e.g. 'Saves 15 hours per week on reporting')",
-  "results_ru": "Ключевой результат одной строкой (напр. 'Экономит 15 часов в неделю на отчётах')",
-
-  "content_en": "FULL article written ENTIRELY IN ENGLISH, markdown format (see rules below)",
-  "content_ru": "ПОЛНАЯ статья написанная ЦЕЛИКОМ НА РУССКОМ ЯЗЫКЕ, markdown формат (см. правила ниже)"
+  "tools_ru": ["Описание инструмента1 на русском", "Описание инструмента2 на русском"],
+  "results_en": "Key outcome (e.g. 'Saves 15 hours/week on reporting')",
+  "results_ru": "Ключевой результат на русском (напр. 'Экономит 15 часов в неделю')",
+  "content_en": "FULL longread article in ENGLISH (see structure below)",
+  "content_ru": "ПОЛНАЯ статья-лонгрид ЦЕЛИКОМ НА РУССКОМ ЯЗЫКЕ (см. структуру ниже)"
 }
 
-CRITICAL LANGUAGE RULES:
-- content_ru MUST be written entirely in Russian. Not translated word-by-word, but written naturally in Russian.
-- tools_ru — translate tool descriptions to Russian (tool names stay in English if they are product names)
-- results_ru — write results in Russian
-- desc_ru — write in Russian
-- title_ru — write in Russian
-- If you write content_ru in English, the article is REJECTED. This is the #1 quality check.
+=== ARTICLE STRUCTURE (both content_en and content_ru) ===
 
-ARTICLE RULES (content_en, content_ru):
+MINIMUM 1500 words per language. Articles under 1200 words are REJECTED.
 
-LENGTH: 800-1200 words per language. This is critical.
+1. INTRO (2-3 paragraphs, 150-200 words):
+   - Hook: why this matters for the reader's business RIGHT NOW
+   - Context: what problem exists, what pain point
+   - Promise: what the reader will learn from this article
 
-STRUCTURE:
-- Opening hook (2-3 sentences) — why this matters to the reader's business/life
-- ## What problem this solves — pain point in plain language
-- ## How it works — step-by-step, explained like talking to a smart friend (no jargon)
-- ## What tools are involved — brief, with context on what each tool does
-- ## Real results — specific numbers, time saved, money earned, before/after
-- ## Why this matters for you — practical takeaway, who should try this, how to start
-- ## FAQ — 3 questions a non-technical reader would ask, with clear answers
+2. Five to six ## H2 sections (200-350 words each):
+   - Each section: 2-3 detailed paragraphs
+   - Include specific details, numbers, examples from the source
+   - At least 1 bullet list (ul/ol) per 2 sections
+   - At least 1 blockquote (>) per article with a key insight
+   - H2s phrased as questions or "How to..." for SEO featured snippets
 
-WRITING STYLE:
-- Write for entrepreneurs and managers, NOT developers
-- Explain technical concepts in simple terms (e.g. "AI agent = a program that does tasks for you automatically")
-- Use concrete examples and analogies from everyday business
-- Every paragraph must give the reader something useful
-- NO filler, NO corporate speak, NO "it's worth noting that..."
-- Russian: живой разговорный язык, без канцелярита. НЕ используй: "следует отметить", "давайте рассмотрим", "в рамках", "необходимо подчеркнуть"
-- English: direct, clear, engaging. Short sentences. Active voice.
+3. ## Frequently Asked Questions (FAQ):
+   - 4-5 Q&A pairs
+   - Questions that a non-technical person would ask Google or ChatGPT
+   - Each answer: 2-3 sentences minimum
 
-SEO/GEO:
-- H2s as questions or "How to..." for featured snippets
-- Natural keyword usage (don't stuff)
-- FAQ section with questions people would ask Google/ChatGPT
-- Focus on search intent: "how to automate X", "AI for Y"
+4. CONCLUSION (1-2 paragraphs):
+   - Summary of key takeaways
+   - Concrete next step the reader can take TODAY
 
-Format with markdown: ## headers, **bold**, bullet lists, > blockquotes for key insights.
-DO NOT invent statistics or fake quotes — mark uncertain info with [needs verification].
+=== WRITING STYLE ===
+
+FOR content_ru (CRITICAL — this is the PRIMARY language):
+- Write ENTIRELY in Russian. Every single word must be Russian (except product names like OpenClaw, ChatGPT).
+- Живой, разговорный язык. Как будто объясняешь другу за кофе.
+- ЗАПРЕЩЕНО: "следует отметить", "давайте рассмотрим", "в рамках", "необходимо подчеркнуть", "данный", "является", "осуществлять"
+- Объясняй технические термины простым языком: "AI-агент — это программа, которая сама выполняет задачи за вас"
+- Конкретные примеры и аналогии из бизнеса
+- Каждый абзац должен давать читателю что-то полезное
+
+FOR content_en:
+- Direct, clear, engaging. Short sentences. Active voice.
+- No corporate speak, no filler.
+
+=== SEO/GEO OPTIMIZATION ===
+- Primary keyword in title (first 3 words)
+- H2s as questions for featured snippets
+- FAQ with natural questions people ask AI assistants
+- Keywords: mix head terms + long-tail + questions
+- read_time: ceil(total_words / 200)
+
+=== QUALITY CHECKS ===
+- If content_ru contains English sentences → REJECTED
+- If article is under 1200 words → REJECTED
+- If article is generic without specific details from source → REJECTED
+- DO NOT invent statistics or quotes — use only what's in the source
+
+Format: ## headers, **bold**, - bullet lists, > blockquotes
+Use only ASCII-safe characters in JSON strings. Avoid Unicode that might break.
 
 Search results with page content:
 ${JSON.stringify(context, null, 2)}
 
-Return JSON array. Quality over quantity — skip results without enough substance for a real article.`;
+Return {"cases": [...]}. Quality over quantity — skip weak sources.`;
 
   try {
     const response = await postJSON('https://api.openai.com/v1/chat/completions', {
       model: OPENAI_MODEL,
       messages: [{ role: 'user', content: prompt }],
       response_format: { type: 'json_object' },
-      max_tokens: 16000,
+      max_tokens: 64000,
       temperature: 0.4
     }, {
       'Authorization': 'Bearer ' + OPENAI_API_KEY
@@ -364,10 +378,10 @@ async function main() {
   // Batch AI extraction
   console.log('\nGenerating articles via OpenAI...');
   const batches = [];
-  for (let i = 0; i < uniqueResults.length; i += 5) {
+  for (let i = 0; i < uniqueResults.length; i += 3) {
     batches.push({
-      results: uniqueResults.slice(i, i + 5),
-      contents: pageContents.slice(i, i + 5)
+      results: uniqueResults.slice(i, i + 3),
+      contents: pageContents.slice(i, i + 3)
     });
   }
 
