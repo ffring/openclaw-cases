@@ -2,28 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://openclawtimes.com/</loc><lastmod>2026-03-13</lastmod><priority>1.0</priority></url>
   <url><loc>https://openclawtimes.com/en/</loc><lastmod>2026-03-13</lastmod><priority>0.9</priority></url>
-  <url><loc>https://openclawtimes.com/case/openclaw-research-workflow.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://openclawtimes.com/en/case/openclaw-research-workflow.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://openclawtimes.com/case/ai-agent-trends-2026.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://openclawtimes.com/en/case/ai-agent-trends-2026.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://openclawtimes.com/case/customer-service-communicate-ai.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://openclawtimes.com/en/case/customer-service-communicate-ai.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://openclawtimes.com/case/crm-real-time-update.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://openclawtimes.com/en/case/crm-real-time-update.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://openclawtimes.com/case/company-info-extraction.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://openclawtimes.com/en/case/company-info-extraction.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://openclawtimes.com/case/claims-processing-automation.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://openclawtimes.com/en/case/claims-processing-automation.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://openclawtimes.com/case/small-business-ai-growth.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://openclawtimes.com/en/case/small-business-ai-growth.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://openclawtimes.com/case/ai-marketing-automation-examples.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://openclawtimes.com/en/case/ai-marketing-automation-examples.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://openclawtimes.com/case/ibm-ai-agents-marketing.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://openclawtimes.com/en/case/ibm-ai-agents-marketing.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://openclawtimes.com/case/customer-support-ai-platform.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://openclawtimes.com/en/case/customer-support-ai-platform.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
-  <url><loc>https://openclawtimes.com/case/15-ways-ai-customer-support.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
-  <url><loc>https://openclawtimes.com/en/case/15-ways-ai-customer-support.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://openclawtimes.com/case/ai-agent-claims-processing.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://openclawtimes.com/en/case/ai-agent-claims-processing.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://openclawtimes.com/case/ai-agent-customer-service.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://openclawtimes.com/en/case/ai-agent-customer-service.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://openclawtimes.com/case/ai-agent-sales-marketing-automation.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://openclawtimes.com/en/case/ai-agent-sales-marketing-automation.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
+  <url><loc>https://openclawtimes.com/case/agentic-workflow-data-extraction.html</loc><lastmod>2026-03-13</lastmod><priority>0.8</priority></url>
+  <url><loc>https://openclawtimes.com/en/case/agentic-workflow-data-extraction.html</loc><lastmod>2026-03-13</lastmod><priority>0.7</priority></url>
   <url><loc>https://openclawtimes.com/case/options-flow-data-parser.html</loc><lastmod>2026-02-18</lastmod><priority>0.8</priority></url>
   <url><loc>https://openclawtimes.com/en/case/options-flow-data-parser.html</loc><lastmod>2026-02-18</lastmod><priority>0.7</priority></url>
   <url><loc>https://openclawtimes.com/case/personal-assistant-saul.html</loc><lastmod>2026-02-18</lastmod><priority>0.8</priority></url>
