@@ -1,14 +1,89 @@
 {
-  "updated": "2026-03-13T16:38:27.429Z",
+  "updated": "2026-03-14T10:21:45.963Z",
   "stats": {
-    "total": 78,
+    "total": 81,
     "today": 3,
-    "week": 3
+    "week": 6
   },
   "cases": [
     {
-      "id": "company-info-extraction-saas",
+      "id": "kelly-ai-multiple-projects",
       "rank": 1,
+      "title_en": "AI Agent Kelly: How to Manage Multiple Projects Simultaneously",
+      "title_ru": "Искусственный интеллект Kelly: как вести несколько проектов одновременно",
+      "desc_en": "Discover how Kelly AI agent helps manage multiple business projects at once. Boost productivity and streamline operations. Learn how it works now.",
+      "desc_ru": "Узнайте, как агент Kelly на ИИ помогает вести несколько бизнес-проектов одновременно. Повышайте продуктивность и управляйте проще. Подробнее — читайте сейчас.",
+      "content_en": "## Why Managing Multiple Projects with AI Matters for Your Business\n\nEvery entrepreneur and business owner knows the struggle: juggling multiple projects, tasks, and priorities at once. In today’s fast-paced world, the ability to multitask isn’t just a nice-to-have—it’s a necessity. But what if you could delegate not just tasks, but entire projects to an AI agent, and have it work on several things at the same time? That’s exactly what’s happening with KellyClaudeAI and the OpenClaw Deck.\n\nThe pain is real. You’re trying to launch a new app, refine your business strategy, and keep daily operations running smoothly. Human multitasking has its limits. Emails slip through the cracks, deadlines get missed, and opportunities are lost. This is where AI agents like Kelly come in, promising to change the way we work.\n\nIn this article, you’ll learn how one real-world setup uses an AI agent to manage multiple projects in parallel. We’ll break down how it works, what it looks like in practice, and what you can expect if you bring this technology into your business.\n\n## How Does KellyClaudeAI Manage Multiple Projects at Once?\n\nThe core innovation here is the combination of KellyClaudeAI—a smart AI agent—and the OpenClaw Deck, a user interface designed for multitasking. Each column in the OpenClaw Deck represents a unique session, or thread, of Kelly. Within each column, Kelly can spawn subagents, allowing for even more granular task management.\n\nThis means you can have one instance of Kelly working on, say, submitting your app to the App Store, while another is deep-diving into your company’s strategy. Switching between these projects is as simple as hitting a hotkey. No more opening dozens of tabs or losing your train of thought.\n\n- Multiple project threads, each with its own focus\n- Instant hotkey switching between sessions\n- Subagents for handling specific subtasks\n\n> \"Each column is a unique session of an agent and can spawn subagents within that column. So now you can have one instance of Kelly working on many different projects simultaneously with a hotkey switch.\"\n\n## What Problems Does This Solve for Entrepreneurs?\n\nFor business owners, the main pain point is context switching. Every time you shift from one task to another, you lose time and focus. Traditional digital tools force you to jump between apps, emails, and documents. With Kelly and OpenClaw Deck, all active projects are organized in one place, and switching is instant.\n\nImagine you’re running three projects:\n- Launching a new app\n- Refining your business strategy\n- Managing customer support\n\nWith Kelly, you can set up a dedicated session for each. The agent remembers the context for each session, so you never have to repeat yourself or dig through old notes. You can even have Kelly spawn subagents to tackle specific tasks within a project, like drafting a press release or analyzing competitor data.\n\n> \"Running parallel now on @OpenClaw deck Multiple threads working simultaneously: → App building (submitting to App Store) → Strategy (what makes a B+ factory?)\"\n\n## How Does the User Interface Make Multitasking Easier?\n\nThe OpenClaw Deck is designed for speed and clarity. Each project thread is visually separated into columns, making it easy to see what’s happening at a glance. Hotkey switching means you can jump from one project to another without breaking your workflow.\n\nKey interface features:\n- Columns for each project session\n- Subagent threads within columns\n- Hotkey switching for fast navigation\n\nThis setup is especially useful for entrepreneurs who need to keep many balls in the air. Instead of being overwhelmed by scattered tasks, you get a bird’s eye view of all your projects, with the ability to dive deep into any one at a moment’s notice.\n\n## What Are the Real-World Results?\n\nThe main outcome is a dramatic boost in productivity. With one AI agent handling multiple projects, you can:\n- Work on several initiatives at once, without losing context\n- Delegate entire projects or subtasks to the AI\n- Instantly switch focus as priorities change\n\nIn practice, this means less time wasted on context switching and more time spent on high-impact work. For example, while Kelly is preparing your app submission, you can have another thread analyzing your business strategy—all in parallel.\n\n> \"So now you can have one instance of Kelly working on many different projects simultaneously with a hotkey switch.\"\n\n## How Can You Implement This in Your Business?\n\nGetting started with KellyClaudeAI and OpenClaw Deck is about rethinking how you structure your work. Instead of assigning individual tasks, you set up project sessions and let the AI handle the details. The key is to clearly define the scope of each session and use subagents for complex or multi-step tasks.\n\nSteps to get started:\n- Identify the main projects you want to run in parallel\n- Set up a session (column) for each in the OpenClaw Deck\n- Assign subtasks to subagents as needed\n- Use hotkeys to switch focus and monitor progress\n\nThis approach works best for entrepreneurs and teams who need to juggle multiple priorities without losing momentum.\n\n## What Are the Limitations and Challenges?\n\nWhile the setup is powerful, it’s not without challenges. The main limitation is the AI’s ability to understand complex, nuanced tasks. You’ll still need to provide clear instructions and check in on progress. There’s also a learning curve as you adapt to managing projects through an AI interface instead of traditional tools.\n\nPotential challenges:\n- Defining clear project scopes for the AI\n- Monitoring subagent performance\n- Adapting your workflow to a new interface\n\nOverall, the benefits outweigh the drawbacks for most entrepreneurs, especially those managing multiple projects at once.\n\n## Frequently Asked Questions (FAQ)\n\n**How does KellyClaudeAI differ from traditional task managers?**\n\nKellyClaudeAI is an intelligent agent that can handle entire projects and spawn subagents for subtasks, rather than just tracking to-do lists.\n\n**Can I use KellyClaudeAI for any type of project?**\n\nIt works best for projects with clear goals and tasks that can be described in natural language. Complex or highly specialized work may still require human oversight.\n\n**Is it difficult to switch between projects using the OpenClaw Deck?**\n\nNo, switching is instant using hotkeys, and each session keeps its own context so you never lose track.\n\n**Do I need technical skills to set up KellyClaudeAI?**\n\nNo coding is required. The interface is designed for business users and entrepreneurs.\n\n**How secure is my data when using AI agents?**\n\nAs with any cloud-based tool, data security depends on the platform. Always review privacy policies and use best practices for sensitive information.\n\n## Conclusion: Start Multitasking with AI Today\n\nThe future of business productivity is here. With KellyClaudeAI and OpenClaw Deck, you can manage multiple projects in parallel, delegate work to AI agents, and switch focus instantly. The result is less stress, more productivity, and a smarter way to run your business.\n\nIf you’re ready to take control of your workload and get more done, explore AI agents like Kelly today. Set up your first project session and see the difference for yourself.",
+      "content_ru": "## Почему важно управлять несколькими проектами с помощью ИИ прямо сейчас\n\nЛюбой предприниматель или владелец бизнеса знает, как сложно одновременно вести кучу дел. Сегодня скорость — ключ к успеху, и если ты не можешь делать несколько задач сразу, рискуешь отстать от конкурентов. А что если можно не просто делегировать задачи, а поручить целые проекты искусственному интеллекту? Именно так работает связка KellyClaudeAI и OpenClaw Deck.\n\nБоль всем знакома: запускаешь новое приложение, параллельно надо думать о стратегии, не забывать про рутину, а времени и внимания — всегда мало. В итоге письма теряются, дедлайны срываются, а бизнес-идеи остаются на бумаге. Вот тут и появляется ИИ-ассистент Kelly, который может реально изменить подход к работе.\n\nВ этой статье разберём, как на практике один ИИ-агент ведёт несколько проектов одновременно. Покажу, как это устроено, что реально происходит, и что вы получите, если внедрите такую технологию у себя.\n\n## Как KellyClaudeAI ведёт сразу несколько проектов?\n\nГлавная фишка — сочетание ИИ-ассистента KellyClaudeAI и интерфейса OpenClaw Deck. Каждый столбец в OpenClaw Deck — это отдельная сессия, или поток работы Kelly. Внутри столбца Kelly может запускать подагентов для конкретных задач.\n\nТо есть можно поручить одному Kelly сразу несколько дел: например, в одном потоке он готовит релиз приложения для App Store, а в другом — анализирует стратегию компании. Переключение между этими задачами — просто по горячей клавише. Больше не нужно держать десятки вкладок или терять мысль.\n\n- Каждый проект — отдельный поток\n- Мгновенное переключение между задачами по хоткею\n- Подагенты для отдельных подпроектов\n\n> «Каждый столбец — это уникальная сессия агента, внутри которой можно запускать подагентов. Теперь Kelly может работать над разными проектами одновременно, и переключаться между ними по горячей клавише.»\n\n## Какие проблемы это решает для предпринимателей?\n\nГлавная боль — постоянное переключение контекста. Каждый раз, когда перескакиваешь с одной задачи на другую, теряешь фокус и время. Обычные цифровые инструменты заставляют прыгать между почтой, документами, мессенджерами. С Kelly и OpenClaw Deck все активные проекты — перед глазами, а переключение между ними занимает секунду.\n\nПредставьте, что вы ведёте сразу три направления:\n- Запуск нового приложения\n- Разработка бизнес-стратегии\n- Работа с клиентами\n\nС Kelly каждому проекту можно выделить свою сессию. Агент сам запоминает контекст, не нужно повторять одно и то же или искать старые заметки. А если задача сложная, Kelly запускает подагента — например, чтобы написать пресс-релиз или собрать аналитику по конкурентам.\n\n> «Сейчас параллельно на OpenClaw Deck работают сразу несколько потоков: → Разработка приложения (подача в App Store) → Стратегия (как сделать B+ фабрику?)»\n\n## Как интерфейс облегчает многозадачность?\n\nOpenClaw Deck заточен под скорость и наглядность. Каждый проект — свой столбец, всё видно сразу. Переключение между задачами — по горячей клавише, не нужно тратить время на поиск нужного окна.\n\nЧто даёт такой интерфейс:\n- Столбцы для каждого проекта\n- Потоки подагентов внутри столбца\n- Быстрая навигация по хоткеям\n\nЭто особенно круто для предпринимателей, у которых всегда несколько дел в работе. Вместо хаоса — чёткая картина всех проектов, и возможность в любой момент погрузиться в детали любого из них.\n\n## Какой результат на практике?\n\nСамое главное — резкий рост продуктивности. Один ИИ-ассистент ведёт сразу несколько проектов, и вы:\n- Можете продвигать несколько направлений одновременно, не теряя контекст\n- Делегируете не только задачи, но и целые подпроекты\n- Мгновенно переключаетесь между делами, когда меняются приоритеты\n\nНа деле это значит: меньше времени уходит на «переключение головы», больше — на реальные дела. Пока Kelly готовит релиз приложения, в другом потоке он анализирует стратегию компании — и всё это параллельно.\n\n> «Теперь можно запустить один экземпляр Kelly, который одновременно работает над разными проектами, и быстро переключаться между ними.»\n\n## Как внедрить такую систему в свой бизнес?\n\nЗапуск KellyClaudeAI и OpenClaw Deck — это не про очередной таск-менеджер. Здесь выстраивается новая логика: не раздаёте отдельные задачи, а создаёте сессии для целых проектов, а ИИ берёт детали на себя. Главное — чётко описывать, что нужно по каждому направлению, и использовать подагентов для сложных задач.\n\nКак начать:\n- Определите, какие проекты можно вести параллельно\n- Создайте под них отдельные сессии (столбцы) в OpenClaw Deck\n- Делегируйте подпроекты подагентам Kelly\n- Используйте горячие клавиши для переключения и контроля\n\nЭтот подход особенно подходит тем, кто привык держать несколько дел под контролем и не любит терять темп.\n\n## Какие есть ограничения и подводные камни?\n\nСистема мощная, но не волшебная. Главный минус — ИИ пока не всегда понимает сложные и тонкие задачи. Нужно уметь чётко формулировать, чего вы хотите, и иногда контролировать процесс. Ещё потребуется время, чтобы привыкнуть к новому формату управления работой.\n\nС какими трудностями можно столкнуться:\n- Нужно чётко ставить задачи для ИИ\n- Следить за результатами работы подагентов\n- Перестроить привычный рабочий процесс под новый интерфейс\n\nВ целом, плюсов больше: для большинства предпринимателей, которые ведут несколько проектов, это реальный способ разгрузить голову и ускориться.\n\n## Часто задаваемые вопросы (FAQ)\n\n**Чем KellyClaudeAI отличается от обычных таск-менеджеров?**\n\nKelly — это не просто список дел, а умный агент, который ведёт целые проекты и может запускать подагентов для отдельных задач.\n\n**Можно ли использовать KellyClaudeAI для любых проектов?**\n\nЛучше всего работает там, где задачи можно чётко описать словами. Сложные или очень специфические дела всё равно потребуют вашего внимания.\n\n**Сложно ли переключаться между проектами в OpenClaw Deck?**\n\nНет, переключение мгновенное по горячей клавише, и каждый поток хранит свой контекст — ничего не теряется.\n\n**Нужны ли технические знания для запуска KellyClaudeAI?**\n\nНет, кодить не надо. Интерфейс рассчитан на обычных пользователей и предпринимателей.\n\n**Насколько безопасны данные при работе с ИИ-ассистентом?**\n\nКак и с любым облачным сервисом: читайте политику конфиденциальности и не передавайте особо чувствительную информацию.\n\n## Итог: начните многозадачность с ИИ уже сегодня\n\nБудущее продуктивности уже здесь. KellyClaudeAI и OpenClaw Deck позволяют вести несколько проектов параллельно, делегировать задачи ИИ и мгновенно переключаться между направлениями. Меньше стресса, больше дела, и бизнес работает умнее.\n\nГотовы разгрузить себя и ускорить процессы? Попробуйте ИИ-ассистента Kelly прямо сейчас: заведите первую сессию под свой проект и почувствуйте разницу.",
+      "tools_en": [
+        "KellyClaudeAI",
+        "OpenClaw Deck"
+      ],
+      "tools_ru": [
+        "KellyClaudeAI — ИИ-ассистент для автоматизации работы",
+        "OpenClaw Deck — платформа для управления сессиями агентов"
+      ],
+      "results_en": "Allows one AI agent to handle multiple projects at once, switching tasks instantly.",
+      "results_ru": "Позволяет одному ИИ-ассистенту вести сразу несколько проектов и быстро переключаться между ними.",
+      "tag": "productivity",
+      "source": "Twitter",
+      "source_url": "https://x.com/Austen/status/2021986173313593503",
+      "points": 299,
+      "date": "2026-03-14"
+    },
+    {
+      "id": "chatgpt-agent-outreach-list",
+      "rank": 2,
+      "title_en": "ChatGPT Agent Use Case: Build Outreach Lists Fast for Marketing",
+      "title_ru": "ChatGPT Agent: как быстро собирать списки для маркетинга",
+      "desc_en": "Learn how ChatGPT Agent automates targeted outreach list building, saving hours for marketers. Discover step-by-step real-life workflow and tips.",
+      "desc_ru": "Узнайте, как ChatGPT Agent экономит часы на сборе списков для маркетинга. Подробная инструкция и реальные советы — читайте сейчас!",
+      "content_en": "## Why Marketers Need Outreach List Automation Right Now\n\nIf you’re running a business in Russia or the CIS, you know that time is your most valuable asset. Marketers, founders, and business owners often spend hours—sometimes entire days—building lists for outreach campaigns. Whether it’s for PR, link building, or direct sales, collecting and qualifying contacts is a tedious, manual grind. But what if you could delegate this entire process to an AI agent and get results in 20 minutes instead of eight hours?\n\nThat’s exactly what’s happening with ChatGPT Agent. This isn’t some future fantasy or a developer’s playground—it’s a practical tool that’s saving real people real time, right now. In this article, you’ll discover how ChatGPT Agent can automate your outreach list building, why it’s a game-changer for marketers, and how you can start using it in your workflow today.\n\nWe’ll walk you through a concrete, real-world use case: building a hyper-targeted outreach list for a marketing campaign. You’ll get step-by-step details, expert tips, and answers to the most common questions. Let’s dive in.\n\n## How Does ChatGPT Agent Build Outreach Lists in Minutes?\n\nTraditional outreach list building is a slog. You search Google, open dozens of tabs, hunt for emails, and copy everything into a spreadsheet. This can take hours—sometimes the better part of a day. ChatGPT Agent changes the game by handling this entire workflow autonomously.\n\nHere’s how it works:\n- You define a clear objective (e.g., \"Find 100 contacts who published Grok 4 content in the last 30 days\")\n- You specify the output format (like a CSV ready for your CRM)\n- You activate Agent Mode in ChatGPT and paste in a detailed prompt outlining the task\n- The agent launches a virtual browser, searches, scrapes, and compiles the data—while you focus on other priorities\n\nWithin about 20 minutes, you get a downloadable CSV with all the contacts, emails, and relevant notes. No more tab juggling, no more copy-paste marathon.\n\n> \"Because the agent runs on OpenAI’s servers you can shut your laptop and head to a meeting. Your local bandwidth is irrelevant.\"\n\nThis means you’re not just saving time—you’re freeing up mental energy for higher-value work.\n\n## What Are the Steps to Set Up Automated Outreach With ChatGPT Agent?\n\nGetting started is straightforward, even if you’re not technical. Here’s the step-by-step process used by marketers:\n\n1. **Define the Goal and Output:** Decide exactly what you want (e.g., 100 contacts, CSV format, specific columns)\n2. **Activate Agent Mode:** Open ChatGPT, type /agent, and enter your master prompt with clear instructions\n3. **Run the Agent:** Submit the prompt and let the agent do its work—searching, collecting, and compiling\n4. **Review the Output:** After about 20 minutes, download and check the CSV\n5. **Deploy and Personalize:** Import the list into your outreach platform, personalize your messages, and start your campaign\n6. **Automate and Schedule:** Set the agent to run on a schedule (e.g., monthly updates) so your list stays fresh\n\nThis workflow isn’t just faster—it’s repeatable and scalable. You can run multiple agents for different product lines or campaigns, all in parallel.\n\n## What Makes ChatGPT Agent Better Than Manual Methods?\n\nThe difference isn’t just speed—though going from eight hours to 20 minutes is huge. ChatGPT Agent brings consistency, context, and scalability to your outreach efforts.\n\n- **Speed:** Complete in 20 minutes what used to take all day\n- **Consistency:** Follow a repeatable blueprint, not random browsing\n- **Context:** Each contact comes with a description and suggested outreach angle\n- **Scalability:** Run multiple agents across product lines or markets\n\nFor example, the agent doesn’t just grab names and emails. It also adds a \"Description\" column, explaining why each contact is relevant and suggesting a personalized angle for your outreach. This reduces your editing time to minutes and increases reply rates.\n\n> \"Names are correct. Emails pass a quick Hunter.io check. Descriptions read like notes from a human researcher. Editing time drops to minutes.\"\n\n## How Can You Customize and Optimize the Results?\n\nOne of the biggest advantages of ChatGPT Agent is its flexibility. You can fine-tune your prompts to get exactly the data you need. Here are some pro tips:\n\n- Tighten date filters (e.g., \"published after May 1, 2025\")\n- Include competitor keywords to catch analysts and reviewers\n- Ask the agent to flag podcast hosts or other specific roles\n- Filter by domain authority (e.g., \"only include sites with Ahrefs DA above 40\")\n\nThese customizations let you target the most relevant contacts, improve your outreach quality, and avoid generic, low-value lists.\n\n**Example prompt tweaks:**\n- Add \"Grok 4 benchmarks\" to catch technical reviewers\n- Include \"ChatGPT Agent vs Devin AI\" to find comparison articles\n\nThis level of control makes ChatGPT Agent a powerful ally for marketers who want to stay ahead.\n\n## How Does Scheduled Automation Transform Marketing Workflows?\n\nThe real magic happens when you move from one-off tasks to persistent automation. With ChatGPT Agent, you can schedule your outreach list builds—say, every month or quarter. The agent will refresh your contacts automatically, so you always have up-to-date lists without lifting a finger.\n\n- Set and forget: schedule monthly list updates\n- Always work with the latest data\n- Free up your team for strategy, not grunt work\n\nThis turns what used to be a tedious, recurring chore into a streamlined, automated system. For growing businesses, this kind of automation is a competitive advantage.\n\n## What Are the Key Benefits for Entrepreneurs and Marketers?\n\nFor business owners, marketers, and agencies in Russia and the CIS, the benefits are clear:\n\n- **Save dozens of hours per month**\n- **Increase reply and conversion rates** with more personalized outreach\n- **Reduce human error** and inconsistency\n- **Scale your efforts** without hiring more staff\n\n> \"When friends ask for convincing ChatGPT Agent use cases, I point them here. Nothing else demonstrates the leap from clever chatbot to dependable digital teammate quite as vividly.\"\n\nIf you’re looking to grow your business, build more relationships, and do it all with less manual labor, ChatGPT Agent is a tool you need to consider.\n\n## Frequently Asked Questions (FAQ)\n\n**How technical do I need to be to use ChatGPT Agent for outreach lists?**\nYou don’t need to be a developer. If you can write a clear prompt and follow basic steps in ChatGPT, you can use this workflow.\n\n**Can ChatGPT Agent find real, working emails?**\nYes, the agent searches for emails and contact forms. You can double-check them with services like Hunter.io for accuracy.\n\n**Is my data secure when using ChatGPT Agent?**\nThe agent runs on OpenAI’s servers. As with any cloud service, avoid sharing sensitive information in prompts or outputs.\n\n**Can I use this for multiple campaigns or markets?**\nAbsolutely. You can run parallel agents for different products, services, or geographies, and schedule regular updates.\n\n**How do I personalize my outreach using the agent’s output?**\nThe agent provides a \"Description\" or \"Angle\" for each contact, making it easy to tailor your messages for higher engagement.\n\n## Conclusion: Take Control of Your Outreach With AI\n\nBuilding targeted outreach lists no longer has to be a manual, time-consuming chore. With ChatGPT Agent, you can automate the entire process, save hours every week, and focus on what really matters—growing your business. The steps are simple, the results are proven, and the benefits are immediate.\n\nReady to try it? Define your next outreach goal, craft a clear prompt, and let ChatGPT Agent handle the heavy lifting. Your future self (and your team) will thank you.\n",
+      "content_ru": "## Почему автоматизация сбора списков для маркетинга важна прямо сейчас\n\nЕсли вы занимаетесь бизнесом в России или СНГ, вы точно знаете: время — самый ценный ресурс. Маркетологи, предприниматели и владельцы компаний тратят часы, а то и целые дни на сбор контактов для рассылок, PR или продаж. Это скучная, рутинная работа, которую обычно никто не любит. Но что если можно поручить этот процесс ИИ-ассистенту и получить готовый список за 20 минут, а не за 8 часов?\n\nЭто не фантазия и не игрушка для айтишников — ChatGPT Agent уже сегодня реально экономит время и силы реальным людям. В этой статье я расскажу, как ChatGPT Agent помогает автоматизировать сбор списков для маркетинга, почему это круто, и как вы можете внедрить такой подход у себя.\n\nРазберём на живом примере: как собрать гипер-таргетированный список контактов для маркетинговой кампании. Будет пошаговая инструкция, лайфхаки и ответы на самые частые вопросы. Поехали!\n\n## Как ChatGPT Agent собирает списки для рассылки за 20 минут?\n\nОбычный сбор контактов — это боль. Гуглишь, открываешь десятки вкладок, ищешь почты, копируешь всё в таблицу. На это уходит не просто много времени — иногда целый день. ChatGPT Agent переворачивает игру: он берёт на себя весь этот процесс и делает всё сам.\n\nКак это работает:\n- Вы чётко формулируете задачу (например: «Найди 100 контактов, которые писали про Grok 4 за последний месяц»)\n- Указываете, в каком виде нужен результат (CSV для CRM, с нужными колонками)\n- Включаете Agent Mode в ChatGPT и вставляете подробный промпт с инструкциями\n- Агент запускает виртуальный браузер, ищет, собирает и компилирует данные — а вы занимаетесь своими делами\n\nПримерно через 20 минут у вас на руках готовый CSV-файл со всеми контактами, email-адресами и комментариями. Никакой рутины, никакой боли.\n\n> «Агент работает на серверах OpenAI — можно закрыть ноутбук и идти на встречу. Ваш интернет тут ни при чём.»\n\nЭкономится не только время, но и нервы: можно сосредоточиться на важных задачах.\n\n## Как настроить автоматический сбор контактов через ChatGPT Agent?\n\nЗапустить процесс реально просто, даже если вы не технарь. Вот пошаговый план, которым пользуются маркетологи:\n\n1. **Сформулируйте цель и результат:** Решите, что именно вам нужно (например, 100 контактов, CSV, определённые столбцы)\n2. **Включите Agent Mode:** Откройте ChatGPT, напишите /agent, вставьте подробный промпт с задачей\n3. **Запустите агента:** Отправьте промпт — агент сам будет искать, собирать и оформлять список\n4. **Проверьте результат:** Через 20 минут скачайте и проверьте CSV-файл\n5. **Импортируйте и персонализируйте:** Загрузите список в свою платформу для рассылок, добавьте индивидуальные сообщения и запускайте кампанию\n6. **Настройте автоматизацию:** Можно поставить задачу на расписание — агент будет обновлять список, например, каждый месяц\n\nЭтот процесс не только быстрее — он повторяемый и масштабируемый. Можно запускать сразу несколько агентов под разные продукты или рынки.\n\n## Чем ChatGPT Agent лучше ручного сбора?\n\nДело не только во времени (хотя сократить 8 часов до 20 минут — это круто). ChatGPT Agent даёт стабильность, контекст и позволяет легко масштабироваться.\n\n- **Скорость:** 20 минут вместо целого дня\n- **Стабильность:** Чёткий шаблон вместо хаотичного серфинга\n- **Контекст:** К каждому контакту — описание и подсказка для персонализации\n- **Масштабируемость:** Можно запускать несколько агентов параллельно\n\nНапример, агент не просто собирает имена и почты. Он добавляет колонку «Описание» — объясняет, почему этот контакт релевантен и какую тему лучше предложить. Это экономит кучу времени на доработку и повышает конверсию.\n\n> «Имена совпадают, email-адреса проходят быструю проверку через Hunter.io. Описания — как будто писал живой человек. На доработку уходит пару минут.»\n\n## Как кастомизировать и улучшить результат?\n\nГлавное преимущество ChatGPT Agent — гибкость. Можно легко подстроить промпт под свои задачи. Вот несколько лайфхаков:\n\n- Уточняйте даты (например, «опубликовано после 1 мая 2025» — только свежие контакты)\n- Добавляйте ключевые слова конкурентов, чтобы ловить аналитиков и сравнения\n- Просите отмечать ведущих подкастов или другие специфические роли\n- Фильтруйте по авторитетности сайтов (например, только с Ahrefs DA выше 40)\n\nТакая настройка позволяет собирать только самых релевантных людей и избегать мусорных баз.\n\n**Примеры, как улучшить промпт:**\n- Добавьте «Grok 4 benchmarks» — поймаете технических авторов\n- Включите «ChatGPT Agent vs Devin AI» — найдёте сравнения\n\nТакой контроль делает ChatGPT Agent настоящим помощником для маркетолога, который хочет быть впереди.\n\n## Как автоматизация по расписанию меняет работу маркетолога?\n\nНастоящая магия начинается, когда вы переходите от разовых задач к регулярной автоматизации. ChatGPT Agent позволяет ставить задачи на расписание — например, обновлять список контактов каждый месяц. Агент сам будет собирать свежие контакты, а вы получите готовый список без лишних движений.\n\n- Один раз настроили — и забыли\n- Всегда актуальные данные\n- Команда тратит время на стратегию, а не на рутину\n\nЭто превращает скучную регулярную работу в стройную, автоматизированную систему. Для растущего бизнеса — это реальное конкурентное преимущество.\n\n## Какие выгоды получают предприниматели и маркетологи?\n\nДля владельцев бизнеса, маркетологов и агентств из России и СНГ плюсы очевидны:\n\n- **Экономия десятков часов в месяц**\n- **Рост ответов и конверсии** за счёт персонализации\n- **Меньше ошибок и ручной путаницы**\n- **Масштабирование без увеличения штата**\n\n> «Когда друзья спрашивают, зачем нужен ChatGPT Agent, я показываю этот кейс. Такого скачка от обычного чат-бота к реальному помощнику ещё не было.»\n\nЕсли хотите расти, строить новые связи и делать это без лишней рутины — ChatGPT Agent точно стоит попробовать.\n\n## Часто задаваемые вопросы (FAQ)\n\n**Нужно ли быть айтишником, чтобы пользоваться ChatGPT Agent для сбора контактов?**\nНет, совсем не обязательно. Главное — чётко сформулировать задачу и следовать простым шагам в ChatGPT.\n\n**Агент реально находит рабочие email-адреса?**\nДа, агент ищет email и формы обратной связи. Проверить адреса можно через сервисы типа Hunter.io.\n\n**Безопасно ли использовать ChatGPT Agent для бизнес-данных?**\nАгент работает на серверах OpenAI. Как и с любым облачным сервисом, не пишите в промпт конфиденциальную информацию.\n\n**Можно ли запускать несколько списков для разных рынков?**\nДа, легко. Можно делать параллельные задачи под разные продукты, услуги или регионы и обновлять их по расписанию.\n\n**Как персонализировать рассылку по данным агента?**\nВ каждой строке есть колонка «Описание» или «Angle» — по ней легко подстроить сообщение под конкретного человека.\n\n## Итоги: автоматизируйте сбор контактов с помощью ИИ\n\nСобирать целевые списки для рассылок больше не надо вручную и часами. ChatGPT Agent автоматизирует весь процесс, экономит часы каждую неделю и освобождает время для действительно важных вещей. Всё просто, результат — уже у многих, а выгоды — очевидны.\n\nПопробуйте: сформулируйте задачу для следующей рассылки, напишите чёткий промпт и доверьте рутину ChatGPT Agent. Ваши нервы, команда и бизнес скажут спасибо!\n",
+      "tools_en": [
+        "ChatGPT Agent",
+        "Hunter.io"
+      ],
+      "tools_ru": [
+        "ChatGPT Agent — автономный помощник на базе ИИ для автоматизации задач",
+        "Hunter.io — сервис для быстрой проверки email-адресов"
+      ],
+      "results_en": "Reduces outreach list building from 6-8 hours to 20 minutes, with repeatable automation.",
+      "results_ru": "Сокращает время сбора списка контактов с 6-8 часов до 20 минут, плюс автоматизация по расписанию.",
+      "tag": "marketing",
+      "source": "Web",
+      "source_url": "https://binaryverseai.com/chatgpt-agent-use-cases/",
+      "points": 243,
+      "date": "2026-03-14"
+    },
+    {
+      "id": "ai-agents-b2b-marketing",
+      "rank": 3,
+      "title_en": "AI Agents for B2B Marketing: 5 Real Agentic Use Cases",
+      "title_ru": "AI-агенты для B2B-маркетинга: 5 реальных кейсов применения",
+      "desc_en": "Discover 5 practical AI agent use cases for B2B marketers. Learn how agentic AI transforms ABM, saves time, and boosts results.",
+      "desc_ru": "Узнайте 5 реальных кейсов использования AI-агентов в B2B-маркетинге. Как сэкономить время и увеличить продажи — читайте здесь.",
+      "content_en": "## Why AI Agents Matter for B2B Marketing Right Now\n\nB2B marketing is changing faster than ever. Buyers expect instant, personalized experiences. Teams are drowning in data, juggling dozens of tools, and struggling to keep up. Traditional automation can’t adapt to new signals or complex buying journeys. That’s where agentic AI comes in.\n\nImagine a marketing assistant that doesn’t just follow instructions—but plans, learns, and acts for you. AI agents are transforming how marketers engage accounts, manage campaigns, and deliver results. This article reveals five real-world use cases for agentic AI in account-based marketing (ABM)—and how you can harness them to outpace the competition.\n\nYou’ll learn how top B2B teams use AI agents to:\n- Discover hidden decision-makers\n- Deliver hyper-personalized journeys across every channel\n- React instantly to buyer signals\n- Free up marketers to focus on strategy, not busywork\n\nLet’s dive into the future of marketing—already in action.\n\n## How Do AI Agents Discover Buying Groups Automatically?\n\nIn B2B sales, missing a key stakeholder can kill a deal. But mapping out everyone involved—the champions, influencers, skeptics—takes hours of research. AI agents now automate this crucial step.\n\nHere’s how it works: the agent constantly scans CRM records, LinkedIn, intent data, and engagement analytics. It builds a dynamic map of everyone shaping the purchase decision. When a new stakeholder downloads a whitepaper or joins a meeting, the agent updates the buying committee profile in real time.\n\n- Finds not just obvious contacts, but hidden influencers and technical evaluators\n- Detects role changes, departures, and new decision-makers\n- Flags engagement patterns, like champions or skeptics\n\n> \"An AI agent acts as your always-on account intelligence analyst, ensuring your team never misses a key player.\"\n\nThis means your sales and marketing teams always know who to target and how to engage them—without manual digging.\n\n## How Can AI Agents Personalize Every Buyer Touchpoint Across Channels?\n\nPersonalization is no longer a nice-to-have—it’s what B2B buyers expect. But tailoring content for every stakeholder, across email, ads, LinkedIn, and more? Nearly impossible by hand.\n\nAI agents orchestrate this automatically. They monitor each committee member’s behavior and instantly adjust messaging, content, and channel mix. For example:\n\n- Technical evaluator downloads an integration guide: agent triggers display ads with specs, sends a nurture email, and alerts the sales engineer\n- Economic buyer clicks a pricing link: agent delivers ROI content on LinkedIn and invites them to a webinar\n\nEach person gets a unique, coordinated experience. The agent adapts in real time, based on actions and preferences. This level of personalization, once reserved for massive teams, is now accessible to any B2B marketer.\n\n## How Do AI Agents Optimize Channel Mix and Budget in Real Time?\n\nManaging campaigns across channels is tough. Where should you spend your budget? Which channels drive real engagement? AI agents answer these questions on the fly.\n\nBy analyzing live performance data, the agent reallocates spend and shifts tactics automatically. If LinkedIn ads are outperforming email, budget moves instantly. If a target account goes cold, the agent pauses spend and reallocates to hotter prospects.\n\n- Continuous monitoring of engagement and conversion rates\n- Automated budget shifts based on real-time ROI\n- Channel mix optimization without manual intervention\n\n> \"AI agents free marketers from tedious monitoring, letting them focus on strategy instead of spreadsheets.\"\n\nThis means more efficient campaigns, less wasted spend, and better results—without the headache.\n\n## How Do AI Agents Coordinate Sales and Marketing Efforts?\n\nAlignment between sales and marketing is a constant struggle. AI agents bridge the gap by sharing insights and triggering actions at the perfect moment.\n\nFor example, when the agent detects a spike in engagement from a key decision-maker, it can:\n\n- Alert the sales team with relevant insights\n- Personalize outreach templates for the account\n- Suggest next-best actions based on committee dynamics\n\nThis ensures that sales never miss a hot lead—and marketing knows which tactics are working. The result: smoother handoffs, faster deal cycles, and higher win rates.\n\n## How Can AI Agents Continuously Learn and Adapt to Buyer Behavior?\n\nMarkets shift. Buyer needs evolve. Static automation can’t keep up. AI agents, however, learn from every interaction and adapt their strategies over time.\n\nThe agent reviews engagement data, campaign results, and feedback loops. It identifies what content resonates, which channels drive conversions, and how committee roles are changing. Then it refines its action plans—no manual reprogramming required.\n\n- Dynamic adaptation to new data and signals\n- Ongoing optimization of messaging, timing, and tactics\n- Self-improving campaigns that get smarter with every cycle\n\n> \"With agentic AI, your marketing engine never stands still—it evolves alongside your buyers.\"\n\n## Frequently Asked Questions (FAQ)\n\n**How is an AI agent different from traditional marketing automation?**\n\nTraditional automation follows static rules—\"if X, then Y.\" AI agents analyze new data, make decisions, and adapt their approach without constant human input.\n\n**Can AI agents replace my marketing team?**\n\nNo. AI agents handle repetitive, complex coordination tasks, freeing your team to focus on strategy and creativity—not busywork.\n\n**What tools do I need to use agentic AI for ABM?**\n\nYou’ll need access to an ABM platform (like Madison Logic), CRM integration, and data sources such as intent data and engagement analytics.\n\n**Is it hard to set up an AI agent for my business?**\n\nMost platforms offer guided onboarding and integrations. Once connected, the agent learns from your data and starts optimizing campaigns automatically.\n\n**How quickly can I see results from agentic AI?**\n\nMany marketers notice improved targeting and campaign efficiency within weeks, as agents begin to automate manual work and surface new insights.\n\n## Conclusion: The Next Step for Smarter B2B Marketing\n\nAgentic AI is not science fiction—it’s already transforming how B2B marketers operate. By automating buying group discovery, personalizing every touchpoint, optimizing budgets, and aligning sales and marketing, AI agents free your team to focus on what matters most: strategy and growth.\n\nReady to see the impact for yourself? Start by exploring how AI agents can map your buying committees and personalize your outreach. The future of marketing is proactive, intelligent, and already here. Don’t get left behind.",
+      "content_ru": "## Почему AI-агенты — это must-have для B2B-маркетинга прямо сейчас\n\nB2B-маркетинг меняется на глазах: клиенты ждут моментального отклика и персонального подхода. Команды тонут в данных и рутине, а инструменты автоматизации уже не справляются с растущей сложностью процессов. Всё чаще маркетологи сталкиваются с ситуацией, когда автоматизация по шаблону не даёт нужного результата. Здесь на сцену выходят агентные AI — умные помощники, которые не просто исполняют команды, а сами планируют, учатся и действуют.\n\nПредставьте: у вас в команде появляется цифровой маркетолог, который круглосуточно ищет новых решений, строит и корректирует стратегии, следит за всеми каналами и сам решает, что делать дальше. В этой статье — пять реальных кейсов, как агентные AI уже сегодня меняют работу B2B-маркетологов и помогают обойти конкурентов.\n\nВы узнаете:\n- Как находить скрытых лиц, влияющих на решения\n- Как делать персонализацию для каждого участника закупки на всех каналах\n- Как реагировать на сигналы клиента мгновенно\n- Как высвободить команде время для стратегии, а не рутины\n\nПогружаемся в будущее маркетинга, которое уже наступило.\n\n## Как AI-агенты автоматически находят закупочные комитеты?\n\nВ B2B-продажах часто всё решает не один человек, а целый комитет. Пропустил важного участника — сделка срывается. Обычно, чтобы собрать всю картину, маркетолог тратит часы на LinkedIn, CRM и аналитику. Сейчас эту работу берёт на себя AI-агент.\n\nОн сам сканирует CRM, профили в LinkedIn, анализирует сигналы интереса и вовлечённость. На выходе — живая карта всех, кто реально влияет на покупку. Появился новый человек на встрече или скачал whitepaper — агент тут же обновляет профиль закупочного комитета.\n\n- Видит не только «официальных» контактов, но и скрытых экспертов, технических специалистов и даже скептиков\n- Следит за сменой ролей, увольнениями и появлением новых лиц\n- Отмечает, кто становится чемпионом сделки, а кто проявляет сомнения\n\n> «AI-агент — это ваш личный аналитик по аккаунтам, который не упустит ни одного важного игрока»\n\nВ итоге команда всегда знает, к кому и как обращаться — без ручных поисков и догадок.\n\n## Как AI-агенты делают персонализацию для каждого участника сделки?\n\nСегодня персонализация — не просто тренд, а обязательное условие успеха. Но как сделать так, чтобы каждый из 5-10 участников закупки получал свой контент и сообщения на нужном канале? Вручную — никак.\n\nAI-агент берёт на себя всю координацию. Он отслеживает поведение каждого члена комитета и тут же меняет сообщения, контент и даже каналы. Например:\n\n- Технический специалист скачал гайд по интеграции — агент запускает для него рекламу с техническими характеристиками, отправляет email с кейсами и даёт сигнал инженеру по продажам\n- Финансовый директор зашёл на страницу с ценами — получает через LinkedIn материалы по ROI и приглашение на вебинар для руководителей\n\nКаждый получает свою цепочку, идеально подстроенную под роль и интересы. Всё это происходит автоматически — даже если у вас сотни аккаунтов.\n\n## Как AI-агенты оптимизируют каналы и бюджеты в реальном времени?\n\nВести кампании сразу по нескольким каналам — тот ещё квест. Куда вложить бюджет? Какие площадки реально приносят результат? AI-агент отвечает на эти вопросы без задержек.\n\nОн отслеживает эффективность кампаний в режиме онлайн и тут же перераспределяет бюджет. Если LinkedIn даёт больше лидов, чем email — деньги уходят туда. Если какой-то аккаунт «остыл», агент приостанавливает активность и переводит ресурсы на более горячие контакты.\n\n- Постоянный мониторинг вовлечённости и конверсий\n- Автоматическое перераспределение бюджета по ROI\n- Оптимизация каналов без ручного контроля\n\n> «AI-агент освобождает маркетолога от рутины и даёт время на стратегию, а не на бесконечные отчёты»\n\nВ итоге — больше эффективности, меньше потерь и никакой головной боли.\n\n## Как AI-агенты выстраивают мост между маркетингом и продажами?\n\nВ B2B-компаниях маркетинг и продажи часто работают «каждый сам по себе». AI-агенты помогают синхронизировать усилия и не терять горячие возможности.\n\nКогда агент видит, что кто-то из ключевых лиц проявил интерес — он тут же:\n\n- Отправляет продавцу инсайты и рекомендации\n- Автоматически подбирает шаблоны для персонального контакта\n- Подсказывает, как лучше всего подойти к этому аккаунту\n\nТак продажи не упускают ни одного шанса, а маркетинг видит, что реально работает. Результат — сделки быстрее, а коммуникация прозрачнее.\n\n## Как AI-агенты учатся и адаптируются под поведение клиентов?\n\nРынок меняется, клиенты меняются. Обычная автоматизация не поспевает. AI-агенты же учатся на каждом взаимодействии и сами улучшают свои сценарии.\n\nОни анализируют, какой контент заходит, какие каналы эффективны, как меняются роли в комитете. И на основе этого корректируют свои действия — без ручных настроек и долгих согласований.\n\n- Подстраиваются под новые данные и сигналы\n- Автоматически оптимизируют сообщения и время отправки\n- С каждым циклом становятся умнее и эффективнее\n\n> «С агентным AI ваша маркетинговая машина не останавливается, а развивается вместе с клиентами»\n\n## Часто задаваемые вопросы (FAQ)\n\n**Чем AI-агент отличается от обычной автоматизации?**\n\nОбычная автоматизация работает по жёстким правилам — «если Х, то Y». AI-агент сам анализирует новые данные, принимает решения и меняет тактику без постоянного контроля.\n\n**AI-агенты заменят маркетологов?**\n\nНет. Они берут на себя рутину и сложную координацию, а ваша команда может сосредоточиться на стратегии и креативе.\n\n**Что нужно для запуска агентного AI в ABM?**\n\nНужна платформа для ABM (например, Madison Logic), интеграция с CRM и доступ к данным о поведении клиентов.\n\n**Сложно ли внедрить AI-агента в бизнесе?**\n\nБольшинство платформ предлагают простое подключение и обучение. После интеграции агент сам начинает учиться на ваших данных и оптимизировать кампании.\n\n**Когда ждать результатов от агентного AI?**\n\nОбычно первые улучшения в таргетинге и эффективности кампаний заметны уже через несколько недель — как только агент автоматизирует рутину и найдёт новые инсайты.\n\n## Вывод: что делать прямо сейчас?\n\nАгентный AI — это не фантастика, а реальность, которая уже меняет B2B-маркетинг. Автоматический поиск закупочных комитетов, персонализация, оптимизация бюджета и синхронизация с продажами — всё это теперь доступно даже небольшим командам.\n\nПопробуйте начать с простой задачи: дайте AI-агенту построить карту закупочного комитета и персонализировать рассылку. Уже через месяц вы увидите, как меняется эффективность и высвобождается время для главного — роста вашего бизнеса.",
+      "tools_en": [
+        "Madison Logic ABM Platform",
+        "CRM Integration Tools"
+      ],
+      "tools_ru": [
+        "Платформа Madison Logic для ABM",
+        "Интеграционные инструменты для CRM"
+      ],
+      "results_en": "Delivers real-time buying group insights and automates cross-channel personalization, saving hours of manual work.",
+      "results_ru": "Дает актуальную аналитику по закупочным комитетам и автоматизирует персонализацию, экономя часы ручной работы.",
+      "tag": "marketing",
+      "source": "Web",
+      "source_url": "https://www.madisonlogic.com/blog/agentic-ai-use-cases/",
+      "points": 274,
+      "date": "2026-03-14"
+    },
+    {
+      "id": "company-info-extraction-saas",
+      "rank": 4,
       "title_en": "Company Info Extraction AI: Automate B2B Research & CRM Updates",
       "title_ru": "Извлечение данных о компаниях с помощью ИИ: автоматизация B2B и CRM",
       "desc_en": "Discover how AI agents automate company info extraction, saving 15+ hours weekly and boosting CRM accuracy. Learn how your B2B team can benefit.",
@@ -31,7 +106,7 @@
     },
     {
       "id": "ai-claims-automation-insurance",
-      "rank": 2,
+      "rank": 5,
       "title_en": "AI Claims Automation: How Insurance Agents Cut Processing Time 46%",
       "title_ru": "AI-автоматизация заявок: как страховщики ускорили обработку на 46%",
       "desc_en": "Discover how a Dutch insurer used AI agents to automate 91% of claims, speed up processing by 46%, and boost NPS. Learn actionable steps for your business.",
@@ -54,7 +129,7 @@
     },
     {
       "id": "zendesk-ai-agents-cx",
-      "rank": 3,
+      "rank": 6,
       "title_en": "AI Agents Zendesk: Automate Customer Service for 80%+ CX Tasks",
       "title_ru": "AI-агенты Zendesk: автоматизация 80% задач поддержки клиентов",
       "desc_en": "Discover how Zendesk AI Agents automate customer support, cut costs, and boost CSAT. Real business results and steps to implement. Read now!",
@@ -79,7 +154,7 @@
     },
     {
       "id": "options-flow-data-parser",
-      "rank": 4,
+      "rank": 7,
       "title_en": "Options Flow Data Parser & Analysis System",
       "title_ru": "Парсер и система анализа потока опционов",
       "desc_en": "Claude-powered OpenClaw agent that ingests 6 months of institutional options data from Discord, creates SQLite database with vector search.",
@@ -103,7 +178,7 @@
     },
     {
       "id": "personal-assistant-saul",
-      "rank": 5,
+      "rank": 8,
       "title_en": "Saul: Full-Service Personal Assistant Agent",
       "title_ru": "Саул: Полнофункциональный агент персонального помощника",
       "desc_en": "Persistent PA with Google Workspace access, proactive scheduling, flight booking, and self-improvement capabilities via Telegram interface.",
@@ -129,7 +204,7 @@
     },
     {
       "id": "saul-personal-assistant",
-      "rank": 6,
+      "rank": 9,
       "title_en": "Saul: AI Personal Assistant with Google Workspace Integration",
       "title_ru": "Саул: ИИ-помощник с интеграцией Google Workspace",
       "desc_en": "A persistent AI assistant built with OpenClaw architecture that manages emails, calendars, bookings, and flight check-ins via Telegram.",
@@ -159,7 +234,7 @@
     },
     {
       "id": "whatsapp-saas-builder",
-      "rank": 7,
+      "rank": 10,
       "title_en": "WhatsApp SaaS Builder with OpenClaw",
       "title_ru": "Создатель SaaS через WhatsApp с OpenClaw",
       "desc_en": "Built a complete social app using OpenClaw + Minimax API through WhatsApp interface in just 48 minutes without frontend/backend.",
@@ -180,7 +255,7 @@
     },
     {
       "id": "btc-trading-bot",
-      "rank": 8,
+      "rank": 11,
       "title_en": "5-Minute BTC Trading Bot with OpenClaw",
       "title_ru": "Бот для торговли BTC за 5 минут с OpenClaw",
       "desc_en": "Built an automated trading bot for 5-minute BTC markets, scaling from $50 to $823 with 2x leverage opportunities.",
@@ -201,7 +276,7 @@
     },
     {
       "id": "restaurant-calling-automation",
-      "rank": 9,
+      "rank": 12,
       "title_en": "Automated Restaurant Calling System",
       "title_ru": "Система автоматических звонков в рестораны",
       "desc_en": "Created an AI system that automatically calls restaurants using voice AI, integrating OpenClaw with iMessage, browser, and Twilio voice API.",
@@ -224,7 +299,7 @@
     },
     {
       "id": "binance-trading-automation",
-      "rank": 10,
+      "rank": 13,
       "title_en": "Binance Automated Trading Bot Development",
       "title_ru": "Разработка автоматизированного торгового бота для Binance",
       "desc_en": "Developed a locally-run Binance trading bot using OpenClaw after continuous debugging, refining trading strategies and code implementation.",
@@ -246,7 +321,7 @@
     },
     {
       "id": "reddit-narrative-builder",
-      "rank": 11,
+      "rank": 14,
       "title_en": "Reddit Narrative Analysis with OpenClaw",
       "title_ru": "Анализ нарративов Reddit с OpenClaw",
       "desc_en": "Built a Reddit narrative builder using recursive scraping to analyze sentiment across subreddits for AI, sports, and travel topics.",
@@ -268,7 +343,7 @@
     },
     {
       "id": "automated-coding-tasks-github",
-      "rank": 12,
+      "rank": 15,
       "title_en": "Automated GitHub Issue Resolution with OpenClaw",
       "title_ru": "Автоматизация решения GitHub Issues с OpenClaw",
       "desc_en": "Automated minor coding tasks by creating GitHub PRs, iterating based on reviews, and managing the full development lifecycle.",
@@ -289,7 +364,7 @@
     },
     {
       "id": "tiktok-marketing-automation",
-      "rank": 13,
+      "rank": 16,
       "title_en": "TikTok Marketing Automation Earning $4K in 24 Hours",
       "title_ru": "Автоматизация маркетинга TikTok, заработавшая $4K за 24 часа",
       "desc_en": "Larry, an OpenClaw agent, fully automated marketing workflows generating 200k TikTok views, 200+ X followers, and new subscribers.",
@@ -310,7 +385,7 @@
     },
     {
       "id": "social-media-content-automation",
-      "rank": 14,
+      "rank": 17,
       "title_en": "Automated Social Media Content Generation for AI Network",
       "title_ru": "Автоматизированная генерация контента для ИИ социальной сети",
       "desc_en": "Complete automation system for posting and commenting on Moltbook using OpenClaw to generate sarcastic AI content with shell scripts.",
@@ -331,7 +406,7 @@
     },
     {
       "id": "vc-daily-briefing-automation",
-      "rank": 15,
+      "rank": 18,
       "title_en": "VC Daily Briefing Automation with OpenClaw",
       "title_ru": "Автоматизация ежедневных сводок для ВК с OpenClaw",
       "desc_en": "Automated morning briefings for VCs using cron jobs to analyze markets, portfolio updates, and news.",
@@ -351,7 +426,7 @@
     },
     {
       "id": "daily-deal-finder-crm",
-      "rank": 16,
+      "rank": 19,
       "title_en": "Daily Deal Finder CRM Automation",
       "title_ru": "Автоматизация CRM для поиска сделок",
       "desc_en": "OpenClaw agent that analyzes CRM data and sales transcripts to identify and book meetings with prospects.",
@@ -372,7 +447,7 @@
     },
     {
       "id": "daily-deal-finder-crm-agent",
-      "rank": 17,
+      "rank": 20,
       "title_en": "Daily Deal Finder - Automated CRM Sales Agent",
       "title_ru": "Daily Deal Finder - Автоматизированный CRM Агент Продаж",
       "desc_en": "OpenClaw agent that analyzes CRM data and sales transcripts to identify prospects and book meetings with major companies.",
@@ -393,7 +468,7 @@
     },
     {
       "id": "vc-morning-briefing-agent",
-      "rank": 18,
+      "rank": 21,
       "title_en": "VC Morning Briefing Automation Agent",
       "title_ru": "Агент Автоматизации Утренних Брифингов для ВК",
       "desc_en": "Automated morning briefing system for VCs using OpenClaw cron jobs to generate daily investment insights and market updates.",
@@ -414,7 +489,7 @@
     },
     {
       "id": "multi-agent-system-dennis",
-      "rank": 19,
+      "rank": 22,
       "title_en": "Dennis Multi-Agent System with Role Separation",
       "title_ru": "Мультиагентная Система Dennis с Разделением Ролей",
       "desc_en": "OpenClaw agent that creates and manages sub-agents with specific roles, using AGENTS.MD and SOUL.MD files for task separation.",
@@ -436,7 +511,7 @@
     },
     {
       "id": "fix-test-deploy-openclaw-agent",
-      "rank": 20,
+      "rank": 23,
       "title_en": "Fix, Test, and Deploy OpenClaw Agent With Claude Code",
       "title_ru": "Исправление, тестирование и развертывание OpenClaw агента с Claude Code",
       "desc_en": "Debugging and fixing a daily X article automation that stopped running, using Claude Code integration with OpenClaw.",
@@ -458,7 +533,7 @@
     },
     {
       "id": "jarvis-command-center-convex",
-      "rank": 21,
+      "rank": 24,
       "title_en": "OpenClaw Agent Command Center - Personal Jarvis System",
       "title_ru": "Командный центр OpenClaw агента - персональная система Джарвис",
       "desc_en": "Building a comprehensive life management system using OpenClaw and Convex, inspired by Tony Stark's Jarvis AI assistant.",
@@ -480,7 +555,7 @@
     },
     {
       "id": "multi-agent-system-dennis",
-      "rank": 22,
+      "rank": 25,
       "title_en": "Dennis: Multi-Agent System with Role-Based Sub-Agents",
       "title_ru": "Деннис: мультиагентная система с подагентами на основе ролей",
       "desc_en": "Creating a hierarchical agent system where the main OpenClaw agent spawns specialized sub-agents with defined roles and documentation.",
@@ -502,7 +577,7 @@
     },
     {
       "id": "browser-automation-data-entry",
-      "rank": 23,
+      "rank": 26,
       "title_en": "Browser Automation for Web Tasks & Data Entry",
       "title_ru": "Автоматизация браузера для веб-задач и ввода данных",
       "desc_en": "Daily browser automation for repetitive form filling, data extraction using OpenClaw's headless Chrome integration.",
@@ -523,7 +598,7 @@
     },
     {
       "id": "crypto-trading-autonomous-agent",
-      "rank": 24,
+      "rank": 27,
       "title_en": "24/7 Autonomous Crypto Trading Agent",
       "title_ru": "Автономный агент для торговли криптовалютой 24/7",
       "desc_en": "AI agent that trades crypto around the clock while sending Telegram updates about executed arbitrage opportunities.",
@@ -544,7 +619,7 @@
     },
     {
       "id": "game-development-autonomous",
-      "rank": 25,
+      "rank": 28,
       "title_en": "Autonomous Game Development While Sleeping",
       "title_ru": "Автономная разработка игр во время сна",
       "desc_en": "AI agent built a functioning game app with thousands of users overnight while the developer was sleeping.",
@@ -566,7 +641,7 @@
     },
     {
       "id": "browser-automation-forms",
-      "rank": 26,
+      "rank": 29,
       "title_en": "Browser Automation for Form Filling & Data Extraction",
       "title_ru": "Автоматизация браузера для заполнения форм и извлечения данных",
       "desc_en": "Daily browser automation using OpenClaw with Chrome integration for repetitive form filling and data extraction tasks.",
@@ -587,7 +662,7 @@
     },
     {
       "id": "autonomous-game-development",
-      "rank": 27,
+      "rank": 30,
       "title_en": "Autonomous Game Development & Deployment",
       "title_ru": "Автономная разработка и развертывание игр",
       "desc_en": "OpenClaw agent autonomously built and deployed a functioning game app that attracted thousands of users overnight.",
@@ -606,7 +681,7 @@
     },
     {
       "id": "crypto-trading-agent",
-      "rank": 28,
+      "rank": 31,
       "title_en": "24/7 Crypto Trading with Telegram Updates",
       "title_ru": "Круглосуточная торговля криптовалютой с обновлениями в Telegram",
       "desc_en": "Autonomous crypto trading agent that executes arbitrage opportunities 24/7 and sends real-time Telegram notifications about trades.",
@@ -627,7 +702,7 @@
     },
     {
       "id": "software-architecture-analysis",
-      "rank": 29,
+      "rank": 32,
       "title_en": "Automated Software Architecture Analysis & Migration",
       "title_ru": "Автоматизированный анализ архитектуры ПО и миграция",
       "desc_en": "OpenClaw traverses code repositories to map dependencies, generate architecture summaries, refactor modules, and draft migration plans.",
@@ -648,7 +723,7 @@
     },
     {
       "id": "openclaw-telegram-whatsapp-automation",
-      "rank": 30,
+      "rank": 33,
       "title_en": "OpenClaw Multi-Platform Personal Assistant Setup",
       "title_ru": "Настройка персонального ассистента OpenClaw для разных платформ",
       "desc_en": "Complete setup of OpenClaw AI agent with Telegram/WhatsApp integration, enabling automated task execution through natural language conversations.",
@@ -674,7 +749,7 @@
     },
     {
       "id": "openclaw-comprehensive-agent-system",
-      "rank": 31,
+      "rank": 34,
       "title_en": "Full OpenClaw Agent System with Docker Sandboxing",
       "title_ru": "Полная система агентов OpenClaw с песочницей Docker",
       "desc_en": "Complete OpenClaw deployment covering installation, AI model integration, persistent memory, custom skills, and Docker-based security sandboxing.",
@@ -704,7 +779,7 @@
     },
     {
       "id": "google-workspace-ai-assistant",
-      "rank": 32,
+      "rank": 35,
       "title_en": "AI Assistant for Google Workspace Management",
       "title_ru": "ИИ-помощник для управления Google Workspace",
       "desc_en": "Personal AI bot managing calendar, documents, and sending briefings through Google Workspace integration.",
@@ -730,7 +805,7 @@
     },
     {
       "id": "local-data-analyst-ollama",
-      "rank": 33,
+      "rank": 36,
       "title_en": "Local Data Analyst with Ollama Integration",
       "title_ru": "Локальный аналитик данных с интеграцией Ollama",
       "desc_en": "Privacy-focused data analysis system using OpenClaw and local Ollama models for CSV analysis and visualization.",
@@ -756,7 +831,7 @@
     },
     {
       "id": "personal-ai-employee-peter-yang",
-      "rank": 34,
+      "rank": 37,
       "title_en": "Personal AI Employee with Google Workspace Integration",
       "title_ru": "Личный ИИ-сотрудник с интеграцией Google Workspace",
       "desc_en": "Complete AI assistant setup managing calendar, documents, voice responses, daily briefings, and weekly reports through text commands.",
@@ -784,7 +859,7 @@
     },
     {
       "id": "local-data-analyst-datacamp",
-      "rank": 35,
+      "rank": 38,
       "title_en": "Local Data Analyst with Ollama Integration",
       "title_ru": "Локальный аналитик данных с интеграцией Ollama",
       "desc_en": "Complete local-first AI data analysis system using OpenClaw and Ollama for private CSV analysis with visualizations and reports.",
@@ -811,7 +886,7 @@
     },
     {
       "id": "morning-routine-cron-automation",
-      "rank": 36,
+      "rank": 39,
       "title_en": "Automated Daily Morning Routine with OpenClaw Cron Jobs",
       "title_ru": "Автоматизированная утренняя рутина с заданиями Cron в OpenClaw",
       "desc_en": "Complete morning briefing automation that saves 2+ hours daily through scheduled tasks for weather, calendar, email monitoring, and maintenance.",
@@ -834,7 +909,7 @@
     },
     {
       "id": "small-business-automation-suite",
-      "rank": 37,
+      "rank": 40,
       "title_en": "10 OpenClaw Business Automations Saving 15+ Hours Weekly",
       "title_ru": "10 бизнес-автоматизаций OpenClaw, экономящих 15+ часов в неделю",
       "desc_en": "Comprehensive small business automation suite covering customer support, scheduling, email triage, inventory alerts, and lead qualification across multiple channels.",
@@ -860,7 +935,7 @@
     },
     {
       "id": "tiktok-marketing-agent",
-      "rank": 38,
+      "rank": 41,
       "title_en": "TikTok Marketing Agent for Influencer Growth",
       "title_ru": "Агент для маркетинга в TikTok и роста влияния",
       "desc_en": "OpenClaw agent 'Larry' automated TikTok marketing activities, achieving millions of views in one week for influencer marketing.",
@@ -873,7 +948,7 @@
     },
     {
       "id": "obsidian-vault-builder",
-      "rank": 39,
+      "rank": 42,
       "title_en": "Automated Obsidian Vault Building",
       "title_ru": "Автоматическое создание хранилищ Obsidian",
       "desc_en": "OpenClaw agent automatically builds and structures Obsidian knowledge vaults, providing ease of use without manual tool management.",
@@ -886,7 +961,7 @@
     },
     {
       "id": "business-seo-copywriting-automation",
-      "rank": 40,
+      "rank": 43,
       "title_en": "Business SEO and Copywriting Automation",
       "title_ru": "Автоматизация бизнес-SEO и копирайтинга",
       "desc_en": "OpenClaw workflows automate $45k of pSEO work in 20 minutes and $50k of copywriting in 15 minutes for business operations.",
@@ -899,7 +974,7 @@
     },
     {
       "id": "trading-workflow-automation",
-      "rank": 41,
+      "rank": 44,
       "title_en": "Trading Workflow Automation",
       "title_ru": "Автоматизация торговых процессов",
       "desc_en": "OpenClaw integrated with OpenAlgo to automate trading workflows and financial operations.",
@@ -912,7 +987,7 @@
     },
     {
       "id": "vc-daily-workflow-automation",
-      "rank": 42,
+      "rank": 45,
       "title_en": "VC Daily Workflow Automation",
       "title_ru": "Автоматизация ежедневных процессов венчурного капитала",
       "desc_en": "OpenClaw automates VC daily workflows including morning briefings, research, and investor-specific tasks with scheduled operations.",
@@ -925,7 +1000,7 @@
     },
     {
       "id": "launch-operations-ultron-system",
-      "rank": 43,
+      "rank": 46,
       "title_en": "LAUNCH Operations ULTRON System",
       "title_ru": "Система ULTRON для операций LAUNCH",
       "desc_en": "OpenClaw ULTRON system replaces ~20 entry-level roles at LAUNCH/TWiST, providing automated guest booking and operational workflows.",
@@ -938,7 +1013,7 @@
     },
     {
       "id": "twitter-automation-local-stack",
-      "rank": 44,
+      "rank": 47,
       "title_en": "Twitter Agent with Local AI Stack",
       "title_ru": "Twitter-агент с локальным AI стеком",
       "desc_en": "Automated Twitter agent running on local llama.cpp with NVIDIA 4070, using browser automation and OpenRouter for edge cases.",
@@ -951,7 +1026,7 @@
     },
     {
       "id": "ga4-analytics-skill",
-      "rank": 45,
+      "rank": 48,
       "title_en": "GA4 Analytics Skill for ClawdHub",
       "title_ru": "Навык GA4 Analytics для ClawdHub",
       "desc_en": "Built and published GA4 skill in 20 minutes, allowing anyone to install and query Google Analytics data through OpenClaw.",
@@ -964,7 +1039,7 @@
     },
     {
       "id": "voice-game-engine-control",
-      "rank": 46,
+      "rank": 49,
       "title_en": "Voice-Controlled Game Development",
       "title_ru": "Разработка игр с голосовым управлением",
       "desc_en": "Voice-to-AI agent system that controls 3D characters in PlayCanvas game engine in real-time through Discord commands.",
@@ -977,7 +1052,7 @@
     },
     {
       "id": "unlimited-web-search",
-      "rank": 47,
+      "rank": 50,
       "title_en": "Free Web Search Integration",
       "title_ru": "Интеграция бесплатного веб-поиска",
       "desc_en": "Configured OpenClaw with unlimited free web search using SearXNG Docker container, eliminating API costs and monthly bills.",
@@ -990,7 +1065,7 @@
     },
     {
       "id": "automated-marketing-revenue",
-      "rank": 48,
+      "rank": 51,
       "title_en": "Automated Marketing Revenue Generation",
       "title_ru": "Автоматизированное создание дохода в маркетинге",
       "desc_en": "OpenClaw agent 'Larry' generated $4000 in 24 hours through automated TikTok content creation and subscriber acquisition.",
@@ -1003,7 +1078,7 @@
     },
     {
       "id": "blockchain-security-platform",
-      "rank": 49,
+      "rank": 52,
       "title_en": "Autonomous Blockchain Security Platform",
       "title_ru": "Автономная платформа безопасности блокчейна",
       "desc_en": "OpenClaw autonomously built entire Rust blockchain security platform for Solana Hackathon using CRON jobs and judge agent for code review.",
@@ -1016,7 +1091,7 @@
     },
     {
       "id": "multi-docker-spawning",
-      "rank": 50,
+      "rank": 53,
       "title_en": "Multi-Agent Docker Spawning System",
       "title_ru": "Система порождения множественных Docker-агентов",
       "desc_en": "OpenClaw agent that spawns additional Docker containers with other OpenClaw instances for distributed agent operations.",
@@ -1029,7 +1104,7 @@
     },
     {
       "id": "qr-barcode-parcel-system",
-      "rank": 51,
+      "rank": 54,
       "title_en": "QR/Barcode Parcel Collection System",
       "title_ru": "Система сбора посылок с QR/штрих-кодами",
       "desc_en": "Built OpenClaw skill for generating QR/barcodes for parcel collection, with automatic voice message handling using Whisper.",
@@ -1042,7 +1117,7 @@
     },
     {
       "id": "web-automation-data-entry",
-      "rank": 52,
+      "rank": 55,
       "title_en": "Web Browser Automation for Form Filling and Data Extraction",
       "title_ru": "Веб-автоматизация для заполнения форм и извлечения данных",
       "desc_en": "Daily browser automation for repetitive tasks like form filling and data extraction using headless Chrome integration.",
@@ -1055,7 +1130,7 @@
     },
     {
       "id": "development-assistant",
-      "rank": 53,
+      "rank": 56,
       "title_en": "Development Assistant for Coding Tasks",
       "title_ru": "Помощник разработчика для задач программирования",
       "desc_en": "Automated setup chores, repetitive refactors, generating docs/tests, and exploring repos to find where specific functionality is handled.",
@@ -1068,7 +1143,7 @@
     },
     {
       "id": "n8n-workflow-replication",
-      "rank": 54,
+      "rank": 57,
       "title_en": "n8n Workflow Automation Alternative",
       "title_ru": "Альтернатива автоматизации рабочих процессов n8n",
       "desc_en": "Rebuilt OpenClaw's core functionality as a single n8n workflow for extendable workflow automation.",
@@ -1081,7 +1156,7 @@
     },
     {
       "id": "crypto-trading-bot",
-      "rank": 55,
+      "rank": 58,
       "title_en": "Automated Crypto Trading with Telegram Updates",
       "title_ru": "Автоматическая торговля криптовалютой с уведомлениями в Telegram",
       "desc_en": "24/7 crypto trading agent that executes arbitrage opportunities and sends Telegram updates about trades.",
@@ -1094,7 +1169,7 @@
     },
     {
       "id": "autonomous-game-builder",
-      "rank": 56,
+      "rank": 59,
       "title_en": "Autonomous Game Development Agent",
       "title_ru": "Автономный агент для разработки игр",
       "desc_en": "AI agent that builds functioning games from simple prompts, creating apps with thousands of users overnight.",
@@ -1107,7 +1182,7 @@
     },
     {
       "id": "stock-options-trading",
-      "rank": 57,
+      "rank": 60,
       "title_en": "Stock and Options Trading Agent",
       "title_ru": "Агент для торговли акциями и опционами",
       "desc_en": "Trading automation for stocks, options, and crypto using Public's APIs through OpenClaw integration.",
@@ -1120,7 +1195,7 @@
     },
     {
       "id": "personal-assistant-suite",
-      "rank": 58,
+      "rank": 61,
       "title_en": "Personal AI Assistant with Calendar & Documents",
       "title_ru": "Персональный ИИ-помощник с календарем и документами",
       "desc_en": "AI assistant managing calendar, editing documents, sending briefings, and voice replies for productivity.",
@@ -1133,7 +1208,7 @@
     },
     {
       "id": "whatsapp-telegram-integration",
-      "rank": 59,
+      "rank": 62,
       "title_en": "WhatsApp & Telegram Integration Agent",
       "title_ru": "Агент интеграции с WhatsApp и Telegram",
       "desc_en": "AI agent connecting with familiar messaging apps like WhatsApp and Telegram for seamless interaction.",
@@ -1146,7 +1221,7 @@
     },
     {
       "id": "todoist-automation",
-      "rank": 60,
+      "rank": 63,
       "title_en": "Todoist Task Automation",
       "title_ru": "Автоматизация задач в Todoist",
       "desc_en": "AI agent that creates custom skills for Todoist task automation through Telegram chat interface.",
@@ -1159,7 +1234,7 @@
     },
     {
       "id": "code-repository-analyzer",
-      "rank": 61,
+      "rank": 64,
       "title_en": "Code Repository Analysis Agent",
       "title_ru": "Агент анализа репозиториев кода",
       "desc_en": "Software engineering agent that maps dependencies, generates architecture summaries, and drafts migration plans.",
@@ -1172,7 +1247,7 @@
     },
     {
       "id": "research-assistant",
-      "rank": 62,
+      "rank": 65,
       "title_en": "Autonomous Research Assistant",
       "title_ru": "Автономный исследовательский помощник",
       "desc_en": "AI agent conducting deep topic research, summarizing articles, and providing cited sources automatically.",
@@ -1185,7 +1260,7 @@
     },
     {
       "id": "voice-journal-automation",
-      "rank": 63,
+      "rank": 66,
       "title_en": "Voice Recording to Daily Journal",
       "title_ru": "Голосовые записи в ежедневный дневник",
       "desc_en": "Automatically transcribes voice recordings and converts them into clean journal entries each evening using speech-to-text.",
@@ -1198,7 +1273,7 @@
     },
     {
       "id": "goal-task-generator",
-      "rank": 64,
+      "rank": 67,
       "title_en": "Self-Generating Task Management System",
       "title_ru": "Самогенерирующая система управления задачами",
       "desc_en": "Brain dumps goals into OpenClaw, which then generates and manages daily tasks automatically on a Kanban board to achieve those goals.",
@@ -1211,7 +1286,7 @@
     },
     {
       "id": "comprehensive-personal-assistant",
-      "rank": 65,
+      "rank": 68,
       "title_en": "All-in-One Personal Assistant",
       "title_ru": "Универсальный персональный помощник",
       "desc_en": "Manages email spam removal, messaging, online ordering, reminders, GitHub issues, Google Places sync, and expense tracking automatically.",
@@ -1224,7 +1299,7 @@
     },
     {
       "id": "ai-trading-desk",
-      "rank": 66,
+      "rank": 69,
       "title_en": "7-Agent AI Trading Desk",
       "title_ru": "Торговый стол из 7 ИИ-агентов",
       "desc_en": "Built a multi-agent system for automated trading operations with specialized agents handling different aspects of market analysis.",
@@ -1237,7 +1312,7 @@
     },
     {
       "id": "nightlife-event-scraper",
-      "rank": 67,
+      "rank": 70,
       "title_en": "Autonomous Event Scraping Agent",
       "title_ru": "Автономный агент сбора событий",
       "desc_en": "Scrapes 100+ nightlife events from 4 platforms daily, completely autonomously organizing entertainment information.",
@@ -1250,7 +1325,7 @@
     },
     {
       "id": "proactive-business-assistant",
-      "rank": 68,
+      "rank": 71,
       "title_en": "Proactive Business Assistant",
       "title_ru": "Проактивный бизнес-помощник",
       "desc_en": "Proactively handles email checking, message replies, LinkedIn management, and general personal assistant tasks for entrepreneurs.",
@@ -1263,7 +1338,7 @@
     },
     {
       "id": "daily-reddit-digest",
-      "rank": 69,
+      "rank": 72,
       "title_en": "Daily Reddit Digest — AI summarizes your favorite subreddits",
       "title_ru": "Дейли-дайджест Reddit — AI собирает топ из любимых сабреддитов",
       "desc_en": "Get a curated daily digest of your favourite subreddits based on your preferences. Never miss trending discussions, automatically filtered by what matters to you.",
@@ -1276,7 +1351,7 @@
     },
     {
       "id": "overnight-mini-app-builder",
-      "rank": 70,
+      "rank": 73,
       "title_en": "Overnight Mini-App Builder — wake up to working apps",
       "title_ru": "Ночной сборщик мини-приложений — просыпаешься с готовым продуктом",
       "desc_en": "Brain dump your goals and have your agent autonomously generate, schedule, and complete tasks — including building surprise mini-apps while you sleep.",
@@ -1289,7 +1364,7 @@
     },
     {
       "id": "multi-channel-customer-service",
-      "rank": 71,
+      "rank": 74,
       "title_en": "24/7 AI Customer Service across WhatsApp, Instagram, Email",
       "title_ru": "AI-поддержка 24/7 в WhatsApp, Instagram, Email",
       "desc_en": "Unify WhatsApp, Instagram, Email, and Google Reviews in one AI-powered inbox with 24/7 auto-responses. Handle customers while you sleep.",
@@ -1302,7 +1377,7 @@
     },
     {
       "id": "self-healing-home-server",
-      "rank": 72,
+      "rank": 75,
       "title_en": "Self-Healing Home Server — AI fixes infrastructure issues",
       "title_ru": "Самовосстанавливающийся сервер — AI чинит инфраструктуру сам",
       "desc_en": "Run an always-on infrastructure agent with SSH access, automated cron jobs, and self-healing capabilities across your home network.",
@@ -1315,7 +1390,7 @@
     },
     {
       "id": "content-factory",
-      "rank": 73,
+      "rank": 76,
       "title_en": "Multi-Agent Content Factory in Discord",
       "title_ru": "Мульти-агентная контент-фабрика в Discord",
       "desc_en": "Run a multi-agent content pipeline in Discord — research, writing, and thumbnail agents working in dedicated channels. Assembly line for content.",
@@ -1328,7 +1403,7 @@
     },
     {
       "id": "personal-crm",
-      "rank": 74,
+      "rank": 77,
       "title_en": "Personal CRM — AI tracks all your contacts",
       "title_ru": "Персональная CRM — AI ведёт все контакты",
       "desc_en": "Automatically discover and track contacts from your email and calendar, with natural language queries. Never forget who you met.",
@@ -1341,7 +1416,7 @@
     },
     {
       "id": "custom-morning-brief",
-      "rank": 75,
+      "rank": 78,
       "title_en": "Custom Morning Briefing — AI texts you daily summary",
       "title_ru": "Утренний бриф — AI шлёт персональную сводку каждый день",
       "desc_en": "Get a fully customized daily briefing — news, tasks, content drafts, and AI-recommended actions — texted to you every morning.",
@@ -1354,7 +1429,7 @@
     },
     {
       "id": "second-brain",
-      "rank": 76,
+      "rank": 79,
       "title_en": "Second Brain — remember everything via chat",
       "title_ru": "Второй мозг — запоминай всё через чат",
       "desc_en": "Text anything to your bot to remember it, then search through all your memories in a custom Next.js dashboard. Your external memory.",
@@ -1367,7 +1442,7 @@
     },
     {
       "id": "youtube-content-pipeline",
-      "rank": 77,
+      "rank": 80,
       "title_en": "YouTube Content Pipeline — automate video production",
       "title_ru": "YouTube-конвейер — автоматизируй производство видео",
       "desc_en": "Automate video idea scouting, research, and tracking for a YouTube channel. From trend analysis to script outlines.",
@@ -1380,7 +1455,7 @@
     },
     {
       "id": "multi-agent-team",
-      "rank": 78,
+      "rank": 81,
       "title_en": "Multi-Agent Specialized Team via Telegram",
       "title_ru": "Команда специализированных агентов в Telegram",
       "desc_en": "Run multiple specialized agents (strategy, dev, marketing, business) as a coordinated team via a single Telegram chat.",
