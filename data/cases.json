@@ -1,14 +1,66 @@
 {
-  "updated": "2026-04-07T10:50:35.552Z",
+  "updated": "2026-04-08T10:52:15.916Z",
   "stats": {
     "total": 100,
-    "today": 3,
-    "week": 27
+    "today": 2,
+    "week": 29
   },
   "cases": [
     {
-      "id": "ai-agentic-automation-enterprise",
+      "id": "ai-agent-saves-time",
       "rank": 1,
+      "title_en": "AI Agent Case Study: Save 80 Hours Weekly with Internal Automation",
+      "title_ru": "AI-агент для бизнеса: экономия 80 часов в неделю на рутине",
+      "desc_en": "Discover how an AI agent helped a legal-finance firm reclaim 80 hours weekly. Learn to boost productivity with smart automation. Read the full case study.",
+      "desc_ru": "Узнайте, как AI-агент сэкономил компании 80 часов в неделю. Внедрите автоматизацию и увеличьте продуктивность. Подробный кейс — читайте!",
+      "content_en": "## Why AI Agents Matter for Your Business Right Now\n\nEvery business leader knows the pain of wasted time. Endless questions, repeated answers, and managers pulled away from real work. In the age of AI, these silent drains are more costly than ever. If you’re running a business in Russia or the CIS, you’re probably feeling the pressure to do more with less—faster, cheaper, and smarter.\n\nImagine reclaiming 80 hours of productivity every single week, just by solving one internal bottleneck. That’s exactly what happened at Gain, a revenue cycle management platform serving attorneys and healthcare providers. Their story is a blueprint for any company drowning in process questions and documentation chaos.\n\nIn this article, you’ll see how one AI agent transformed daily operations, what steps made the difference, and how you can apply these lessons to your own company—without writing a single line of code.\n\n## What Was the Real Problem Costing 80 Hours a Week?\n\nGain’s team faced a familiar headache: constant interruptions. Employees, unsure about complex finance and legal workflows, would turn to managers for answers. Even with a 100+ page SOP and detailed documentation, it was simply easier to just ask a person. The result? Each employee lost about two hours a week searching for answers, and managers spent even more time digging through docs or consulting others.\n\n- Employees spent ~2 hours/week seeking guidance\n- Managers interrupted and forced to research or ask peers\n- Documentation existed, but wasn’t accessible or actionable\n\n> \"Despite having comprehensive documentation, employees found it faster to just ask their managers directly.\"\n\nMultiply those lost hours across a team, and you’re looking at a massive drain—over 80 hours per week lost to back-and-forth questions. That’s not just wasted time; it’s lost growth, missed opportunities, and burned-out teams.\n\n## How Did Gain Build an AI Agent That Actually Helped?\n\nAI isn’t magic. The team at Gain didn’t just install a chatbot and hope for the best. They started by getting their house in order:\n\n1. Interviewed process owners to surface hidden knowledge\n2. Identified and filled documentation gaps\n3. Built a domain-specific knowledge base (finance, customer service, etc.)\n4. Set up a feedback loop for continuous improvement\n\nThe AI agent was trained on this custom knowledge base, so it could answer real questions in context. But the real secret was the groundwork—making sure the information was accurate, up-to-date, and relevant to employees’ daily challenges.\n\n- The agent handled complex, non-routine questions\n- Employees could get instant answers, 24/7\n- Managers were no longer the bottleneck\n\n## What Results Did the AI Agent Deliver?\n\nChange didn’t happen overnight. Adoption was slow at first, but with encouragement and feedback-driven tweaks, the team saw dramatic results within three months:\n\n- Manager interruptions dropped by more than half\n- One team eliminated 80+ hours of back-and-forth each week\n- Employees made faster decisions\n- Managers refocused on high-value tasks\n\n> \"Manager interruptions dropped by more than half, with one team eliminating 80+ weekly hours of back-and-forth communication.\"\n\nThe impact went beyond just time saved. Morale improved, teams felt more empowered, and managers could finally work on strategy instead of firefighting routine questions.\n\n## How Can You Spot Hidden Time Drains in Your Own Company?\n\nEvery business has silent time drains—processes that seem small but add up to huge losses. The Gain case shows how easy it is to miss them, even with documentation in place. Ask yourself:\n\n- Are managers constantly interrupted for non-urgent questions?\n- Do employees avoid using documentation because it’s too complex?\n- Is there tribal knowledge that only a few people know?\n\nIf you answered yes, you’re not alone. These are signs your company could benefit from an internal AI agent. The first step is surfacing these bottlenecks and making your knowledge accessible.\n\n## How to Build a Domain-Specific Knowledge Base for AI Agents?\n\nDon’t just dump your documentation into an AI tool. Gain’s success came from carefully curating their knowledge base. Here’s how you can start:\n\n- Interview process owners and frontline staff\n- Fill gaps in your SOPs and documentation\n- Organize info by workflow, department, and scenario\n- Set up a feedback loop so users can flag unclear answers\n\n> \"Capture what you know, make it accessible, and let AI do the heavy lifting.\"\n\nA well-built knowledge base is the foundation for any effective AI agent. It ensures answers are accurate, relevant, and trusted by your team.\n\n## How to Get Buy-In and Make AI Agents Work for Your Team?\n\nTechnology only works when people use it. Gain’s initial rollout was slow—employees were used to just asking a person. Success came from:\n\n- Encouraging use through regular reminders\n- Gathering feedback and improving the AI agent\n- Showing quick wins (time saved, faster answers)\n\nOver time, as employees saw real value, adoption grew. Managers championed the tool, and the culture shifted from interruption to empowerment.\n\n## What Are the Next Steps to Start with AI Agents in Your Business?\n\nYou don’t need to be a developer or AI expert to start. Here’s a simple roadmap:\n\n- Identify your biggest internal time drains\n- Audit your documentation and fill gaps\n- Choose an AI agent platform that supports custom knowledge bases\n- Pilot with one team and iterate based on feedback\n\nThe hardest part is getting started. But as Gain’s story shows, even small steps can lead to massive productivity gains.\n\n## Frequently Asked Questions (FAQ)\n\n**Q: Do I need technical skills to set up an AI agent?**\nA: No. Most modern AI agent platforms are designed for business users. You’ll need to organize your knowledge, but no coding is required.\n\n**Q: How do I make sure the AI gives correct answers?**\nA: The key is a well-structured, up-to-date knowledge base. Regular feedback and updates keep the AI accurate.\n\n**Q: Will AI agents replace my managers?**\nA: No. AI agents handle routine questions, freeing managers to focus on strategic work—not replacing them.\n\n**Q: How long does it take to see results?**\nA: In Gain’s case, significant time savings appeared within three months of adoption.\n\n**Q: Is this solution only for large companies?**\nA: No. Any business with recurring internal questions can benefit, regardless of size.\n\n## Conclusion: Take Back Your Team’s Time Today\n\nAI agents aren’t just for tech giants. As Gain’s case shows, even a single internal AI agent can reclaim 80+ hours a week, boost morale, and let your team focus on what matters. The steps are clear: document your knowledge, make it accessible, and let AI do the heavy lifting.\n\nStart by mapping your biggest time drains. Pilot an AI agent in one department. The future of productivity is here—and it’s within reach for any business ready to act.\n",
+      "content_ru": "## Почему AI-агенты — это must-have для бизнеса прямо сейчас\n\nВремя — самый ценный ресурс в бизнесе. Но сколько его уходит впустую на бесконечные вопросы, поиски ответов и постоянные отвлечения? Если вы предприниматель или руководитель в России или СНГ, наверняка сталкивались с ситуацией: сотрудники не могут найти нужную информацию в документах и идут к менеджеру. А тот, вместо стратегии, опять решает чьи-то мелкие вопросы.\n\nПредставьте: можно вернуть себе 80 часов продуктивности каждую неделю, просто устранив один внутренний бардак. Именно так поступила компания Gain — платформа для управления доходами юристов и медиков. Их опыт — готовый чек-лист для любого бизнеса, где люди тонут в бумагах и рутине.\n\nВ этой статье разберём, как один AI-агент изменил работу компании, какие шаги были решающими и как вы сможете повторить этот успех — без программирования и сложных IT-проектов.\n\n## Как 80 часов в неделю уходили в никуда?\n\nВ Gain была типичная проблема: постоянные отвлечения. Сотрудники путались в сложных процессах — финансы, юрвопросы, возвраты, согласования. Вроде бы есть 100+ страниц инструкций и регламентов, но проще спросить у менеджера. Итог? Каждый сотрудник терял около двух часов в неделю на поиски ответов, а менеджеры — ещё больше, потому что им приходилось самим копаться в документах или спрашивать коллег.\n\n- Сотрудники тратили ~2 часа в неделю на уточнения\n- Менеджеры постоянно отвлекались и искали информацию\n- Документация была, но ею никто не пользовался\n\n> «Несмотря на подробную документацию, сотрудникам было быстрее просто спросить у менеджера.»\n\nЕсли сложить эти потери по всей компании, получается больше 80 часов в неделю на одни и те же вопросы. Это не только потеря времени — это тормоз для роста и выгорание команды.\n\n## Как построили AI-агента, который реально помогает?\n\nAI — не волшебная палочка. В Gain не просто поставили чат-бота и забыли. Всё началось с подготовки:\n\n1. Поговорили с владельцами процессов, чтобы вытащить скрытые знания\n2. Нашли и закрыли пробелы в документации\n3. Собрали отраслевую базу знаний (финансы, поддержка, кейсы)\n4. Запустили цикл обратной связи для постоянного улучшения\n\nAI-агент обучили на этой базе знаний — теперь он мог отвечать на сложные вопросы по делу, а не в общем. Но главный секрет — в качестве информации: она стала актуальной, понятной и заточенной под реальные задачи сотрудников.\n\n- Агент разбирался с нетипичными, сложными вопросами\n- Сотрудники получали ответы мгновенно, в любое время\n- Менеджеры перестали быть \"узким горлышком\"\n\n## Какие результаты дал AI-агент в реальном бизнесе?\n\nИзменения не пришли за один день. Сначала люди не спешили пользоваться новым инструментом — привычнее спросить у коллеги. Но благодаря поддержке, доработкам по отзывам и наглядным успехам уже через три месяца результат был впечатляющий:\n\n- Отвлечения менеджеров сократились больше чем вдвое\n- Одна команда сэкономила 80+ часов в неделю на переписках и уточнениях\n- Решения стали приниматься быстрее\n- Руководители наконец занялись стратегией, а не \"тушением пожаров\"\n\n> «Отвлечения менеджеров сократились больше чем вдвое, а одна команда сэкономила 80+ часов в неделю.»\n\nЭффект оказался шире, чем просто экономия времени. Люди почувствовали себя увереннее, исчезла рутина, а менеджеры смогли сфокусироваться на развитии бизнеса.\n\n## Как выявить скрытые потери времени в своей компании?\n\nВ каждом бизнесе есть такие \"невидимые утечки\" — процессы, которые кажутся мелочью, но в сумме съедают недели. История Gain показывает: даже при наличии регламентов и инструкций, проблема остаётся. Проверьте себя:\n\n- Менеджеров постоянно отвлекают с неважными вопросами?\n- Сотрудники не пользуются документацией, потому что она сложная?\n- Есть знания, которыми владеют только отдельные люди?\n\nЕсли хоть на один вопрос ответили \"да\" — значит, вашей компании точно нужен внутренний AI-агент. Первый шаг — выявить эти узкие места и сделать знания доступными для всех.\n\n## Как собрать рабочую базу знаний для AI-агента?\n\nНе стоит просто загружать все документы в AI. В Gain успех пришёл благодаря тщательной подготовке базы знаний. Вот как действовать:\n\n- Поговорите с ключевыми сотрудниками и теми, кто сталкивается с вопросами\n- Заполните пробелы в инструкциях и регламентах\n- Разделите информацию по процессам, отделам, типичным ситуациям\n- Запустите обратную связь: пусть сотрудники отмечают, где агент отвечает неясно\n\n> «Соберите свои знания, сделайте их доступными — остальное AI сделает сам.»\n\nХорошо структурированная база знаний — фундамент для любого AI-агента. Только так ответы будут точными и реально полезными.\n\n## Как добиться, чтобы сотрудники реально пользовались AI-агентом?\n\nТехнология работает только если её используют. В Gain поначалу люди не спешили доверять новому инструменту — привычка брать ответы у живого человека сильна. Вот что помогло внедрить AI-агента:\n\n- Регулярно напоминали о пользе и возможностях агента\n- Собирали обратную связь и быстро дорабатывали систему\n- Показывали конкретные успехи: сколько времени сэкономили, какие вопросы решены\n\nПостепенно сотрудники увидели реальную пользу, а менеджеры сами стали продвигать инструмент в команде. Культура сместилась: от постоянных отвлечений — к самостоятельности и быстрому доступу к информации.\n\n## Как внедрить AI-агента в вашем бизнесе: пошаговый план\n\nНе нужно быть программистом или AI-экспертом. Вот простой план:\n\n- Найдите самые затратные по времени внутренние процессы\n- Проверьте и обновите документацию\n- Выберите платформу AI-агента, которая поддерживает загрузку своей базы знаний\n- Запустите пилот на одной команде, собирайте обратную связь и дорабатывайте\n\nСложнее всего — начать. Но, как показывает пример Gain, даже маленькие шаги дают огромную отдачу.\n\n## Часто задаваемые вопросы (FAQ)\n\n**Вопрос: Нужно ли знать программирование, чтобы внедрить AI-агента?**\nНет. Современные платформы рассчитаны на обычных пользователей. Главное — структурировать знания, а не писать код.\n\n**Вопрос: Как быть уверенным, что AI-агент отвечает правильно?**\nВсё зависит от вашей базы знаний. Регулярно обновляйте её и собирайте обратную связь — так ответы всегда будут актуальными.\n\n**Вопрос: Заменит ли AI-агент моих менеджеров?**\nНет. Агент снимает рутину и вопросы по процессам, а менеджеры могут заняться развитием и стратегией.\n\n**Вопрос: Когда ждать первые результаты?**\nВ Gain уже через три месяца сэкономили десятки часов в неделю. Ваша динамика будет похожей, если вовлечёте команду.\n\n**Вопрос: Это только для крупных компаний?**\nНет. Любой бизнес, где есть повторяющиеся вопросы и процессы, может получить выгоду, вне зависимости от размера.\n\n## Вывод: как вернуть время своей команде уже сегодня\n\nAI-агенты — не только для IT-гигантов. Пример Gain доказывает: даже один внутренний AI-агент может вернуть 80+ часов в неделю, поднять мотивацию и дать менеджерам время на важное. Всё просто: соберите свои знания, сделайте их доступными и доверьте рутину искусственному интеллекту.\n\nНачните с самого затратного процесса. Запустите AI-агента хотя бы в одном отделе. Будущее продуктивности уже здесь — и оно доступно для любого бизнеса, который готов действовать.",
+      "tools_en": [
+        "Internal AI Agent",
+        "Domain-Specific Knowledge Base"
+      ],
+      "tools_ru": [
+        "Внутренний AI-агент",
+        "Отраслевой база знаний для компании"
+      ],
+      "results_en": "Reduced manager interruptions, saving over 80 hours/week in internal Q&A.",
+      "results_ru": "Сократили отвлечения менеджеров и сэкономили 80+ часов в неделю на внутренних вопросах.",
+      "tag": "productivity",
+      "source": "Web",
+      "source_url": "https://www.gptintegrators.com/post/ai-agent-case-study-eliminating-80-hours-of-wasted-time-weekly",
+      "points": 184,
+      "date": "2026-04-08"
+    },
+    {
+      "id": "ai-invoice-automation-sme",
+      "rank": 2,
+      "title_en": "AI Invoice Automation: How SMEs Cut Costs and Save Time in 2026",
+      "title_ru": "AI автоматизация счетов: как малый бизнес экономит время и деньги",
+      "desc_en": "Discover how AI invoice automation helps small businesses save 80% time and 2–3% per invoice. Learn proven steps to boost ROI.",
+      "desc_ru": "Узнайте, как AI автоматизация счетов экономит до 80% времени и 2–3% с каждого счета. Пошаговая инструкция для бизнеса.",
+      "content_en": "## INTRO\n\nEvery hour spent on paperwork is an hour lost from growing your business. For small and medium-sized enterprises (SMEs), manual invoice processing is a classic time sink—painful, error-prone, and expensive. In 2026, the stakes are higher than ever: costs are rising, demand is shaky, and margins are tight. How can business owners keep up?\n\nAI-powered automation is changing the game. Instead of drowning in invoices and chasing payments, SMEs are using smart tools to process paperwork in minutes, not hours. The result? More cash in your pocket, less stress for your team, and more time to focus on what matters. In this article, you'll see exactly how AI invoice automation works, what results real businesses are seeing, and a practical roadmap to get started—no technical background needed.\n\n## How Are SMEs Using AI to Automate Invoice Processing?\n\nThe big question: is AI just hype, or is it actually delivering results for small businesses? According to public case studies, the answer is clear. Targeted AI automations can cut manual invoice processing time by up to 80%. That means if your team spends 10 hours a week on invoices, you could get it done in just 2.\n\nBut it's not just about speed. By automating routine invoice tasks, businesses are also saving 2–3% per invoice. How? AI helps avoid late fees and unlocks early-payment discounts that often slip through the cracks with manual processing. For a company handling 200 invoices a month, that's serious money.\n\n> \"Public SME automation case studies show that targeted automations can cut manual invoice processing time by up to 80%, while also saving 2–3% per invoice by avoiding late fees and capturing early-payment discounts.\"\n\n**Key benefits of AI invoice automation:**\n- Huge time savings (up to 80%)\n- Fewer errors and missed payments\n- Hard cost savings on each invoice\n- Frees your team for higher-value work\n\n## What Does an AI Invoice Automation Workflow Look Like?\n\nYou don't need a team of developers or a huge IT budget. Modern AI tools are designed for non-technical users. Here's how a typical workflow might look:\n\n1. Incoming invoices (PDFs, emails, scans) are automatically captured by the system.\n2. AI reads and extracts key data (amount, due date, vendor, etc.).\n3. The system codes the expense, matches it to purchase orders, and routes for approval.\n4. Approved invoices are scheduled for payment—on time, every time.\n5. All data is logged for easy reporting and audit.\n\n**Popular tools for this workflow include:**\n- Zapier AI (connects apps and automates steps)\n- Make.com AI (builds custom workflows)\n- Custom GPT actions (for smart document reading or approvals)\n\n> \"Automation and better tooling were the only way to make a 'high-quality but affordable' model work at scale.\"\n\n**Typical automation steps:**\n- Invoice capture (email, scan, upload)\n- Data extraction (AI reads invoice)\n- Approval routing (auto-notify the right person)\n- Payment scheduling\n- Record-keeping\n\n## How Much Time and Money Can You Save?\n\nNumbers matter. Based on public SME case studies:\n- Manual invoice processing time cut by up to 80%\n- 2–3% savings per invoice\n- For 200 invoices/month, that's dozens of hours and hundreds (or thousands) of dollars saved monthly\n\n**Example calculation:**\n- Old way: 10 hours/week × $20/hour = $200/week\n- New way: 2 hours/week × $20/hour = $40/week\n- Savings: $160/week or $640/month\n\nPlus, by paying invoices early, you capture discounts—money that used to be left on the table.\n\n**Hard ROI formula:**\n(Time saved per week in hours) × (Hourly cost of person doing it) - (Monthly tool cost ÷ 4) = Weekly ROI estimate\n\n> \"Owners repeatedly said: 'We know AI might help, but we don't know where to begin.'\"\n\n## How Do You Choose the Right AI Tools for Your Business?\n\nYou don't need to buy the most expensive software. The best tool is the one your team can actually use. The Distrya roadmap suggests choosing based on your team size and comfort with tech:\n\n- **Free tools:** Google Gemini 1.5 Flash, Claude Haiku, Microsoft Copilot (limited features)\n- **Starter ($10–50/mo):** ChatGPT Plus, Perplexity Pro, Otter.ai\n- **Growth ($50–200/mo):** Zapier AI, Make.com AI, custom GPT actions\n- **Agency ($200–500/mo):** Multi-seat plans, API access for advanced needs\n\n**Selection tips:**\n- If your team isn't technical, pick all-in-one platforms (Notion AI, Microsoft Copilot)\n- For workflow automation, use integration tools (Zapier, Make)\n- If you handle customer data, check compliance (GDPR, CCPA, HIPAA)\n\n**Checklist before you start:**\n- Are your invoices already digital? (Spreadsheets or PDFs are fine)\n- Do you have repetitive, rule-based tasks?\n- Is someone accountable for managing the new system?\n\n## What Are the Steps to Implement AI Invoice Automation?\n\nDistrya's roadmap breaks it down into six clear phases, but let's focus on the first four:\n\n1. **Readiness assessment:** Make sure you have digital data and someone to own the process.\n2. **Define your use case:** Start with just one problem (e.g., invoice processing). Don't try to automate everything at once.\n3. **Budget & tool selection:** Choose tools that fit your needs and budget.\n4. **Pilot:** Test with a small team over 4 weeks. Measure time and cost savings.\n\n**Pilot rules:**\n- One use case only (e.g., invoices)\n- Small team (2–3 people)\n- Low-risk, not mission-critical systems\n\n> \"80% of failed AI projects fail because of bad data, not bad AI.\"\n\n**Common pitfalls to avoid:**\n- Dirty or inconsistent data\n- No clear owner for the project\n- Trying to automate everything at once\n\n## What Results Have Real Businesses Seen?\n\nThe numbers speak for themselves. In public case studies, SMEs using AI automation for invoices report:\n- 80% reduction in manual processing time\n- 2–3% hard cost savings per invoice\n- Faster approvals, fewer errors\n- Happier teams (less drudgery)\n\nFor example, a small web development business used a $175/month tool stack to deliver custom-coded sites faster. They kept quality high, compressed build time, and maintained margins—automation made their business model work.\n\n**Benefits at a glance:**\n- More cash flow\n- Fewer late payments and penalties\n- Ability to grow without hiring more staff\n\n## Frequently Asked Questions (FAQ)\n\n**How hard is it to set up AI invoice automation?**\nMost modern tools are designed for non-technical users. You can set up basic workflows with drag-and-drop interfaces and prebuilt templates.\n\n**Do I need to change my accounting software?**\nOften, no. Many AI tools integrate directly with popular accounting platforms or use simple file uploads.\n\n**Is my data safe?**\nReputable tools follow strict security standards. Always check for compliance certifications (GDPR, CCPA, etc.).\n\n**Will my staff lose their jobs?**\nAI replaces repetitive tasks, not people. Roles may shift, but the goal is to free your team for higher-value work.\n\n**How do I know if AI is right for my business?**\nIf you have lots of repetitive, digital paperwork (like invoices), and you want to save time and money, it's worth piloting.\n\n## Conclusion\n\nAI invoice automation isn't just a buzzword—it's a proven way for SMEs to save time, cut costs, and run leaner. The path is clear: start with one high-impact use case, pick the right tool, and run a small pilot. You'll see results quickly. Ready to stop drowning in paperwork? Choose your first workflow and test an AI tool this week.",
+      "content_ru": "## Вступление\n\nКаждый час, потраченный на бумажную волокиту, — это час, который вы могли бы вложить в развитие бизнеса. Для малого и среднего бизнеса ручная обработка счетов — настоящая головная боль: долго, скучно, дорого и часто с ошибками. В 2026 году ставки только выше: расходы растут, спрос нестабилен, маржа тает. Как выжить предпринимателю?\n\nAI-автоматизация меняет правила игры. Вместо того чтобы тонуть в счетах и бегать за оплатой, малый бизнес теперь обрабатывает документы за минуты, а не часы. В результате — больше денег на счету, меньше стресса у команды и время на то, что действительно важно. В этой статье разберём, как работает AI-автоматизация счетов, какие реальные результаты получают компании и как внедрить это у себя — без технических знаний.\n\n## Как малый бизнес автоматизирует обработку счетов с помощью AI?\n\nГлавный вопрос: это просто модная тема или реально рабочий инструмент? Публичные кейсы показывают — всё по-настоящему. Точечные AI-автоматизации сокращают время ручной обработки счетов до 80%. То есть если раньше вы тратили 10 часов в неделю, теперь справитесь за 2.\n\nНо дело не только во времени. За счёт автоматизации рутинных задач компании экономят 2–3% с каждого счета. Как? AI помогает не получать штрафы за просрочку и ловить скидки за раннюю оплату — то, что обычно теряется в ручной рутине. Для бизнеса с 200 счетами в месяц это уже серьёзные деньги.\n\n> «Публичные кейсы автоматизации в малом бизнесе показывают: точечные автоматизации сокращают время ручной обработки счетов до 80%, а также экономят 2–3% с каждого счета за счёт отсутствия штрафов и скидок за раннюю оплату.»\n\n**Главные плюсы AI-автоматизации счетов:**\n- Экономия времени (до 80%)\n- Меньше ошибок и просрочек\n- Прямая экономия на каждом счёте\n- Команда освобождается для важных задач\n\n## Как выглядит процесс AI-автоматизации счетов?\n\nНе нужен штат программистов и огромный бюджет. Современные AI-инструменты рассчитаны на обычных пользователей. Типовой процесс:\n\n1. Входящие счета (PDF, email, сканы) автоматически попадают в систему.\n2. AI извлекает ключевые данные: сумма, срок оплаты, поставщик и т.д.\n3. Система сама кодирует расходы, сверяет с заказами и отправляет на согласование.\n4. Одобренные счета автоматически ставятся в график платежей — вовремя, без задержек.\n5. Все данные сохраняются для отчётности и проверки.\n\n**Популярные инструменты для такой схемы:**\n- Zapier AI (связывает приложения и автоматизирует шаги)\n- Make.com AI (строит свои цепочки без кода)\n- Custom GPT actions (индивидуальные действия для умного чтения документов)\n\n> «Автоматизация и современные инструменты — единственный способ сделать качественный и при этом доступный продукт в масштабе.»\n\n**Типовые шаги автоматизации:**\n- Получение счета (email, скан, загрузка)\n- Чтение и распознавание данных (AI сам находит сумму, дату, поставщика)\n- Направление на согласование (уведомление нужному сотруднику)\n- Постановка в график платежей\n- Сохранение в учётной системе\n\n## Сколько времени и денег реально экономит автоматизация?\n\nЦифры — главный аргумент. По публичным кейсам:\n- Время ручной обработки счетов сокращается до 80%\n- Экономия на каждом счёте — 2–3%\n- Для 200 счетов в месяц это десятки часов и сотни (или даже тысячи) рублей\n\n**Пример расчёта:**\n- По-старому: 10 часов × 1 800 руб./час = 18 000 руб. в неделю\n- С AI: 2 часа × 1 800 руб./час = 3 600 руб. в неделю\n- Экономия: 14 400 руб. в неделю или 57 600 руб. в месяц\n\nПлюс, оплачивая счета раньше, вы получаете скидки — деньги, которые раньше просто терялись.\n\n**Формула ROI:**\n(Сэкономленные часы в неделю) × (часовая ставка сотрудника) - (стоимость инструмента в месяц ÷ 4) = недельная выгода\n\n> «Владельцы бизнеса говорят: “Понимаем, что AI может помочь, но не знаем, с чего начать.”»\n\n## Как выбрать подходящие AI-инструменты для автоматизации?\n\nНе обязательно брать самое дорогое. Лучший инструмент — тот, с которым справится ваша команда. В Distrya советуют выбирать по размеру бизнеса и уровню “дружбы” с технологиями:\n\n- **Бесплатно:** Google Gemini 1.5 Flash, Claude Haiku, Microsoft Copilot (ограниченный функционал)\n- **Начальный уровень (10–50$/мес):** ChatGPT Plus, Perplexity Pro, Otter.ai\n- **Рост (50–200$/мес):** Zapier AI, Make.com AI, свои GPT-скрипты\n- **Агентство (200–500$/мес):** Мультиаккаунты, API-доступ для сложных задач\n\n**Как выбрать:**\n- Если команда не техническая — берите всё-в-одном (Notion AI, Microsoft Copilot)\n- Для автоматизации процессов — интеграторы (Zapier, Make)\n- Если работаете с персональными данными — проверьте соответствие законам (GDPR, CCPA и др.)\n\n**Чеклист перед стартом:**\n- Ваши счета уже цифровые? (Excel, PDF — подходит)\n- Есть ли повторяющиеся задачи по одним и тем же правилам?\n- Кто будет отвечать за работу новой системы?\n\n## Как внедрить AI-автоматизацию счетов: пошаговый план\n\nВ Distrya расписали процесс по фазам, но если коротко, вот первые четыре шага:\n\n1. **Оценка готовности:** Данные должны быть в цифре, назначьте ответственного.\n2. **Определите задачу:** Начните только с одной (например, обработка счетов). Не пытайтесь автоматизировать всё сразу.\n3. **Бюджет и выбор инструментов:** Подберите то, что реально подходит под ваши задачи и бюджет.\n4. **Пилот:** Протестируйте на небольшой группе за 4 недели. Фиксируйте экономию времени и денег.\n\n**Правила пилота:**\n- Только одна задача (например, счета)\n- Маленькая команда (2–3 человека)\n- Не трогайте критически важные процессы\n\n> «80% неудачных AI-проектов проваливаются из-за плохих данных, а не плохого AI.»\n\n**Частые ошибки:**\n- Грязные или разрозненные данные\n- Нет ответственного за проект\n- Желание автоматизировать всё и сразу\n\n## Какие результаты получают реальные компании?\n\nЦифры не врут. В кейсах малых компаний, внедривших AI-автоматизацию счетов:\n- Время ручной работы сокращается на 80%\n- Экономия на каждом счёте — 2–3%\n- Быстрее согласования, меньше ошибок\n- Команда довольна — рутины стало меньше\n\nНапример, небольшая веб-студия вложила 175$ в месяц в инструменты, чтобы делать сайты быстрее и качественнее. За счёт автоматизации они сохранили маржу и смогли держать низкие цены без потери качества.\n\n**Плюсы наглядно:**\n- Больше свободных денег\n- Нет просрочек и штрафов\n- Рост без найма новых сотрудников\n\n## Часто задаваемые вопросы (FAQ)\n\n**Насколько сложно настроить AI-автоматизацию счетов?**\nСовременные сервисы рассчитаны на обычных пользователей. Всё делается через простые шаблоны и перетаскивание блоков, без кода.\n\n**Нужно ли менять свою бухгалтерию?**\nЧаще всего — нет. Множество AI-инструментов интегрируются с популярными системами или работают через простую загрузку файлов.\n\n**Безопасны ли мои данные?**\nНадёжные сервисы соответствуют строгим стандартам безопасности. Проверьте наличие сертификатов (GDPR, CCPA и др.).\n\n**Уволят ли сотрудников из-за AI?**\nAI убирает рутину, а не людей. Роли могут поменяться, но цель — чтобы команда занималась более важной работой.\n\n**Как понять, что AI нужен именно мне?**\nЕсли у вас много однотипных цифровых документов (например, счета) и хочется экономить время и деньги — попробуйте пилот.\n\n## Заключение\n\nAI-автоматизация счетов — это не хайп, а реальный способ для малого бизнеса экономить время, деньги и работать эффективнее. Всё просто: выберите одну задачу, подходящий инструмент и протестируйте на небольшой группе. Результат не заставит ждать. Хватит тонуть в бумагах — выберите свой первый процесс и попробуйте AI-автоматизацию уже на этой неделе.",
+      "tools_en": [
+        "Zapier AI",
+        "Make.com AI",
+        "Custom GPT actions"
+      ],
+      "tools_ru": [
+        "Zapier AI — сервис для автоматизации рутинных задач между разными приложениями",
+        "Make.com AI — платформа для построения автоматических рабочих процессов без кода",
+        "Custom GPT actions — индивидуальные действия на базе искусственного интеллекта для обработки счетов"
+      ],
+      "results_en": "Cuts manual invoice processing time by up to 80% and saves 2–3% per invoice by avoiding late fees and capturing early-payment discounts.",
+      "results_ru": "Сокращает время на обработку счетов до 80% и экономит 2–3% с каждого счета за счёт отсутствия штрафов и скидок за раннюю оплату.",
+      "tag": "automation",
+      "source": "Web",
+      "source_url": "https://distrya.com/blog/ai-adoption-for-small-business-2026-roi-focused-roadmap",
+      "points": 101,
+      "date": "2026-04-08"
+    },
+    {
+      "id": "ai-agentic-automation-enterprise",
+      "rank": 3,
       "title_en": "AI Automation Trends 2026: How Agentic Automation Transforms Enterprise",
       "title_ru": "Тренды AI-автоматизации 2026: как агентные решения меняют бизнес",
       "desc_en": "Discover how AI agent automation is slashing costs, boosting productivity and reshaping enterprise operations. See real trends and actionable steps.",
@@ -37,7 +89,7 @@
     },
     {
       "id": "claude-code-appstore-automation",
-      "rank": 2,
+      "rank": 4,
       "title_en": "Claude Code App Store Automation: AI Agents Streamline App Deployment",
       "title_ru": "Автоматизация App Store с Claude Code: ИИ-агенты ускоряют релизы",
       "desc_en": "Discover how Claude Code automates App Store submissions, saving hours and reducing errors. Learn how AI agents accelerate app launches. Read more!",
@@ -64,7 +116,7 @@
     },
     {
       "id": "chatgpt-agents-business-automation",
-      "rank": 3,
+      "rank": 5,
       "title_en": "ChatGPT Agents for Business: Automate Research, Support, and Content Fast",
       "title_ru": "ChatGPT Agents для бизнеса: автоматизация ресерча, поддержки и контента",
       "desc_en": "Discover how ChatGPT Agents automate research, customer support, and content creation. Boost efficiency and free up your team. Learn practical use cases now.",
@@ -89,7 +141,7 @@
     },
     {
       "id": "chatgpt-agent-lead-gen",
-      "rank": 4,
+      "rank": 6,
       "title_en": "ChatGPT Agent Mode for Lead Generation: Real Automation in Action",
       "title_ru": "ChatGPT Agent Mode для лидогенерации: реальный опыт автоматизации",
       "desc_en": "Discover how ChatGPT Agent Mode automates lead generation, saving hours weekly. Learn actionable steps to boost your client list today.",
@@ -116,7 +168,7 @@
     },
     {
       "id": "ai-agents-business-automation",
-      "rank": 5,
+      "rank": 7,
       "title_en": "AI Agents Business Automation: Real Use Cases for Productivity Gains",
       "title_ru": "AI-агенты для бизнеса: реальные кейсы автоматизации и роста эффективности",
       "desc_en": "Discover how AI agents automate business tasks, boost productivity, and cut costs. Real-world examples for entrepreneurs. Learn more now!",
@@ -141,7 +193,7 @@
     },
     {
       "id": "ai-customer-support-forethought",
-      "rank": 6,
+      "rank": 8,
       "title_en": "AI Customer Support: How Forethought Delivers 24/7 Service and ROI",
       "title_ru": "AI для поддержки клиентов: как Forethought увеличивает ROI и ускоряет сервис",
       "desc_en": "Discover how Forethought’s AI agents automate customer support, cut response times, and boost ROI. Learn how your business can benefit today.",
@@ -168,7 +220,7 @@
     },
     {
       "id": "decagon-ai-concierge-usecase",
-      "rank": 7,
+      "rank": 9,
       "title_en": "AI Concierge Decagon: Transforming Customer Service for Enterprises",
       "title_ru": "AI-консьерж Decagon: новый уровень сервиса для бизнеса",
       "desc_en": "Discover how Decagon's AI concierge boosts customer satisfaction, cuts costs, and drives revenue. Learn how to apply it in your business.",
@@ -193,7 +245,7 @@
     },
     {
       "id": "claude-code-agents-workflow",
-      "rank": 8,
+      "rank": 10,
       "title_en": "Claude Code Agents Workflow: Automate Project Management with AI",
       "title_ru": "Claude Code Agents: автоматизация управления проектами с помощью ИИ",
       "desc_en": "Discover how Claude Code agents streamline project workflows, automate team roles, and boost efficiency. Learn to apply AI for smarter business today.",
@@ -216,7 +268,7 @@
     },
     {
       "id": "ai-agents-whatsapp-automation",
-      "rank": 9,
+      "rank": 11,
       "title_en": "AI Automation in Business: Real WhatsApp Agent Case Study",
       "title_ru": "AI-автоматизация в бизнесе: кейс реального WhatsApp-агента",
       "desc_en": "Discover how AI agents automate WhatsApp challenges, boost engagement, and save 30+ hours/month. See real results and get inspired to start now!",
@@ -247,7 +299,7 @@
     },
     {
       "id": "sierra-ai-customer-experience",
-      "rank": 10,
+      "rank": 12,
       "title_en": "AI Customer Experience: How Sierra Transforms Business Interactions",
       "title_ru": "AI для клиентского опыта: как Sierra меняет бизнес-коммуникации",
       "desc_en": "Discover how Sierra's AI agents boost customer value, unify channels, and enable outcome-based pricing. See real results and get started today.",
@@ -276,7 +328,7 @@
     },
     {
       "id": "ai-agents-business-2026",
-      "rank": 11,
+      "rank": 13,
       "title_en": "AI Agents for Business 2026: Best Tools to Automate Your Company",
       "title_ru": "AI-агенты для бизнеса 2026: лучшие инструменты автоматизации компании",
       "desc_en": "Discover top AI agents for business automation in 2026. Learn how tools like UI Bakery save time and boost efficiency. Explore your options now!",
@@ -307,7 +359,7 @@
     },
     {
       "id": "claude-autonomous-agent-pays",
-      "rank": 12,
+      "rank": 14,
       "title_en": "Claude AI Agent: How to Build an Autonomous Agent That Pays for Services",
       "title_ru": "Claude AI агент: как создать автономного агента для оплаты сервисов",
       "desc_en": "Discover how a Claude AI agent autonomously pays for web services to complete tasks. Learn the workflow and boost your business automation today.",
@@ -332,7 +384,7 @@
     },
     {
       "id": "ai-agent-single-flow-case",
-      "rank": 13,
+      "rank": 15,
       "title_en": "AI Agent Workflows: Why Single-Agent Setups Outperform in Business",
       "title_ru": "AI-агенты в бизнесе: почему один агент эффективнее команды",
       "desc_en": "Discover why single-agent AI workflows often beat multi-agent setups in real business tasks. Learn how to optimize your automation today.",
@@ -357,7 +409,7 @@
     },
     {
       "id": "ai-agents-marketing-solutions",
-      "rank": 14,
+      "rank": 16,
       "title_en": "AI Agents for Marketing: Top Solutions, Benefits & Real Use Cases",
       "title_ru": "AI-агенты для маркетинга: лучшие решения, выгоды и реальные кейсы",
       "desc_en": "Discover how AI agents transform marketing with automation, personalization, and real-world impact. Learn benefits, features, and top solutions now.",
@@ -380,7 +432,7 @@
     },
     {
       "id": "ai-agents-automate-ops",
-      "rank": 15,
+      "rank": 17,
       "title_en": "AI Agents Automate Ops: Real-World Workflow Integration Example",
       "title_ru": "AI-агенты автоматизируют бизнес: реальный кейс интеграции",
       "desc_en": "Discover how AI agents automate business ops by linking Obsidian, ClickUp, and Discord. See real results and start streamlining your workflow today!",
@@ -409,7 +461,7 @@
     },
     {
       "id": "openclaw-real-use-cases",
-      "rank": 16,
+      "rank": 18,
       "title_en": "OpenClaw use cases: 500 real AI automations entrepreneurs need",
       "title_ru": "OpenClaw: 500 реальных кейсов ИИ-автоматизации для бизнеса",
       "desc_en": "Discover 500 real OpenClaw AI use cases, copy-paste prompts, and instant automations. Learn how to boost productivity and grow your business with AI.",
@@ -432,7 +484,7 @@
     },
     {
       "id": "ai-agent-sales-automation",
-      "rank": 17,
+      "rank": 19,
       "title_en": "AI Agent Sales Automation: OpenClaw Transforms Sales Workflow",
       "title_ru": "AI-агент автоматизация продаж: OpenClaw меняет работу отдела",
       "desc_en": "Discover how AI agents like OpenClaw can automate your sales cycle, save time, and boost revenue. Learn actionable steps to modernize your business.",
@@ -457,7 +509,7 @@
     },
     {
       "id": "openclaw-ai-sales-automation",
-      "rank": 18,
+      "rank": 20,
       "title_en": "OpenClaw AI for Sales Automation: Real-World Workflow and Results",
       "title_ru": "OpenClaw AI для автоматизации продаж: реальный кейс и результаты",
       "desc_en": "Discover how OpenClaw AI automates sales tasks, speeds up follow-ups, and boosts deal closures. Learn practical steps for your business.",
@@ -480,7 +532,7 @@
     },
     {
       "id": "ai-agents-small-business",
-      "rank": 19,
+      "rank": 21,
       "title_en": "AI Agents for Small Businesses: Top Tools and Real Results 2026",
       "title_ru": "AI-агенты для малого бизнеса: лучшие инструменты и реальные результаты 2026",
       "desc_en": "Discover the best AI agents for small businesses in 2026. Learn how to boost sales, automate tasks, and save time. Find your ideal tool now.",
@@ -505,7 +557,7 @@
     },
     {
       "id": "ai-agents-small-business",
-      "rank": 20,
+      "rank": 22,
       "title_en": "AI Agents for Small Business: 2026 Guide to Automation & Growth",
       "title_ru": "AI-агенты для малого бизнеса: гид по автоматизации и росту 2026",
       "desc_en": "Discover how AI agents transform small business: boost revenue, cut costs, and automate customer journeys. Read our 2026 guide for actionable insights.",
@@ -530,7 +582,7 @@
     },
     {
       "id": "ai-agent-teams-workflow",
-      "rank": 21,
+      "rank": 23,
       "title_en": "AI Agent Teams Workflow: Boost Coding Productivity with Claude",
       "title_ru": "AI-агенты Claude: автоматизация командной работы в кодинге",
       "desc_en": "Discover how Claude's AI agent teams accelerate coding tasks for businesses. Learn use cases, results, and how to get started today.",
@@ -555,7 +607,7 @@
     },
     {
       "id": "agent-flow-claude-visualization",
-      "rank": 22,
+      "rank": 24,
       "title_en": "Agent Flow Claude Code: Real-Time AI Agent Visualization for Business",
       "title_ru": "Agent Flow Claude Code: Визуализация AI-агентов в реальном времени для бизнеса",
       "desc_en": "Discover how Agent Flow reveals Claude Code agent decisions. Optimize AI workflows, debug faster, and boost productivity. Try this tool today!",
@@ -580,7 +632,7 @@
     },
     {
       "id": "ai-agent-loan-processing",
-      "rank": 23,
+      "rank": 25,
       "title_en": "AI Agent Loan Processing: 80% Cost Reduction in Mortgage Automation",
       "title_ru": "AI-агенты в ипотеке: автоматизация и снижение затрат на 80%",
       "desc_en": "Discover how AI agents cut mortgage loan processing costs by 80%. See real automation results and learn how your business can benefit today.",
@@ -605,7 +657,7 @@
     },
     {
       "id": "ai-agents-business-impact",
-      "rank": 24,
+      "rank": 26,
       "title_en": "AI Agents Statistics: Business Impact, ROI & Adoption Trends 2026",
       "title_ru": "AI-агенты для бизнеса: статистика, ROI и тренды внедрения 2026",
       "desc_en": "Discover how AI agents drive cost savings, boost sales ROI, and reshape business operations. See the latest 2026 stats and actionable insights.",
@@ -630,7 +682,7 @@
     },
     {
       "id": "ai-automation-energy-workflows",
-      "rank": 25,
+      "rank": 27,
       "title_en": "AI Automation Energy Sector: Replace Legacy Workflows, Boost Efficiency",
       "title_ru": "AI-автоматизация в энергетике: замена устаревших процессов и рост эффективности",
       "desc_en": "Discover how AI automation transforms energy sector workflows, cuts costs, and drives adoption. Learn actionable steps for your business.",
@@ -653,7 +705,7 @@
     },
     {
       "id": "ai-automation-roi-case",
-      "rank": 26,
+      "rank": 28,
       "title_en": "AI Automation ROI: Real Case Studies for Small Business Growth",
       "title_ru": "AI-автоматизация ROI: реальные кейсы для роста малого бизнеса",
       "desc_en": "Discover how AI automation boosts ROI for small businesses. See real case studies and actionable tips. Learn how to save time and grow today.",
@@ -680,7 +732,7 @@
     },
     {
       "id": "fin-ai-customer-service",
-      "rank": 27,
+      "rank": 29,
       "title_en": "AI Agent for Customer Service: Fin Boosts Resolution Rates Fast",
       "title_ru": "AI-агент для поддержки клиентов: Fin повышает эффективность",
       "desc_en": "Discover how Fin AI automates customer service, handles complex queries, and boosts resolution rates. Learn how to deploy Fin for your business today.",
@@ -705,7 +757,7 @@
     },
     {
       "id": "kelly-ai-multiple-projects",
-      "rank": 28,
+      "rank": 30,
       "title_en": "AI Agent Kelly: How to Manage Multiple Projects Simultaneously",
       "title_ru": "Искусственный интеллект Kelly: как вести несколько проектов одновременно",
       "desc_en": "Discover how Kelly AI agent helps manage multiple business projects at once. Boost productivity and streamline operations. Learn how it works now.",
@@ -730,7 +782,7 @@
     },
     {
       "id": "chatgpt-agent-outreach-list",
-      "rank": 29,
+      "rank": 31,
       "title_en": "ChatGPT Agent Use Case: Build Outreach Lists Fast for Marketing",
       "title_ru": "ChatGPT Agent: как быстро собирать списки для маркетинга",
       "desc_en": "Learn how ChatGPT Agent automates targeted outreach list building, saving hours for marketers. Discover step-by-step real-life workflow and tips.",
@@ -755,7 +807,7 @@
     },
     {
       "id": "ai-agents-b2b-marketing",
-      "rank": 30,
+      "rank": 32,
       "title_en": "AI Agents for B2B Marketing: 5 Real Agentic Use Cases",
       "title_ru": "AI-агенты для B2B-маркетинга: 5 реальных кейсов применения",
       "desc_en": "Discover 5 practical AI agent use cases for B2B marketers. Learn how agentic AI transforms ABM, saves time, and boosts results.",
@@ -780,7 +832,7 @@
     },
     {
       "id": "company-info-extraction-saas",
-      "rank": 31,
+      "rank": 33,
       "title_en": "Company Info Extraction AI: Automate B2B Research & CRM Updates",
       "title_ru": "Извлечение данных о компаниях с помощью ИИ: автоматизация B2B и CRM",
       "desc_en": "Discover how AI agents automate company info extraction, saving 15+ hours weekly and boosting CRM accuracy. Learn how your B2B team can benefit.",
@@ -803,7 +855,7 @@
     },
     {
       "id": "ai-claims-automation-insurance",
-      "rank": 32,
+      "rank": 34,
       "title_en": "AI Claims Automation: How Insurance Agents Cut Processing Time 46%",
       "title_ru": "AI-автоматизация заявок: как страховщики ускорили обработку на 46%",
       "desc_en": "Discover how a Dutch insurer used AI agents to automate 91% of claims, speed up processing by 46%, and boost NPS. Learn actionable steps for your business.",
@@ -826,7 +878,7 @@
     },
     {
       "id": "zendesk-ai-agents-cx",
-      "rank": 33,
+      "rank": 35,
       "title_en": "AI Agents Zendesk: Automate Customer Service for 80%+ CX Tasks",
       "title_ru": "AI-агенты Zendesk: автоматизация 80% задач поддержки клиентов",
       "desc_en": "Discover how Zendesk AI Agents automate customer support, cut costs, and boost CSAT. Real business results and steps to implement. Read now!",
@@ -851,7 +903,7 @@
     },
     {
       "id": "options-flow-data-parser",
-      "rank": 34,
+      "rank": 36,
       "title_en": "Options Flow Data Parser & Analysis System",
       "title_ru": "Парсер и система анализа потока опционов",
       "desc_en": "Claude-powered OpenClaw agent that ingests 6 months of institutional options data from Discord, creates SQLite database with vector search.",
@@ -875,7 +927,7 @@
     },
     {
       "id": "personal-assistant-saul",
-      "rank": 35,
+      "rank": 37,
       "title_en": "Saul: Full-Service Personal Assistant Agent",
       "title_ru": "Саул: Полнофункциональный агент персонального помощника",
       "desc_en": "Persistent PA with Google Workspace access, proactive scheduling, flight booking, and self-improvement capabilities via Telegram interface.",
@@ -901,7 +953,7 @@
     },
     {
       "id": "saul-personal-assistant",
-      "rank": 36,
+      "rank": 38,
       "title_en": "Saul: AI Personal Assistant with Google Workspace Integration",
       "title_ru": "Саул: ИИ-помощник с интеграцией Google Workspace",
       "desc_en": "A persistent AI assistant built with OpenClaw architecture that manages emails, calendars, bookings, and flight check-ins via Telegram.",
@@ -931,7 +983,7 @@
     },
     {
       "id": "whatsapp-saas-builder",
-      "rank": 37,
+      "rank": 39,
       "title_en": "WhatsApp SaaS Builder with OpenClaw",
       "title_ru": "Создатель SaaS через WhatsApp с OpenClaw",
       "desc_en": "Built a complete social app using OpenClaw + Minimax API through WhatsApp interface in just 48 minutes without frontend/backend.",
@@ -952,7 +1004,7 @@
     },
     {
       "id": "btc-trading-bot",
-      "rank": 38,
+      "rank": 40,
       "title_en": "5-Minute BTC Trading Bot with OpenClaw",
       "title_ru": "Бот для торговли BTC за 5 минут с OpenClaw",
       "desc_en": "Built an automated trading bot for 5-minute BTC markets, scaling from $50 to $823 with 2x leverage opportunities.",
@@ -973,7 +1025,7 @@
     },
     {
       "id": "restaurant-calling-automation",
-      "rank": 39,
+      "rank": 41,
       "title_en": "Automated Restaurant Calling System",
       "title_ru": "Система автоматических звонков в рестораны",
       "desc_en": "Created an AI system that automatically calls restaurants using voice AI, integrating OpenClaw with iMessage, browser, and Twilio voice API.",
@@ -996,7 +1048,7 @@
     },
     {
       "id": "binance-trading-automation",
-      "rank": 40,
+      "rank": 42,
       "title_en": "Binance Automated Trading Bot Development",
       "title_ru": "Разработка автоматизированного торгового бота для Binance",
       "desc_en": "Developed a locally-run Binance trading bot using OpenClaw after continuous debugging, refining trading strategies and code implementation.",
@@ -1018,7 +1070,7 @@
     },
     {
       "id": "reddit-narrative-builder",
-      "rank": 41,
+      "rank": 43,
       "title_en": "Reddit Narrative Analysis with OpenClaw",
       "title_ru": "Анализ нарративов Reddit с OpenClaw",
       "desc_en": "Built a Reddit narrative builder using recursive scraping to analyze sentiment across subreddits for AI, sports, and travel topics.",
@@ -1040,7 +1092,7 @@
     },
     {
       "id": "automated-coding-tasks-github",
-      "rank": 42,
+      "rank": 44,
       "title_en": "Automated GitHub Issue Resolution with OpenClaw",
       "title_ru": "Автоматизация решения GitHub Issues с OpenClaw",
       "desc_en": "Automated minor coding tasks by creating GitHub PRs, iterating based on reviews, and managing the full development lifecycle.",
@@ -1061,7 +1113,7 @@
     },
     {
       "id": "tiktok-marketing-automation",
-      "rank": 43,
+      "rank": 45,
       "title_en": "TikTok Marketing Automation Earning $4K in 24 Hours",
       "title_ru": "Автоматизация маркетинга TikTok, заработавшая $4K за 24 часа",
       "desc_en": "Larry, an OpenClaw agent, fully automated marketing workflows generating 200k TikTok views, 200+ X followers, and new subscribers.",
@@ -1082,7 +1134,7 @@
     },
     {
       "id": "social-media-content-automation",
-      "rank": 44,
+      "rank": 46,
       "title_en": "Automated Social Media Content Generation for AI Network",
       "title_ru": "Автоматизированная генерация контента для ИИ социальной сети",
       "desc_en": "Complete automation system for posting and commenting on Moltbook using OpenClaw to generate sarcastic AI content with shell scripts.",
@@ -1103,7 +1155,7 @@
     },
     {
       "id": "vc-daily-briefing-automation",
-      "rank": 45,
+      "rank": 47,
       "title_en": "VC Daily Briefing Automation with OpenClaw",
       "title_ru": "Автоматизация ежедневных сводок для ВК с OpenClaw",
       "desc_en": "Automated morning briefings for VCs using cron jobs to analyze markets, portfolio updates, and news.",
@@ -1123,7 +1175,7 @@
     },
     {
       "id": "daily-deal-finder-crm",
-      "rank": 46,
+      "rank": 48,
       "title_en": "Daily Deal Finder CRM Automation",
       "title_ru": "Автоматизация CRM для поиска сделок",
       "desc_en": "OpenClaw agent that analyzes CRM data and sales transcripts to identify and book meetings with prospects.",
@@ -1144,7 +1196,7 @@
     },
     {
       "id": "daily-deal-finder-crm-agent",
-      "rank": 47,
+      "rank": 49,
       "title_en": "Daily Deal Finder - Automated CRM Sales Agent",
       "title_ru": "Daily Deal Finder - Автоматизированный CRM Агент Продаж",
       "desc_en": "OpenClaw agent that analyzes CRM data and sales transcripts to identify prospects and book meetings with major companies.",
@@ -1165,7 +1217,7 @@
     },
     {
       "id": "vc-morning-briefing-agent",
-      "rank": 48,
+      "rank": 50,
       "title_en": "VC Morning Briefing Automation Agent",
       "title_ru": "Агент Автоматизации Утренних Брифингов для ВК",
       "desc_en": "Automated morning briefing system for VCs using OpenClaw cron jobs to generate daily investment insights and market updates.",
@@ -1186,7 +1238,7 @@
     },
     {
       "id": "multi-agent-system-dennis",
-      "rank": 49,
+      "rank": 51,
       "title_en": "Dennis Multi-Agent System with Role Separation",
       "title_ru": "Мультиагентная Система Dennis с Разделением Ролей",
       "desc_en": "OpenClaw agent that creates and manages sub-agents with specific roles, using AGENTS.MD and SOUL.MD files for task separation.",
@@ -1208,7 +1260,7 @@
     },
     {
       "id": "fix-test-deploy-openclaw-agent",
-      "rank": 50,
+      "rank": 52,
       "title_en": "Fix, Test, and Deploy OpenClaw Agent With Claude Code",
       "title_ru": "Исправление, тестирование и развертывание OpenClaw агента с Claude Code",
       "desc_en": "Debugging and fixing a daily X article automation that stopped running, using Claude Code integration with OpenClaw.",
@@ -1230,7 +1282,7 @@
     },
     {
       "id": "jarvis-command-center-convex",
-      "rank": 51,
+      "rank": 53,
       "title_en": "OpenClaw Agent Command Center - Personal Jarvis System",
       "title_ru": "Командный центр OpenClaw агента - персональная система Джарвис",
       "desc_en": "Building a comprehensive life management system using OpenClaw and Convex, inspired by Tony Stark's Jarvis AI assistant.",
@@ -1252,7 +1304,7 @@
     },
     {
       "id": "multi-agent-system-dennis",
-      "rank": 52,
+      "rank": 54,
       "title_en": "Dennis: Multi-Agent System with Role-Based Sub-Agents",
       "title_ru": "Деннис: мультиагентная система с подагентами на основе ролей",
       "desc_en": "Creating a hierarchical agent system where the main OpenClaw agent spawns specialized sub-agents with defined roles and documentation.",
@@ -1274,7 +1326,7 @@
     },
     {
       "id": "browser-automation-data-entry",
-      "rank": 53,
+      "rank": 55,
       "title_en": "Browser Automation for Web Tasks & Data Entry",
       "title_ru": "Автоматизация браузера для веб-задач и ввода данных",
       "desc_en": "Daily browser automation for repetitive form filling, data extraction using OpenClaw's headless Chrome integration.",
@@ -1295,7 +1347,7 @@
     },
     {
       "id": "crypto-trading-autonomous-agent",
-      "rank": 54,
+      "rank": 56,
       "title_en": "24/7 Autonomous Crypto Trading Agent",
       "title_ru": "Автономный агент для торговли криптовалютой 24/7",
       "desc_en": "AI agent that trades crypto around the clock while sending Telegram updates about executed arbitrage opportunities.",
@@ -1316,7 +1368,7 @@
     },
     {
       "id": "game-development-autonomous",
-      "rank": 55,
+      "rank": 57,
       "title_en": "Autonomous Game Development While Sleeping",
       "title_ru": "Автономная разработка игр во время сна",
       "desc_en": "AI agent built a functioning game app with thousands of users overnight while the developer was sleeping.",
@@ -1338,7 +1390,7 @@
     },
     {
       "id": "browser-automation-forms",
-      "rank": 56,
+      "rank": 58,
       "title_en": "Browser Automation for Form Filling & Data Extraction",
       "title_ru": "Автоматизация браузера для заполнения форм и извлечения данных",
       "desc_en": "Daily browser automation using OpenClaw with Chrome integration for repetitive form filling and data extraction tasks.",
@@ -1359,7 +1411,7 @@
     },
     {
       "id": "autonomous-game-development",
-      "rank": 57,
+      "rank": 59,
       "title_en": "Autonomous Game Development & Deployment",
       "title_ru": "Автономная разработка и развертывание игр",
       "desc_en": "OpenClaw agent autonomously built and deployed a functioning game app that attracted thousands of users overnight.",
@@ -1378,7 +1430,7 @@
     },
     {
       "id": "crypto-trading-agent",
-      "rank": 58,
+      "rank": 60,
       "title_en": "24/7 Crypto Trading with Telegram Updates",
       "title_ru": "Круглосуточная торговля криптовалютой с обновлениями в Telegram",
       "desc_en": "Autonomous crypto trading agent that executes arbitrage opportunities 24/7 and sends real-time Telegram notifications about trades.",
@@ -1399,7 +1451,7 @@
     },
     {
       "id": "software-architecture-analysis",
-      "rank": 59,
+      "rank": 61,
       "title_en": "Automated Software Architecture Analysis & Migration",
       "title_ru": "Автоматизированный анализ архитектуры ПО и миграция",
       "desc_en": "OpenClaw traverses code repositories to map dependencies, generate architecture summaries, refactor modules, and draft migration plans.",
@@ -1420,7 +1472,7 @@
     },
     {
       "id": "openclaw-telegram-whatsapp-automation",
-      "rank": 60,
+      "rank": 62,
       "title_en": "OpenClaw Multi-Platform Personal Assistant Setup",
       "title_ru": "Настройка персонального ассистента OpenClaw для разных платформ",
       "desc_en": "Complete setup of OpenClaw AI agent with Telegram/WhatsApp integration, enabling automated task execution through natural language conversations.",
@@ -1446,7 +1498,7 @@
     },
     {
       "id": "openclaw-comprehensive-agent-system",
-      "rank": 61,
+      "rank": 63,
       "title_en": "Full OpenClaw Agent System with Docker Sandboxing",
       "title_ru": "Полная система агентов OpenClaw с песочницей Docker",
       "desc_en": "Complete OpenClaw deployment covering installation, AI model integration, persistent memory, custom skills, and Docker-based security sandboxing.",
@@ -1476,7 +1528,7 @@
     },
     {
       "id": "google-workspace-ai-assistant",
-      "rank": 62,
+      "rank": 64,
       "title_en": "AI Assistant for Google Workspace Management",
       "title_ru": "ИИ-помощник для управления Google Workspace",
       "desc_en": "Personal AI bot managing calendar, documents, and sending briefings through Google Workspace integration.",
@@ -1502,7 +1554,7 @@
     },
     {
       "id": "local-data-analyst-ollama",
-      "rank": 63,
+      "rank": 65,
       "title_en": "Local Data Analyst with Ollama Integration",
       "title_ru": "Локальный аналитик данных с интеграцией Ollama",
       "desc_en": "Privacy-focused data analysis system using OpenClaw and local Ollama models for CSV analysis and visualization.",
@@ -1528,7 +1580,7 @@
     },
     {
       "id": "personal-ai-employee-peter-yang",
-      "rank": 64,
+      "rank": 66,
       "title_en": "Personal AI Employee with Google Workspace Integration",
       "title_ru": "Личный ИИ-сотрудник с интеграцией Google Workspace",
       "desc_en": "Complete AI assistant setup managing calendar, documents, voice responses, daily briefings, and weekly reports through text commands.",
@@ -1556,7 +1608,7 @@
     },
     {
       "id": "local-data-analyst-datacamp",
-      "rank": 65,
+      "rank": 67,
       "title_en": "Local Data Analyst with Ollama Integration",
       "title_ru": "Локальный аналитик данных с интеграцией Ollama",
       "desc_en": "Complete local-first AI data analysis system using OpenClaw and Ollama for private CSV analysis with visualizations and reports.",
@@ -1583,7 +1635,7 @@
     },
     {
       "id": "morning-routine-cron-automation",
-      "rank": 66,
+      "rank": 68,
       "title_en": "Automated Daily Morning Routine with OpenClaw Cron Jobs",
       "title_ru": "Автоматизированная утренняя рутина с заданиями Cron в OpenClaw",
       "desc_en": "Complete morning briefing automation that saves 2+ hours daily through scheduled tasks for weather, calendar, email monitoring, and maintenance.",
@@ -1606,7 +1658,7 @@
     },
     {
       "id": "small-business-automation-suite",
-      "rank": 67,
+      "rank": 69,
       "title_en": "10 OpenClaw Business Automations Saving 15+ Hours Weekly",
       "title_ru": "10 бизнес-автоматизаций OpenClaw, экономящих 15+ часов в неделю",
       "desc_en": "Comprehensive small business automation suite covering customer support, scheduling, email triage, inventory alerts, and lead qualification across multiple channels.",
@@ -1632,7 +1684,7 @@
     },
     {
       "id": "tiktok-marketing-agent",
-      "rank": 68,
+      "rank": 70,
       "title_en": "TikTok Marketing Agent for Influencer Growth",
       "title_ru": "Агент для маркетинга в TikTok и роста влияния",
       "desc_en": "OpenClaw agent 'Larry' automated TikTok marketing activities, achieving millions of views in one week for influencer marketing.",
@@ -1645,7 +1697,7 @@
     },
     {
       "id": "obsidian-vault-builder",
-      "rank": 69,
+      "rank": 71,
       "title_en": "Automated Obsidian Vault Building",
       "title_ru": "Автоматическое создание хранилищ Obsidian",
       "desc_en": "OpenClaw agent automatically builds and structures Obsidian knowledge vaults, providing ease of use without manual tool management.",
@@ -1658,7 +1710,7 @@
     },
     {
       "id": "business-seo-copywriting-automation",
-      "rank": 70,
+      "rank": 72,
       "title_en": "Business SEO and Copywriting Automation",
       "title_ru": "Автоматизация бизнес-SEO и копирайтинга",
       "desc_en": "OpenClaw workflows automate $45k of pSEO work in 20 minutes and $50k of copywriting in 15 minutes for business operations.",
@@ -1671,7 +1723,7 @@
     },
     {
       "id": "trading-workflow-automation",
-      "rank": 71,
+      "rank": 73,
       "title_en": "Trading Workflow Automation",
       "title_ru": "Автоматизация торговых процессов",
       "desc_en": "OpenClaw integrated with OpenAlgo to automate trading workflows and financial operations.",
@@ -1684,7 +1736,7 @@
     },
     {
       "id": "vc-daily-workflow-automation",
-      "rank": 72,
+      "rank": 74,
       "title_en": "VC Daily Workflow Automation",
       "title_ru": "Автоматизация ежедневных процессов венчурного капитала",
       "desc_en": "OpenClaw automates VC daily workflows including morning briefings, research, and investor-specific tasks with scheduled operations.",
@@ -1697,7 +1749,7 @@
     },
     {
       "id": "launch-operations-ultron-system",
-      "rank": 73,
+      "rank": 75,
       "title_en": "LAUNCH Operations ULTRON System",
       "title_ru": "Система ULTRON для операций LAUNCH",
       "desc_en": "OpenClaw ULTRON system replaces ~20 entry-level roles at LAUNCH/TWiST, providing automated guest booking and operational workflows.",
@@ -1710,7 +1762,7 @@
     },
     {
       "id": "twitter-automation-local-stack",
-      "rank": 74,
+      "rank": 76,
       "title_en": "Twitter Agent with Local AI Stack",
       "title_ru": "Twitter-агент с локальным AI стеком",
       "desc_en": "Automated Twitter agent running on local llama.cpp with NVIDIA 4070, using browser automation and OpenRouter for edge cases.",
@@ -1723,7 +1775,7 @@
     },
     {
       "id": "ga4-analytics-skill",
-      "rank": 75,
+      "rank": 77,
       "title_en": "GA4 Analytics Skill for ClawdHub",
       "title_ru": "Навык GA4 Analytics для ClawdHub",
       "desc_en": "Built and published GA4 skill in 20 minutes, allowing anyone to install and query Google Analytics data through OpenClaw.",
@@ -1736,7 +1788,7 @@
     },
     {
       "id": "voice-game-engine-control",
-      "rank": 76,
+      "rank": 78,
       "title_en": "Voice-Controlled Game Development",
       "title_ru": "Разработка игр с голосовым управлением",
       "desc_en": "Voice-to-AI agent system that controls 3D characters in PlayCanvas game engine in real-time through Discord commands.",
@@ -1749,7 +1801,7 @@
     },
     {
       "id": "unlimited-web-search",
-      "rank": 77,
+      "rank": 79,
       "title_en": "Free Web Search Integration",
       "title_ru": "Интеграция бесплатного веб-поиска",
       "desc_en": "Configured OpenClaw with unlimited free web search using SearXNG Docker container, eliminating API costs and monthly bills.",
@@ -1762,7 +1814,7 @@
     },
     {
       "id": "automated-marketing-revenue",
-      "rank": 78,
+      "rank": 80,
       "title_en": "Automated Marketing Revenue Generation",
       "title_ru": "Автоматизированное создание дохода в маркетинге",
       "desc_en": "OpenClaw agent 'Larry' generated $4000 in 24 hours through automated TikTok content creation and subscriber acquisition.",
@@ -1775,7 +1827,7 @@
     },
     {
       "id": "blockchain-security-platform",
-      "rank": 79,
+      "rank": 81,
       "title_en": "Autonomous Blockchain Security Platform",
       "title_ru": "Автономная платформа безопасности блокчейна",
       "desc_en": "OpenClaw autonomously built entire Rust blockchain security platform for Solana Hackathon using CRON jobs and judge agent for code review.",
@@ -1788,7 +1840,7 @@
     },
     {
       "id": "multi-docker-spawning",
-      "rank": 80,
+      "rank": 82,
       "title_en": "Multi-Agent Docker Spawning System",
       "title_ru": "Система порождения множественных Docker-агентов",
       "desc_en": "OpenClaw agent that spawns additional Docker containers with other OpenClaw instances for distributed agent operations.",
@@ -1801,7 +1853,7 @@
     },
     {
       "id": "qr-barcode-parcel-system",
-      "rank": 81,
+      "rank": 83,
       "title_en": "QR/Barcode Parcel Collection System",
       "title_ru": "Система сбора посылок с QR/штрих-кодами",
       "desc_en": "Built OpenClaw skill for generating QR/barcodes for parcel collection, with automatic voice message handling using Whisper.",
@@ -1814,7 +1866,7 @@
     },
     {
       "id": "web-automation-data-entry",
-      "rank": 82,
+      "rank": 84,
       "title_en": "Web Browser Automation for Form Filling and Data Extraction",
       "title_ru": "Веб-автоматизация для заполнения форм и извлечения данных",
       "desc_en": "Daily browser automation for repetitive tasks like form filling and data extraction using headless Chrome integration.",
@@ -1827,7 +1879,7 @@
     },
     {
       "id": "development-assistant",
-      "rank": 83,
+      "rank": 85,
       "title_en": "Development Assistant for Coding Tasks",
       "title_ru": "Помощник разработчика для задач программирования",
       "desc_en": "Automated setup chores, repetitive refactors, generating docs/tests, and exploring repos to find where specific functionality is handled.",
@@ -1840,7 +1892,7 @@
     },
     {
       "id": "n8n-workflow-replication",
-      "rank": 84,
+      "rank": 86,
       "title_en": "n8n Workflow Automation Alternative",
       "title_ru": "Альтернатива автоматизации рабочих процессов n8n",
       "desc_en": "Rebuilt OpenClaw's core functionality as a single n8n workflow for extendable workflow automation.",
@@ -1853,7 +1905,7 @@
     },
     {
       "id": "crypto-trading-bot",
-      "rank": 85,
+      "rank": 87,
       "title_en": "Automated Crypto Trading with Telegram Updates",
       "title_ru": "Автоматическая торговля криптовалютой с уведомлениями в Telegram",
       "desc_en": "24/7 crypto trading agent that executes arbitrage opportunities and sends Telegram updates about trades.",
@@ -1866,7 +1918,7 @@
     },
     {
       "id": "autonomous-game-builder",
-      "rank": 86,
+      "rank": 88,
       "title_en": "Autonomous Game Development Agent",
       "title_ru": "Автономный агент для разработки игр",
       "desc_en": "AI agent that builds functioning games from simple prompts, creating apps with thousands of users overnight.",
@@ -1879,7 +1931,7 @@
     },
     {
       "id": "stock-options-trading",
-      "rank": 87,
+      "rank": 89,
       "title_en": "Stock and Options Trading Agent",
       "title_ru": "Агент для торговли акциями и опционами",
       "desc_en": "Trading automation for stocks, options, and crypto using Public's APIs through OpenClaw integration.",
@@ -1892,7 +1944,7 @@
     },
     {
       "id": "personal-assistant-suite",
-      "rank": 88,
+      "rank": 90,
       "title_en": "Personal AI Assistant with Calendar & Documents",
       "title_ru": "Персональный ИИ-помощник с календарем и документами",
       "desc_en": "AI assistant managing calendar, editing documents, sending briefings, and voice replies for productivity.",
@@ -1905,7 +1957,7 @@
     },
     {
       "id": "whatsapp-telegram-integration",
-      "rank": 89,
+      "rank": 91,
       "title_en": "WhatsApp & Telegram Integration Agent",
       "title_ru": "Агент интеграции с WhatsApp и Telegram",
       "desc_en": "AI agent connecting with familiar messaging apps like WhatsApp and Telegram for seamless interaction.",
@@ -1918,7 +1970,7 @@
     },
     {
       "id": "todoist-automation",
-      "rank": 90,
+      "rank": 92,
       "title_en": "Todoist Task Automation",
       "title_ru": "Автоматизация задач в Todoist",
       "desc_en": "AI agent that creates custom skills for Todoist task automation through Telegram chat interface.",
@@ -1931,7 +1983,7 @@
     },
     {
       "id": "code-repository-analyzer",
-      "rank": 91,
+      "rank": 93,
       "title_en": "Code Repository Analysis Agent",
       "title_ru": "Агент анализа репозиториев кода",
       "desc_en": "Software engineering agent that maps dependencies, generates architecture summaries, and drafts migration plans.",
@@ -1944,7 +1996,7 @@
     },
     {
       "id": "research-assistant",
-      "rank": 92,
+      "rank": 94,
       "title_en": "Autonomous Research Assistant",
       "title_ru": "Автономный исследовательский помощник",
       "desc_en": "AI agent conducting deep topic research, summarizing articles, and providing cited sources automatically.",
@@ -1957,7 +2009,7 @@
     },
     {
       "id": "voice-journal-automation",
-      "rank": 93,
+      "rank": 95,
       "title_en": "Voice Recording to Daily Journal",
       "title_ru": "Голосовые записи в ежедневный дневник",
       "desc_en": "Automatically transcribes voice recordings and converts them into clean journal entries each evening using speech-to-text.",
@@ -1970,7 +2022,7 @@
     },
     {
       "id": "goal-task-generator",
-      "rank": 94,
+      "rank": 96,
       "title_en": "Self-Generating Task Management System",
       "title_ru": "Самогенерирующая система управления задачами",
       "desc_en": "Brain dumps goals into OpenClaw, which then generates and manages daily tasks automatically on a Kanban board to achieve those goals.",
@@ -1983,7 +2035,7 @@
     },
     {
       "id": "comprehensive-personal-assistant",
-      "rank": 95,
+      "rank": 97,
       "title_en": "All-in-One Personal Assistant",
       "title_ru": "Универсальный персональный помощник",
       "desc_en": "Manages email spam removal, messaging, online ordering, reminders, GitHub issues, Google Places sync, and expense tracking automatically.",
@@ -1996,7 +2048,7 @@
     },
     {
       "id": "ai-trading-desk",
-      "rank": 96,
+      "rank": 98,
       "title_en": "7-Agent AI Trading Desk",
       "title_ru": "Торговый стол из 7 ИИ-агентов",
       "desc_en": "Built a multi-agent system for automated trading operations with specialized agents handling different aspects of market analysis.",
@@ -2009,7 +2061,7 @@
     },
     {
       "id": "nightlife-event-scraper",
-      "rank": 97,
+      "rank": 99,
       "title_en": "Autonomous Event Scraping Agent",
       "title_ru": "Автономный агент сбора событий",
       "desc_en": "Scrapes 100+ nightlife events from 4 platforms daily, completely autonomously organizing entertainment information.",
@@ -2022,7 +2074,7 @@
     },
     {
       "id": "proactive-business-assistant",
-      "rank": 98,
+      "rank": 100,
       "title_en": "Proactive Business Assistant",
       "title_ru": "Проактивный бизнес-помощник",
       "desc_en": "Proactively handles email checking, message replies, LinkedIn management, and general personal assistant tasks for entrepreneurs.",
@@ -2031,32 +2083,6 @@
       "source": "Reddit",
       "source_url": "https://www.reddit.com/r/Entrepreneur/comments/1r38e7e/i_built_a_personal_assistant_on_openclaw_and_id/",
       "points": 257,
-      "date": "2026-02-17"
-    },
-    {
-      "id": "daily-reddit-digest",
-      "rank": 99,
-      "title_en": "Daily Reddit Digest — AI summarizes your favorite subreddits",
-      "title_ru": "Дейли-дайджест Reddit — AI собирает топ из любимых сабреддитов",
-      "desc_en": "Get a curated daily digest of your favourite subreddits based on your preferences. Never miss trending discussions, automatically filtered by what matters to you.",
-      "desc_ru": "Получай ежедневную подборку из любимых сабреддитов по твоим интересам. Не пропускай важные обсуждения — фильтрация автоматическая.",
-      "tag": "automation",
-      "source": "GitHub",
-      "source_url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-reddit-digest.md",
-      "points": 342,
-      "date": "2026-02-17"
-    },
-    {
-      "id": "overnight-mini-app-builder",
-      "rank": 100,
-      "title_en": "Overnight Mini-App Builder — wake up to working apps",
-      "title_ru": "Ночной сборщик мини-приложений — просыпаешься с готовым продуктом",
-      "desc_en": "Brain dump your goals and have your agent autonomously generate, schedule, and complete tasks — including building surprise mini-apps while you sleep.",
-      "desc_ru": "Накидываешь цели перед сном — агент сам разбивает на задачи и выполняет. Утром просыпаешься с готовыми мини-приложениями.",
-      "tag": "coding",
-      "source": "GitHub",
-      "source_url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/overnight-mini-app-builder.md",
-      "points": 287,
       "date": "2026-02-17"
     }
   ]
