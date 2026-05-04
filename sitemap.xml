@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://openclawtimes.com/playground/</loc>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/ai-operating-system/</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/ai-operating-system/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/ai-operating-system/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/ai-operating-system/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/ai-operating-system/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/saas-ai-revolution/</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/saas-ai-revolution/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/saas-ai-revolution/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/saas-ai-revolution/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/saas-ai-revolution/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/google-ai-ethics/</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/google-ai-ethics/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/google-ai-ethics/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/google-ai-ethics/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/google-ai-ethics/"/>
   </url>
   <url>
     <loc>https://openclawtimes.com/playground/articles/industrial-capabilities-space/</loc>
@@ -479,35 +509,5 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/youtube-earnings-breakdown/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/youtube-earnings-breakdown/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/youtube-earnings-breakdown/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/chatgpt-images-2-0/</loc>
-    <lastmod>2026-04-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/chatgpt-images-2-0/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/chatgpt-images-2-0/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/chatgpt-images-2-0/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/chatgpt-images-2-0/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/claude-design-ui-ai/</loc>
-    <lastmod>2026-04-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/claude-design-ui-ai/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/claude-design-ui-ai/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/claude-design-ui-ai/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/claude-design-ui-ai/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/mythos-leaks-spacex-openai/</loc>
-    <lastmod>2026-04-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/mythos-leaks-spacex-openai/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/mythos-leaks-spacex-openai/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/mythos-leaks-spacex-openai/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/mythos-leaks-spacex-openai/"/>
   </url>
 </urlset>
