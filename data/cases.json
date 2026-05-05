@@ -1,14 +1,41 @@
 {
-  "updated": "2026-05-02T10:44:21.100Z",
+  "updated": "2026-05-05T11:13:25.042Z",
   "stats": {
     "total": 100,
-    "today": 2,
-    "week": 11
+    "today": 1,
+    "week": 12
   },
   "cases": [
     {
-      "id": "ai-agents-enterprise-salesforce",
+      "id": "clawsweeper-openclaw-maintenance-bot",
       "rank": 1,
+      "title_en": "OpenClaw AI Agent: Automating GitHub Issue and PR Management",
+      "title_ru": "OpenClaw AI-бот: автоматизация работы с задачами и PR на GitHub",
+      "desc_en": "Discover how ClawSweeper automates issue and PR handling for open-source projects. Save time and boost productivity. Read the full case study.",
+      "desc_ru": "Узнайте, как ClawSweeper автоматизирует работу с задачами и PR в open-source. Экономьте время и повышайте эффективность! Читайте кейс.",
+      "content_en": "## INTRO\n\nOpen-source projects are the backbone of modern tech businesses, but keeping them running smoothly is a massive challenge. Entrepreneurs and business owners know that every minute spent handling GitHub issues or reviewing pull requests is a minute not spent growing the business. The flood of issues, bug reports, and PRs can overwhelm even the most dedicated teams, leading to burnout, delays, and missed opportunities.\n\nWhat if you could automate the tedious parts of open-source maintenance? Enter ClawSweeper, a new AI-powered tool built for the OpenClaw platform. This case study dives into how ClawSweeper transforms the way teams handle issues and PRs, freeing up time for real innovation. You’ll learn exactly how this AI agent works, what results it delivers, and whether it’s the right solution for your business.\n\n## How Does ClawSweeper Automate Open-Source Maintenance?\n\nClawSweeper is designed to take over the repetitive, time-consuming chores that come with managing an open-source repository. It connects directly to your GitHub repo and runs on top of Codex, an AI model specialized in code understanding and generation. Here’s what makes it stand out:\n\n- **End-to-end automation:** ClawSweeper monitors incoming issues, attempts to fix them, creates pull requests, and manages the review process.\n- **Guarded PRs:** Every fix goes through a guarded PR, ensuring that nothing gets merged without proper checks.\n- **Continuous loop:** The bot doesn’t just stop at one fix. If a PR needs changes, it goes back, repairs the code, and resubmits for review until everything passes.\n\n> \"For all the hard working OSS folks that drown in issues and PRs, this is for you.\" — Peter Steinberger, creator of ClawSweeper\n\n## What Business Problems Does ClawSweeper Solve?\n\nEntrepreneurs and project maintainers often face a mountain of small but crucial tasks: triaging issues, applying fixes, and reviewing code. These tasks eat up valuable time and slow down innovation. ClawSweeper addresses several pain points:\n\n- **Reduces manual intervention:** The bot automates the entire process from issue detection to PR merging.\n- **Improves response times:** Issues get addressed faster, keeping contributors and users happy.\n- **Prevents burnout:** By handling repetitive tasks, the bot frees up maintainers for more strategic work.\n\nFor businesses relying on open-source, faster maintenance means quicker feature delivery, better security, and a more active community.\n\n## How Does the Issue-to-PR Loop Work in Practice?\n\nThe core value of ClawSweeper is in its ability to handle the full cycle:\n\n1. An issue is created in the repository.\n2. ClawSweeper analyzes the issue and attempts a fix using Codex.\n3. The bot creates a guarded pull request with the proposed solution.\n4. If the PR fails checks or review, ClawSweeper repairs and resubmits.\n5. Once approved, the PR is automatically merged.\n\nThis loop drastically cuts down the time from issue report to solution. Instead of days or weeks waiting for human review, many tasks can be resolved in hours or even minutes.\n\n- **No more manual triage**\n- **Fewer bottlenecks in code review**\n- **Automated merging when criteria are met**\n\n## How Can Businesses Implement ClawSweeper?\n\nClawSweeper is open source and designed for easy adoption. Business owners or team leads can fork the tool and set it up for any repository. The setup process involves connecting the bot to your GitHub repo and configuring access to Codex. No deep AI expertise is required.\n\n- **Open-source license** means no vendor lock-in\n- **Works with any repo** — not just OpenClaw projects\n- **Active community** for support and improvements\n\n> \"It's open source, runs on Codex and you can fork and use it for any repo.\"\n\n## What Results Have Maintainers Seen?\n\nWhile ClawSweeper is still evolving, early users report significant time savings. Maintainers who used to spend hours per week on triage and review now let the bot handle routine fixes. This shift allows them to:\n\n- Focus on roadmap and feature development\n- Respond to critical bugs faster\n- Maintain higher code quality with less effort\n\nThe main outcome: less time spent on grunt work, more time for growth.\n\n## What Are the Risks and Limitations of AI-Powered Maintenance?\n\nLike any automation, ClawSweeper isn’t a magic bullet. Businesses must consider:\n\n- **Quality of fixes:** AI-generated code still needs review for complex changes.\n- **False positives:** Not every issue can be fixed automatically.\n- **Security:** Automated bots need proper permissions and safeguards.\n\nThe best results come when ClawSweeper handles the routine, while humans focus on strategic and complex decisions.\n\n## Frequently Asked Questions (FAQ)\n\n**Q: Do I need to be a developer to use ClawSweeper?**\nA: No, the setup is straightforward and designed for business users or team leads. Basic GitHub knowledge is enough.\n\n**Q: Is ClawSweeper safe to use on production repositories?**\nA: Yes, but always use guarded PRs and code reviews to ensure quality and security before merging changes.\n\n**Q: Can ClawSweeper handle any type of issue?**\nA: It works best for routine bugs and small fixes. Complex or architectural issues may still need human intervention.\n\n**Q: Does it work only with OpenClaw projects?**\nA: No, ClawSweeper can be forked and used with any GitHub repository.\n\n**Q: Is there a cost to using ClawSweeper?**\nA: The tool is open source, so there’s no license fee. You may need access to Codex, which could have its own pricing.\n\n## Conclusion\n\nClawSweeper represents a new era of AI-driven automation for open-source maintenance. For businesses, it means less time wasted on routine tasks and more focus on innovation. If you manage a project drowning in issues and PRs, try forking ClawSweeper today and see how much time you can save. The future of open-source maintenance is automated—and your team can lead the way.",
+      "content_ru": "## Введение\n\nОткрытые проекты — сердце современных технологий, но поддерживать их в порядке сложно даже для опытных команд. Владельцы бизнеса и руководители знают: каждая минута, потраченная на разбор задач и pull request’ов на GitHub — минута, которую можно было вложить в развитие продукта или поиск новых клиентов. Проблема знакома многим: задачи копятся, баги тянутся неделями, а энтузиазм команды тает.\n\nА если бы рутину можно было переложить на ИИ? ClawSweeper — новый бот для платформы OpenClaw, который автоматизирует работу с задачами и PR в open-source репозиториях. В этой статье разберём, как работает этот инструмент, какие задачи он решает и почему это важно для предпринимателей и команд в России и СНГ. Вы узнаете, как сэкономить время, снизить выгорание и ускорить развитие проекта.\n\n## Как ClawSweeper автоматизирует поддержку проектов?\n\nClawSweeper берёт на себя всё, что обычно съедает часы: отслеживание новых задач, попытки их исправить, создание pull request’ов и прохождение ревью. Бот подключается к вашему репозиторию на GitHub и работает на базе Codex — ИИ, который умеет понимать и писать код.\n\n- **Автоматизация от задачи до слияния:** ClawSweeper сам видит новые задачи, предлагает исправления, создаёт PR и доводит их до конца.\n- **Безопасные PR:** Каждый PR проходит проверки, ничего не сливается в основную ветку без контроля.\n- **Цикл без остановки:** Если в PR что-то не так, бот сам дорабатывает решение и отправляет на ревью снова, пока всё не будет в порядке.\n\n> «Для всех, кто тонет в задачах и PR — это для вас.» — Питер Штайнбергер, автор ClawSweeper\n\n## Какие бизнес-проблемы решает ClawSweeper?\n\nРуководители и предприниматели часто сталкиваются с ворохом мелких, но важных задач: сортировка багов, исправления, ревью кода. Всё это отнимает время и тормозит развитие. ClawSweeper помогает справиться с несколькими болями:\n\n- **Меньше ручной рутины:** Бот автоматизирует путь от задачи до слияния PR.\n- **Быстрее закрываются баги:** Пользователи и контрибьюторы довольны, проблемы решаются оперативно.\n- **Выгорание снижается:** Рутинные задачи уходит к боту, команда фокусируется на стратегии и новых фичах.\n\nДля бизнеса это значит: быстрее появляются обновления, меньше багов, крепче комьюнити вокруг продукта.\n\n## Как работает цикл от задачи до PR на практике?\n\nГлавная ценность ClawSweeper — в полном автоматическом цикле:\n\n1. В репозитории появляется новая задача.\n2. ClawSweeper анализирует баг и пробует его исправить через Codex.\n3. Бот создаёт безопасный pull request с решением.\n4. Если PR не проходит проверки — бот дорабатывает и отправляет снова.\n5. После одобрения PR автоматически сливается в основную ветку.\n\nЭтот цикл сокращает время от появления бага до его решения с недель до часов или даже минут.\n\n- **Больше не нужно вручную сортировать задачи**\n- **Меньше узких мест на ревью**\n- **Автоматическое слияние при выполнении всех условий**\n\n## Как внедрить ClawSweeper в свой проект?\n\nClawSweeper — полностью open-source и легко подключается к любому репозиторию. Руководителю или владельцу бизнеса достаточно форкнуть инструмент и настроить подключение к GitHub и Codex. Глубоких знаний ИИ не требуется.\n\n- **Открытая лицензия** — нет привязки к вендору\n- **Работает с любым репозиторием, не только OpenClaw**\n- **Живое сообщество** — можно получать поддержку и дорабатывать под себя\n\n> «Он open-source, работает на Codex и подходит для любого репозитория.»\n\n## Какие результаты получают команды?\n\nХотя ClawSweeper ещё развивается, первые пользователи уже отмечают явную экономию времени. Если раньше на сортировку и ревью уходили часы каждую неделю, теперь рутину берёт на себя бот. Это позволяет:\n\n- Фокусироваться на развитии и новых возможностях\n- Быстрее реагировать на критичные баги\n- Держать качество кода на уровне без лишних усилий\n\nГлавный результат: меньше рутины, больше времени на рост продукта.\n\n## Какие ограничения и риски у автоматизации с помощью ИИ?\n\nКак и любой инструмент, ClawSweeper — не волшебная палочка. Важно помнить:\n\n- **Качество фиксов:** Для сложных изменений всё равно нужен человеческий контроль.\n- **Не все задачи по зубам ИИ:** Бот отлично справляется с типовыми багами, но архитектурные задачи — всё ещё для людей.\n- **Безопасность:** Боту нужны права доступа, важно грамотно настроить ограничения.\n\nЛучший результат — когда ClawSweeper берёт рутину, а команда решает стратегические и сложные вопросы.\n\n## Часто задаваемые вопросы (FAQ)\n\n**Вопрос: Нужно ли быть программистом, чтобы использовать ClawSweeper?**\nОтвет: Нет, настройка простая, достаточно базовых знаний работы с GitHub.\n\n**Вопрос: Безопасно ли использовать ClawSweeper в боевом проекте?**\nОтвет: Да, но всегда настраивайте проверки и ревью перед слиянием изменений.\n\n**Вопрос: ClawSweeper решает любые задачи?**\nОтвет: Лучше всего бот справляется с типовыми багами и мелкими правками. Сложные задачи — для людей.\n\n**Вопрос: Только для проектов OpenClaw?**\nОтвет: Нет, инструмент подходит для любого репозитория на GitHub.\n\n**Вопрос: Сколько стоит использование ClawSweeper?**\nОтвет: Сам бот бесплатный, open-source. Для Codex может потребоваться отдельная подписка.\n\n## Заключение\n\nClawSweeper — это шаг в будущее автоматизации поддержки open-source. Для бизнеса это меньше рутины и больше времени на развитие. Если ваш проект утопает в задачах и PR — попробуйте подключить ClawSweeper уже сегодня и посмотрите, сколько часов он сэкономит вашей команде. Будущее поддержки — за автоматизацией, и вы можете быть в первых рядах.",
+      "tools_en": [
+        "ClawSweeper",
+        "OpenClaw",
+        "Codex"
+      ],
+      "tools_ru": [
+        "ClawSweeper — бот для автоматизации обслуживания репозиториев",
+        "OpenClaw — open-source платформа для поддержки проектов",
+        "Codex — ИИ для генерации и анализа кода"
+      ],
+      "results_en": "Automates the loop of issue fixing, PR creation, review, and merging, reducing manual workload for open-source maintainers.",
+      "results_ru": "Автоматизирует цикл: задача — исправление — PR — ревью — автослияние, снижая ручную работу для open-source команд.",
+      "tag": "automation",
+      "source": "Twitter",
+      "source_url": "https://x.com/steipete/status/2051020548335874369?lang=en",
+      "points": 264,
+      "date": "2026-05-05"
+    },
+    {
+      "id": "ai-agents-enterprise-salesforce",
+      "rank": 2,
       "title_en": "AI Agents Trends 2026: How Enterprise Automation Is Evolving",
       "title_ru": "AI-агенты 2026: как автоматизация меняет бизнес",
       "desc_en": "Discover how AI agents are transforming enterprise automation in 2026. Learn key trends, tools, and results. Start optimizing your business today!",
@@ -39,7 +66,7 @@
     },
     {
       "id": "cosupport-ai-customer-support",
-      "rank": 2,
+      "rank": 3,
       "title_en": "AI Customer Service Platform: Automate Support with CoSupport",
       "title_ru": "AI-платформа для поддержки: автоматизация сервиса с CoSupport",
       "desc_en": "Discover how CoSupport AI automates customer service, cuts costs, and boosts resolution rates. Learn how to implement AI support today.",
@@ -62,7 +89,7 @@
     },
     {
       "id": "openclaw-ai-management-team",
-      "rank": 3,
+      "rank": 4,
       "title_en": "OpenClaw AI Agents: Automate Management Tasks with 24/7 Virtual Team",
       "title_ru": "OpenClaw AI-агенты: автоматизация бизнес-рутины с виртуальной командой",
       "desc_en": "Discover how OpenClaw AI agents automate management, research, and content tasks 24/7. Learn actionable steps to boost your business productivity now.",
@@ -87,7 +114,7 @@
     },
     {
       "id": "ai-agents-business-automation-2026",
-      "rank": 4,
+      "rank": 5,
       "title_en": "AI Agents 2026: Business Automation, Custom Software & ROI",
       "title_ru": "AI-агенты 2026: автоматизация бизнеса и кастомные решения",
       "desc_en": "Explore how AI agents in 2026 automate business operations, boost decisions, and integrate with custom software. Learn practical steps for your company.",
@@ -116,7 +143,7 @@
     },
     {
       "id": "workspace-agents-slack-gong",
-      "rank": 5,
+      "rank": 6,
       "title_en": "Workspace Agents in ChatGPT: Automate Sales Briefs, Save Hours Weekly",
       "title_ru": "Workspace Agents в ChatGPT: автоматизация отчетов и экономия времени",
       "desc_en": "Discover how ChatGPT workspace agents automate sales research, summarize Gong calls, and post deal briefs to Slack. Boost team efficiency today.",
@@ -143,7 +170,7 @@
     },
     {
       "id": "ai-agents-production-enterprise",
-      "rank": 6,
+      "rank": 7,
       "title_en": "AI Agents in Production: How Enterprises Lead in 2026",
       "title_ru": "AI-агенты в бизнесе: как крупные компании внедряют ИИ в 2026",
       "desc_en": "Discover how AI agents are transforming customer service, research, and productivity in enterprises. Learn key adoption trends and actionable insights.",
@@ -170,7 +197,7 @@
     },
     {
       "id": "ai-content-automation-case",
-      "rank": 7,
+      "rank": 8,
       "title_en": "AI Content Automation: How House of Growth Doubled Output in 2026",
       "title_ru": "AI-контент-автоматизация: как House of Growth удвоили объём в 2026",
       "desc_en": "Discover how House of Growth used AI automation to double content output without hiring more staff. See real results and actionable tips.",
@@ -193,7 +220,7 @@
     },
     {
       "id": "ai-automation-small-business",
-      "rank": 8,
+      "rank": 9,
       "title_en": "AI Automation for Small Business: Top Use Cases Worth Trying Now",
       "title_ru": "AI-автоматизация для малого бизнеса: лучшие кейсы прямо сейчас",
       "desc_en": "Discover how AI automation solves real small business problems. Learn use cases, tools, and results. Start optimizing your workflow today!",
@@ -220,7 +247,7 @@
     },
     {
       "id": "ai-agent-marketing-automation",
-      "rank": 9,
+      "rank": 10,
       "title_en": "AI Agent Marketing Automation: How AI Agents Transform Campaigns",
       "title_ru": "AI-агенты для маркетинга: автоматизация кампаний и рост продаж",
       "desc_en": "Discover how AI agents automate marketing, boost speed, and personalize campaigns. Learn to start today with MindStudio. Read the full guide!",
@@ -245,7 +272,7 @@
     },
     {
       "id": "ai-marketing-agents-salesforce",
-      "rank": 10,
+      "rank": 11,
       "title_en": "AI Marketing Agents: Transforming Campaign Automation in 2024",
       "title_ru": "AI-маркетинговые агенты: автоматизация кампаний в 2024 году",
       "desc_en": "Discover how AI marketing agents automate campaigns, personalize content, and save time. Learn how to boost your marketing now.",
@@ -272,7 +299,7 @@
     },
     {
       "id": "intercom-ai-helpdesk-case",
-      "rank": 11,
+      "rank": 12,
       "title_en": "AI Helpdesk Intercom: Transforming Customer Support with Automation",
       "title_ru": "AI Helpdesk Intercom: автоматизация поддержки клиентов для бизнеса",
       "desc_en": "Discover how Intercom's AI Agent Fin automates customer support, boosts efficiency, and delivers seamless experiences. See real business results.",
@@ -297,7 +324,7 @@
     },
     {
       "id": "ai-agents-marketing-guide",
-      "rank": 12,
+      "rank": 13,
       "title_en": "AI Agents in Marketing: Transforming Campaigns and Content in 2026",
       "title_ru": "AI-агенты в маркетинге: трансформация кампаний и контента в 2026",
       "desc_en": "Discover how AI agents automate marketing workflows, boost revenue, and cut costs. Learn real use cases and start optimizing your strategy today.",
@@ -324,7 +351,7 @@
     },
     {
       "id": "ai-agent-saves-time",
-      "rank": 13,
+      "rank": 14,
       "title_en": "AI Agent Case Study: Save 80 Hours Weekly with Internal Automation",
       "title_ru": "AI-агент для бизнеса: экономия 80 часов в неделю на рутине",
       "desc_en": "Discover how an AI agent helped a legal-finance firm reclaim 80 hours weekly. Learn to boost productivity with smart automation. Read the full case study.",
@@ -349,7 +376,7 @@
     },
     {
       "id": "ai-invoice-automation-sme",
-      "rank": 14,
+      "rank": 15,
       "title_en": "AI Invoice Automation: How SMEs Cut Costs and Save Time in 2026",
       "title_ru": "AI автоматизация счетов: как малый бизнес экономит время и деньги",
       "desc_en": "Discover how AI invoice automation helps small businesses save 80% time and 2–3% per invoice. Learn proven steps to boost ROI.",
@@ -376,7 +403,7 @@
     },
     {
       "id": "ai-agentic-automation-enterprise",
-      "rank": 15,
+      "rank": 16,
       "title_en": "AI Automation Trends 2026: How Agentic Automation Transforms Enterprise",
       "title_ru": "Тренды AI-автоматизации 2026: как агентные решения меняют бизнес",
       "desc_en": "Discover how AI agent automation is slashing costs, boosting productivity and reshaping enterprise operations. See real trends and actionable steps.",
@@ -405,7 +432,7 @@
     },
     {
       "id": "claude-code-appstore-automation",
-      "rank": 16,
+      "rank": 17,
       "title_en": "Claude Code App Store Automation: AI Agents Streamline App Deployment",
       "title_ru": "Автоматизация App Store с Claude Code: ИИ-агенты ускоряют релизы",
       "desc_en": "Discover how Claude Code automates App Store submissions, saving hours and reducing errors. Learn how AI agents accelerate app launches. Read more!",
@@ -432,7 +459,7 @@
     },
     {
       "id": "chatgpt-agents-business-automation",
-      "rank": 17,
+      "rank": 18,
       "title_en": "ChatGPT Agents for Business: Automate Research, Support, and Content Fast",
       "title_ru": "ChatGPT Agents для бизнеса: автоматизация ресерча, поддержки и контента",
       "desc_en": "Discover how ChatGPT Agents automate research, customer support, and content creation. Boost efficiency and free up your team. Learn practical use cases now.",
@@ -457,7 +484,7 @@
     },
     {
       "id": "chatgpt-agent-lead-gen",
-      "rank": 18,
+      "rank": 19,
       "title_en": "ChatGPT Agent Mode for Lead Generation: Real Automation in Action",
       "title_ru": "ChatGPT Agent Mode для лидогенерации: реальный опыт автоматизации",
       "desc_en": "Discover how ChatGPT Agent Mode automates lead generation, saving hours weekly. Learn actionable steps to boost your client list today.",
@@ -484,7 +511,7 @@
     },
     {
       "id": "ai-agents-business-automation",
-      "rank": 19,
+      "rank": 20,
       "title_en": "AI Agents Business Automation: Real Use Cases for Productivity Gains",
       "title_ru": "AI-агенты для бизнеса: реальные кейсы автоматизации и роста эффективности",
       "desc_en": "Discover how AI agents automate business tasks, boost productivity, and cut costs. Real-world examples for entrepreneurs. Learn more now!",
@@ -509,7 +536,7 @@
     },
     {
       "id": "ai-customer-support-forethought",
-      "rank": 20,
+      "rank": 21,
       "title_en": "AI Customer Support: How Forethought Delivers 24/7 Service and ROI",
       "title_ru": "AI для поддержки клиентов: как Forethought увеличивает ROI и ускоряет сервис",
       "desc_en": "Discover how Forethought’s AI agents automate customer support, cut response times, and boost ROI. Learn how your business can benefit today.",
@@ -536,7 +563,7 @@
     },
     {
       "id": "decagon-ai-concierge-usecase",
-      "rank": 21,
+      "rank": 22,
       "title_en": "AI Concierge Decagon: Transforming Customer Service for Enterprises",
       "title_ru": "AI-консьерж Decagon: новый уровень сервиса для бизнеса",
       "desc_en": "Discover how Decagon's AI concierge boosts customer satisfaction, cuts costs, and drives revenue. Learn how to apply it in your business.",
@@ -561,7 +588,7 @@
     },
     {
       "id": "claude-code-agents-workflow",
-      "rank": 22,
+      "rank": 23,
       "title_en": "Claude Code Agents Workflow: Automate Project Management with AI",
       "title_ru": "Claude Code Agents: автоматизация управления проектами с помощью ИИ",
       "desc_en": "Discover how Claude Code agents streamline project workflows, automate team roles, and boost efficiency. Learn to apply AI for smarter business today.",
@@ -584,7 +611,7 @@
     },
     {
       "id": "ai-agents-whatsapp-automation",
-      "rank": 23,
+      "rank": 24,
       "title_en": "AI Automation in Business: Real WhatsApp Agent Case Study",
       "title_ru": "AI-автоматизация в бизнесе: кейс реального WhatsApp-агента",
       "desc_en": "Discover how AI agents automate WhatsApp challenges, boost engagement, and save 30+ hours/month. See real results and get inspired to start now!",
@@ -615,7 +642,7 @@
     },
     {
       "id": "sierra-ai-customer-experience",
-      "rank": 24,
+      "rank": 25,
       "title_en": "AI Customer Experience: How Sierra Transforms Business Interactions",
       "title_ru": "AI для клиентского опыта: как Sierra меняет бизнес-коммуникации",
       "desc_en": "Discover how Sierra's AI agents boost customer value, unify channels, and enable outcome-based pricing. See real results and get started today.",
@@ -644,7 +671,7 @@
     },
     {
       "id": "ai-agents-business-2026",
-      "rank": 25,
+      "rank": 26,
       "title_en": "AI Agents for Business 2026: Best Tools to Automate Your Company",
       "title_ru": "AI-агенты для бизнеса 2026: лучшие инструменты автоматизации компании",
       "desc_en": "Discover top AI agents for business automation in 2026. Learn how tools like UI Bakery save time and boost efficiency. Explore your options now!",
@@ -675,7 +702,7 @@
     },
     {
       "id": "claude-autonomous-agent-pays",
-      "rank": 26,
+      "rank": 27,
       "title_en": "Claude AI Agent: How to Build an Autonomous Agent That Pays for Services",
       "title_ru": "Claude AI агент: как создать автономного агента для оплаты сервисов",
       "desc_en": "Discover how a Claude AI agent autonomously pays for web services to complete tasks. Learn the workflow and boost your business automation today.",
@@ -700,7 +727,7 @@
     },
     {
       "id": "ai-agent-single-flow-case",
-      "rank": 27,
+      "rank": 28,
       "title_en": "AI Agent Workflows: Why Single-Agent Setups Outperform in Business",
       "title_ru": "AI-агенты в бизнесе: почему один агент эффективнее команды",
       "desc_en": "Discover why single-agent AI workflows often beat multi-agent setups in real business tasks. Learn how to optimize your automation today.",
@@ -725,7 +752,7 @@
     },
     {
       "id": "ai-agents-marketing-solutions",
-      "rank": 28,
+      "rank": 29,
       "title_en": "AI Agents for Marketing: Top Solutions, Benefits & Real Use Cases",
       "title_ru": "AI-агенты для маркетинга: лучшие решения, выгоды и реальные кейсы",
       "desc_en": "Discover how AI agents transform marketing with automation, personalization, and real-world impact. Learn benefits, features, and top solutions now.",
@@ -748,7 +775,7 @@
     },
     {
       "id": "ai-agents-automate-ops",
-      "rank": 29,
+      "rank": 30,
       "title_en": "AI Agents Automate Ops: Real-World Workflow Integration Example",
       "title_ru": "AI-агенты автоматизируют бизнес: реальный кейс интеграции",
       "desc_en": "Discover how AI agents automate business ops by linking Obsidian, ClickUp, and Discord. See real results and start streamlining your workflow today!",
@@ -777,7 +804,7 @@
     },
     {
       "id": "openclaw-real-use-cases",
-      "rank": 30,
+      "rank": 31,
       "title_en": "OpenClaw use cases: 500 real AI automations entrepreneurs need",
       "title_ru": "OpenClaw: 500 реальных кейсов ИИ-автоматизации для бизнеса",
       "desc_en": "Discover 500 real OpenClaw AI use cases, copy-paste prompts, and instant automations. Learn how to boost productivity and grow your business with AI.",
@@ -800,7 +827,7 @@
     },
     {
       "id": "ai-agent-sales-automation",
-      "rank": 31,
+      "rank": 32,
       "title_en": "AI Agent Sales Automation: OpenClaw Transforms Sales Workflow",
       "title_ru": "AI-агент автоматизация продаж: OpenClaw меняет работу отдела",
       "desc_en": "Discover how AI agents like OpenClaw can automate your sales cycle, save time, and boost revenue. Learn actionable steps to modernize your business.",
@@ -825,7 +852,7 @@
     },
     {
       "id": "openclaw-ai-sales-automation",
-      "rank": 32,
+      "rank": 33,
       "title_en": "OpenClaw AI for Sales Automation: Real-World Workflow and Results",
       "title_ru": "OpenClaw AI для автоматизации продаж: реальный кейс и результаты",
       "desc_en": "Discover how OpenClaw AI automates sales tasks, speeds up follow-ups, and boosts deal closures. Learn practical steps for your business.",
@@ -848,7 +875,7 @@
     },
     {
       "id": "ai-agents-small-business",
-      "rank": 33,
+      "rank": 34,
       "title_en": "AI Agents for Small Businesses: Top Tools and Real Results 2026",
       "title_ru": "AI-агенты для малого бизнеса: лучшие инструменты и реальные результаты 2026",
       "desc_en": "Discover the best AI agents for small businesses in 2026. Learn how to boost sales, automate tasks, and save time. Find your ideal tool now.",
@@ -873,7 +900,7 @@
     },
     {
       "id": "ai-agents-small-business",
-      "rank": 34,
+      "rank": 35,
       "title_en": "AI Agents for Small Business: 2026 Guide to Automation & Growth",
       "title_ru": "AI-агенты для малого бизнеса: гид по автоматизации и росту 2026",
       "desc_en": "Discover how AI agents transform small business: boost revenue, cut costs, and automate customer journeys. Read our 2026 guide for actionable insights.",
@@ -898,7 +925,7 @@
     },
     {
       "id": "ai-agent-teams-workflow",
-      "rank": 35,
+      "rank": 36,
       "title_en": "AI Agent Teams Workflow: Boost Coding Productivity with Claude",
       "title_ru": "AI-агенты Claude: автоматизация командной работы в кодинге",
       "desc_en": "Discover how Claude's AI agent teams accelerate coding tasks for businesses. Learn use cases, results, and how to get started today.",
@@ -923,7 +950,7 @@
     },
     {
       "id": "agent-flow-claude-visualization",
-      "rank": 36,
+      "rank": 37,
       "title_en": "Agent Flow Claude Code: Real-Time AI Agent Visualization for Business",
       "title_ru": "Agent Flow Claude Code: Визуализация AI-агентов в реальном времени для бизнеса",
       "desc_en": "Discover how Agent Flow reveals Claude Code agent decisions. Optimize AI workflows, debug faster, and boost productivity. Try this tool today!",
@@ -948,7 +975,7 @@
     },
     {
       "id": "ai-agent-loan-processing",
-      "rank": 37,
+      "rank": 38,
       "title_en": "AI Agent Loan Processing: 80% Cost Reduction in Mortgage Automation",
       "title_ru": "AI-агенты в ипотеке: автоматизация и снижение затрат на 80%",
       "desc_en": "Discover how AI agents cut mortgage loan processing costs by 80%. See real automation results and learn how your business can benefit today.",
@@ -973,7 +1000,7 @@
     },
     {
       "id": "ai-agents-business-impact",
-      "rank": 38,
+      "rank": 39,
       "title_en": "AI Agents Statistics: Business Impact, ROI & Adoption Trends 2026",
       "title_ru": "AI-агенты для бизнеса: статистика, ROI и тренды внедрения 2026",
       "desc_en": "Discover how AI agents drive cost savings, boost sales ROI, and reshape business operations. See the latest 2026 stats and actionable insights.",
@@ -998,7 +1025,7 @@
     },
     {
       "id": "ai-automation-energy-workflows",
-      "rank": 39,
+      "rank": 40,
       "title_en": "AI Automation Energy Sector: Replace Legacy Workflows, Boost Efficiency",
       "title_ru": "AI-автоматизация в энергетике: замена устаревших процессов и рост эффективности",
       "desc_en": "Discover how AI automation transforms energy sector workflows, cuts costs, and drives adoption. Learn actionable steps for your business.",
@@ -1021,7 +1048,7 @@
     },
     {
       "id": "ai-automation-roi-case",
-      "rank": 40,
+      "rank": 41,
       "title_en": "AI Automation ROI: Real Case Studies for Small Business Growth",
       "title_ru": "AI-автоматизация ROI: реальные кейсы для роста малого бизнеса",
       "desc_en": "Discover how AI automation boosts ROI for small businesses. See real case studies and actionable tips. Learn how to save time and grow today.",
@@ -1048,7 +1075,7 @@
     },
     {
       "id": "fin-ai-customer-service",
-      "rank": 41,
+      "rank": 42,
       "title_en": "AI Agent for Customer Service: Fin Boosts Resolution Rates Fast",
       "title_ru": "AI-агент для поддержки клиентов: Fin повышает эффективность",
       "desc_en": "Discover how Fin AI automates customer service, handles complex queries, and boosts resolution rates. Learn how to deploy Fin for your business today.",
@@ -1073,7 +1100,7 @@
     },
     {
       "id": "kelly-ai-multiple-projects",
-      "rank": 42,
+      "rank": 43,
       "title_en": "AI Agent Kelly: How to Manage Multiple Projects Simultaneously",
       "title_ru": "Искусственный интеллект Kelly: как вести несколько проектов одновременно",
       "desc_en": "Discover how Kelly AI agent helps manage multiple business projects at once. Boost productivity and streamline operations. Learn how it works now.",
@@ -1098,7 +1125,7 @@
     },
     {
       "id": "chatgpt-agent-outreach-list",
-      "rank": 43,
+      "rank": 44,
       "title_en": "ChatGPT Agent Use Case: Build Outreach Lists Fast for Marketing",
       "title_ru": "ChatGPT Agent: как быстро собирать списки для маркетинга",
       "desc_en": "Learn how ChatGPT Agent automates targeted outreach list building, saving hours for marketers. Discover step-by-step real-life workflow and tips.",
@@ -1123,7 +1150,7 @@
     },
     {
       "id": "ai-agents-b2b-marketing",
-      "rank": 44,
+      "rank": 45,
       "title_en": "AI Agents for B2B Marketing: 5 Real Agentic Use Cases",
       "title_ru": "AI-агенты для B2B-маркетинга: 5 реальных кейсов применения",
       "desc_en": "Discover 5 practical AI agent use cases for B2B marketers. Learn how agentic AI transforms ABM, saves time, and boosts results.",
@@ -1148,7 +1175,7 @@
     },
     {
       "id": "company-info-extraction-saas",
-      "rank": 45,
+      "rank": 46,
       "title_en": "Company Info Extraction AI: Automate B2B Research & CRM Updates",
       "title_ru": "Извлечение данных о компаниях с помощью ИИ: автоматизация B2B и CRM",
       "desc_en": "Discover how AI agents automate company info extraction, saving 15+ hours weekly and boosting CRM accuracy. Learn how your B2B team can benefit.",
@@ -1171,7 +1198,7 @@
     },
     {
       "id": "ai-claims-automation-insurance",
-      "rank": 46,
+      "rank": 47,
       "title_en": "AI Claims Automation: How Insurance Agents Cut Processing Time 46%",
       "title_ru": "AI-автоматизация заявок: как страховщики ускорили обработку на 46%",
       "desc_en": "Discover how a Dutch insurer used AI agents to automate 91% of claims, speed up processing by 46%, and boost NPS. Learn actionable steps for your business.",
@@ -1194,7 +1221,7 @@
     },
     {
       "id": "zendesk-ai-agents-cx",
-      "rank": 47,
+      "rank": 48,
       "title_en": "AI Agents Zendesk: Automate Customer Service for 80%+ CX Tasks",
       "title_ru": "AI-агенты Zendesk: автоматизация 80% задач поддержки клиентов",
       "desc_en": "Discover how Zendesk AI Agents automate customer support, cut costs, and boost CSAT. Real business results and steps to implement. Read now!",
@@ -1219,7 +1246,7 @@
     },
     {
       "id": "options-flow-data-parser",
-      "rank": 48,
+      "rank": 49,
       "title_en": "Options Flow Data Parser & Analysis System",
       "title_ru": "Парсер и система анализа потока опционов",
       "desc_en": "Claude-powered OpenClaw agent that ingests 6 months of institutional options data from Discord, creates SQLite database with vector search.",
@@ -1243,7 +1270,7 @@
     },
     {
       "id": "personal-assistant-saul",
-      "rank": 49,
+      "rank": 50,
       "title_en": "Saul: Full-Service Personal Assistant Agent",
       "title_ru": "Саул: Полнофункциональный агент персонального помощника",
       "desc_en": "Persistent PA with Google Workspace access, proactive scheduling, flight booking, and self-improvement capabilities via Telegram interface.",
@@ -1269,7 +1296,7 @@
     },
     {
       "id": "saul-personal-assistant",
-      "rank": 50,
+      "rank": 51,
       "title_en": "Saul: AI Personal Assistant with Google Workspace Integration",
       "title_ru": "Саул: ИИ-помощник с интеграцией Google Workspace",
       "desc_en": "A persistent AI assistant built with OpenClaw architecture that manages emails, calendars, bookings, and flight check-ins via Telegram.",
@@ -1299,7 +1326,7 @@
     },
     {
       "id": "whatsapp-saas-builder",
-      "rank": 51,
+      "rank": 52,
       "title_en": "WhatsApp SaaS Builder with OpenClaw",
       "title_ru": "Создатель SaaS через WhatsApp с OpenClaw",
       "desc_en": "Built a complete social app using OpenClaw + Minimax API through WhatsApp interface in just 48 minutes without frontend/backend.",
@@ -1320,7 +1347,7 @@
     },
     {
       "id": "btc-trading-bot",
-      "rank": 52,
+      "rank": 53,
       "title_en": "5-Minute BTC Trading Bot with OpenClaw",
       "title_ru": "Бот для торговли BTC за 5 минут с OpenClaw",
       "desc_en": "Built an automated trading bot for 5-minute BTC markets, scaling from $50 to $823 with 2x leverage opportunities.",
@@ -1341,7 +1368,7 @@
     },
     {
       "id": "restaurant-calling-automation",
-      "rank": 53,
+      "rank": 54,
       "title_en": "Automated Restaurant Calling System",
       "title_ru": "Система автоматических звонков в рестораны",
       "desc_en": "Created an AI system that automatically calls restaurants using voice AI, integrating OpenClaw with iMessage, browser, and Twilio voice API.",
@@ -1364,7 +1391,7 @@
     },
     {
       "id": "binance-trading-automation",
-      "rank": 54,
+      "rank": 55,
       "title_en": "Binance Automated Trading Bot Development",
       "title_ru": "Разработка автоматизированного торгового бота для Binance",
       "desc_en": "Developed a locally-run Binance trading bot using OpenClaw after continuous debugging, refining trading strategies and code implementation.",
@@ -1386,7 +1413,7 @@
     },
     {
       "id": "reddit-narrative-builder",
-      "rank": 55,
+      "rank": 56,
       "title_en": "Reddit Narrative Analysis with OpenClaw",
       "title_ru": "Анализ нарративов Reddit с OpenClaw",
       "desc_en": "Built a Reddit narrative builder using recursive scraping to analyze sentiment across subreddits for AI, sports, and travel topics.",
@@ -1408,7 +1435,7 @@
     },
     {
       "id": "automated-coding-tasks-github",
-      "rank": 56,
+      "rank": 57,
       "title_en": "Automated GitHub Issue Resolution with OpenClaw",
       "title_ru": "Автоматизация решения GitHub Issues с OpenClaw",
       "desc_en": "Automated minor coding tasks by creating GitHub PRs, iterating based on reviews, and managing the full development lifecycle.",
@@ -1429,7 +1456,7 @@
     },
     {
       "id": "tiktok-marketing-automation",
-      "rank": 57,
+      "rank": 58,
       "title_en": "TikTok Marketing Automation Earning $4K in 24 Hours",
       "title_ru": "Автоматизация маркетинга TikTok, заработавшая $4K за 24 часа",
       "desc_en": "Larry, an OpenClaw agent, fully automated marketing workflows generating 200k TikTok views, 200+ X followers, and new subscribers.",
@@ -1450,7 +1477,7 @@
     },
     {
       "id": "social-media-content-automation",
-      "rank": 58,
+      "rank": 59,
       "title_en": "Automated Social Media Content Generation for AI Network",
       "title_ru": "Автоматизированная генерация контента для ИИ социальной сети",
       "desc_en": "Complete automation system for posting and commenting on Moltbook using OpenClaw to generate sarcastic AI content with shell scripts.",
@@ -1471,7 +1498,7 @@
     },
     {
       "id": "vc-daily-briefing-automation",
-      "rank": 59,
+      "rank": 60,
       "title_en": "VC Daily Briefing Automation with OpenClaw",
       "title_ru": "Автоматизация ежедневных сводок для ВК с OpenClaw",
       "desc_en": "Automated morning briefings for VCs using cron jobs to analyze markets, portfolio updates, and news.",
@@ -1491,7 +1518,7 @@
     },
     {
       "id": "daily-deal-finder-crm",
-      "rank": 60,
+      "rank": 61,
       "title_en": "Daily Deal Finder CRM Automation",
       "title_ru": "Автоматизация CRM для поиска сделок",
       "desc_en": "OpenClaw agent that analyzes CRM data and sales transcripts to identify and book meetings with prospects.",
@@ -1512,7 +1539,7 @@
     },
     {
       "id": "daily-deal-finder-crm-agent",
-      "rank": 61,
+      "rank": 62,
       "title_en": "Daily Deal Finder - Automated CRM Sales Agent",
       "title_ru": "Daily Deal Finder - Автоматизированный CRM Агент Продаж",
       "desc_en": "OpenClaw agent that analyzes CRM data and sales transcripts to identify prospects and book meetings with major companies.",
@@ -1533,7 +1560,7 @@
     },
     {
       "id": "vc-morning-briefing-agent",
-      "rank": 62,
+      "rank": 63,
       "title_en": "VC Morning Briefing Automation Agent",
       "title_ru": "Агент Автоматизации Утренних Брифингов для ВК",
       "desc_en": "Automated morning briefing system for VCs using OpenClaw cron jobs to generate daily investment insights and market updates.",
@@ -1554,7 +1581,7 @@
     },
     {
       "id": "multi-agent-system-dennis",
-      "rank": 63,
+      "rank": 64,
       "title_en": "Dennis Multi-Agent System with Role Separation",
       "title_ru": "Мультиагентная Система Dennis с Разделением Ролей",
       "desc_en": "OpenClaw agent that creates and manages sub-agents with specific roles, using AGENTS.MD and SOUL.MD files for task separation.",
@@ -1576,7 +1603,7 @@
     },
     {
       "id": "fix-test-deploy-openclaw-agent",
-      "rank": 64,
+      "rank": 65,
       "title_en": "Fix, Test, and Deploy OpenClaw Agent With Claude Code",
       "title_ru": "Исправление, тестирование и развертывание OpenClaw агента с Claude Code",
       "desc_en": "Debugging and fixing a daily X article automation that stopped running, using Claude Code integration with OpenClaw.",
@@ -1598,7 +1625,7 @@
     },
     {
       "id": "jarvis-command-center-convex",
-      "rank": 65,
+      "rank": 66,
       "title_en": "OpenClaw Agent Command Center - Personal Jarvis System",
       "title_ru": "Командный центр OpenClaw агента - персональная система Джарвис",
       "desc_en": "Building a comprehensive life management system using OpenClaw and Convex, inspired by Tony Stark's Jarvis AI assistant.",
@@ -1620,7 +1647,7 @@
     },
     {
       "id": "multi-agent-system-dennis",
-      "rank": 66,
+      "rank": 67,
       "title_en": "Dennis: Multi-Agent System with Role-Based Sub-Agents",
       "title_ru": "Деннис: мультиагентная система с подагентами на основе ролей",
       "desc_en": "Creating a hierarchical agent system where the main OpenClaw agent spawns specialized sub-agents with defined roles and documentation.",
@@ -1642,7 +1669,7 @@
     },
     {
       "id": "browser-automation-data-entry",
-      "rank": 67,
+      "rank": 68,
       "title_en": "Browser Automation for Web Tasks & Data Entry",
       "title_ru": "Автоматизация браузера для веб-задач и ввода данных",
       "desc_en": "Daily browser automation for repetitive form filling, data extraction using OpenClaw's headless Chrome integration.",
@@ -1663,7 +1690,7 @@
     },
     {
       "id": "crypto-trading-autonomous-agent",
-      "rank": 68,
+      "rank": 69,
       "title_en": "24/7 Autonomous Crypto Trading Agent",
       "title_ru": "Автономный агент для торговли криптовалютой 24/7",
       "desc_en": "AI agent that trades crypto around the clock while sending Telegram updates about executed arbitrage opportunities.",
@@ -1684,7 +1711,7 @@
     },
     {
       "id": "game-development-autonomous",
-      "rank": 69,
+      "rank": 70,
       "title_en": "Autonomous Game Development While Sleeping",
       "title_ru": "Автономная разработка игр во время сна",
       "desc_en": "AI agent built a functioning game app with thousands of users overnight while the developer was sleeping.",
@@ -1706,7 +1733,7 @@
     },
     {
       "id": "browser-automation-forms",
-      "rank": 70,
+      "rank": 71,
       "title_en": "Browser Automation for Form Filling & Data Extraction",
       "title_ru": "Автоматизация браузера для заполнения форм и извлечения данных",
       "desc_en": "Daily browser automation using OpenClaw with Chrome integration for repetitive form filling and data extraction tasks.",
@@ -1727,7 +1754,7 @@
     },
     {
       "id": "autonomous-game-development",
-      "rank": 71,
+      "rank": 72,
       "title_en": "Autonomous Game Development & Deployment",
       "title_ru": "Автономная разработка и развертывание игр",
       "desc_en": "OpenClaw agent autonomously built and deployed a functioning game app that attracted thousands of users overnight.",
@@ -1746,7 +1773,7 @@
     },
     {
       "id": "crypto-trading-agent",
-      "rank": 72,
+      "rank": 73,
       "title_en": "24/7 Crypto Trading with Telegram Updates",
       "title_ru": "Круглосуточная торговля криптовалютой с обновлениями в Telegram",
       "desc_en": "Autonomous crypto trading agent that executes arbitrage opportunities 24/7 and sends real-time Telegram notifications about trades.",
@@ -1767,7 +1794,7 @@
     },
     {
       "id": "software-architecture-analysis",
-      "rank": 73,
+      "rank": 74,
       "title_en": "Automated Software Architecture Analysis & Migration",
       "title_ru": "Автоматизированный анализ архитектуры ПО и миграция",
       "desc_en": "OpenClaw traverses code repositories to map dependencies, generate architecture summaries, refactor modules, and draft migration plans.",
@@ -1788,7 +1815,7 @@
     },
     {
       "id": "openclaw-telegram-whatsapp-automation",
-      "rank": 74,
+      "rank": 75,
       "title_en": "OpenClaw Multi-Platform Personal Assistant Setup",
       "title_ru": "Настройка персонального ассистента OpenClaw для разных платформ",
       "desc_en": "Complete setup of OpenClaw AI agent with Telegram/WhatsApp integration, enabling automated task execution through natural language conversations.",
@@ -1814,7 +1841,7 @@
     },
     {
       "id": "openclaw-comprehensive-agent-system",
-      "rank": 75,
+      "rank": 76,
       "title_en": "Full OpenClaw Agent System with Docker Sandboxing",
       "title_ru": "Полная система агентов OpenClaw с песочницей Docker",
       "desc_en": "Complete OpenClaw deployment covering installation, AI model integration, persistent memory, custom skills, and Docker-based security sandboxing.",
@@ -1844,7 +1871,7 @@
     },
     {
       "id": "google-workspace-ai-assistant",
-      "rank": 76,
+      "rank": 77,
       "title_en": "AI Assistant for Google Workspace Management",
       "title_ru": "ИИ-помощник для управления Google Workspace",
       "desc_en": "Personal AI bot managing calendar, documents, and sending briefings through Google Workspace integration.",
@@ -1870,7 +1897,7 @@
     },
     {
       "id": "local-data-analyst-ollama",
-      "rank": 77,
+      "rank": 78,
       "title_en": "Local Data Analyst with Ollama Integration",
       "title_ru": "Локальный аналитик данных с интеграцией Ollama",
       "desc_en": "Privacy-focused data analysis system using OpenClaw and local Ollama models for CSV analysis and visualization.",
@@ -1896,7 +1923,7 @@
     },
     {
       "id": "personal-ai-employee-peter-yang",
-      "rank": 78,
+      "rank": 79,
       "title_en": "Personal AI Employee with Google Workspace Integration",
       "title_ru": "Личный ИИ-сотрудник с интеграцией Google Workspace",
       "desc_en": "Complete AI assistant setup managing calendar, documents, voice responses, daily briefings, and weekly reports through text commands.",
@@ -1924,7 +1951,7 @@
     },
     {
       "id": "local-data-analyst-datacamp",
-      "rank": 79,
+      "rank": 80,
       "title_en": "Local Data Analyst with Ollama Integration",
       "title_ru": "Локальный аналитик данных с интеграцией Ollama",
       "desc_en": "Complete local-first AI data analysis system using OpenClaw and Ollama for private CSV analysis with visualizations and reports.",
@@ -1951,7 +1978,7 @@
     },
     {
       "id": "morning-routine-cron-automation",
-      "rank": 80,
+      "rank": 81,
       "title_en": "Automated Daily Morning Routine with OpenClaw Cron Jobs",
       "title_ru": "Автоматизированная утренняя рутина с заданиями Cron в OpenClaw",
       "desc_en": "Complete morning briefing automation that saves 2+ hours daily through scheduled tasks for weather, calendar, email monitoring, and maintenance.",
@@ -1974,7 +2001,7 @@
     },
     {
       "id": "small-business-automation-suite",
-      "rank": 81,
+      "rank": 82,
       "title_en": "10 OpenClaw Business Automations Saving 15+ Hours Weekly",
       "title_ru": "10 бизнес-автоматизаций OpenClaw, экономящих 15+ часов в неделю",
       "desc_en": "Comprehensive small business automation suite covering customer support, scheduling, email triage, inventory alerts, and lead qualification across multiple channels.",
@@ -2000,7 +2027,7 @@
     },
     {
       "id": "tiktok-marketing-agent",
-      "rank": 82,
+      "rank": 83,
       "title_en": "TikTok Marketing Agent for Influencer Growth",
       "title_ru": "Агент для маркетинга в TikTok и роста влияния",
       "desc_en": "OpenClaw agent 'Larry' automated TikTok marketing activities, achieving millions of views in one week for influencer marketing.",
@@ -2013,7 +2040,7 @@
     },
     {
       "id": "obsidian-vault-builder",
-      "rank": 83,
+      "rank": 84,
       "title_en": "Automated Obsidian Vault Building",
       "title_ru": "Автоматическое создание хранилищ Obsidian",
       "desc_en": "OpenClaw agent automatically builds and structures Obsidian knowledge vaults, providing ease of use without manual tool management.",
@@ -2026,7 +2053,7 @@
     },
     {
       "id": "business-seo-copywriting-automation",
-      "rank": 84,
+      "rank": 85,
       "title_en": "Business SEO and Copywriting Automation",
       "title_ru": "Автоматизация бизнес-SEO и копирайтинга",
       "desc_en": "OpenClaw workflows automate $45k of pSEO work in 20 minutes and $50k of copywriting in 15 minutes for business operations.",
@@ -2039,7 +2066,7 @@
     },
     {
       "id": "trading-workflow-automation",
-      "rank": 85,
+      "rank": 86,
       "title_en": "Trading Workflow Automation",
       "title_ru": "Автоматизация торговых процессов",
       "desc_en": "OpenClaw integrated with OpenAlgo to automate trading workflows and financial operations.",
@@ -2052,7 +2079,7 @@
     },
     {
       "id": "vc-daily-workflow-automation",
-      "rank": 86,
+      "rank": 87,
       "title_en": "VC Daily Workflow Automation",
       "title_ru": "Автоматизация ежедневных процессов венчурного капитала",
       "desc_en": "OpenClaw automates VC daily workflows including morning briefings, research, and investor-specific tasks with scheduled operations.",
@@ -2065,7 +2092,7 @@
     },
     {
       "id": "launch-operations-ultron-system",
-      "rank": 87,
+      "rank": 88,
       "title_en": "LAUNCH Operations ULTRON System",
       "title_ru": "Система ULTRON для операций LAUNCH",
       "desc_en": "OpenClaw ULTRON system replaces ~20 entry-level roles at LAUNCH/TWiST, providing automated guest booking and operational workflows.",
@@ -2078,7 +2105,7 @@
     },
     {
       "id": "twitter-automation-local-stack",
-      "rank": 88,
+      "rank": 89,
       "title_en": "Twitter Agent with Local AI Stack",
       "title_ru": "Twitter-агент с локальным AI стеком",
       "desc_en": "Automated Twitter agent running on local llama.cpp with NVIDIA 4070, using browser automation and OpenRouter for edge cases.",
@@ -2091,7 +2118,7 @@
     },
     {
       "id": "ga4-analytics-skill",
-      "rank": 89,
+      "rank": 90,
       "title_en": "GA4 Analytics Skill for ClawdHub",
       "title_ru": "Навык GA4 Analytics для ClawdHub",
       "desc_en": "Built and published GA4 skill in 20 minutes, allowing anyone to install and query Google Analytics data through OpenClaw.",
@@ -2104,7 +2131,7 @@
     },
     {
       "id": "voice-game-engine-control",
-      "rank": 90,
+      "rank": 91,
       "title_en": "Voice-Controlled Game Development",
       "title_ru": "Разработка игр с голосовым управлением",
       "desc_en": "Voice-to-AI agent system that controls 3D characters in PlayCanvas game engine in real-time through Discord commands.",
@@ -2117,7 +2144,7 @@
     },
     {
       "id": "unlimited-web-search",
-      "rank": 91,
+      "rank": 92,
       "title_en": "Free Web Search Integration",
       "title_ru": "Интеграция бесплатного веб-поиска",
       "desc_en": "Configured OpenClaw with unlimited free web search using SearXNG Docker container, eliminating API costs and monthly bills.",
@@ -2130,7 +2157,7 @@
     },
     {
       "id": "automated-marketing-revenue",
-      "rank": 92,
+      "rank": 93,
       "title_en": "Automated Marketing Revenue Generation",
       "title_ru": "Автоматизированное создание дохода в маркетинге",
       "desc_en": "OpenClaw agent 'Larry' generated $4000 in 24 hours through automated TikTok content creation and subscriber acquisition.",
@@ -2143,7 +2170,7 @@
     },
     {
       "id": "blockchain-security-platform",
-      "rank": 93,
+      "rank": 94,
       "title_en": "Autonomous Blockchain Security Platform",
       "title_ru": "Автономная платформа безопасности блокчейна",
       "desc_en": "OpenClaw autonomously built entire Rust blockchain security platform for Solana Hackathon using CRON jobs and judge agent for code review.",
@@ -2156,7 +2183,7 @@
     },
     {
       "id": "multi-docker-spawning",
-      "rank": 94,
+      "rank": 95,
       "title_en": "Multi-Agent Docker Spawning System",
       "title_ru": "Система порождения множественных Docker-агентов",
       "desc_en": "OpenClaw agent that spawns additional Docker containers with other OpenClaw instances for distributed agent operations.",
@@ -2169,7 +2196,7 @@
     },
     {
       "id": "qr-barcode-parcel-system",
-      "rank": 95,
+      "rank": 96,
       "title_en": "QR/Barcode Parcel Collection System",
       "title_ru": "Система сбора посылок с QR/штрих-кодами",
       "desc_en": "Built OpenClaw skill for generating QR/barcodes for parcel collection, with automatic voice message handling using Whisper.",
@@ -2182,7 +2209,7 @@
     },
     {
       "id": "web-automation-data-entry",
-      "rank": 96,
+      "rank": 97,
       "title_en": "Web Browser Automation for Form Filling and Data Extraction",
       "title_ru": "Веб-автоматизация для заполнения форм и извлечения данных",
       "desc_en": "Daily browser automation for repetitive tasks like form filling and data extraction using headless Chrome integration.",
@@ -2195,7 +2222,7 @@
     },
     {
       "id": "development-assistant",
-      "rank": 97,
+      "rank": 98,
       "title_en": "Development Assistant for Coding Tasks",
       "title_ru": "Помощник разработчика для задач программирования",
       "desc_en": "Automated setup chores, repetitive refactors, generating docs/tests, and exploring repos to find where specific functionality is handled.",
@@ -2208,7 +2235,7 @@
     },
     {
       "id": "n8n-workflow-replication",
-      "rank": 98,
+      "rank": 99,
       "title_en": "n8n Workflow Automation Alternative",
       "title_ru": "Альтернатива автоматизации рабочих процессов n8n",
       "desc_en": "Rebuilt OpenClaw's core functionality as a single n8n workflow for extendable workflow automation.",
@@ -2221,7 +2248,7 @@
     },
     {
       "id": "crypto-trading-bot",
-      "rank": 99,
+      "rank": 100,
       "title_en": "Automated Crypto Trading with Telegram Updates",
       "title_ru": "Автоматическая торговля криптовалютой с уведомлениями в Telegram",
       "desc_en": "24/7 crypto trading agent that executes arbitrage opportunities and sends Telegram updates about trades.",
@@ -2230,19 +2257,6 @@
       "source": "Medium",
       "source_url": "https://medium.com/@alexrozdolskiy/10-wild-things-people-actually-built-with-openclaw-e18f487cb3e0",
       "points": 155,
-      "date": "2026-02-17"
-    },
-    {
-      "id": "autonomous-game-builder",
-      "rank": 100,
-      "title_en": "Autonomous Game Development Agent",
-      "title_ru": "Автономный агент для разработки игр",
-      "desc_en": "AI agent that builds functioning games from simple prompts, creating apps with thousands of users overnight.",
-      "desc_ru": "ИИ-агент, создающий функциональные игры из простых запросов, разрабатывая приложения с тысячами пользователей за ночь.",
-      "tag": "coding",
-      "source": "Medium",
-      "source_url": "https://medium.com/@alexrozdolskiy/10-wild-things-people-actually-built-with-openclaw-e18f487cb3e0",
-      "points": 142,
       "date": "2026-02-17"
     }
   ]
