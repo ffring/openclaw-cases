@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Agent Use Case: Comparus Banking Assistant Automates Customer Service | OpenClaw Times</title>
+<meta name="description" content="Discover how Comparus uses IBM's AI agents to automate banking customer service. Learn the benefits and steps to start today.">
+<link rel="canonical" href="https://openclawtimes.com/en/case/comparus-banking-assistant-ai.html">
+<meta property="og:title" content="AI Agent Use Case: Comparus Banking Assistant Automates Customer Service">
+<meta property="og:description" content="Discover how Comparus uses IBM's AI agents to automate banking customer service. Learn the benefits and steps to start today.">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0a0b;--bg-card:#111113;--bg-hover:#1a1a1d;
+  --border:#222225;--text:#fafafa;--text-dim:#a0a0a5;--text-muted:#707075;
+  --accent:#ff6154;--accent-dim:rgba(255,97,84,0.12);
+  --green:#10b981;--blue:#3b82f6;--purple:#8b5cf6;--cyan:#06b6d4;--pink:#ec4899;--yellow:#f59e0b;--orange:#f97316;
+  --font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',monospace;
+}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+body{font-family:var(--font-sans);background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--accent);color:#fff}
+.container{max-width:900px;margin:0 auto;padding:0 20px}
+
+/* Header */
+header{border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:0;background:rgba(10,10,11,0.95);backdrop-filter:blur(12px);z-index:100}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;align-items:center;gap:8px;font-weight:700;font-size:20px}
+.logo span{color:var(--accent)}
+.header-right{display:flex;align-items:center;gap:16px}
+.lang-switch{display:flex;gap:4px;padding:4px;background:var(--bg-card);border-radius:8px;border:1px solid var(--border)}
+.lang-btn{padding:6px 10px;border-radius:6px;font-size:16px;transition:all .15s;cursor:pointer}
+.lang-btn:hover{background:var(--bg-hover)}
+.lang-btn.active{background:var(--accent-dim)}
+
+/* Search */
+.search-box{position:relative}
+.search-input{width:240px;padding:10px 16px 10px 40px;background:var(--bg-card);border:1px solid var(--border);border-radius:10px;color:var(--text);font-size:14px;transition:all .2s}
+.search-input:focus{outline:none;border-color:var(--accent);width:300px}
+.search-input::placeholder{color:var(--text-muted)}
+.search-icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--text-muted);font-size:14px}
+
+/* Hero */
+.hero{padding:48px 0 32px;text-align:center}
+.hero h1{font-size:clamp(28px,5vw,40px);font-weight:700;letter-spacing:-0.03em;margin-bottom:12px}
+.hero h1 span{color:var(--accent)}
+.hero p{font-size:16px;color:var(--text-dim);max-width:500px;margin:0 auto}
+
+/* Stats Bar */
+.stats-bar{display:flex;justify-content:center;gap:32px;padding:20px 0;margin-bottom:24px;border-bottom:1px solid var(--border)}
+.stat{text-align:center}
+.stat-value{font-size:24px;font-weight:700;font-family:var(--font-mono);color:var(--accent)}
+.stat-label{font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em}
+
+/* Categories */
+.categories{display:flex;gap:8px;padding:16px 0;overflow-x:auto;border-bottom:1px solid var(--border);margin-bottom:24px}
+.categories::-webkit-scrollbar{display:none}
+.cat-btn{padding:8px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:20px;font-size:13px;font-weight:500;color:var(--text-dim);cursor:pointer;transition:all .2s;white-space:nowrap}
+.cat-btn:hover{border-color:var(--text-muted);color:var(--text)}
+.cat-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* Featured Case */
+.featured-case{display:block;background:linear-gradient(135deg,var(--accent-dim),transparent);border:1px solid var(--accent);border-radius:16px;padding:24px;margin-bottom:32px;transition:all .2s}
+.featured-case:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(255,97,84,0.15)}
+.featured-badge{display:inline-block;padding:4px 12px;background:var(--accent);color:#fff;font-size:11px;font-weight:700;border-radius:20px;margin-bottom:16px;letter-spacing:0.05em}
+.featured-title{font-size:24px;font-weight:700;margin-bottom:12px}
+.featured-desc{font-size:15px;color:var(--text-dim);margin-bottom:16px;line-height:1.6}
+.featured-meta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+
+/* Case Cards */
+.cases-list{display:flex;flex-direction:column;gap:12px}
+.case-card{display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--bg-card);border:1px solid var(--border);border-radius:12px;transition:all .2s}
+.case-card:hover{border-color:var(--text-muted);background:var(--bg-hover);transform:translateX(4px)}
+.case-card.hidden{display:none}
+.case-rank{font-family:var(--font-mono);font-size:14px;color:var(--text-muted);min-width:28px}
+.case-body{flex:1;min-width:0}
+.case-title{font-size:16px;font-weight:600;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.case-desc{font-size:13px;color:var(--text-dim);margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.case-footer{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.case-source{font-size:11px;color:var(--text-muted)}
+.case-tools{font-size:11px;color:var(--text-dim);font-family:var(--font-mono)}
+.case-vote{display:flex;flex-direction:column;align-items:center;padding:8px 12px;background:var(--bg);border:1px solid var(--border);border-radius:8px;min-width:50px}
+.vote-arrow{color:var(--accent);font-size:12px}
+.vote-count{font-family:var(--font-mono);font-size:14px;font-weight:600}
+
+/* Tag Pills */
+.tag-pill{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.02em}
+.tag-pill.automation{background:rgba(16,185,129,0.15);color:var(--green)}
+.tag-pill.coding{background:rgba(59,130,246,0.15);color:var(--blue)}
+.tag-pill.productivity{background:rgba(249,115,22,0.15);color:var(--orange)}
+.tag-pill.research{background:rgba(139,92,246,0.15);color:var(--purple)}
+.tag-pill.devops{background:rgba(6,182,212,0.15);color:var(--cyan)}
+.tag-pill.marketing{background:rgba(236,72,153,0.15);color:var(--pink)}
+.tag-pill.finance{background:rgba(245,158,11,0.15);color:var(--yellow)}
+.meta-source{font-size:12px;color:var(--text-muted)}
+.meta-points{font-family:var(--font-mono);font-size:13px;color:var(--accent)}
+
+/* Footer */
+footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-align:center}
+.footer-author{font-size:15px;color:var(--text-dim);margin-bottom:20px}
+.footer-author a{color:var(--accent);font-weight:500}
+.footer-author a:hover{text-decoration:underline}
+.footer-divider{margin:0 8px;color:var(--text-muted)}
+.footer-cta{margin-bottom:24px}
+.cta-btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--accent);color:#fff;font-size:14px;font-weight:600;border-radius:10px;transition:all .2s}
+.cta-btn:hover{filter:brightness(1.1);transform:translateY(-2px)}
+.footer-links{display:flex;justify-content:center;gap:24px;margin-bottom:16px}
+.footer-links a{font-size:14px;color:var(--text-muted);transition:color .15s}
+.footer-links a:hover{color:var(--text)}
+.footer-copy{font-size:13px;color:var(--text-muted)}
+.footer-copy a{color:var(--accent)}
+
+/* Case Page */
+.case-page{padding:40px 0}
+.case-page .back{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--text-muted);margin-bottom:24px;transition:color .15s}
+.case-page .back:hover{color:var(--text)}
+.case-page h1{font-size:clamp(24px,4vw,32px);font-weight:700;margin-bottom:16px}
+.case-page .meta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:24px;padding-bottom:24px;border-bottom:1px solid var(--border)}
+.tools-section{margin:24px 0;padding:20px;background:var(--bg-card);border-radius:12px;border:1px solid var(--border)}
+.tools-section h4{font-size:13px;font-weight:600;text-transform:uppercase;color:var(--text-dim);margin-bottom:12px}
+.tools-list{display:flex;flex-wrap:wrap;gap:8px}
+.tool-tag{padding:6px 12px;background:var(--bg-hover);border-radius:6px;font-size:13px;font-family:var(--font-mono)}
+.results-section{margin:24px 0;padding:20px;background:var(--accent-dim);border-radius:12px;border:1px solid rgba(255,97,84,0.3)}
+.results-section h4{font-size:13px;font-weight:600;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.results-section p{font-size:15px;font-weight:500}
+.content{font-size:15px;line-height:1.7;color:var(--text-dim)}
+.content h2{font-size:20px;font-weight:600;color:var(--text);margin:32px 0 16px}
+.content h3{font-size:17px;font-weight:600;color:var(--text);margin:24px 0 12px}
+.content p{margin-bottom:16px}
+.content code{font-family:var(--font-mono);font-size:13px;padding:2px 6px;background:var(--bg-card);border-radius:4px;color:var(--accent)}
+.source-link{display:inline-flex;align-items:center;gap:8px;margin-top:32px;padding:12px 20px;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;font-size:14px;font-weight:500;transition:all .15s}
+.source-link:hover{border-color:var(--accent);background:var(--accent-dim)}
+
+/* No Results */
+.no-results{text-align:center;padding:48px 20px;color:var(--text-muted)}
+.no-results-icon{font-size:48px;margin-bottom:16px}
+
+@media(max-width:640px){
+  .header-inner{flex-wrap:wrap}
+  .search-input{width:100%}
+  .search-input:focus{width:100%}
+  .case-card{flex-wrap:wrap}
+  .case-vote{width:100%;flex-direction:row;justify-content:center;gap:8px}
+  .stats-bar{gap:20px}
+  .categories{gap:6px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="/en/" class="logo">🦞 OpenClaw <span>Times</span></a>
+      <div class="lang-switch">
+        <a href="/en/case/comparus-banking-assistant-ai.html" class="lang-btn active">🇬🇧</a>
+        <a href="/case/comparus-banking-assistant-ai.html" class="lang-btn ">🇷🇺</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="case-page">
+  <div class="container">
+    <a href="/en/" class="back">← All cases</a>
+    <h1>AI Agent Use Case: Comparus Banking Assistant Automates Customer Service</h1>
+    <div class="meta">
+      <span class="tag-pill automation">⚡ Automation</span>
+      <span style="color:var(--text-muted)">Web</span>
+      <span style="color:var(--text-muted);font-family:var(--font-mono)">13 May 2026</span>
+      <span style="color:var(--accent);font-family:var(--font-mono)">▲ 246</span>
+    </div>
+    
+    
+    <div class="tools-section">
+      <h4>Tools Used</h4>
+      <div class="tools-list"><span class="tool-tag">watsonx.ai</span><span class="tool-tag">watsonx Orchestrate</span></div>
+    </div>
+    
+    <div class="results-section">
+      <h4>Results</h4>
+      <p>Demonstrated new conversational banking model, automating customer service interactions.</p>
+    </div>
+    
+    <div class="content">AI Agents in Banking: How Comparus Automated Customer Service with IBM Solutions</p><p>The business world is racing to adopt artificial intelligence, but the biggest wins are coming to those who move beyond simple chatbots. Imagine a bank where customers interact with an AI assistant that understands their needs, answers complex questions, and even helps them solve problems—without waiting in line or navigating endless phone menus. That’s not science fiction. It's happening now, and the results are real.</p><p>Entrepreneurs, marketers, and business owners across Russia and the CIS are facing a familiar pain point: customer expectations are rising, but budgets and staffing can’t keep up. Traditional customer service models are struggling. AI agents promise a new way forward—one that can deliver better service, faster responses, and lower costs. In this article, you’ll learn how Comparus, a company in the banking sector, used IBM’s AI tools to launch a next-generation banking assistant. We’ll break down what AI agents are, how they work, and what real-world results you can expect.</p><p><h2>What Are AI Agents and Why Do They Matter for Business?</h2></p><p>AI agents are more than just chatbots. They’re autonomous systems that handle tasks for users, making decisions, retrieving information, and even learning from experience. IBM defines an AI agent as a system or program capable of autonomously performing tasks on behalf of a user or another system by designing its workflow and using available tools.</p><p>For businesses, this means:</p><p><li>Automating repetitive tasks like answering standard customer queries</li>
+<li>Handling complex workflows, not just simple conversations</li>
+<li>Integrating with other systems (CRM, databases, etc.)</li>
+<li>Learning and improving over time</li></p><p>> “AI agents can encompass a wide range of functionalities beyond natural language processing including decision-making, problem-solving, interacting with external environments and executing actions.” — IBM 2026 Guide to AI Agents</p><p>Unlike traditional automation, which follows strict rules, AI agents can adapt, collaborate, and make decisions. This opens up new possibilities for customer service, HR, sales, and more.</p><p><h2>How Did Comparus Use AI Agents in Banking?</h2></p><p>Comparus, working with IBM’s watsonx.ai and watsonx Orchestrate, built a “banking assistant” that reimagines how customers interact with their bank. The assistant isn’t just a FAQ bot—it’s a conversational partner capable of handling a wide range of customer requests.</p><p>The solution leverages generative AI to understand natural language, retrieve information from multiple sources, and guide customers through banking processes. This means customers can:</p><p><li>Ask about account balances, transactions, and product details</li>
+<li>Get help with common banking problems</li>
+<li>Receive personalized recommendations</li></p><p>The key result? Comparus “impressively demonstrated the potential of conversational banking as a new interaction model.” This isn’t a theoretical demo—it’s a working solution that shows how AI agents can deliver real value in a highly regulated, customer-focused industry.</p><p><h2>What Tools Power These AI Agents?</h2></p><p>IBM’s watsonx.ai is the foundation. It’s a generative AI platform designed for business use, with built-in governance and security. watsonx Orchestrate adds workflow automation, allowing businesses to connect AI agents to internal systems and processes.</p><p>Key features include:</p><p><li>Natural language understanding for complex conversations</li>
+<li>Integration with data sources and APIs</li>
+<li>Automated workflows triggered by customer requests</li>
+<li>Secure and compliant architecture</li></p><p>For business owners, the takeaway is clear: you don’t need to build everything from scratch. These tools are designed to help you deploy, manage, and scale AI agents without a team of data scientists.</p><p><h2>How Do AI Agents Improve Customer Service?</h2></p><p>The banking assistant built by Comparus shows several clear benefits:</p><p><li>Faster response times: Customers get answers instantly, 24/7</li>
+<li>Reduced workload for human staff: AI handles routine requests, freeing up employees for complex cases</li>
+<li>Consistent service: Every customer gets the same high-quality support</li>
+<li>New interaction models: Conversational banking feels more natural and engaging</li></p><p>> “Learn how AI agents reduce service friction, fit into real workflows, and help teams deliver faster, more engaging customer experiences.” — IBM 2026 Guide to AI Agents</p><p>In a competitive market, these improvements can drive customer loyalty and reduce costs.</p><p><h2>What Steps Should Your Business Take to Start with AI Agents?</h2></p><p>Launching an AI agent doesn’t have to be overwhelming. IBM’s guide recommends:</p><p><li>Identifying repetitive, high-volume customer interactions</li>
+<li>Mapping out workflows that can be automated</li>
+<li>Choosing a trusted platform (like watsonx.ai)</li>
+<li>Starting with a pilot project to prove value</li>
+<li>Scaling up as you learn what works</li></p><p>Bullet list of practical steps:</p><p><li>Analyze your customer service data for common requests</li>
+<li>Consult with AI solution providers</li>
+<li>Set clear KPIs (e.g., response time, customer satisfaction)</li>
+<li>Train your staff to work alongside AI agents</li></p><p>The key is to start small, learn fast, and build on success.</p><p><h2>How Is AI Agent Governance Handled?</h2></p><p>When deploying AI in sensitive industries like banking, governance is critical. IBM emphasizes the importance of processes, standards, and guardrails to ensure AI systems are safe and ethical.</p><p>This includes:</p><p><li>Clear policies for data privacy and security</li>
+<li>Regular audits of AI agent performance</li>
+<li>Transparent communication with customers about AI use</li></p><p>By choosing enterprise-grade solutions, businesses can meet regulatory requirements and build trust.</p><p><h2>Frequently Asked Questions (FAQ)</h2></p><p><strong>What is the difference between an AI agent and a chatbot?</strong></p><p>An AI agent can handle complex tasks, make decisions, and integrate with business systems. A chatbot usually answers simple questions based on scripts.</p><p><strong>How long does it take to deploy an AI agent?</strong></p><p>With platforms like watsonx.ai, you can launch a pilot project in weeks—not months. Full-scale deployment depends on your business needs.</p><p><strong>Is it safe to let AI handle customer data?</strong></p><p>Enterprise AI platforms like IBM’s are designed with security and compliance in mind. You control what data the AI can access.</p><p><strong>Can AI agents replace human staff?</strong></p><p>AI agents are best used to handle routine tasks, freeing up your team for more complex work. They don’t replace human judgment or empathy.</p><p><strong>What industries can benefit from AI agents?</strong></p><p>Banking, customer service, HR, sales, and procurement are just a few examples. Any business with repetitive processes can benefit.</p><p><h2>Conclusion: How to Get Started with AI Agents Today</h2></p><p>The Comparus banking assistant case proves that AI agents are not just hype—they deliver real results. By automating routine customer service, banks can serve clients better and free up staff for higher-value work.</p><p>If you’re ready to see what AI agents can do for your business, start by analyzing your customer interactions and exploring trusted platforms like watsonx.ai. The future of customer service is here—don’t let your competitors get there first.
+</div>
+    
+    <a href="https://www.ibm.com/think/ai-agents" target="_blank" class="source-link">
+      🔗 View source
+    </a>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-author">
+      A project by <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a>
+      <span class="footer-divider">·</span>
+      <a href="https://plaan.ai" target="_blank">Plaan.ai</a>
+    </div>
+    <div class="footer-cta">
+      <a href="https://t.me/ffring" target="_blank" class="cta-btn">
+        💬 AI Implementation Consulting
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/openclaw/openclaw" target="_blank">GitHub</a>
+      <a href="https://discord.com/invite/clawd" target="_blank">Discord</a>
+    </div>
+    <div class="footer-copy">Built with <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
+  </div>
+</footer>
+
+</body>
+</html>

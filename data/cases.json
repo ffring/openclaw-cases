@@ -1,14 +1,95 @@
 {
-  "updated": "2026-05-09T10:50:16.822Z",
+  "updated": "2026-05-13T11:59:34.197Z",
   "stats": {
     "total": 100,
-    "today": 1,
+    "today": 3,
     "week": 7
   },
   "cases": [
     {
-      "id": "rachio-ai-customer-support",
+      "id": "comparus-banking-assistant-ai",
       "rank": 1,
+      "title_en": "AI Agent Use Case: Comparus Banking Assistant Automates Customer Service",
+      "title_ru": "AI-агент для банков: кейс Comparus и автоматизация клиентского сервиса",
+      "desc_en": "Discover how Comparus uses IBM's AI agents to automate banking customer service. Learn the benefits and steps to start today.",
+      "desc_ru": "Узнайте, как Comparus внедрил AI-агента для автоматизации банковского сервиса. Преимущества и шаги для запуска — читайте сейчас.",
+      "content_en": "AI Agents in Banking: How Comparus Automated Customer Service with IBM Solutions\n\nThe business world is racing to adopt artificial intelligence, but the biggest wins are coming to those who move beyond simple chatbots. Imagine a bank where customers interact with an AI assistant that understands their needs, answers complex questions, and even helps them solve problems—without waiting in line or navigating endless phone menus. That’s not science fiction. It's happening now, and the results are real.\n\nEntrepreneurs, marketers, and business owners across Russia and the CIS are facing a familiar pain point: customer expectations are rising, but budgets and staffing can’t keep up. Traditional customer service models are struggling. AI agents promise a new way forward—one that can deliver better service, faster responses, and lower costs. In this article, you’ll learn how Comparus, a company in the banking sector, used IBM’s AI tools to launch a next-generation banking assistant. We’ll break down what AI agents are, how they work, and what real-world results you can expect.\n\n## What Are AI Agents and Why Do They Matter for Business?\n\nAI agents are more than just chatbots. They’re autonomous systems that handle tasks for users, making decisions, retrieving information, and even learning from experience. IBM defines an AI agent as a system or program capable of autonomously performing tasks on behalf of a user or another system by designing its workflow and using available tools.\n\nFor businesses, this means:\n\n- Automating repetitive tasks like answering standard customer queries\n- Handling complex workflows, not just simple conversations\n- Integrating with other systems (CRM, databases, etc.)\n- Learning and improving over time\n\n> “AI agents can encompass a wide range of functionalities beyond natural language processing including decision-making, problem-solving, interacting with external environments and executing actions.” — IBM 2026 Guide to AI Agents\n\nUnlike traditional automation, which follows strict rules, AI agents can adapt, collaborate, and make decisions. This opens up new possibilities for customer service, HR, sales, and more.\n\n## How Did Comparus Use AI Agents in Banking?\n\nComparus, working with IBM’s watsonx.ai and watsonx Orchestrate, built a “banking assistant” that reimagines how customers interact with their bank. The assistant isn’t just a FAQ bot—it’s a conversational partner capable of handling a wide range of customer requests.\n\nThe solution leverages generative AI to understand natural language, retrieve information from multiple sources, and guide customers through banking processes. This means customers can:\n\n- Ask about account balances, transactions, and product details\n- Get help with common banking problems\n- Receive personalized recommendations\n\nThe key result? Comparus “impressively demonstrated the potential of conversational banking as a new interaction model.” This isn’t a theoretical demo—it’s a working solution that shows how AI agents can deliver real value in a highly regulated, customer-focused industry.\n\n## What Tools Power These AI Agents?\n\nIBM’s watsonx.ai is the foundation. It’s a generative AI platform designed for business use, with built-in governance and security. watsonx Orchestrate adds workflow automation, allowing businesses to connect AI agents to internal systems and processes.\n\nKey features include:\n\n- Natural language understanding for complex conversations\n- Integration with data sources and APIs\n- Automated workflows triggered by customer requests\n- Secure and compliant architecture\n\nFor business owners, the takeaway is clear: you don’t need to build everything from scratch. These tools are designed to help you deploy, manage, and scale AI agents without a team of data scientists.\n\n## How Do AI Agents Improve Customer Service?\n\nThe banking assistant built by Comparus shows several clear benefits:\n\n- Faster response times: Customers get answers instantly, 24/7\n- Reduced workload for human staff: AI handles routine requests, freeing up employees for complex cases\n- Consistent service: Every customer gets the same high-quality support\n- New interaction models: Conversational banking feels more natural and engaging\n\n> “Learn how AI agents reduce service friction, fit into real workflows, and help teams deliver faster, more engaging customer experiences.” — IBM 2026 Guide to AI Agents\n\nIn a competitive market, these improvements can drive customer loyalty and reduce costs.\n\n## What Steps Should Your Business Take to Start with AI Agents?\n\nLaunching an AI agent doesn’t have to be overwhelming. IBM’s guide recommends:\n\n- Identifying repetitive, high-volume customer interactions\n- Mapping out workflows that can be automated\n- Choosing a trusted platform (like watsonx.ai)\n- Starting with a pilot project to prove value\n- Scaling up as you learn what works\n\nBullet list of practical steps:\n\n- Analyze your customer service data for common requests\n- Consult with AI solution providers\n- Set clear KPIs (e.g., response time, customer satisfaction)\n- Train your staff to work alongside AI agents\n\nThe key is to start small, learn fast, and build on success.\n\n## How Is AI Agent Governance Handled?\n\nWhen deploying AI in sensitive industries like banking, governance is critical. IBM emphasizes the importance of processes, standards, and guardrails to ensure AI systems are safe and ethical.\n\nThis includes:\n\n- Clear policies for data privacy and security\n- Regular audits of AI agent performance\n- Transparent communication with customers about AI use\n\nBy choosing enterprise-grade solutions, businesses can meet regulatory requirements and build trust.\n\n## Frequently Asked Questions (FAQ)\n\n**What is the difference between an AI agent and a chatbot?**\n\nAn AI agent can handle complex tasks, make decisions, and integrate with business systems. A chatbot usually answers simple questions based on scripts.\n\n**How long does it take to deploy an AI agent?**\n\nWith platforms like watsonx.ai, you can launch a pilot project in weeks—not months. Full-scale deployment depends on your business needs.\n\n**Is it safe to let AI handle customer data?**\n\nEnterprise AI platforms like IBM’s are designed with security and compliance in mind. You control what data the AI can access.\n\n**Can AI agents replace human staff?**\n\nAI agents are best used to handle routine tasks, freeing up your team for more complex work. They don’t replace human judgment or empathy.\n\n**What industries can benefit from AI agents?**\n\nBanking, customer service, HR, sales, and procurement are just a few examples. Any business with repetitive processes can benefit.\n\n## Conclusion: How to Get Started with AI Agents Today\n\nThe Comparus banking assistant case proves that AI agents are not just hype—they deliver real results. By automating routine customer service, banks can serve clients better and free up staff for higher-value work.\n\nIf you’re ready to see what AI agents can do for your business, start by analyzing your customer interactions and exploring trusted platforms like watsonx.ai. The future of customer service is here—don’t let your competitors get there first.\n",
+      "content_ru": "AI-агенты в банке: как Comparus автоматизировал клиентский сервис с помощью IBM\n\nСегодня бизнесу как никогда важно быстро реагировать на запросы клиентов — и делать это с минимальными затратами. Представьте себе банк, где вместо длинных очередей и бесконечных звонков клиенту сразу отвечает умный помощник. Он не просто выдает шаблонные ответы, а реально помогает: подсказывает, советует, решает проблемы. Это уже не фантазия — это реальность, которую построила компания Comparus с помощью решений IBM.\n\nДля предпринимателей, маркетологов и владельцев бизнеса в России и СНГ эта тема особенно актуальна. Ожидания клиентов растут, а бюджеты и число сотрудников — нет. Классические call-центры и чат-боты уже не справляются: люди хотят быстрых и понятных решений, а не общения с роботом по скрипту. AI-агенты — это новый уровень сервиса, который работает на бизнес 24/7. В этой статье вы узнаете, как Comparus внедрил AI-ассистента для банка, какие инструменты они использовали, и что это дало бизнесу.\n\n## Что такое AI-агенты и зачем они нужны бизнесу?\n\nAI-агент — это не просто чат-бот. Это самостоятельная система, которая сама выполняет задачи за пользователя: ищет информацию, принимает решения, учится на опыте и взаимодействует с другими сервисами. IBM объясняет: AI-агент — это программа, способная автономно выполнять задачи, проектировать собственные рабочие процессы и использовать доступные инструменты.\n\nДля бизнеса это значит:\n\n- Автоматизация рутинных обращений (например, стандартные вопросы клиентов)\n- Решение сложных задач, а не только простых диалогов\n- Встраивание в CRM, базы данных и другие системы\n- Постоянное обучение и улучшение качества работы\n\n> «AI-агенты умеют не только понимать текст, но и принимать решения, решать задачи, взаимодействовать с внешними системами и выполнять действия» — The 2026 Guide to AI Agents (IBM)\n\nAI-агенты не просто выполняют инструкции, как обычная автоматизация. Они анализируют ситуацию, выбирают лучший вариант и могут работать в команде с другими агентами. Такой подход открывает новые возможности для клиентского сервиса, HR, продаж и не только.\n\n## Как Comparus внедрил AI-агента в банке?\n\nКомпания Comparus вместе с IBM внедрила «банковского ассистента» на базе watsonx.ai и watsonx Orchestrate. Это не просто бот для FAQ — это полноценный цифровой помощник, который ведет диалог и решает широкий спектр задач клиента.\n\nAI-ассистент использует генеративный искусственный интеллект: понимает естественную речь, ищет ответы в разных источниках, помогает пройти банковские процессы. Клиенты могут:\n\n- Узнать баланс, детали по операциям, условия продуктов\n- Получить помощь с типичными банковскими вопросами\n- Получить персональные рекомендации\n\nРезультат? Comparus на практике показал, что «разговорный банкинг» — это реально новый формат общения с клиентом. Это не просто красивая презентация — система работает и приносит пользу в реальном банке.\n\n## Какие инструменты используются для AI-агентов?\n\nОсновной фундамент — платформа IBM watsonx.ai. Это генеративный искусственный интеллект для бизнеса с продуманной безопасностью и прозрачным управлением. watsonx Orchestrate добавляет автоматизацию бизнес-процессов и интеграцию с внутренними системами.\n\nГлавные возможности:\n\n- Понимание сложных запросов на естественном языке\n- Интеграция с базами данных, API и другими сервисами\n- Автоматизация типовых сценариев по запросу клиента\n- Безопасная архитектура, соответствующая требованиям банков\n\nДля бизнеса это значит: не надо собирать всё с нуля. Готовые инструменты IBM позволяют быстро запустить AI-агента, даже если у вас нет собственной команды data science.\n\n## Как AI-агенты улучшают клиентский сервис?\n\n«Банковский ассистент» от Comparus показал сразу несколько выгод:\n\n- Мгновенные ответы 24/7 — клиент не ждет и не слушает музыку на линии\n- Снижение нагрузки на сотрудников — AI берет рутину, люди решают сложные вопросы\n- Единый стандарт сервиса — каждый клиент получает одинаково качественную помощь\n- Новый формат общения — диалог с банком становится проще и привычнее\n\n> «AI-агенты уменьшают трения в сервисе, встраиваются в реальные процессы и помогают командам быстрее и качественнее обслуживать клиентов» — The 2026 Guide to AI Agents (IBM)\n\nВ условиях жесткой конкуренции это реальный способ удержать клиентов и оптимизировать издержки.\n\n## Как бизнесу начать внедрение AI-агентов?\n\nЗапуск AI-агента — это не космос. IBM советует:\n\n- Найти самые частые и однотипные обращения клиентов\n- Описать процессы, которые можно автоматизировать\n- Выбрать надежную платформу (например, watsonx.ai)\n- Начать с пилотного проекта, чтобы быстро увидеть эффект\n- Масштабировать решение по мере накопления опыта\n\nПолезные шаги:\n\n- Проанализировать обращения в поддержку за последние месяцы\n- Обсудить идеи с поставщиками AI-решений\n- Поставить четкие KPI (например, время ответа, уровень удовлетворенности)\n- Научить сотрудников работать вместе с AI-ассистентом\n\nГлавное — не пытаться охватить всё сразу. Начните с простого, быстро получите результат и двигайтесь дальше.\n\n## Как решаются вопросы безопасности и регулирования?\n\nВ банковской сфере особенно важно не только внедрять AI, но и соблюдать требования по безопасности и этике. IBM делает акцент на прозрачности, стандартах и контроле работы AI-агентов.\n\nЭто включает:\n\n- Четкие правила хранения и обработки данных\n- Регулярные проверки качества работы AI\n- Открытое информирование клиентов о том, что с ними общается AI\n\nИспользование корпоративных платформ помогает соблюдать законы и выстраивать доверие с клиентами.\n\n## Часто задаваемые вопросы (FAQ)\n\n**Чем AI-агент отличается от обычного чат-бота?**\n\nAI-агент может решать сложные задачи, принимать решения и интегрироваться с бизнес-системами. Чат-бот обычно отвечает по заготовленным сценариям.\n\n**Сколько времени нужно на запуск AI-агента?**\n\nС готовыми платформами, как watsonx.ai, пилот можно запустить за несколько недель. Полноценное внедрение зависит от задач.\n\n**Безопасно ли доверять AI клиентские данные?**\n\nКорпоративные платформы IBM изначально создаются с учетом безопасности и соответствия законам. Вы сами управляете доступом к данным.\n\n**Заменят ли AI-агенты сотрудников?**\n\nAI-агенты берут на себя рутину, а сотрудники могут заниматься сложными и творческими задачами. Полностью заменить людей они не могут.\n\n**Кому подходят AI-агенты?**\n\nБанки, службы поддержки, HR, продажи, закупки — любой бизнес с повторяющимися процессами получает выгоду.\n\n## Итоги: что делать бизнесу уже сегодня?\n\nКейс Comparus доказывает: AI-агенты — это не модная игрушка, а рабочий инструмент. Они реально экономят время, повышают качество сервиса и снимают нагрузку с команды.\n\nЕсли вы хотите получить такие же результаты — начните с анализа обращений клиентов и изучения платформ вроде watsonx.ai. Будущее сервиса уже здесь — не отдавайте своих клиентов конкурентам!",
+      "tools_en": [
+        "watsonx.ai",
+        "watsonx Orchestrate"
+      ],
+      "tools_ru": [
+        "watsonx.ai — платформа генеративного искусственного интеллекта от IBM",
+        "watsonx Orchestrate — инструмент автоматизации бизнес-процессов на базе AI"
+      ],
+      "results_en": "Demonstrated new conversational banking model, automating customer service interactions.",
+      "results_ru": "Показал новый формат общения с банком и автоматизировал клиентский сервис.",
+      "tag": "automation",
+      "source": "Web",
+      "source_url": "https://www.ibm.com/think/ai-agents",
+      "points": 246,
+      "date": "2026-05-13"
+    },
+    {
+      "id": "claude-dream-ai-agents",
+      "rank": 2,
+      "title_en": "Claude Dream AI Agents: Smarter Automation for Business Efficiency",
+      "title_ru": "Claude Dream: AI-агенты для бизнеса — автоматизация и рост эффективности",
+      "desc_en": "Discover how Claude Dream lets AI agents learn from experience, grade their own work, and boost business productivity. Read the full use case and get started.",
+      "desc_ru": "Узнайте, как Claude Dream помогает AI-агентам учиться на опыте и экономить время вашему бизнесу. Читайте подробный разбор и внедряйте уже сегодня.",
+      "content_en": "Claude Dream AI Agents: Smarter Automation for Business Efficiency\n\nINTRO\n\nAI agents are changing the way businesses operate. But until now, most agents have had a big weakness: they forget what you teach them and repeat the same mistakes. For entrepreneurs, marketers, and business owners across Russia and the CIS, this means wasted time and endless manual corrections. What if your AI assistant could actually learn from experience—just like a real team member?\n\nEnter Claude Dream, a new managed agent update designed to help AI agents remember, improve, and even grade their own work. This isn’t just another chatbot tweak. It’s a practical system that can help you save hours on repetitive tasks, improve output quality, and build workflows that get better over time. In this article, you’ll see how Claude Dream works, why it matters for business, and how you can use it to boost productivity starting today.\n\n## Why Do Most AI Agents Need So Much Babysitting?\n\nIf you’ve tried using AI agents in your business, you know the pain: you set up a workflow, give instructions, and get an output. But next week, the agent forgets your preferences, repeats old mistakes, and you’re stuck editing again. This loop of constant correction is a major blocker for real automation.\n\nClaude Dream was built to solve this. Instead of starting from scratch every session, agents using Claude Dream review previous sessions and memory stores. They keep useful patterns, drop the noise, and update their memory to avoid repeating errors. This is a big step toward agents that actually learn from experience, not just follow scripts.\n\n> \"Claude Dream helps agents become more useful over time instead of starting from zero every session.\"\n\n- Common pain points with traditional AI agents:\n  - Forgetting custom instructions\n  - Repeating errors\n  - Needing manual review for every output\n\nWith Claude Dream, the agent can remember what worked, notice what failed, and keep improving.\n\n## How Does Claude Dream Improve AI Agent Memory?\n\nClaude Dream takes inspiration from how people process information while sleeping. During the day, your brain absorbs conversations and decisions; at night, it sorts, keeps the useful stuff, and discards the rest. Claude Dream does the same for AI agents: after each session, it reviews what happened, pulls out useful patterns, and updates the agent’s memory.\n\nThis means your agent isn’t just a tool—it’s a system that gets smarter the more you use it. Over time, it remembers successful workflows, adapts to your preferences, and reduces the need for manual intervention.\n\n- Benefits of improved agent memory:\n  - Less time spent re-explaining tasks\n  - Fewer repeated mistakes\n  - More consistent output quality\n\n> \"Claude Dream is not dreaming for entertainment. It is memory improvement for AI agents.\"\n\nThis shift is crucial for businesses that rely on AI for content, research, onboarding, or support. Instead of a one-off chatbot, you get a learning partner.\n\n## What Is the Role of Human Oversight in Claude Dream?\n\nAs smart as Claude Dream is, it’s not perfect. Sometimes, an agent might learn the wrong lesson or pick up a bad habit. That’s why Claude Dream keeps humans in the loop. You can let memory updates happen automatically, or you can review changes before they go live.\n\nFor business owners, this means you get the best of both worlds: automation that saves time, plus oversight to ensure quality doesn’t slip. You can trust the agent to improve, but you still have the final say on what it learns.\n\n- How human control works:\n  - Choose between auto-updates or manual review\n  - Prevent agents from storing bad patterns\n  - Balance efficiency with quality control\n\n> \"Claude Dream is more useful when it helps agents learn without removing human judgment.\"\n\n## How Do Claude Dream and Outcomes Work Together?\n\nClaude Dream isn’t just about memory. It’s part of a bigger managed agent update that includes Outcomes—a system that lets agents grade their own work. Here’s how it works:\n\n- A developer (or business owner) defines what good output looks like—a rubric.\n- A separate grading agent reviews the result.\n- If the output is weak, the grader sends feedback, and the original agent can take another pass.\n\nThis creates a feedback loop where agents check their work before it ever reaches a human. Combined with Claude Dream’s memory improvements, this means fewer bad drafts, more reliable results, and less time spent editing.\n\n> \"Outcomes lets Claude agents check their own work against a rubric... That turns agent work into a much stronger feedback loop.\"\n\n## How Does This System Save Time and Reduce Errors?\n\nTraditional AI workflows often look like this: you ask for a draft, the AI gives you something, and then you spend time editing, checking, and fixing. With Claude Dream and Outcomes, much of this manual effort is automated.\n\n- The grading agent acts as an internal editor.\n- Claude Dream ensures that successful edits become part of the agent’s memory.\n- Over time, the system produces fewer errors and more usable drafts.\n\nFor businesses, this means:\n  - Less time spent on repetitive corrections\n  - More confidence in AI-generated outputs\n  - Ability to scale workflows without scaling manual oversight\n\n> \"Claude Dream helps reduce that loop by giving agents a way to learn from repeated sessions.\"\n\n## What Business Tasks Benefit Most from Claude Dream?\n\nWhile the system can be used in many areas, it’s especially useful for:\n\n- Weekly email campaigns (fewer repeated mistakes)\n- Client summaries (consistent quality)\n- Onboarding documents (adapts to team preferences)\n- Internal support workflows (remembers common solutions)\n\n> \"That matters for content, research, onboarding, support, and internal workflows.\"\n\nIf your business relies on repeatable processes that often need manual review, Claude Dream can help you free up time and focus on higher-value work.\n\n## How to Get Started with Claude Dream?\n\nClaude Dream is currently in research preview, so access may need to be requested. But the direction is clear: AI agents are moving from simple chatbots to learning systems that improve with use. To prepare your business:\n\n- Identify workflows that require frequent manual correction\n- Define what good output looks like for your team\n- Explore managed agent solutions like Claude Dream and Outcomes\n\n> \"With Claude Dream, agents can start learning from the tasks they run. That makes the update worth watching closely.\"\n\n## Frequently Asked Questions (FAQ)\n\n**What is Claude Dream?**\nClaude Dream is a new feature that helps AI agents remember past sessions, learn from experience, and improve their output over time.\n\n**Do I need to be a developer to use Claude Dream?**\nNo. While developers can customize workflows, business owners and marketers can use managed agent systems with minimal technical setup.\n\n**How does Claude Dream handle mistakes?**\nIf the agent makes a mistake, Claude Dream can notice repeated errors and update its memory to avoid them in the future. Human review is also possible before changes go live.\n\n**Can Claude Dream be used for marketing tasks?**\nYes. It’s especially useful for content creation, email campaigns, and any repeatable task that benefits from learning and memory.\n\n**Is Claude Dream available to everyone?**\nCurrently, it’s in research preview, so you may need to request access. But it’s expected to roll out more widely as testing continues.\n\nCONCLUSION\n\nClaude Dream represents a real step forward for business AI automation. By letting agents learn from experience and grade their own work, it helps reduce manual corrections and builds smarter workflows. For entrepreneurs and business owners ready to move beyond basic chatbots, now is the time to explore solutions like Claude Dream. Identify your most repetitive tasks, define your quality standards, and start building agent systems that truly work for you.",
+      "content_ru": "Claude Dream: AI-агенты для бизнеса — автоматизация и рост эффективности\n\nВСТУПЛЕНИЕ\n\nAI-агенты уже меняют бизнес по всему миру. Но у большинства есть огромный минус: они забывают ваши инструкции, повторяют одни и те же ошибки, и требуют постоянного ручного контроля. Для предпринимателей, маркетологов и владельцев бизнеса в России и СНГ это значит только одно — потраченное впустую время и нервы. А что если ваш AI-помощник сможет действительно учиться на опыте, как живой сотрудник?\n\nClaude Dream — это новый инструмент, который помогает AI-агентам запоминать успешные решения, совершенствоваться между задачами и даже самостоятельно оценивать свою работу. Это не просто очередная доработка чат-бота. Это система, которая экономит часы на рутине, повышает качество результатов и строит процессы, которые становятся умнее с каждым днем. В этой статье разберём, как работает Claude Dream, почему это важно для бизнеса и как внедрить такую автоматизацию у себя.\n\n## Почему обычные AI-агенты требуют столько ручной работы?\n\nЕсли вы уже пробовали внедрять AI-агентов в свой бизнес, знакома эта боль: настроили процесс, дали инструкции, получили результат — а через неделю агент снова забывает ваши требования и повторяет старые ошибки. Приходится всё время редактировать, объяснять заново, тратить время.\n\nClaude Dream создан, чтобы решить эту проблему. Вместо того чтобы начинать с нуля каждый раз, агент с Claude Dream анализирует свои прошлые сессии и память. Он сохраняет полезные шаблоны, отбрасывает шум, обновляет память и не наступает на те же грабли.\n\n> «Claude Dream помогает агентам становиться полезнее со временем, а не начинать с чистого листа каждый раз.»\n\nЧастые проблемы классических AI-агентов:\n  - Забывают индивидуальные инструкции\n  - Повторяют одни и те же ошибки\n  - Требуют ручной проверки каждого результата\n\nС Claude Dream агент запоминает, что сработало, замечает, что не получилось, и учится на этом.\n\n## Как Claude Dream улучшает память AI-агента?\n\nClaude Dream вдохновлён тем, как человек переваривает информацию во сне. Днём мы накапливаем разговоры, решения, ошибки. Ночью мозг сортирует: что-то оставляет, что-то выбрасывает, что-то структурирует. Claude Dream делает то же самое для AI-агентов: после каждой сессии он анализирует, что произошло, вычленяет полезные паттерны и обновляет память.\n\nВ результате ваш агент — это не просто инструмент, а система, которая становится умнее с каждым днём. Он запоминает успешные сценарии, подстраивается под ваши предпочтения и всё меньше требует вашего вмешательства.\n\n- Плюсы улучшенной памяти агента:\n  - Меньше времени на повторные объяснения\n  - Меньше повторяющихся ошибок\n  - Более стабильное качество результатов\n\n> «Claude Dream — это не про развлечения. Это про улучшение памяти AI-агентов.»\n\nЭто особенно важно для бизнеса, где AI помогает с контентом, исследованиями, адаптацией сотрудников или поддержкой. Вы получаете не просто чат-бота, а умного партнёра.\n\n## Зачем нужен человеческий контроль в Claude Dream?\n\nClaude Dream умён, но не идеален. Иногда агент может сделать неправильные выводы или закрепить плохую привычку. Поэтому Claude Dream оставляет за человеком право контролировать обновления памяти. Вы сами выбираете: дать агенту обновлять память автоматически или просматривать изменения вручную.\n\nДля бизнеса это идеальный баланс: автоматизация экономит время, а контроль гарантирует качество. Агент учится, но последнее слово остаётся за вами.\n\n- Как устроен человеческий контроль:\n  - Можно выбрать автообновление или ручную проверку\n  - Не допускает закрепления ошибочных паттернов\n  - Балансирует скорость и качество\n\n> «Claude Dream полезнее, когда помогает агенту учиться, не убирая человеческое суждение.»\n\n## Как работают вместе Claude Dream и Outcomes?\n\nClaude Dream — это не только память. Это часть большой системы, куда входит Outcomes — инструмент для проверки и оценки работы агента. Как это устроено:\n\n- Вы (или ваш сотрудник) задаёте критерии хорошего результата — рубрику.\n- Отдельный агент-оценщик анализирует итог работы.\n- Если результат слабый — оценщик даёт обратную связь, и основной агент дорабатывает ответ.\n\nТак создаётся цикл обратной связи: агент сам проверяет свою работу до того, как она попадёт к человеку. В связке с памятью Claude Dream это даёт меньше брака, больше стабильности и меньше рутины.\n\n> «Outcomes позволяет агентам Claude проверять свою работу по рубрике... Это делает цикл обратной связи намного сильнее.»\n\n## Как эта система экономит время и снижает ошибки?\n\nКлассический AI-процесс выглядит так: вы просите черновик, AI что-то пишет, а вы потом долго редактируете и проверяете. Claude Dream и Outcomes автоматизируют большую часть этой рутины.\n\n- Оценщик работает как внутренний редактор.\n- Claude Dream запоминает успешные правки.\n- Со временем система выдаёт всё меньше ошибок и больше готовых черновиков.\n\nДля бизнеса это значит:\n  - Меньше времени на повторные правки\n  - Больше уверенности в AI-результатах\n  - Можно масштабировать процессы без увеличения ручной проверки\n\n> «Claude Dream помогает разорвать этот круг, давая агентам возможность учиться на повторяющихся задачах.»\n\n## Для каких бизнес-задач Claude Dream особенно полезен?\n\nСистема универсальна, но особенно ярко проявляет себя в:\n\n- Еженедельных email-рассылках (меньше повторяющихся ошибок)\n- Кратких отчетах для клиентов (стабильное качество)\n- Документах для адаптации сотрудников (учитывает ваши стандарты)\n- Внутренней поддержке (запоминает типовые решения)\n\n> «Это важно для контента, исследований, адаптации, поддержки и внутренних процессов.»\n\nЕсли у вас много повторяющихся задач, которые требуют ручной проверки — Claude Dream освободит время и даст сосредоточиться на развитии.\n\n## Как начать использовать Claude Dream?\n\nСейчас Claude Dream доступен в режиме research preview — нужно запросить доступ. Но направление развития уже ясно: AI-агенты переходят от простых чат-ботов к обучающимся системам. Чтобы подготовить бизнес:\n\n- Определите процессы, где часто приходится вручную дорабатывать AI-результаты\n- Пропишите, каким должен быть идеальный результат для вашей команды\n- Изучите решения вроде Claude Dream и Outcomes для автоматизации\n\n> «С Claude Dream агенты начинают учиться на выполненных задачах. За этим обновлением стоит следить.»\n\n## Часто задаваемые вопросы (FAQ)\n\n**Что такое Claude Dream?**\nClaude Dream — это функция, которая помогает AI-агентам запоминать прошлый опыт, учиться на ошибках и улучшать результаты со временем.\n\n**Нужно ли быть программистом для работы с Claude Dream?**\nНет. Хотя разработчики могут настраивать процессы глубже, бизнесу и маркетологам доступны готовые системы без сложной настройки.\n\n**Как Claude Dream справляется с ошибками?**\nЕсли агент повторяет ошибку, Claude Dream замечает это и обновляет память, чтобы в будущем не допускать таких промахов. Все изменения можно проверить вручную.\n\n**Можно ли использовать Claude Dream для маркетинга?**\nДа. Особенно полезен для создания контента, email-рассылок и любых повторяющихся задач, где важна память и самообучение.\n\n**Доступен ли Claude Dream всем?**\nПока что инструмент в режиме тестирования, доступ можно запросить. В будущем ожидается более широкий релиз.\n\nЗАКЛЮЧЕНИЕ\n\nClaude Dream — это реальный шаг вперёд для AI-автоматизации бизнеса. Агент учится на опыте, сам оценивает результаты и снижает ручную доработку. Для предпринимателей и руководителей, которые хотят выйти за рамки простых чат-ботов, сейчас самое время изучить такие решения. Выделите самые рутинные задачи, пропишите стандарты качества — и начните строить агентские системы, которые будут работать на вас.",
+      "tools_en": [
+        "Claude Dream",
+        "Outcomes"
+      ],
+      "tools_ru": [
+        "Claude Dream — инструмент для улучшения памяти и самообучения AI-агентов",
+        "Outcomes — система оценки и проверки работы AI-агентов"
+      ],
+      "results_en": "Reduces manual correction by enabling AI agents to learn from past tasks and self-grade outputs.",
+      "results_ru": "Снижает ручную доработку: агенты учатся на ошибках и сами оценивают свои результаты.",
+      "tag": "automation",
+      "source": "Web",
+      "source_url": "https://juliangoldie.com/claude-dream/",
+      "points": 194,
+      "date": "2026-05-13"
+    },
+    {
+      "id": "chatgpt-workspace-agent-automation",
+      "rank": 3,
+      "title_en": "ChatGPT Workspace Agent Automation: Streamline Email, Slack, and Linear Tasks",
+      "title_ru": "ChatGPT Workspace Agent: автоматизация задач в Gmail, Slack и Linear",
+      "desc_en": "Discover how ChatGPT workspace agents automate Gmail, Slack, and Linear tasks, saving hours weekly. Learn setup, benefits, and real use cases.",
+      "desc_ru": "Узнайте, как ChatGPT Workspace Agent автоматизирует задачи в Gmail, Slack и Linear, экономит часы работы. Пошаговое руководство и бизнес-примеры.",
+      "content_en": "ChatGPT Workspace Agent Automation: Streamline Email, Slack, and Linear Tasks\n\n## Why Automating Workspace Tasks Matters Now\n\nEvery entrepreneur and business owner knows the pain: your inbox fills up, support requests pile in, and you spend hours just sorting, copying, and pasting information between Gmail, Slack, and project trackers like Linear. Manual triage is time-consuming and error-prone. As your team grows, so does the chaos. \n\nBut what if you could delegate this digital drudgery to an AI agent? Not a simple chatbot, but a true assistant that reads, understands, and acts across your business tools—no hands required. In this article, you'll learn how real companies are using ChatGPT-powered workspace agents to automate multi-step workflows, saving time and boosting productivity. You'll get a step-by-step look at how these agents work, what they can do for your business, and how to get started.\n\n## How Does a ChatGPT Workspace Agent Work?\n\nMost people use ChatGPT as a chat window—you type, it replies. But a workspace agent is different. It's an autonomous AI that connects to your Gmail, Slack, and Linear accounts, reads new emails, decides what needs to happen, and acts on your behalf.\n\nHere's a real-world example from MindStudio:\n- The agent monitors a Gmail label for new support emails.\n- It reads the subject and body, then uses GPT to classify the message.\n- If it's a bug or technical issue, it creates a Linear ticket.\n- If it's a sales or general inquiry, it posts a summary to Slack.\n- Finally, it marks the email as processed.\n\n> \"Instead of treating GPT as a chatbot, you wire it up as an autonomous decision-maker that can read your Gmail inbox, post to Slack, create Linear tickets, and move between those systems based on what it finds. It acts, not just responds.\"\n\nThis isn't just theory—it's a practical automation that runs on a schedule, making decisions and moving information with zero manual effort.\n\n## What Problems Does This Solve for Businesses?\n\nManual triage drains staff time. Every support or sales email must be read, classified, and routed. Mistakes are common: tickets get lost, sales leads are delayed, and information slips through the cracks. For fast-growing teams, this bottleneck can mean lost revenue and unhappy customers.\n\nA ChatGPT workspace agent tackles these pain points by:\n- Automating repetitive sorting and routing\n- Reducing human error in triage\n- Ensuring every message gets the right follow-up\n- Freeing up your team for higher-value work\n\nImagine reclaiming several hours each week just by letting an agent handle your support inbox. For founders and managers, that means more time for strategy, sales, and growth.\n\n## How to Set Up a ChatGPT Workspace Agent\n\nSetting up a workspace agent requires a few key ingredients:\n- OpenAI account with GPT-4 API access\n- Google Cloud project with Gmail API enabled\n- Slack app with the right permissions\n- Linear API key\n- A place to run the agent (server, cloud, or local machine)\n\nThe process, as detailed by MindStudio, involves:\n1. Defining the agent's job in plain English (e.g., \"When a new email arrives, classify and route it\").\n2. Setting up Gmail polling to detect new messages.\n3. Using GPT to analyze each email and decide the next step.\n4. Automating actions: creating tickets in Linear or posting to Slack.\n5. Marking emails as processed.\n\n> \"Three inputs, two decision paths, one cleanup action. Simple enough to build in an afternoon, but realistic enough to be genuinely useful.\"\n\nThis isn't just a coding exercise—it's a practical workflow you can adapt to your own business needs.\n\n## What Are the Key Benefits for Entrepreneurs?\n\nFor business owners in Russia and the CIS, the advantages are clear:\n- **Time savings**: Automate hours of manual sorting each week.\n- **Consistency**: Every message is handled the same way, every time.\n- **Scalability**: As your business grows, the agent keeps up—no need to hire more staff for basic triage.\n- **Integration**: The agent connects your most important business tools, reducing silos.\n\nBullet list of benefits:\n- Handles multi-step workflows across Gmail, Slack, and Linear\n- Adapts to your unique business logic (customizable prompts)\n- Runs on your schedule (cron jobs or cloud functions)\n- Reduces response times for support and sales\n\n> \"Write yours with the same structure: What triggers the agent? What information does it need to read? What decisions does it make? What actions does it take? How does it clean up after itself?\"\n\n## How Intelligent Is the Agent? Can It Really Make Decisions?\n\nUnlike simple rule-based automations, this agent uses GPT to truly \"understand\" the content of each email. Instead of hardcoding dozens of if/else rules, you give GPT a clear prompt (e.g., \"Classify as bug, sales, or question\"). The AI analyzes the message and outputs a structured response, including category, priority, and recommended action.\n\nFor example, the agent might:\n- Spot a technical bug report and assign it high priority\n- Summarize a sales inquiry in one sentence for Slack\n- Flag urgent issues for immediate attention\n\nThis decision-making is flexible and adapts as your business needs change. You can update the prompt to refine how the agent classifies and routes messages.\n\n## How Secure and Reliable Is This Setup?\n\nSecurity is a top concern. The agent only accesses your data with API keys and OAuth permissions you control. Sensitive tokens are stored securely, and you can run the agent on your own infrastructure (locally or in the cloud).\n\nReliability comes from using proven APIs (Gmail, Slack, Linear) and robust scheduling (cron jobs or cloud functions). If an error occurs, the agent can log the problem and alert you—no silent failures.\n\nBullet list for reliability:\n- OAuth-based authentication for all services\n- Runs on your schedule, not dependent on user action\n- Logs actions for audit and troubleshooting\n- Can be paused or updated anytime\n\n> \"Store this securely — it’s effectively a password.\"\n\n## How to Customize the Agent for Your Business\n\nEvery business is different. The beauty of a ChatGPT workspace agent is its flexibility. You define the workflow: which emails to watch, how to classify them, what actions to take. You can add more integrations (e.g., CRM, Trello), change the routing logic, or fine-tune the prompts for your industry.\n\n- Want to route VIP sales leads to a private Slack channel? Easy.\n- Need to escalate critical bugs to a manager? Add a rule.\n- Prefer to log all actions in Google Sheets? Integrate it.\n\nThis isn't a one-size-fits-all tool—it's a customizable assistant that grows with your business.\n\n## Frequently Asked Questions (FAQ)\n\n**What is a ChatGPT workspace agent?**\nA workspace agent is an AI-powered assistant that connects to your business tools (like Gmail, Slack, and Linear), reads messages, makes decisions, and acts automatically—no manual input needed.\n\n**Do I need to be a programmer to use this?**\nWhile some setup requires technical steps (like connecting APIs), you don't need to be a developer. With clear guides and no-code tools emerging, it's becoming easier for non-technical users.\n\n**Is my data safe with a workspace agent?**\nYes, as long as you store API keys securely and use proper permissions. The agent only accesses data you approve and can be run on your own servers for extra control.\n\n**Can I use this with other tools besides Gmail, Slack, and Linear?**\nAbsolutely. The same logic applies to other platforms with APIs—think Trello, Notion, or your CRM. The agent can be extended as your needs grow.\n\n**How much time can I really save?**\nDepending on your email volume, automating triage can save several hours per week—time you can spend on more valuable work.\n\n## Conclusion: Start Automating Today\n\nAI workspace agents are no longer just a futuristic dream—they're a practical tool you can deploy right now. By connecting ChatGPT to your email, messaging, and project tracking, you can automate routine work, reduce errors, and reclaim your time.\n\nIf you're ready to take the next step, start by mapping out your own workflow: what needs to be automated, what decisions are required, and what actions should follow. Then, use the MindStudio guide to build your first agent. The future of business productivity is here—don't get left behind.",
+      "content_ru": "ChatGPT Workspace Agent: автоматизация задач в Gmail, Slack и Linear\n\n## Почему автоматизация рутины сейчас критична для бизнеса\n\nЛюбой предприниматель знает, как это бывает: почта завалена, заявки на поддержку копятся, а вы часами сортируете письма, копируете данные в Slack или таск-трекер вроде Linear. Ручная обработка писем — это потеря времени и постоянные ошибки. Чем больше команда, тем больше хаоса.\n\nА если бы можно было передать эту рутину ИИ-помощнику? Не просто чат-боту, а настоящему агенту, который сам читает письма, понимает их смысл и действует сразу в ваших бизнес-инструментах — без вашего участия. В этой статье вы узнаете, как реальные компании используют ChatGPT Workspace Agent для автоматизации рабочих процессов, экономят время и ускоряют рост. Подробно разберём, как это работает, какие задачи решает и как внедрить у себя.\n\n## Как работает ChatGPT Workspace Agent: живой пример\n\nОбычно ChatGPT используют как чат — спросил, получил ответ. Но Workspace Agent — это другой уровень. Это автономный ИИ, который подключается к вашей почте, Slack и Linear, сам читает новые письма, решает, что делать, и выполняет действия без человека.\n\nРеальный кейс MindStudio:\n- Агент следит за определённой меткой в Gmail (например, «Support»)\n- Читает тему и текст письма, анализирует с помощью GPT\n- Если это баг или техническая проблема — создаёт задачу в Linear\n- Если вопрос или заявка на продажу — делает краткое резюме и отправляет в Slack\n- После этого помечает письмо как обработанное\n\n> «Вместо того чтобы использовать GPT как чат-бота, вы подключаете его как автономного помощника, который читает вашу почту, пишет в Slack, создаёт тикеты в Linear и перемещается между этими системами в зависимости от контекста. Он действует, а не просто отвечает.»\n\nЭто не теория — это реально работающая автоматизация, которую можно запустить за пару часов.\n\n## Какие бизнес-проблемы решает такой агент\n\nРучная сортировка писем — это вечная головная боль. Каждый запрос надо прочитать, понять, решить, куда его отправить. Ошибки неизбежны: тикеты теряются, заявки на продажу зависают, важная информация уходит в никуда. В быстрорастущих компаниях это приводит к потерям и нервам.\n\nChatGPT Workspace Agent решает эти боли:\n- Автоматизирует рутинную сортировку и маршрутизацию писем\n- Снижает количество ошибок при обработке заявок\n- Гарантирует, что каждое письмо получит правильную реакцию\n- Освобождает время команды для важных задач\n\nПредставьте: вы возвращаете себе несколько часов в неделю, просто передав рутину ИИ. Для владельцев и руководителей это шанс заняться стратегией и ростом, а не «разгребанием» почты.\n\n## Как внедрить ChatGPT Workspace Agent: пошагово\n\nЧтобы агент заработал, потребуется:\n- Аккаунт OpenAI с доступом к GPT-4 API\n- Google Cloud проект с включённым Gmail API\n- Slack-приложение с нужными правами\n- API-ключ Linear\n- Сервер или облако для запуска агента\n\nПроцесс по MindStudio такой:\n1. Сначала простыми словами описываете, что должен делать агент (например, «Когда приходит новое письмо, классифицируй и перенаправляй»)\n2. Настраиваете слежение за новыми письмами в Gmail через polling\n3. Используете GPT для анализа писем и принятия решений\n4. Автоматизируете действия: создание задач в Linear или отправку сообщений в Slack\n5. Помечаете письма как обработанные\n\n> «Три входа, два варианта действий, одна финальная обработка. Просто сделать за день, но польза — реальная.»\n\nЭто не просто упражнение для айтишников — это практический рабочий сценарий, который можно адаптировать под ваш бизнес.\n\n## Какие выгоды даёт агент предпринимателям\n\nДля бизнеса в России и СНГ плюсы очевидны:\n- **Экономия времени**: автоматизация рутинной сортировки каждую неделю\n- **Стабильность**: каждое письмо обрабатывается одинаково, без «человеческого фактора»\n- **Масштабируемость**: агент справится с ростом бизнеса — не надо нанимать новых людей для рутины\n- **Интеграция**: агент связывает ваши ключевые инструменты, убирает разрозненность\n\nПлюсы в формате списка:\n- Умеет автоматически работать сразу с Gmail, Slack и Linear\n- Гибко настраивается под ваши задачи (меняйте промпт — меняется логика)\n- Работает по расписанию (cron или облако)\n- Сокращает время реакции на запросы клиентов\n\n> «Опишите структуру: что запускает агента? Что он читает? Какое решение принимает? Какие действия выполняет? Как завершает обработку?»\n\n## Насколько «умный» этот агент? Он реально сам решает?\n\nВ отличие от простых роботов с жёсткими правилами, этот агент использует GPT для анализа смысла письма. Вы не прописываете кучу if/else — вы даёте ИИ чёткую инструкцию («Классифицируй как баг, продажу или вопрос»). GPT анализирует текст и выдаёт структурированный ответ: категория, приоритет, что делать.\n\nНапример, агент может:\n- Выделить баг и поставить ему высокий приоритет\n- Кратко описать заявку на продажу для Slack\n- Пометить критические вопросы для срочного реагирования\n\nЛогику можно менять под ваш бизнес — просто обновите промпт, и агент начнёт работать по-новому.\n\n## Насколько это безопасно и надёжно?\n\nБезопасность — приоритет. Агент получает доступ к вашим данным только через API-ключи и OAuth, которые вы контролируете. Все ключи хранятся безопасно, агент можно запускать на своём сервере или в облаке.\n\nНадёжность обеспечивается проверенными API (Gmail, Slack, Linear) и стабильным расписанием (cron или облачные функции). Если что-то идёт не так, агент пишет в лог и может вас предупредить — никаких «тихих» сбоев.\n\nПлюсы по надёжности:\n- Авторизация через OAuth для всех сервисов\n- Работает по расписанию, не зависит от действий пользователя\n- Ведёт лог всех действий для аудита\n- В любой момент можно остановить или обновить\n\n> «Храните ключи в безопасности — это по сути ваш пароль.»\n\n## Как настроить агента под свой бизнес\n\nУ каждого бизнеса свои процессы. Крутость ChatGPT Workspace Agent в том, что он легко подстраивается:\n- Сами выбираете, какие письма отслеживать\n- Настраиваете категории и действия\n- Можно добавить новые интеграции (CRM, Trello, Notion)\n- Меняете логику маршрутизации в пару строках\n\nПримеры:\n- Хотите, чтобы VIP-заявки шли в отдельный Slack-канал? Легко.\n- Нужно эскалировать критические баги менеджеру? Добавьте правило.\n- Хотите логировать всё в Google Sheets? Интегрируйте.\n\nЭто не шаблон — а гибкий помощник, который растёт вместе с вашим бизнесом.\n\n## Часто задаваемые вопросы (FAQ)\n\n**Что такое ChatGPT Workspace Agent?**\nЭто ИИ-помощник, который подключается к вашим бизнес-инструментам (Gmail, Slack, Linear), сам читает письма, принимает решения и действует — без вашего участия.\n\n**Мне обязательно быть программистом, чтобы это использовать?**\nНет! Да, потребуется немного настроек (подключить API), но сейчас появляется всё больше простых инструкций и no-code решений.\n\n**Безопасно ли доверять агенту доступ к данным?**\nДа, если хранить ключи в безопасности и правильно настроить права. Агент работает только с тем, к чему вы разрешили доступ, и может запускаться на вашем сервере.\n\n**Можно ли подключить другие сервисы, кроме Gmail, Slack и Linear?**\nКонечно! Такая же логика работает с любыми сервисами с API — CRM, Trello, Notion и т.д. Агент легко расширяется.\n\n**Сколько времени реально экономит агент?**\nВ зависимости от объёма писем — от нескольких часов в неделю и больше. Чем больше рутины, тем выгоднее автоматизация.\n\n## Итоги: начните автоматизацию уже сегодня\n\nИИ-агенты для бизнеса — это не фантастика, а рабочий инструмент, который можно внедрить уже сейчас. Свяжите ChatGPT с вашей почтой, мессенджером и таск-трекером — и освободите время для роста.\n\nЕсли хотите попробовать — начните с описания своей рутины: что автоматизировать, какие решения нужны, какие действия должны следовать. Затем используйте гайд MindStudio и соберите своего первого агента. Будущее продуктивности уже здесь — не упустите шанс быть впереди.",
+      "tools_en": [
+        "ChatGPT (OpenAI)",
+        "Gmail API",
+        "Slack API",
+        "Linear API",
+        "Python"
+      ],
+      "tools_ru": [
+        "ChatGPT (OpenAI) — ИИ для анализа писем",
+        "Gmail API — доступ к почте",
+        "Slack API — отправка сообщений",
+        "Linear API — создание тикетов",
+        "Python — язык для логики агента"
+      ],
+      "results_en": "Automates triage of support emails, routes tasks, and saves hours on manual sorting.",
+      "results_ru": "Автоматически сортирует письма, создает задачи, экономит часы на ручной обработке.",
+      "tag": "automation|productivity",
+      "source": "Web",
+      "source_url": "https://www.mindstudio.ai/blog/how-to-build-chatgpt-workspace-agent",
+      "points": 129,
+      "date": "2026-05-13"
+    },
+    {
+      "id": "rachio-ai-customer-support",
+      "rank": 4,
       "title_en": "AI in Business: Rachio Automates Customer Support with Crescendo.ai",
       "title_ru": "ИИ в бизнесе: Rachio автоматизирует поддержку клиентов с Crescendo.ai",
       "desc_en": "Discover how Rachio used Crescendo.ai to automate customer support, cut costs by 30%, and boost efficiency. Learn how AI can transform your business today.",
@@ -31,7 +112,7 @@
     },
     {
       "id": "autonomous-financial-trading-ai",
-      "rank": 2,
+      "rank": 5,
       "title_en": "Autonomous Financial Trading AI: Transforming Markets in 2025",
       "title_ru": "Автоматизированный AI-трейдинг: революция на финансовых рынках 2025",
       "desc_en": "Discover how agentic AI is revolutionizing financial trading in 2025. Learn proven strategies and real results for your business.",
@@ -56,7 +137,7 @@
     },
     {
       "id": "ai-agents-microsoft-copilot",
-      "rank": 3,
+      "rank": 6,
       "title_en": "AI Agents Microsoft Copilot: Automate Your SMB for 2026 Success",
       "title_ru": "AI-агенты Microsoft Copilot: автоматизация бизнеса для успеха в 2026",
       "desc_en": "Discover how autonomous AI agents with Microsoft Copilot Studio boost SMB ROI in 2026. Learn how to automate and scale your business today.",
@@ -81,7 +162,7 @@
     },
     {
       "id": "ai-customer-service-salesforce",
-      "rank": 4,
+      "rank": 7,
       "title_en": "AI Customer Service Agents: Boost Efficiency and Satisfaction Fast",
       "title_ru": "AI-агенты поддержки: как ускорить сервис и повысить лояльность",
       "desc_en": "Discover how AI customer service agents from Salesforce automate support, reduce costs, and improve satisfaction. Learn key benefits and how to start.",
@@ -106,7 +187,7 @@
     },
     {
       "id": "clawsweeper-openclaw-maintenance-bot",
-      "rank": 5,
+      "rank": 8,
       "title_en": "OpenClaw AI Agent: Automating GitHub Issue and PR Management",
       "title_ru": "OpenClaw AI-бот: автоматизация работы с задачами и PR на GitHub",
       "desc_en": "Discover how ClawSweeper automates issue and PR handling for open-source projects. Save time and boost productivity. Read the full case study.",
@@ -133,7 +214,7 @@
     },
     {
       "id": "ai-agents-enterprise-salesforce",
-      "rank": 6,
+      "rank": 9,
       "title_en": "AI Agents Trends 2026: How Enterprise Automation Is Evolving",
       "title_ru": "AI-агенты 2026: как автоматизация меняет бизнес",
       "desc_en": "Discover how AI agents are transforming enterprise automation in 2026. Learn key trends, tools, and results. Start optimizing your business today!",
@@ -164,7 +245,7 @@
     },
     {
       "id": "cosupport-ai-customer-support",
-      "rank": 7,
+      "rank": 10,
       "title_en": "AI Customer Service Platform: Automate Support with CoSupport",
       "title_ru": "AI-платформа для поддержки: автоматизация сервиса с CoSupport",
       "desc_en": "Discover how CoSupport AI automates customer service, cuts costs, and boosts resolution rates. Learn how to implement AI support today.",
@@ -187,7 +268,7 @@
     },
     {
       "id": "openclaw-ai-management-team",
-      "rank": 8,
+      "rank": 11,
       "title_en": "OpenClaw AI Agents: Automate Management Tasks with 24/7 Virtual Team",
       "title_ru": "OpenClaw AI-агенты: автоматизация бизнес-рутины с виртуальной командой",
       "desc_en": "Discover how OpenClaw AI agents automate management, research, and content tasks 24/7. Learn actionable steps to boost your business productivity now.",
@@ -212,7 +293,7 @@
     },
     {
       "id": "ai-agents-business-automation-2026",
-      "rank": 9,
+      "rank": 12,
       "title_en": "AI Agents 2026: Business Automation, Custom Software & ROI",
       "title_ru": "AI-агенты 2026: автоматизация бизнеса и кастомные решения",
       "desc_en": "Explore how AI agents in 2026 automate business operations, boost decisions, and integrate with custom software. Learn practical steps for your company.",
@@ -241,7 +322,7 @@
     },
     {
       "id": "workspace-agents-slack-gong",
-      "rank": 10,
+      "rank": 13,
       "title_en": "Workspace Agents in ChatGPT: Automate Sales Briefs, Save Hours Weekly",
       "title_ru": "Workspace Agents в ChatGPT: автоматизация отчетов и экономия времени",
       "desc_en": "Discover how ChatGPT workspace agents automate sales research, summarize Gong calls, and post deal briefs to Slack. Boost team efficiency today.",
@@ -268,7 +349,7 @@
     },
     {
       "id": "ai-agents-production-enterprise",
-      "rank": 11,
+      "rank": 14,
       "title_en": "AI Agents in Production: How Enterprises Lead in 2026",
       "title_ru": "AI-агенты в бизнесе: как крупные компании внедряют ИИ в 2026",
       "desc_en": "Discover how AI agents are transforming customer service, research, and productivity in enterprises. Learn key adoption trends and actionable insights.",
@@ -295,7 +376,7 @@
     },
     {
       "id": "ai-content-automation-case",
-      "rank": 12,
+      "rank": 15,
       "title_en": "AI Content Automation: How House of Growth Doubled Output in 2026",
       "title_ru": "AI-контент-автоматизация: как House of Growth удвоили объём в 2026",
       "desc_en": "Discover how House of Growth used AI automation to double content output without hiring more staff. See real results and actionable tips.",
@@ -318,7 +399,7 @@
     },
     {
       "id": "ai-automation-small-business",
-      "rank": 13,
+      "rank": 16,
       "title_en": "AI Automation for Small Business: Top Use Cases Worth Trying Now",
       "title_ru": "AI-автоматизация для малого бизнеса: лучшие кейсы прямо сейчас",
       "desc_en": "Discover how AI automation solves real small business problems. Learn use cases, tools, and results. Start optimizing your workflow today!",
@@ -345,7 +426,7 @@
     },
     {
       "id": "ai-agent-marketing-automation",
-      "rank": 14,
+      "rank": 17,
       "title_en": "AI Agent Marketing Automation: How AI Agents Transform Campaigns",
       "title_ru": "AI-агенты для маркетинга: автоматизация кампаний и рост продаж",
       "desc_en": "Discover how AI agents automate marketing, boost speed, and personalize campaigns. Learn to start today with MindStudio. Read the full guide!",
@@ -370,7 +451,7 @@
     },
     {
       "id": "ai-marketing-agents-salesforce",
-      "rank": 15,
+      "rank": 18,
       "title_en": "AI Marketing Agents: Transforming Campaign Automation in 2024",
       "title_ru": "AI-маркетинговые агенты: автоматизация кампаний в 2024 году",
       "desc_en": "Discover how AI marketing agents automate campaigns, personalize content, and save time. Learn how to boost your marketing now.",
@@ -397,7 +478,7 @@
     },
     {
       "id": "intercom-ai-helpdesk-case",
-      "rank": 16,
+      "rank": 19,
       "title_en": "AI Helpdesk Intercom: Transforming Customer Support with Automation",
       "title_ru": "AI Helpdesk Intercom: автоматизация поддержки клиентов для бизнеса",
       "desc_en": "Discover how Intercom's AI Agent Fin automates customer support, boosts efficiency, and delivers seamless experiences. See real business results.",
@@ -422,7 +503,7 @@
     },
     {
       "id": "ai-agents-marketing-guide",
-      "rank": 17,
+      "rank": 20,
       "title_en": "AI Agents in Marketing: Transforming Campaigns and Content in 2026",
       "title_ru": "AI-агенты в маркетинге: трансформация кампаний и контента в 2026",
       "desc_en": "Discover how AI agents automate marketing workflows, boost revenue, and cut costs. Learn real use cases and start optimizing your strategy today.",
@@ -449,7 +530,7 @@
     },
     {
       "id": "ai-agent-saves-time",
-      "rank": 18,
+      "rank": 21,
       "title_en": "AI Agent Case Study: Save 80 Hours Weekly with Internal Automation",
       "title_ru": "AI-агент для бизнеса: экономия 80 часов в неделю на рутине",
       "desc_en": "Discover how an AI agent helped a legal-finance firm reclaim 80 hours weekly. Learn to boost productivity with smart automation. Read the full case study.",
@@ -474,7 +555,7 @@
     },
     {
       "id": "ai-invoice-automation-sme",
-      "rank": 19,
+      "rank": 22,
       "title_en": "AI Invoice Automation: How SMEs Cut Costs and Save Time in 2026",
       "title_ru": "AI автоматизация счетов: как малый бизнес экономит время и деньги",
       "desc_en": "Discover how AI invoice automation helps small businesses save 80% time and 2–3% per invoice. Learn proven steps to boost ROI.",
@@ -501,7 +582,7 @@
     },
     {
       "id": "ai-agentic-automation-enterprise",
-      "rank": 20,
+      "rank": 23,
       "title_en": "AI Automation Trends 2026: How Agentic Automation Transforms Enterprise",
       "title_ru": "Тренды AI-автоматизации 2026: как агентные решения меняют бизнес",
       "desc_en": "Discover how AI agent automation is slashing costs, boosting productivity and reshaping enterprise operations. See real trends and actionable steps.",
@@ -530,7 +611,7 @@
     },
     {
       "id": "claude-code-appstore-automation",
-      "rank": 21,
+      "rank": 24,
       "title_en": "Claude Code App Store Automation: AI Agents Streamline App Deployment",
       "title_ru": "Автоматизация App Store с Claude Code: ИИ-агенты ускоряют релизы",
       "desc_en": "Discover how Claude Code automates App Store submissions, saving hours and reducing errors. Learn how AI agents accelerate app launches. Read more!",
@@ -557,7 +638,7 @@
     },
     {
       "id": "chatgpt-agents-business-automation",
-      "rank": 22,
+      "rank": 25,
       "title_en": "ChatGPT Agents for Business: Automate Research, Support, and Content Fast",
       "title_ru": "ChatGPT Agents для бизнеса: автоматизация ресерча, поддержки и контента",
       "desc_en": "Discover how ChatGPT Agents automate research, customer support, and content creation. Boost efficiency and free up your team. Learn practical use cases now.",
@@ -582,7 +663,7 @@
     },
     {
       "id": "chatgpt-agent-lead-gen",
-      "rank": 23,
+      "rank": 26,
       "title_en": "ChatGPT Agent Mode for Lead Generation: Real Automation in Action",
       "title_ru": "ChatGPT Agent Mode для лидогенерации: реальный опыт автоматизации",
       "desc_en": "Discover how ChatGPT Agent Mode automates lead generation, saving hours weekly. Learn actionable steps to boost your client list today.",
@@ -609,7 +690,7 @@
     },
     {
       "id": "ai-agents-business-automation",
-      "rank": 24,
+      "rank": 27,
       "title_en": "AI Agents Business Automation: Real Use Cases for Productivity Gains",
       "title_ru": "AI-агенты для бизнеса: реальные кейсы автоматизации и роста эффективности",
       "desc_en": "Discover how AI agents automate business tasks, boost productivity, and cut costs. Real-world examples for entrepreneurs. Learn more now!",
@@ -634,7 +715,7 @@
     },
     {
       "id": "ai-customer-support-forethought",
-      "rank": 25,
+      "rank": 28,
       "title_en": "AI Customer Support: How Forethought Delivers 24/7 Service and ROI",
       "title_ru": "AI для поддержки клиентов: как Forethought увеличивает ROI и ускоряет сервис",
       "desc_en": "Discover how Forethought’s AI agents automate customer support, cut response times, and boost ROI. Learn how your business can benefit today.",
@@ -661,7 +742,7 @@
     },
     {
       "id": "decagon-ai-concierge-usecase",
-      "rank": 26,
+      "rank": 29,
       "title_en": "AI Concierge Decagon: Transforming Customer Service for Enterprises",
       "title_ru": "AI-консьерж Decagon: новый уровень сервиса для бизнеса",
       "desc_en": "Discover how Decagon's AI concierge boosts customer satisfaction, cuts costs, and drives revenue. Learn how to apply it in your business.",
@@ -686,7 +767,7 @@
     },
     {
       "id": "claude-code-agents-workflow",
-      "rank": 27,
+      "rank": 30,
       "title_en": "Claude Code Agents Workflow: Automate Project Management with AI",
       "title_ru": "Claude Code Agents: автоматизация управления проектами с помощью ИИ",
       "desc_en": "Discover how Claude Code agents streamline project workflows, automate team roles, and boost efficiency. Learn to apply AI for smarter business today.",
@@ -709,7 +790,7 @@
     },
     {
       "id": "ai-agents-whatsapp-automation",
-      "rank": 28,
+      "rank": 31,
       "title_en": "AI Automation in Business: Real WhatsApp Agent Case Study",
       "title_ru": "AI-автоматизация в бизнесе: кейс реального WhatsApp-агента",
       "desc_en": "Discover how AI agents automate WhatsApp challenges, boost engagement, and save 30+ hours/month. See real results and get inspired to start now!",
@@ -740,7 +821,7 @@
     },
     {
       "id": "sierra-ai-customer-experience",
-      "rank": 29,
+      "rank": 32,
       "title_en": "AI Customer Experience: How Sierra Transforms Business Interactions",
       "title_ru": "AI для клиентского опыта: как Sierra меняет бизнес-коммуникации",
       "desc_en": "Discover how Sierra's AI agents boost customer value, unify channels, and enable outcome-based pricing. See real results and get started today.",
@@ -769,7 +850,7 @@
     },
     {
       "id": "ai-agents-business-2026",
-      "rank": 30,
+      "rank": 33,
       "title_en": "AI Agents for Business 2026: Best Tools to Automate Your Company",
       "title_ru": "AI-агенты для бизнеса 2026: лучшие инструменты автоматизации компании",
       "desc_en": "Discover top AI agents for business automation in 2026. Learn how tools like UI Bakery save time and boost efficiency. Explore your options now!",
@@ -800,7 +881,7 @@
     },
     {
       "id": "claude-autonomous-agent-pays",
-      "rank": 31,
+      "rank": 34,
       "title_en": "Claude AI Agent: How to Build an Autonomous Agent That Pays for Services",
       "title_ru": "Claude AI агент: как создать автономного агента для оплаты сервисов",
       "desc_en": "Discover how a Claude AI agent autonomously pays for web services to complete tasks. Learn the workflow and boost your business automation today.",
@@ -825,7 +906,7 @@
     },
     {
       "id": "ai-agent-single-flow-case",
-      "rank": 32,
+      "rank": 35,
       "title_en": "AI Agent Workflows: Why Single-Agent Setups Outperform in Business",
       "title_ru": "AI-агенты в бизнесе: почему один агент эффективнее команды",
       "desc_en": "Discover why single-agent AI workflows often beat multi-agent setups in real business tasks. Learn how to optimize your automation today.",
@@ -850,7 +931,7 @@
     },
     {
       "id": "ai-agents-marketing-solutions",
-      "rank": 33,
+      "rank": 36,
       "title_en": "AI Agents for Marketing: Top Solutions, Benefits & Real Use Cases",
       "title_ru": "AI-агенты для маркетинга: лучшие решения, выгоды и реальные кейсы",
       "desc_en": "Discover how AI agents transform marketing with automation, personalization, and real-world impact. Learn benefits, features, and top solutions now.",
@@ -873,7 +954,7 @@
     },
     {
       "id": "ai-agents-automate-ops",
-      "rank": 34,
+      "rank": 37,
       "title_en": "AI Agents Automate Ops: Real-World Workflow Integration Example",
       "title_ru": "AI-агенты автоматизируют бизнес: реальный кейс интеграции",
       "desc_en": "Discover how AI agents automate business ops by linking Obsidian, ClickUp, and Discord. See real results and start streamlining your workflow today!",
@@ -902,7 +983,7 @@
     },
     {
       "id": "openclaw-real-use-cases",
-      "rank": 35,
+      "rank": 38,
       "title_en": "OpenClaw use cases: 500 real AI automations entrepreneurs need",
       "title_ru": "OpenClaw: 500 реальных кейсов ИИ-автоматизации для бизнеса",
       "desc_en": "Discover 500 real OpenClaw AI use cases, copy-paste prompts, and instant automations. Learn how to boost productivity and grow your business with AI.",
@@ -925,7 +1006,7 @@
     },
     {
       "id": "ai-agent-sales-automation",
-      "rank": 36,
+      "rank": 39,
       "title_en": "AI Agent Sales Automation: OpenClaw Transforms Sales Workflow",
       "title_ru": "AI-агент автоматизация продаж: OpenClaw меняет работу отдела",
       "desc_en": "Discover how AI agents like OpenClaw can automate your sales cycle, save time, and boost revenue. Learn actionable steps to modernize your business.",
@@ -950,7 +1031,7 @@
     },
     {
       "id": "openclaw-ai-sales-automation",
-      "rank": 37,
+      "rank": 40,
       "title_en": "OpenClaw AI for Sales Automation: Real-World Workflow and Results",
       "title_ru": "OpenClaw AI для автоматизации продаж: реальный кейс и результаты",
       "desc_en": "Discover how OpenClaw AI automates sales tasks, speeds up follow-ups, and boosts deal closures. Learn practical steps for your business.",
@@ -973,7 +1054,7 @@
     },
     {
       "id": "ai-agents-small-business",
-      "rank": 38,
+      "rank": 41,
       "title_en": "AI Agents for Small Businesses: Top Tools and Real Results 2026",
       "title_ru": "AI-агенты для малого бизнеса: лучшие инструменты и реальные результаты 2026",
       "desc_en": "Discover the best AI agents for small businesses in 2026. Learn how to boost sales, automate tasks, and save time. Find your ideal tool now.",
@@ -998,7 +1079,7 @@
     },
     {
       "id": "ai-agents-small-business",
-      "rank": 39,
+      "rank": 42,
       "title_en": "AI Agents for Small Business: 2026 Guide to Automation & Growth",
       "title_ru": "AI-агенты для малого бизнеса: гид по автоматизации и росту 2026",
       "desc_en": "Discover how AI agents transform small business: boost revenue, cut costs, and automate customer journeys. Read our 2026 guide for actionable insights.",
@@ -1023,7 +1104,7 @@
     },
     {
       "id": "ai-agent-teams-workflow",
-      "rank": 40,
+      "rank": 43,
       "title_en": "AI Agent Teams Workflow: Boost Coding Productivity with Claude",
       "title_ru": "AI-агенты Claude: автоматизация командной работы в кодинге",
       "desc_en": "Discover how Claude's AI agent teams accelerate coding tasks for businesses. Learn use cases, results, and how to get started today.",
@@ -1048,7 +1129,7 @@
     },
     {
       "id": "agent-flow-claude-visualization",
-      "rank": 41,
+      "rank": 44,
       "title_en": "Agent Flow Claude Code: Real-Time AI Agent Visualization for Business",
       "title_ru": "Agent Flow Claude Code: Визуализация AI-агентов в реальном времени для бизнеса",
       "desc_en": "Discover how Agent Flow reveals Claude Code agent decisions. Optimize AI workflows, debug faster, and boost productivity. Try this tool today!",
@@ -1073,7 +1154,7 @@
     },
     {
       "id": "ai-agent-loan-processing",
-      "rank": 42,
+      "rank": 45,
       "title_en": "AI Agent Loan Processing: 80% Cost Reduction in Mortgage Automation",
       "title_ru": "AI-агенты в ипотеке: автоматизация и снижение затрат на 80%",
       "desc_en": "Discover how AI agents cut mortgage loan processing costs by 80%. See real automation results and learn how your business can benefit today.",
@@ -1098,7 +1179,7 @@
     },
     {
       "id": "ai-agents-business-impact",
-      "rank": 43,
+      "rank": 46,
       "title_en": "AI Agents Statistics: Business Impact, ROI & Adoption Trends 2026",
       "title_ru": "AI-агенты для бизнеса: статистика, ROI и тренды внедрения 2026",
       "desc_en": "Discover how AI agents drive cost savings, boost sales ROI, and reshape business operations. See the latest 2026 stats and actionable insights.",
@@ -1123,7 +1204,7 @@
     },
     {
       "id": "ai-automation-energy-workflows",
-      "rank": 44,
+      "rank": 47,
       "title_en": "AI Automation Energy Sector: Replace Legacy Workflows, Boost Efficiency",
       "title_ru": "AI-автоматизация в энергетике: замена устаревших процессов и рост эффективности",
       "desc_en": "Discover how AI automation transforms energy sector workflows, cuts costs, and drives adoption. Learn actionable steps for your business.",
@@ -1146,7 +1227,7 @@
     },
     {
       "id": "ai-automation-roi-case",
-      "rank": 45,
+      "rank": 48,
       "title_en": "AI Automation ROI: Real Case Studies for Small Business Growth",
       "title_ru": "AI-автоматизация ROI: реальные кейсы для роста малого бизнеса",
       "desc_en": "Discover how AI automation boosts ROI for small businesses. See real case studies and actionable tips. Learn how to save time and grow today.",
@@ -1173,7 +1254,7 @@
     },
     {
       "id": "fin-ai-customer-service",
-      "rank": 46,
+      "rank": 49,
       "title_en": "AI Agent for Customer Service: Fin Boosts Resolution Rates Fast",
       "title_ru": "AI-агент для поддержки клиентов: Fin повышает эффективность",
       "desc_en": "Discover how Fin AI automates customer service, handles complex queries, and boosts resolution rates. Learn how to deploy Fin for your business today.",
@@ -1198,7 +1279,7 @@
     },
     {
       "id": "kelly-ai-multiple-projects",
-      "rank": 47,
+      "rank": 50,
       "title_en": "AI Agent Kelly: How to Manage Multiple Projects Simultaneously",
       "title_ru": "Искусственный интеллект Kelly: как вести несколько проектов одновременно",
       "desc_en": "Discover how Kelly AI agent helps manage multiple business projects at once. Boost productivity and streamline operations. Learn how it works now.",
@@ -1223,7 +1304,7 @@
     },
     {
       "id": "chatgpt-agent-outreach-list",
-      "rank": 48,
+      "rank": 51,
       "title_en": "ChatGPT Agent Use Case: Build Outreach Lists Fast for Marketing",
       "title_ru": "ChatGPT Agent: как быстро собирать списки для маркетинга",
       "desc_en": "Learn how ChatGPT Agent automates targeted outreach list building, saving hours for marketers. Discover step-by-step real-life workflow and tips.",
@@ -1248,7 +1329,7 @@
     },
     {
       "id": "ai-agents-b2b-marketing",
-      "rank": 49,
+      "rank": 52,
       "title_en": "AI Agents for B2B Marketing: 5 Real Agentic Use Cases",
       "title_ru": "AI-агенты для B2B-маркетинга: 5 реальных кейсов применения",
       "desc_en": "Discover 5 practical AI agent use cases for B2B marketers. Learn how agentic AI transforms ABM, saves time, and boosts results.",
@@ -1273,7 +1354,7 @@
     },
     {
       "id": "company-info-extraction-saas",
-      "rank": 50,
+      "rank": 53,
       "title_en": "Company Info Extraction AI: Automate B2B Research & CRM Updates",
       "title_ru": "Извлечение данных о компаниях с помощью ИИ: автоматизация B2B и CRM",
       "desc_en": "Discover how AI agents automate company info extraction, saving 15+ hours weekly and boosting CRM accuracy. Learn how your B2B team can benefit.",
@@ -1296,7 +1377,7 @@
     },
     {
       "id": "ai-claims-automation-insurance",
-      "rank": 51,
+      "rank": 54,
       "title_en": "AI Claims Automation: How Insurance Agents Cut Processing Time 46%",
       "title_ru": "AI-автоматизация заявок: как страховщики ускорили обработку на 46%",
       "desc_en": "Discover how a Dutch insurer used AI agents to automate 91% of claims, speed up processing by 46%, and boost NPS. Learn actionable steps for your business.",
@@ -1319,7 +1400,7 @@
     },
     {
       "id": "zendesk-ai-agents-cx",
-      "rank": 52,
+      "rank": 55,
       "title_en": "AI Agents Zendesk: Automate Customer Service for 80%+ CX Tasks",
       "title_ru": "AI-агенты Zendesk: автоматизация 80% задач поддержки клиентов",
       "desc_en": "Discover how Zendesk AI Agents automate customer support, cut costs, and boost CSAT. Real business results and steps to implement. Read now!",
@@ -1344,7 +1425,7 @@
     },
     {
       "id": "options-flow-data-parser",
-      "rank": 53,
+      "rank": 56,
       "title_en": "Options Flow Data Parser & Analysis System",
       "title_ru": "Парсер и система анализа потока опционов",
       "desc_en": "Claude-powered OpenClaw agent that ingests 6 months of institutional options data from Discord, creates SQLite database with vector search.",
@@ -1368,7 +1449,7 @@
     },
     {
       "id": "personal-assistant-saul",
-      "rank": 54,
+      "rank": 57,
       "title_en": "Saul: Full-Service Personal Assistant Agent",
       "title_ru": "Саул: Полнофункциональный агент персонального помощника",
       "desc_en": "Persistent PA with Google Workspace access, proactive scheduling, flight booking, and self-improvement capabilities via Telegram interface.",
@@ -1394,7 +1475,7 @@
     },
     {
       "id": "saul-personal-assistant",
-      "rank": 55,
+      "rank": 58,
       "title_en": "Saul: AI Personal Assistant with Google Workspace Integration",
       "title_ru": "Саул: ИИ-помощник с интеграцией Google Workspace",
       "desc_en": "A persistent AI assistant built with OpenClaw architecture that manages emails, calendars, bookings, and flight check-ins via Telegram.",
@@ -1424,7 +1505,7 @@
     },
     {
       "id": "whatsapp-saas-builder",
-      "rank": 56,
+      "rank": 59,
       "title_en": "WhatsApp SaaS Builder with OpenClaw",
       "title_ru": "Создатель SaaS через WhatsApp с OpenClaw",
       "desc_en": "Built a complete social app using OpenClaw + Minimax API through WhatsApp interface in just 48 minutes without frontend/backend.",
@@ -1445,7 +1526,7 @@
     },
     {
       "id": "btc-trading-bot",
-      "rank": 57,
+      "rank": 60,
       "title_en": "5-Minute BTC Trading Bot with OpenClaw",
       "title_ru": "Бот для торговли BTC за 5 минут с OpenClaw",
       "desc_en": "Built an automated trading bot for 5-minute BTC markets, scaling from $50 to $823 with 2x leverage opportunities.",
@@ -1466,7 +1547,7 @@
     },
     {
       "id": "restaurant-calling-automation",
-      "rank": 58,
+      "rank": 61,
       "title_en": "Automated Restaurant Calling System",
       "title_ru": "Система автоматических звонков в рестораны",
       "desc_en": "Created an AI system that automatically calls restaurants using voice AI, integrating OpenClaw with iMessage, browser, and Twilio voice API.",
@@ -1489,7 +1570,7 @@
     },
     {
       "id": "binance-trading-automation",
-      "rank": 59,
+      "rank": 62,
       "title_en": "Binance Automated Trading Bot Development",
       "title_ru": "Разработка автоматизированного торгового бота для Binance",
       "desc_en": "Developed a locally-run Binance trading bot using OpenClaw after continuous debugging, refining trading strategies and code implementation.",
@@ -1511,7 +1592,7 @@
     },
     {
       "id": "reddit-narrative-builder",
-      "rank": 60,
+      "rank": 63,
       "title_en": "Reddit Narrative Analysis with OpenClaw",
       "title_ru": "Анализ нарративов Reddit с OpenClaw",
       "desc_en": "Built a Reddit narrative builder using recursive scraping to analyze sentiment across subreddits for AI, sports, and travel topics.",
@@ -1533,7 +1614,7 @@
     },
     {
       "id": "automated-coding-tasks-github",
-      "rank": 61,
+      "rank": 64,
       "title_en": "Automated GitHub Issue Resolution with OpenClaw",
       "title_ru": "Автоматизация решения GitHub Issues с OpenClaw",
       "desc_en": "Automated minor coding tasks by creating GitHub PRs, iterating based on reviews, and managing the full development lifecycle.",
@@ -1554,7 +1635,7 @@
     },
     {
       "id": "tiktok-marketing-automation",
-      "rank": 62,
+      "rank": 65,
       "title_en": "TikTok Marketing Automation Earning $4K in 24 Hours",
       "title_ru": "Автоматизация маркетинга TikTok, заработавшая $4K за 24 часа",
       "desc_en": "Larry, an OpenClaw agent, fully automated marketing workflows generating 200k TikTok views, 200+ X followers, and new subscribers.",
@@ -1575,7 +1656,7 @@
     },
     {
       "id": "social-media-content-automation",
-      "rank": 63,
+      "rank": 66,
       "title_en": "Automated Social Media Content Generation for AI Network",
       "title_ru": "Автоматизированная генерация контента для ИИ социальной сети",
       "desc_en": "Complete automation system for posting and commenting on Moltbook using OpenClaw to generate sarcastic AI content with shell scripts.",
@@ -1596,7 +1677,7 @@
     },
     {
       "id": "vc-daily-briefing-automation",
-      "rank": 64,
+      "rank": 67,
       "title_en": "VC Daily Briefing Automation with OpenClaw",
       "title_ru": "Автоматизация ежедневных сводок для ВК с OpenClaw",
       "desc_en": "Automated morning briefings for VCs using cron jobs to analyze markets, portfolio updates, and news.",
@@ -1616,7 +1697,7 @@
     },
     {
       "id": "daily-deal-finder-crm",
-      "rank": 65,
+      "rank": 68,
       "title_en": "Daily Deal Finder CRM Automation",
       "title_ru": "Автоматизация CRM для поиска сделок",
       "desc_en": "OpenClaw agent that analyzes CRM data and sales transcripts to identify and book meetings with prospects.",
@@ -1637,7 +1718,7 @@
     },
     {
       "id": "daily-deal-finder-crm-agent",
-      "rank": 66,
+      "rank": 69,
       "title_en": "Daily Deal Finder - Automated CRM Sales Agent",
       "title_ru": "Daily Deal Finder - Автоматизированный CRM Агент Продаж",
       "desc_en": "OpenClaw agent that analyzes CRM data and sales transcripts to identify prospects and book meetings with major companies.",
@@ -1658,7 +1739,7 @@
     },
     {
       "id": "vc-morning-briefing-agent",
-      "rank": 67,
+      "rank": 70,
       "title_en": "VC Morning Briefing Automation Agent",
       "title_ru": "Агент Автоматизации Утренних Брифингов для ВК",
       "desc_en": "Automated morning briefing system for VCs using OpenClaw cron jobs to generate daily investment insights and market updates.",
@@ -1679,7 +1760,7 @@
     },
     {
       "id": "multi-agent-system-dennis",
-      "rank": 68,
+      "rank": 71,
       "title_en": "Dennis Multi-Agent System with Role Separation",
       "title_ru": "Мультиагентная Система Dennis с Разделением Ролей",
       "desc_en": "OpenClaw agent that creates and manages sub-agents with specific roles, using AGENTS.MD and SOUL.MD files for task separation.",
@@ -1701,7 +1782,7 @@
     },
     {
       "id": "fix-test-deploy-openclaw-agent",
-      "rank": 69,
+      "rank": 72,
       "title_en": "Fix, Test, and Deploy OpenClaw Agent With Claude Code",
       "title_ru": "Исправление, тестирование и развертывание OpenClaw агента с Claude Code",
       "desc_en": "Debugging and fixing a daily X article automation that stopped running, using Claude Code integration with OpenClaw.",
@@ -1723,7 +1804,7 @@
     },
     {
       "id": "jarvis-command-center-convex",
-      "rank": 70,
+      "rank": 73,
       "title_en": "OpenClaw Agent Command Center - Personal Jarvis System",
       "title_ru": "Командный центр OpenClaw агента - персональная система Джарвис",
       "desc_en": "Building a comprehensive life management system using OpenClaw and Convex, inspired by Tony Stark's Jarvis AI assistant.",
@@ -1745,7 +1826,7 @@
     },
     {
       "id": "multi-agent-system-dennis",
-      "rank": 71,
+      "rank": 74,
       "title_en": "Dennis: Multi-Agent System with Role-Based Sub-Agents",
       "title_ru": "Деннис: мультиагентная система с подагентами на основе ролей",
       "desc_en": "Creating a hierarchical agent system where the main OpenClaw agent spawns specialized sub-agents with defined roles and documentation.",
@@ -1767,7 +1848,7 @@
     },
     {
       "id": "browser-automation-data-entry",
-      "rank": 72,
+      "rank": 75,
       "title_en": "Browser Automation for Web Tasks & Data Entry",
       "title_ru": "Автоматизация браузера для веб-задач и ввода данных",
       "desc_en": "Daily browser automation for repetitive form filling, data extraction using OpenClaw's headless Chrome integration.",
@@ -1788,7 +1869,7 @@
     },
     {
       "id": "crypto-trading-autonomous-agent",
-      "rank": 73,
+      "rank": 76,
       "title_en": "24/7 Autonomous Crypto Trading Agent",
       "title_ru": "Автономный агент для торговли криптовалютой 24/7",
       "desc_en": "AI agent that trades crypto around the clock while sending Telegram updates about executed arbitrage opportunities.",
@@ -1809,7 +1890,7 @@
     },
     {
       "id": "game-development-autonomous",
-      "rank": 74,
+      "rank": 77,
       "title_en": "Autonomous Game Development While Sleeping",
       "title_ru": "Автономная разработка игр во время сна",
       "desc_en": "AI agent built a functioning game app with thousands of users overnight while the developer was sleeping.",
@@ -1831,7 +1912,7 @@
     },
     {
       "id": "browser-automation-forms",
-      "rank": 75,
+      "rank": 78,
       "title_en": "Browser Automation for Form Filling & Data Extraction",
       "title_ru": "Автоматизация браузера для заполнения форм и извлечения данных",
       "desc_en": "Daily browser automation using OpenClaw with Chrome integration for repetitive form filling and data extraction tasks.",
@@ -1852,7 +1933,7 @@
     },
     {
       "id": "autonomous-game-development",
-      "rank": 76,
+      "rank": 79,
       "title_en": "Autonomous Game Development & Deployment",
       "title_ru": "Автономная разработка и развертывание игр",
       "desc_en": "OpenClaw agent autonomously built and deployed a functioning game app that attracted thousands of users overnight.",
@@ -1871,7 +1952,7 @@
     },
     {
       "id": "crypto-trading-agent",
-      "rank": 77,
+      "rank": 80,
       "title_en": "24/7 Crypto Trading with Telegram Updates",
       "title_ru": "Круглосуточная торговля криптовалютой с обновлениями в Telegram",
       "desc_en": "Autonomous crypto trading agent that executes arbitrage opportunities 24/7 and sends real-time Telegram notifications about trades.",
@@ -1892,7 +1973,7 @@
     },
     {
       "id": "software-architecture-analysis",
-      "rank": 78,
+      "rank": 81,
       "title_en": "Automated Software Architecture Analysis & Migration",
       "title_ru": "Автоматизированный анализ архитектуры ПО и миграция",
       "desc_en": "OpenClaw traverses code repositories to map dependencies, generate architecture summaries, refactor modules, and draft migration plans.",
@@ -1913,7 +1994,7 @@
     },
     {
       "id": "openclaw-telegram-whatsapp-automation",
-      "rank": 79,
+      "rank": 82,
       "title_en": "OpenClaw Multi-Platform Personal Assistant Setup",
       "title_ru": "Настройка персонального ассистента OpenClaw для разных платформ",
       "desc_en": "Complete setup of OpenClaw AI agent with Telegram/WhatsApp integration, enabling automated task execution through natural language conversations.",
@@ -1939,7 +2020,7 @@
     },
     {
       "id": "openclaw-comprehensive-agent-system",
-      "rank": 80,
+      "rank": 83,
       "title_en": "Full OpenClaw Agent System with Docker Sandboxing",
       "title_ru": "Полная система агентов OpenClaw с песочницей Docker",
       "desc_en": "Complete OpenClaw deployment covering installation, AI model integration, persistent memory, custom skills, and Docker-based security sandboxing.",
@@ -1969,7 +2050,7 @@
     },
     {
       "id": "google-workspace-ai-assistant",
-      "rank": 81,
+      "rank": 84,
       "title_en": "AI Assistant for Google Workspace Management",
       "title_ru": "ИИ-помощник для управления Google Workspace",
       "desc_en": "Personal AI bot managing calendar, documents, and sending briefings through Google Workspace integration.",
@@ -1995,7 +2076,7 @@
     },
     {
       "id": "local-data-analyst-ollama",
-      "rank": 82,
+      "rank": 85,
       "title_en": "Local Data Analyst with Ollama Integration",
       "title_ru": "Локальный аналитик данных с интеграцией Ollama",
       "desc_en": "Privacy-focused data analysis system using OpenClaw and local Ollama models for CSV analysis and visualization.",
@@ -2021,7 +2102,7 @@
     },
     {
       "id": "personal-ai-employee-peter-yang",
-      "rank": 83,
+      "rank": 86,
       "title_en": "Personal AI Employee with Google Workspace Integration",
       "title_ru": "Личный ИИ-сотрудник с интеграцией Google Workspace",
       "desc_en": "Complete AI assistant setup managing calendar, documents, voice responses, daily briefings, and weekly reports through text commands.",
@@ -2049,7 +2130,7 @@
     },
     {
       "id": "local-data-analyst-datacamp",
-      "rank": 84,
+      "rank": 87,
       "title_en": "Local Data Analyst with Ollama Integration",
       "title_ru": "Локальный аналитик данных с интеграцией Ollama",
       "desc_en": "Complete local-first AI data analysis system using OpenClaw and Ollama for private CSV analysis with visualizations and reports.",
@@ -2076,7 +2157,7 @@
     },
     {
       "id": "morning-routine-cron-automation",
-      "rank": 85,
+      "rank": 88,
       "title_en": "Automated Daily Morning Routine with OpenClaw Cron Jobs",
       "title_ru": "Автоматизированная утренняя рутина с заданиями Cron в OpenClaw",
       "desc_en": "Complete morning briefing automation that saves 2+ hours daily through scheduled tasks for weather, calendar, email monitoring, and maintenance.",
@@ -2099,7 +2180,7 @@
     },
     {
       "id": "small-business-automation-suite",
-      "rank": 86,
+      "rank": 89,
       "title_en": "10 OpenClaw Business Automations Saving 15+ Hours Weekly",
       "title_ru": "10 бизнес-автоматизаций OpenClaw, экономящих 15+ часов в неделю",
       "desc_en": "Comprehensive small business automation suite covering customer support, scheduling, email triage, inventory alerts, and lead qualification across multiple channels.",
@@ -2125,7 +2206,7 @@
     },
     {
       "id": "tiktok-marketing-agent",
-      "rank": 87,
+      "rank": 90,
       "title_en": "TikTok Marketing Agent for Influencer Growth",
       "title_ru": "Агент для маркетинга в TikTok и роста влияния",
       "desc_en": "OpenClaw agent 'Larry' automated TikTok marketing activities, achieving millions of views in one week for influencer marketing.",
@@ -2138,7 +2219,7 @@
     },
     {
       "id": "obsidian-vault-builder",
-      "rank": 88,
+      "rank": 91,
       "title_en": "Automated Obsidian Vault Building",
       "title_ru": "Автоматическое создание хранилищ Obsidian",
       "desc_en": "OpenClaw agent automatically builds and structures Obsidian knowledge vaults, providing ease of use without manual tool management.",
@@ -2151,7 +2232,7 @@
     },
     {
       "id": "business-seo-copywriting-automation",
-      "rank": 89,
+      "rank": 92,
       "title_en": "Business SEO and Copywriting Automation",
       "title_ru": "Автоматизация бизнес-SEO и копирайтинга",
       "desc_en": "OpenClaw workflows automate $45k of pSEO work in 20 minutes and $50k of copywriting in 15 minutes for business operations.",
@@ -2164,7 +2245,7 @@
     },
     {
       "id": "trading-workflow-automation",
-      "rank": 90,
+      "rank": 93,
       "title_en": "Trading Workflow Automation",
       "title_ru": "Автоматизация торговых процессов",
       "desc_en": "OpenClaw integrated with OpenAlgo to automate trading workflows and financial operations.",
@@ -2177,7 +2258,7 @@
     },
     {
       "id": "vc-daily-workflow-automation",
-      "rank": 91,
+      "rank": 94,
       "title_en": "VC Daily Workflow Automation",
       "title_ru": "Автоматизация ежедневных процессов венчурного капитала",
       "desc_en": "OpenClaw automates VC daily workflows including morning briefings, research, and investor-specific tasks with scheduled operations.",
@@ -2190,7 +2271,7 @@
     },
     {
       "id": "launch-operations-ultron-system",
-      "rank": 92,
+      "rank": 95,
       "title_en": "LAUNCH Operations ULTRON System",
       "title_ru": "Система ULTRON для операций LAUNCH",
       "desc_en": "OpenClaw ULTRON system replaces ~20 entry-level roles at LAUNCH/TWiST, providing automated guest booking and operational workflows.",
@@ -2203,7 +2284,7 @@
     },
     {
       "id": "twitter-automation-local-stack",
-      "rank": 93,
+      "rank": 96,
       "title_en": "Twitter Agent with Local AI Stack",
       "title_ru": "Twitter-агент с локальным AI стеком",
       "desc_en": "Automated Twitter agent running on local llama.cpp with NVIDIA 4070, using browser automation and OpenRouter for edge cases.",
@@ -2216,7 +2297,7 @@
     },
     {
       "id": "ga4-analytics-skill",
-      "rank": 94,
+      "rank": 97,
       "title_en": "GA4 Analytics Skill for ClawdHub",
       "title_ru": "Навык GA4 Analytics для ClawdHub",
       "desc_en": "Built and published GA4 skill in 20 minutes, allowing anyone to install and query Google Analytics data through OpenClaw.",
@@ -2229,7 +2310,7 @@
     },
     {
       "id": "voice-game-engine-control",
-      "rank": 95,
+      "rank": 98,
       "title_en": "Voice-Controlled Game Development",
       "title_ru": "Разработка игр с голосовым управлением",
       "desc_en": "Voice-to-AI agent system that controls 3D characters in PlayCanvas game engine in real-time through Discord commands.",
@@ -2242,7 +2323,7 @@
     },
     {
       "id": "unlimited-web-search",
-      "rank": 96,
+      "rank": 99,
       "title_en": "Free Web Search Integration",
       "title_ru": "Интеграция бесплатного веб-поиска",
       "desc_en": "Configured OpenClaw with unlimited free web search using SearXNG Docker container, eliminating API costs and monthly bills.",
@@ -2255,7 +2336,7 @@
     },
     {
       "id": "automated-marketing-revenue",
-      "rank": 97,
+      "rank": 100,
       "title_en": "Automated Marketing Revenue Generation",
       "title_ru": "Автоматизированное создание дохода в маркетинге",
       "desc_en": "OpenClaw agent 'Larry' generated $4000 in 24 hours through automated TikTok content creation and subscriber acquisition.",
@@ -2264,45 +2345,6 @@
       "source": "Twitter",
       "source_url": "https://x.com/oliverhenry/status/2020603682350625231",
       "points": 194,
-      "date": "2026-02-17"
-    },
-    {
-      "id": "blockchain-security-platform",
-      "rank": 98,
-      "title_en": "Autonomous Blockchain Security Platform",
-      "title_ru": "Автономная платформа безопасности блокчейна",
-      "desc_en": "OpenClaw autonomously built entire Rust blockchain security platform for Solana Hackathon using CRON jobs and judge agent for code review.",
-      "desc_ru": "OpenClaw автономно создал полную платформу безопасности блокчейна на Rust для хакатона Solana используя CRON-задачи и агента-судью для ревью кода.",
-      "tag": "coding",
-      "source": "Twitter",
-      "source_url": "https://x.com/ashen_one/status/2022524708084945052",
-      "points": 143,
-      "date": "2026-02-17"
-    },
-    {
-      "id": "multi-docker-spawning",
-      "rank": 99,
-      "title_en": "Multi-Agent Docker Spawning System",
-      "title_ru": "Система порождения множественных Docker-агентов",
-      "desc_en": "OpenClaw agent that spawns additional Docker containers with other OpenClaw instances for distributed agent operations.",
-      "desc_ru": "OpenClaw агент, который порождает дополнительные Docker-контейнеры с другими экземплярами OpenClaw для распределенных операций агентов.",
-      "tag": "devops",
-      "source": "Twitter",
-      "source_url": "https://x.com/MattHartman/status/2021475913272377722",
-      "points": 101,
-      "date": "2026-02-17"
-    },
-    {
-      "id": "qr-barcode-parcel-system",
-      "rank": 100,
-      "title_en": "QR/Barcode Parcel Collection System",
-      "title_ru": "Система сбора посылок с QR/штрих-кодами",
-      "desc_en": "Built OpenClaw skill for generating QR/barcodes for parcel collection, with automatic voice message handling using Whisper.",
-      "desc_ru": "Создал навык OpenClaw для генерации QR/штрих-кодов для сбора посылок, с автоматической обработкой голосовых сообщений чере�� Whisper.",
-      "tag": "productivity",
-      "source": "Reddit",
-      "source_url": "https://www.reddit.com/r/ChatGPT/comments/1qr45nw/everyone_talks_about_clawdbot_openclaw_but_heres/",
-      "points": 128,
       "date": "2026-02-17"
     }
   ]
