@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude Dynamic Workflows: AI Automation at Scale for Coding Teams | OpenClaw Times</title>
+<meta name="description" content="Discover how Claude Dynamic Workflows automate complex coding with up to 1,000 AI subagents. Learn practical benefits and get ahead now.">
+<link rel="canonical" href="https://openclawtimes.com/en/case/claude-dynamic-workflows-usecase.html">
+<meta property="og:title" content="Claude Dynamic Workflows: AI Automation at Scale for Coding Teams">
+<meta property="og:description" content="Discover how Claude Dynamic Workflows automate complex coding with up to 1,000 AI subagents. Learn practical benefits and get ahead now.">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0a0b;--bg-card:#111113;--bg-hover:#1a1a1d;
+  --border:#222225;--text:#fafafa;--text-dim:#a0a0a5;--text-muted:#707075;
+  --accent:#ff6154;--accent-dim:rgba(255,97,84,0.12);
+  --green:#10b981;--blue:#3b82f6;--purple:#8b5cf6;--cyan:#06b6d4;--pink:#ec4899;--yellow:#f59e0b;--orange:#f97316;
+  --font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',monospace;
+}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+body{font-family:var(--font-sans);background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--accent);color:#fff}
+.container{max-width:900px;margin:0 auto;padding:0 20px}
+
+/* Header */
+header{border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:0;background:rgba(10,10,11,0.95);backdrop-filter:blur(12px);z-index:100}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;align-items:center;gap:8px;font-weight:700;font-size:20px}
+.logo span{color:var(--accent)}
+.header-right{display:flex;align-items:center;gap:16px}
+.lang-switch{display:flex;gap:4px;padding:4px;background:var(--bg-card);border-radius:8px;border:1px solid var(--border)}
+.lang-btn{padding:6px 10px;border-radius:6px;font-size:16px;transition:all .15s;cursor:pointer}
+.lang-btn:hover{background:var(--bg-hover)}
+.lang-btn.active{background:var(--accent-dim)}
+
+/* Search */
+.search-box{position:relative}
+.search-input{width:240px;padding:10px 16px 10px 40px;background:var(--bg-card);border:1px solid var(--border);border-radius:10px;color:var(--text);font-size:14px;transition:all .2s}
+.search-input:focus{outline:none;border-color:var(--accent);width:300px}
+.search-input::placeholder{color:var(--text-muted)}
+.search-icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--text-muted);font-size:14px}
+
+/* Hero */
+.hero{padding:48px 0 32px;text-align:center}
+.hero h1{font-size:clamp(28px,5vw,40px);font-weight:700;letter-spacing:-0.03em;margin-bottom:12px}
+.hero h1 span{color:var(--accent)}
+.hero p{font-size:16px;color:var(--text-dim);max-width:500px;margin:0 auto}
+
+/* Stats Bar */
+.stats-bar{display:flex;justify-content:center;gap:32px;padding:20px 0;margin-bottom:24px;border-bottom:1px solid var(--border)}
+.stat{text-align:center}
+.stat-value{font-size:24px;font-weight:700;font-family:var(--font-mono);color:var(--accent)}
+.stat-label{font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em}
+
+/* Categories */
+.categories{display:flex;gap:8px;padding:16px 0;overflow-x:auto;border-bottom:1px solid var(--border);margin-bottom:24px}
+.categories::-webkit-scrollbar{display:none}
+.cat-btn{padding:8px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:20px;font-size:13px;font-weight:500;color:var(--text-dim);cursor:pointer;transition:all .2s;white-space:nowrap}
+.cat-btn:hover{border-color:var(--text-muted);color:var(--text)}
+.cat-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* Featured Case */
+.featured-case{display:block;background:linear-gradient(135deg,var(--accent-dim),transparent);border:1px solid var(--accent);border-radius:16px;padding:24px;margin-bottom:32px;transition:all .2s}
+.featured-case:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(255,97,84,0.15)}
+.featured-badge{display:inline-block;padding:4px 12px;background:var(--accent);color:#fff;font-size:11px;font-weight:700;border-radius:20px;margin-bottom:16px;letter-spacing:0.05em}
+.featured-title{font-size:24px;font-weight:700;margin-bottom:12px}
+.featured-desc{font-size:15px;color:var(--text-dim);margin-bottom:16px;line-height:1.6}
+.featured-meta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+
+/* Case Cards */
+.cases-list{display:flex;flex-direction:column;gap:12px}
+.case-card{display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--bg-card);border:1px solid var(--border);border-radius:12px;transition:all .2s}
+.case-card:hover{border-color:var(--text-muted);background:var(--bg-hover);transform:translateX(4px)}
+.case-card.hidden{display:none}
+.case-rank{font-family:var(--font-mono);font-size:14px;color:var(--text-muted);min-width:28px}
+.case-body{flex:1;min-width:0}
+.case-title{font-size:16px;font-weight:600;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.case-desc{font-size:13px;color:var(--text-dim);margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.case-footer{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.case-source{font-size:11px;color:var(--text-muted)}
+.case-tools{font-size:11px;color:var(--text-dim);font-family:var(--font-mono)}
+.case-vote{display:flex;flex-direction:column;align-items:center;padding:8px 12px;background:var(--bg);border:1px solid var(--border);border-radius:8px;min-width:50px}
+.vote-arrow{color:var(--accent);font-size:12px}
+.vote-count{font-family:var(--font-mono);font-size:14px;font-weight:600}
+
+/* Tag Pills */
+.tag-pill{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.02em}
+.tag-pill.automation{background:rgba(16,185,129,0.15);color:var(--green)}
+.tag-pill.coding{background:rgba(59,130,246,0.15);color:var(--blue)}
+.tag-pill.productivity{background:rgba(249,115,22,0.15);color:var(--orange)}
+.tag-pill.research{background:rgba(139,92,246,0.15);color:var(--purple)}
+.tag-pill.devops{background:rgba(6,182,212,0.15);color:var(--cyan)}
+.tag-pill.marketing{background:rgba(236,72,153,0.15);color:var(--pink)}
+.tag-pill.finance{background:rgba(245,158,11,0.15);color:var(--yellow)}
+.meta-source{font-size:12px;color:var(--text-muted)}
+.meta-points{font-family:var(--font-mono);font-size:13px;color:var(--accent)}
+
+/* Footer */
+footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-align:center}
+.footer-author{font-size:15px;color:var(--text-dim);margin-bottom:20px}
+.footer-author a{color:var(--accent);font-weight:500}
+.footer-author a:hover{text-decoration:underline}
+.footer-divider{margin:0 8px;color:var(--text-muted)}
+.footer-cta{margin-bottom:24px}
+.cta-btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--accent);color:#fff;font-size:14px;font-weight:600;border-radius:10px;transition:all .2s}
+.cta-btn:hover{filter:brightness(1.1);transform:translateY(-2px)}
+.footer-links{display:flex;justify-content:center;gap:24px;margin-bottom:16px}
+.footer-links a{font-size:14px;color:var(--text-muted);transition:color .15s}
+.footer-links a:hover{color:var(--text)}
+.footer-copy{font-size:13px;color:var(--text-muted)}
+.footer-copy a{color:var(--accent)}
+
+/* Case Page */
+.case-page{padding:40px 0}
+.case-page .back{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--text-muted);margin-bottom:24px;transition:color .15s}
+.case-page .back:hover{color:var(--text)}
+.case-page h1{font-size:clamp(24px,4vw,32px);font-weight:700;margin-bottom:16px}
+.case-page .meta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:24px;padding-bottom:24px;border-bottom:1px solid var(--border)}
+.tools-section{margin:24px 0;padding:20px;background:var(--bg-card);border-radius:12px;border:1px solid var(--border)}
+.tools-section h4{font-size:13px;font-weight:600;text-transform:uppercase;color:var(--text-dim);margin-bottom:12px}
+.tools-list{display:flex;flex-wrap:wrap;gap:8px}
+.tool-tag{padding:6px 12px;background:var(--bg-hover);border-radius:6px;font-size:13px;font-family:var(--font-mono)}
+.results-section{margin:24px 0;padding:20px;background:var(--accent-dim);border-radius:12px;border:1px solid rgba(255,97,84,0.3)}
+.results-section h4{font-size:13px;font-weight:600;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.results-section p{font-size:15px;font-weight:500}
+.content{font-size:15px;line-height:1.7;color:var(--text-dim)}
+.content h2{font-size:20px;font-weight:600;color:var(--text);margin:32px 0 16px}
+.content h3{font-size:17px;font-weight:600;color:var(--text);margin:24px 0 12px}
+.content p{margin-bottom:16px}
+.content code{font-family:var(--font-mono);font-size:13px;padding:2px 6px;background:var(--bg-card);border-radius:4px;color:var(--accent)}
+.source-link{display:inline-flex;align-items:center;gap:8px;margin-top:32px;padding:12px 20px;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;font-size:14px;font-weight:500;transition:all .15s}
+.source-link:hover{border-color:var(--accent);background:var(--accent-dim)}
+
+/* No Results */
+.no-results{text-align:center;padding:48px 20px;color:var(--text-muted)}
+.no-results-icon{font-size:48px;margin-bottom:16px}
+
+@media(max-width:640px){
+  .header-inner{flex-wrap:wrap}
+  .search-input{width:100%}
+  .search-input:focus{width:100%}
+  .case-card{flex-wrap:wrap}
+  .case-vote{width:100%;flex-direction:row;justify-content:center;gap:8px}
+  .stats-bar{gap:20px}
+  .categories{gap:6px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="/en/" class="logo">🦞 OpenClaw <span>Times</span></a>
+      <div class="lang-switch">
+        <a href="/en/case/claude-dynamic-workflows-usecase.html" class="lang-btn active">🇬🇧</a>
+        <a href="/case/claude-dynamic-workflows-usecase.html" class="lang-btn ">🇷🇺</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="case-page">
+  <div class="container">
+    <a href="/en/" class="back">← All cases</a>
+    <h1>Claude Dynamic Workflows: AI Automation at Scale for Coding Teams</h1>
+    <div class="meta">
+      <span class="tag-pill automation|coding|productivity">⚡ Automation</span>
+      <span style="color:var(--text-muted)">Web</span>
+      <span style="color:var(--text-muted);font-family:var(--font-mono)">29 May 2026</span>
+      <span style="color:var(--accent);font-family:var(--font-mono)">▲ 141</span>
+    </div>
+    
+    
+    <div class="tools-section">
+      <h4>Tools Used</h4>
+      <div class="tools-list"><span class="tool-tag">Claude Code</span><span class="tool-tag">Dynamic Workflows</span></div>
+    </div>
+    
+    <div class="results-section">
+      <h4>Results</h4>
+      <p>Enables automation of massive code tasks, like rewriting 750,000 lines in days.</p>
+    </div>
+    
+    <div class="content"><h2>Why Claude Dynamic Workflows Matter for Your Business</h2></p><p>Imagine automating massive, complex coding tasks that would take weeks or months for a team—now done in days. That’s the promise of Claude Dynamic Workflows, a new feature from Anthropic that’s quietly shaking up how coding teams and tech-driven businesses approach automation. Whether you run a startup or manage a digital product, the ability to orchestrate hundreds of AI subagents in parallel could mean faster releases, lower costs, and a real edge over competitors.</p><p>Coding bottlenecks are a pain point for any tech business. Manual reviews, repetitive code changes, and endless bug hunts slow everyone down. Even with AI assistants, most tools get bogged down by context limits or can’t scale to truly big jobs. What if your AI could handle thousands of tasks at once, keep everything organized, and give you a clean summary at the end? That’s what Dynamic Workflows aim to deliver.</p><p>In this article, you’ll learn what Dynamic Workflows are, how they work, and what real-world results look like. We’ll break down the tech in plain English, show you exactly how this approach can save time and money, and answer the questions business leaders ask before investing in new AI tools.</p><p><h2>What Are Dynamic Workflows in Claude Code?</h2></p><p>Dynamic Workflows are not just another AI plugin or a fancy add-on. They represent a fundamental shift in how AI agents tackle complex coding tasks. Instead of handling requests one by one, Claude now writes a JavaScript orchestration script on the fly—based on a simple natural-language prompt. This script then spins up dozens, even hundreds, of subagents in parallel, each working on a piece of the problem.</p><p>Here’s what makes this different:
+<li><strong>Parallelization</strong>: Up to 1,000 subagents can be coordinated in a single workflow, with 16 running at once.</li>
+<li><strong>Efficiency</strong>: Intermediate results are stored in script variables, not in the chat context, so you don’t hit token limits.</li>
+<li><strong>Responsiveness</strong>: The main chat stays fast and clean while agents work in the background.</li></p><p>> “Claude writes a JavaScript orchestration script on the fly, starting from the natural-language request, and a separate runtime executes that script in the background, spinning up dozens to hundreds of subagents in parallel.”</p><p>This isn’t theoretical. The feature is now in research preview and already powering real, large-scale projects.</p><p><h2>How Did Dynamic Workflows Help Rewriting Bun?</h2></p><p>One of the most striking real-world examples comes from Jarred Sumner, who needed to rewrite the Bun JavaScript runtime (moving it from Zig to Rust). This wasn’t a small job: 750,000 lines of code, with 99.8% of tests passing at the end. Instead of doing it by hand or with a single AI assistant, Sumner used Dynamic Workflows.</p><p>Here’s what happened:
+<li>The orchestration script broke the project into manageable chunks.</li>
+<li>Hundreds of subagents worked in parallel, each handling parts of the codebase.</li>
+<li>The workflow managed intermediate results, merged progress, and delivered a consolidated report.</li></p><p>This approach didn’t just speed things up—it made a previously unthinkable task possible. For businesses, this means you can now consider projects that were too big or too risky to automate before.</p><p><h2>How Do Dynamic Workflows Differ from Classic Subagents?</h2></p><p>Anthropic previously introduced subagents and skills in Claude Code, but Dynamic Workflows are a leap forward. Traditionally, Claude would spawn subagents turn by turn, with every result filling up the context window (and burning through tokens). Skills let you script a sequence in Markdown, but Claude still made all the decisions.</p><p>With Dynamic Workflows:
+<li>The plan moves into a JavaScript script, which decides what to launch, in what order, and with what logic.</li>
+<li>Intermediate results are kept outside the conversation, freeing up context and reducing cost.</li>
+<li>Workflows can be saved and reused, ensuring repeatability across projects.</li>
+<li>If interrupted, finished agents return cached results, so you only rerun what’s needed.</li></p><p><strong>Key advantages over classic subagents:</strong>
+<li>Scale: Up to 1,000 agents per execution</li>
+<li>Repeatability: Save and rerun workflows anywhere</li>
+<li>Resumability: Pick up where you left off</li></p><p><h2>How Can Businesses Activate and Use Dynamic Workflows?</h2></p><p>Getting started is surprisingly simple. There are two main ways:</p><p>1. <strong>Explicit activation</strong>: Include the word “workflow” in your prompt. For example, “Run a workflow to check every endpoint under src/routes/ that is missing authentication.” Claude will generate an orchestration script for the task.
+2. <strong>Automatic activation (Ultracode)</strong>: Set the effort level to “ultracode” using a command. Claude will decide when a workflow is needed and handle orchestration automatically. This is best for heavy, complex jobs.</p><p>Practical tips:
+<li>Use workflows for large, repetitive, or multi-step coding tasks.</li>
+<li>Save generated workflows and reuse them across projects.</li>
+<li>Drop back to a lower effort level for routine work to save on costs.</li></p><p>> “A request like ‘Run a workflow to check every endpoint under src/routes/ that is missing authentication’ triggers the script generation without changing the effort level of the session.”</p><p><h2>What Are the Technical Limits and Costs?</h2></p><p>Dynamic Workflows are powerful, but there are limits to keep things manageable:
+<li><strong>Maximum agents per execution</strong>: 1,000</li>
+<li><strong>Concurrent agents</strong>: 16 (tuned for average local machines)</li>
+<li><strong>Token usage</strong>: Higher for complex workflows; use “ultracode” only when needed</li>
+<li><strong>Availability</strong>: Currently in research preview, rolling out in the US, UK, and select global regions</li></p><p>Budget-conscious businesses should monitor token usage and only use high-effort workflows for tasks that truly need them. Workflows can be paused and resumed, so you don’t lose progress if interrupted.</p><p><strong>Main constraints to remember:</strong>
+<li>Scale up only for tasks that need it</li>
+<li>Save and reuse workflows for efficiency</li>
+<li>Monitor costs when running large jobs</li></p><p><h2>How Do Dynamic Workflows Impact Productivity and Team Workflow?</h2></p><p>Dynamic Workflows don’t just automate code—they change how teams work. By taking on massive, repetitive tasks, they free up your developers to focus on strategy, design, and high-impact work. For product owners, this means faster feature releases and less time spent on technical debt.</p><p>Benefits include:
+<li>Reduced manual labor and error rates</li>
+<li>Standardized, repeatable processes for code changes</li>
+<li>The ability to tackle projects that were previously off-limits due to size or complexity</li></p><p>> “The script generated by the runtime can be saved as a custom command and re-executed identically on any branch, on any project, with a simple slash command.”</p><p><h2>Frequently Asked Questions (FAQ)</h2></p><p><strong>Q: Do I need to be a developer to use Dynamic Workflows?</strong>
+A: No, you can trigger workflows with simple prompts. However, understanding your codebase helps you get the most out of the tool.</p><p><strong>Q: What kinds of tasks are best suited for Dynamic Workflows?</strong>
+A: Large-scale, repetitive, or multi-step coding tasks—such as code reviews, refactoring, or security checks—benefit most from this automation.</p><p><strong>Q: How do I control costs when using Dynamic Workflows?</strong>
+A: Use high-effort workflows only for big jobs, and monitor token usage. Save and reuse workflows for efficiency.</p><p><strong>Q: Can I pause or resume a workflow if something goes wrong?</strong>
+A: Yes, workflows are resumable. You only rerun the unfinished agents, so you don’t lose progress.</p><p><strong>Q: Is this available worldwide?</strong>
+A: The feature is currently in research preview, rolling out in the US, UK, and select other regions.</p><p><h2>Conclusion: What’s Next for AI-Powered Coding?</h2></p><p>Claude Dynamic Workflows offer a new level of automation for coding teams and tech-driven businesses. By orchestrating hundreds of AI agents in parallel, you can tackle projects that were previously out of reach, save time, and boost productivity. If you’re ready to try it, start by identifying a repetitive coding task in your business and prompt Claude to run a workflow—see the difference for yourself today.</div>
+    
+    <a href="https://pasqualepillitteri.it/en/news/3663/claude-code-dynamic-workflows-anthropic-research-preview" target="_blank" class="source-link">
+      🔗 View source
+    </a>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-author">
+      A project by <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a>
+      <span class="footer-divider">·</span>
+      <a href="https://plaan.ai" target="_blank">Plaan.ai</a>
+    </div>
+    <div class="footer-cta">
+      <a href="https://t.me/ffring" target="_blank" class="cta-btn">
+        💬 AI Implementation Consulting
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/openclaw/openclaw" target="_blank">GitHub</a>
+      <a href="https://discord.com/invite/clawd" target="_blank">Discord</a>
+    </div>
+    <div class="footer-copy">Built with <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
