@@ -1,14 +1,62 @@
 {
-  "updated": "2026-06-03T14:23:23.138Z",
+  "updated": "2026-06-04T12:40:10.400Z",
   "stats": {
     "total": 100,
-    "today": 1,
-    "week": 6
+    "today": 2,
+    "week": 8
   },
   "cases": [
     {
-      "id": "blackrock-genai-wealth",
+      "id": "claude-code-dynamic-agents",
       "rank": 1,
+      "title_en": "Claude Code Dynamic Workflows: 100 AI Agents in Real Business Use",
+      "title_ru": "Claude Code: 100 ИИ-агентов для бизнеса — реальный опыт",
+      "desc_en": "Discover how Claude Code's dynamic workflows with 100+ agents can automate research, save hours, and boost productivity. Learn more inside.",
+      "desc_ru": "Узнайте, как 100+ ИИ-агентов Claude Code автоматизируют бизнес-задачи и экономят время. Примеры, советы и выводы — читайте статью!",
+      "content_en": "Claude Code Dynamic Workflows: How 100+ AI Agents Transform Business Research\n\nIn today's fast-paced business world, entrepreneurs and marketers are always searching for an edge. Automation is no longer a futuristic dream—it's a necessity. But what if you could unleash a swarm of AI agents to tackle your research, fact-checking, and data gathering, all in a matter of minutes? That's exactly what Claude Code's dynamic workflows make possible. In this article, we dive deep into a real-world use case: spinning up over 100 AI agents to automate complex research tasks. We'll break down the numbers, the process, and what it means for your business.\n\nWhy Should Businesses Care About AI Agent Automation Right Now?\n\nEvery business faces the same challenge: too much information, not enough time. Whether you're launching a new product, monitoring competitors, or validating market trends, manual research eats up valuable hours. Mistakes slip through the cracks, and important insights get missed. The pain is real—especially for small teams without dedicated analysts. But what if you could multiply your research capacity overnight, without hiring more people?\n\nThat's where Claude Code's dynamic agent workflows come in. Instead of one assistant, you get a whole army—each agent handling a specific research or fact-checking task. The result? Faster, more thorough results, and hours saved every week. In this article, you'll learn exactly how this works, what it takes to set up, and what kind of results you can expect.\n\nHow Does Claude Code's Dynamic Workflow Actually Work?\n\nImagine needing to validate a set of findings—say, market data or competitor claims. Instead of doing it yourself, you launch Claude Code's dynamic workflow. In the real use case described, 101 agents were spun up and ran for 13 minutes. Each agent had a clear job: some performed searches, others read web pages, and a whopping 75 agents focused solely on fact-checking, each trying to prove a finding wrong.\n\nHere's what happened:\n- 101 agents launched\n- 13 minutes of total run time\n- 723 searches and page-reads completed\n- 75 agents dedicated to fact-checking\n\n> \"It spun up 101 agents and ran them for 13 minutes, 723 searches and page-reads, before it handed me anything. 75 of these agents were fact-checking, each trying to prove a finding wrong.\"\n\nThis kind of parallel processing means you get a level of thoroughness and speed that's impossible for any one person—or even a small team—to match.\n\nWhat Are the Real Numbers Behind 100+ AI Agents?\n\nLet's break down the numbers from the real-world test:\n- 101 agents ran simultaneously\n- 723 total web searches and page-reads\n- 13 minutes from start to finish\n- 75 agents assigned to fact-checking\n\nFor context, a single human researcher might handle 10-15 sources per hour, and fact-checking is a slow, detail-oriented process. With Claude Code, the workload is distributed, so you get results in a fraction of the time. This is a game-changer for:\n- Market research\n- Competitor analysis\n- Content validation\n- Due diligence\n\n> \"The scale and speed of 100+ agents means you can validate or debunk findings before your competitors even finish their morning coffee.\"\n\nHow Can This Workflow Save Time and Improve Accuracy?\n\nAutomating research isn't just about speed—it's about reducing errors and bias. When 75 agents each try to prove a finding wrong, you're less likely to miss critical flaws. This approach is especially valuable for:\n- PR and reputation management\n- Product claims verification\n- Investor reports\n\nBullet points on benefits:\n- Parallel fact-checking catches more errors\n- Automated agents don't get tired or distracted\n- Faster turnaround for urgent research tasks\n\nInstead of relying on a single perspective, you get a 360-degree view, with each agent acting as an independent checker. This leads to more reliable insights and fewer costly mistakes.\n\nWhat Does It Take to Build Your Own AI Agent Workflow?\n\nYou might wonder: is this only for tech giants? The answer is no. Claude Code's dynamic workflows are designed to be accessible, even for non-developers. While some setup is required, you don't need to write code or manage infrastructure.\n\nKey steps include:\n- Defining the research or validation task\n- Setting up agent roles (search, read, fact-check)\n- Launching the workflow and monitoring results\n\n> \"You don't need a team of engineers to launch 100+ agents. Claude Code makes it possible with a few clicks.\"\n\nThis means entrepreneurs, marketers, and business owners can automate research without a steep learning curve.\n\nHow Can Businesses Apply This in the Real World?\n\nThe possibilities are endless. Picture this:\n- You're launching a new product and want to validate every claim in your marketing materials.\n- You need to monitor competitors across dozens of sources, daily.\n- You're preparing for an investor pitch and need bulletproof data.\n\nWith Claude Code, you set up the workflow once, and let the agents handle the heavy lifting. This frees up your team to focus on strategy and decision-making—not endless Googling.\n\nBullet points on use cases:\n- Market entry validation\n- Content due diligence\n- Real-time competitor monitoring\n- Automated background research\n\nWhat Are the Limitations and Potential Pitfalls?\n\nNo tool is perfect. While Claude Code's dynamic workflows are powerful, there are some things to keep in mind:\n- Quality of results depends on the sources agents access\n- Some manual review may still be needed for nuanced judgment\n- Over-reliance on automation can miss context or subtle trends\n\n> \"Automation is a force multiplier, not a replacement for human intuition. Use agents to handle the grunt work, then apply your expertise to the results.\"\n\nFAQ: Claude Code Dynamic Workflows\n\nQ: Do I need to be a developer to use Claude Code's agent workflows?\nA: No, the system is designed for non-technical users. You can set up and run agent workflows with a simple interface and clear instructions.\n\nQ: How fast can I get results from 100+ agents?\nA: In the real example, 101 agents completed 723 searches and page-reads in just 13 minutes—much faster than manual research.\n\nQ: Can I trust the results from automated agents?\nA: The agents are thorough and fast, especially for fact-checking. However, a final human review is still a good idea for important decisions.\n\nQ: What kinds of business tasks can I automate?\nA: Market research, competitor analysis, content validation, PR monitoring, and more—all tasks that involve gathering and checking information.\n\nQ: Is this scalable for small teams or solo entrepreneurs?\nA: Yes, that's the main advantage. You can multiply your research capacity without hiring or training extra staff.\n\nConclusion: Start Automating Research Today\n\nThe days of manual research are numbered. Claude Code's dynamic agent workflows let you automate complex, time-consuming tasks with the click of a button. Whether you're a solo founder, a marketing lead, or a business owner, this technology can save you hours, reduce errors, and give you a competitive edge. Start by identifying a research task you want to automate—and let the agents do the rest. The future of business research is here, and it's powered by AI agents.",
+      "content_ru": "Claude Code: 100+ ИИ-агентов для бизнеса — реальный опыт автоматизации\n\nВ мире бизнеса сейчас выигрывает тот, кто действует быстрее и умнее конкурентов. Представьте: вы запускаете новый продукт, а конкурент уже мониторит рынок с помощью автоматизации. Время ручного поиска и проверки данных уходит в прошлое — на смену ему приходят ИИ-агенты, которые работают параллельно, не устают и не ошибаются из-за усталости. Недавно на платформе Claude Code попробовали реальный кейс: за 13 минут 101 агент выполнил 723 поиска и проверки страниц, из них 75 занимались только фактчекингом. Это не фантастика, а уже доступная технология, которая может изменить ваш подход к анализу информации.\n\nПочему автоматизация с помощью ИИ-агентов важна для бизнеса прямо сейчас?\n\nВсем знакома ситуация: нужно быстро собрать информацию о рынке, проверить десятки источников, убедиться, что ваши данные точны. На это уходит куча времени, а если команда маленькая — ресурсы вообще на пределе. Ошибки и пропущенные детали случаются постоянно. Но теперь можно делегировать эти задачи не сотрудникам, а целой армии ИИ-агентов. Claude Code позволяет запускать параллельно сотню помощников, которые ищут, читают, проверяют — и вы получаете результат в разы быстрее.\n\nЧто вы узнаете из этой статьи? Как работает эта технология, сколько времени и сил она экономит, и как ее внедрить в свой бизнес без программиста. Всё на реальном примере.\n\nКак устроен динамический workflow в Claude Code?\n\nДопустим, вам нужно проверить ряд фактов о рынке или конкурентах. Вместо того чтобы делать это вручную, вы запускаете workflow в Claude Code. В реальном кейсе было запущено 101 агент, которые за 13 минут выполнили 723 поиска и чтения страниц — и только потом выдали результат. Причём 75 агентов занимались только тем, что пытались опровергнуть найденные данные.\n\nПодробности:\n- 101 агент работает одновременно\n- 13 минут — весь цикл\n- 723 поиска и прочитанных страницы\n- 75 агентов — только на фактчекинге\n\n> «101 агент работал 13 минут, сделал 723 поиска и чтения страниц, прежде чем выдать мне результат. 75 из них были фактчекерами, каждый пытался опровергнуть найденное.»\n\nТакой параллельный подход даёт скорость и глубину, которую не обеспечит ни один обычный сотрудник или даже команда.\n\nСколько времени и ресурсов реально экономит 100+ ИИ-агентов?\n\nЕсли делать ресерч вручную, один человек за час проверит максимум 10-15 источников. А тут за 13 минут 101 агент сделал 723 проверки. Это открывает новые горизонты для:\n- Рыночных исследований\n- Анализа конкурентов\n- Проверки контента перед публикацией\n- Финансового due diligence\n\n> «Масштаб и скорость 100+ агентов позволяют проверить или опровергнуть данные быстрее, чем конкурент успеет выпить утренний кофе.»\n\nВаша команда может быстро проверить гипотезы, найти ошибки в данных, не тратя недели на рутину.\n\nКак автоматизация повышает точность и снижает риск ошибок?\n\nСкорость — это только половина дела. Главная сила ИИ-агентов — в независимой проверке. Когда 75 агентов пытаются найти ошибку в каждом факте, шанс пропустить что-то важное минимален. Особенно ценно это для:\n- Проверки маркетинговых утверждений\n- PR и репутационного мониторинга\n- Подготовки инвесторских презентаций\n\nПлюсы такого подхода:\n- Параллельный фактчекинг ловит больше ошибок\n- Агенты не устают и не отвлекаются\n- Быстрый результат для срочных задач\n\nВместо одного взгляда — сотня независимых мнений. Это снижает риск и делает выводы надёжнее.\n\nКак внедрить такой workflow у себя, если вы не айтишник?\n\nМожет показаться, что такие технологии только для больших компаний с IT-отделом. Но Claude Code задуман так, чтобы им мог пользоваться любой бизнес. Не нужно кодить или разбираться в серверах. Всё строится через понятный интерфейс.\n\nЧто нужно сделать:\n- Определить задачу (что ищем, что проверяем)\n- Назначить роли агентам (поиск, чтение, фактчекинг)\n- Запустить workflow и дождаться отчёта\n\n> «Не нужен штат инженеров, чтобы запустить 100+ агентов. В Claude Code это реально сделать за пару кликов.»\n\nЭто значит, что даже небольшой бизнес или маркетолог может автоматизировать рутину и получить мощный инструмент для анализа.\n\nГде это реально применить в бизнесе?\n\nВариантов масса. Вот несколько идей:\n- Проверка всех маркетинговых обещаний перед запуском продукта\n- Мониторинг конкурентов по десяткам источников ежедневно\n- Подготовка к встрече с инвесторами — только проверенные данные\n\nWorkflow настраивается один раз, дальше агенты сами делают всю черновую работу, а вы тратите время на стратегию, а не на бесконечный гуглинг.\n\nПримеры применения:\n- Оценка рынка перед запуском\n- Проверка контента и фактов\n- Мониторинг новостей и конкурентов в режиме реального времени\n- Автоматический сбор справочной информации\n\nКакие есть ограничения и подводные камни?\n\nЛюбая автоматизация — это инструмент, а не волшебная палочка. У Claude Code есть свои нюансы:\n- Качество зависит от источников, которые используют агенты\n- Для сложных решений иногда всё равно нужен ручной просмотр\n- Если полностью полагаться на автоматизацию, можно упустить нюансы и контекст\n\n> «Автоматизация — это усилитель, а не замена человеческой интуиции. Агенты делают рутину, вы — выводы.»\n\nFAQ: Частые вопросы о Claude Code и ИИ-агентах\n\nВопрос: Нужно ли быть программистом, чтобы пользоваться такими агентами?\nОтвет: Нет, интерфейс простой, всё настраивается без кода. Любой предприниматель справится.\n\nВопрос: За сколько времени можно получить результат от 100+ агентов?\nОтвет: В реальном кейсе 101 агент сделал 723 проверки за 13 минут — это в разы быстрее ручного поиска.\n\nВопрос: Можно ли полностью доверять результатам агентов?\nОтвет: Они отлично справляются с рутиной и фактчекингом, но для важных решений стоит всё же просмотреть итоговые данные самому.\n\nВопрос: Какие задачи реально автоматизировать?\nОтвет: Ресерч рынка, анализ конкурентов, проверку контента, мониторинг СМИ и многое другое — всё, что связано с поиском и проверкой информации.\n\nВопрос: Подходит ли это для маленьких компаний или соло-предпринимателей?\nОтвет: Да, в этом и фишка — можно резко увеличить свои возможности без найма новых сотрудников.\n\nВывод: Автоматизация ресерча доступна уже сегодня\n\nРучной анализ уходит в прошлое. С помощью Claude Code и динамических ИИ-агентов можно автоматизировать сложные задачи за минуты. Это экономит время, снижает риск ошибок и даёт конкурентное преимущество. Попробуйте начать с одной задачи — и вы увидите, сколько ресурсов можно освободить. Будущее бизнес-аналитики уже здесь — и его двигают ИИ-агенты.",
+      "tools_en": [
+        "Claude Code",
+        "Dynamic AI Agents"
+      ],
+      "tools_ru": [
+        "Claude Code — инструмент для создания ИИ-агентов",
+        "Динамические ИИ-агенты — автоматизация анализа и поиска"
+      ],
+      "results_en": "Automates research with 100+ agents, saving hours on fact-checking and data collection.",
+      "results_ru": "Автоматизирует ресерч: 100+ агентов экономят часы на проверке фактов и сборе данных.",
+      "tag": "automation|productivity|research",
+      "source": "Web",
+      "source_url": "https://buildtolaunch.substack.com/p/claude-code-dynamic-workflows-guide",
+      "points": 132,
+      "date": "2026-06-04"
+    },
+    {
+      "id": "claude-dynamic-workflows-agents",
+      "rank": 2,
+      "title_en": "Claude Dynamic Workflows: AI Agent Swarms for Large-Scale Coding",
+      "title_ru": "Claude Dynamic Workflows: агентные рои для сложных задач в коде",
+      "desc_en": "Discover how Claude's Dynamic Workflows automate complex coding tasks with agent swarms. Learn real-world results and how this boosts productivity.",
+      "desc_ru": "Узнайте, как Dynamic Workflows в Claude автоматизируют сложные задачи в коде с помощью роя агентов. Примеры из практики уже здесь!",
+      "content_en": "Claude Dynamic Workflows: How AI Agent Swarms Are Transforming Large-Scale Coding\n\n## Why Claude Dynamic Workflows Matter for Your Business Right Now\n\nAI is no longer just about chatbots and text generation. Anthropic’s new Dynamic Workflows for Claude Code mark a turning point: for the first time, AI can coordinate vast teams of sub-agents to tackle huge, complex coding projects—tasks that once took weeks or months of human effort. For entrepreneurs and business owners, this means faster delivery, fewer errors, and a real competitive edge.\n\nThe pain point is clear: large-scale code migrations, bug hunts, and security audits eat up resources, delay launches, and drain budgets. Until now, even the best AI tools couldn’t handle the coordination and quality control needed for these jobs. But with Dynamic Workflows, Claude can orchestrate hundreds of AI agents, each attacking the problem from a different angle, reviewing each other’s work, and converging on a robust solution—all while you focus on your business.\n\nIn this article, you’ll learn how Claude’s agent swarms work, see real-world examples of what they can achieve, and get practical advice on using this technology to save time and money. Let’s dive in.\n\n## How Does Claude’s Agent Swarm Approach Work?\n\nClaude’s Dynamic Workflows introduce a new way for AI to handle complex tasks. Instead of relying on a single AI assistant, Claude writes its own orchestration scripts and creates tens or even hundreds of sub-agents in one session. Each agent takes a specific part of the problem, works in parallel, and then hands off results for further review.\n\nHere’s how the process looks in practice:\n- You give Claude a big, real-world task (like porting a codebase or finding every bug in a service).\n- Claude automatically divides the project into smaller tasks and spins up agents to tackle each part.\n- Some agents act as generators, writing code or making changes; others act as validators, reviewing and stress-testing the results.\n- The process iterates until all agents agree on a final, high-quality solution.\n\n> \"Claude isn’t just thinking harder. It’s running an internal debate club on your codebase until the answer survives adversarial review.\"\n\nThis approach means you can assign Claude tasks that would normally require a senior engineering team, and let the AI handle the coordination, review, and iteration—all with minimal supervision.\n\n## What Real-World Problems Can Dynamic Workflows Solve?\n\nAnthropic’s release isn’t just a demo—it’s a production-grade tool already used for serious engineering work. The company highlights several concrete use cases:\n\n- Codebase-wide bug hunts\n- Profiler-guided optimization audits\n- Security hardening across thousands of files\n- Large-scale migrations (framework swaps, API deprecations, language ports)\n\nThe most impressive public example so far: developer Jarred Sumner used Dynamic Workflows to port the entire Bun runtime from Zig to Rust—about 750,000 lines of code. Claude’s workflows mapped lifetimes for every struct field, spun up hundreds of agents to write new Rust files (with two reviewers per file), and ran a final fix loop to pass 99.8% of the original test suite. The whole process—from first commit to merge—took just eleven days.\n\n- Massive scale: hundreds of agents working in parallel\n- Automatic progress saving and resume after interruptions\n- Works for tasks where quality and stress-testing are critical\n\nThis level of automation and reliability simply wasn’t possible before.\n\n## How Does the Generator-Validator Cycle Improve Results?\n\nThe real innovation in Dynamic Workflows isn’t just parallelization—it’s the generator-validator loop. Instead of letting agents work unchecked, Claude sets up two teams:\n\n- Generators: write code, make changes, and add tests\n- Validators: review the changes, hunt for edge cases, and try to break the results\n\nThis cycle repeats until the solution survives all internal critiques. Think of it as a GAN (generative adversarial network) for software, but instead of generating images, it’s producing robust, production-ready code.\n\n> \"It’s the closest thing we’ve seen to a GAN for software engineering—except instead of generating fake images, it’s generating real, production-ready code changes and then ruthlessly critiquing them until they hold up.\"\n\nThis adversarial review is what sets Dynamic Workflows apart. It catches errors that single-pass AI agents miss, and it means the results are far more reliable—critical for business-critical code changes.\n\n## How Can Businesses Use Dynamic Workflows Today?\n\nDynamic Workflows are already available as part of Claude Code, and they’re designed to run for hours or even days without babysitting. Here’s how you might use them in your business:\n\n- Assign Claude a major code migration or refactor\n- Let it run overnight or over the weekend, with automatic progress saving\n- Review the results, which have already passed multiple rounds of AI-driven validation\n\nFor entrepreneurs and business owners, this means you can tackle projects that would have required a whole team—without hiring extra staff or risking costly mistakes. The only caveat: start with scoped tasks until you get a feel for the token costs and workflow duration.\n\n- No need to micromanage or monitor progress\n- Results are delivered as one coordinated output\n- Can resume from where it left off if interrupted\n\n## What Are the Limitations and What’s Next?\n\nWhile Dynamic Workflows are a huge leap forward, there are still areas for improvement. Right now, the workflow is a bit of a black box: you give Claude a task, and it handles planning internally. Ideally, users would be able to see and edit the plan before the agent swarm launches—adding constraints, must-touch files, and custom success criteria.\n\nCurrently, you get the final result without visibility into the initial planning steps. This means less control over how the agents approach the task. However, Anthropic is already working on improving planning transparency and giving users more ways to steer the workflow.\n\n- Planning is internal; user input before launch is limited\n- Token costs can be significant on very large tasks\n- Still in active development, with more features to come\n\n> \"If Anthropic keeps iterating on the planning transparency and gives us better knobs to guide the swarm, Dynamic Workflows could become the default way serious engineering teams tackle large-scale refactors and migrations.\"\n\n## How Do Dynamic Workflows Impact Productivity and ROI?\n\nThe bottom line: Dynamic Workflows deliver results that were previously out of reach for most businesses. By automating coordination, review, and iteration, they reduce the need for large engineering teams and speed up delivery.\n\n- Example: 750,000 lines of code ported in 11 days\n- High test pass rates (99.8% in the Bun case study)\n- Less time spent coordinating, more time on business priorities\n\nFor business owners, this means lower costs, faster time-to-market, and the ability to take on ambitious projects without the usual risk. As the technology matures, expect even more control and transparency—making AI-driven agent swarms a standard tool in the business toolkit.\n\n## Frequently Asked Questions\n\n**What is an AI agent swarm?**\nAn AI agent swarm is a group of AI sub-agents working together in parallel to solve different parts of a complex problem. In Claude’s case, these agents coordinate, review, and iterate on code changes until a robust solution is found.\n\n**Do I need to be a developer to use Dynamic Workflows?**\nNo. While technical knowledge helps, the system is designed to automate much of the planning and review. Business owners can assign high-level tasks and let the AI handle the details.\n\n**How reliable are the results from Dynamic Workflows?**\nThe generator-validator cycle means results are much more reliable than previous single-pass AI systems. In real-world tests, the system caught most of its own errors and delivered production-ready code.\n\n**What kinds of tasks are best suited for Dynamic Workflows?**\nTasks that require high quality and coordination—like code migrations, bug hunts, and security audits—are ideal. The system excels when the cost of a wrong answer is high.\n\n**Can I control how the agents work on my project?**\nCurrently, user control over planning is limited, but Anthropic is working on adding more transparency and customization options in future updates.\n\n## Conclusion: What Should You Do Next?\n\nClaude’s Dynamic Workflows are a breakthrough for any business dealing with large-scale coding challenges. By automating coordination, review, and iteration, they unlock new levels of productivity and reliability. If you want to save time, reduce costs, and stay ahead of the competition, now’s the time to explore what agent swarms can do for your business.\n\nReady to try it? Start with a scoped task in Claude Code and see how much faster and smoother your next big project can be.",
+      "content_ru": "Claude Dynamic Workflows: как рои ИИ-агентов меняют работу с большим кодом\n\n## Почему Claude Dynamic Workflows важны для вашего бизнеса прямо сейчас\n\nИИ больше не ограничивается чат-ботами и генерацией текстов. С появлением Dynamic Workflows в Claude Code Anthropic вывела автоматизацию на новый уровень: теперь ИИ может координировать целые рои подагентов и брать на себя задачи, которые раньше занимали недели или даже месяцы у команд разработчиков. Для предпринимателей и владельцев бизнеса это значит — быстрее запускать проекты, экономить на зарплатах и не бояться человеческих ошибок.\n\nБоль очевидна: большие миграции кода, поиск багов, аудит безопасности — всё это отнимает ресурсы, тормозит запуск новых продуктов и бьёт по бюджету. Даже лучшие ИИ-инструменты раньше не могли справиться с задачами, где нужна сложная координация и контроль качества. Но теперь Claude может собрать сотни агентов, дать им разные роли, устроить между ними перекрёстную проверку и выдать на выходе реально рабочее решение — пока вы занимаетесь стратегией, а не микроменеджментом.\n\nВ этой статье разберём, как устроены рои агентов в Claude, какие задачи они уже решают на практике, и как внедрить эту технологию, чтобы экономить время и деньги. Поехали!\n\n## Как работает роевой подход в Claude?\n\nDynamic Workflows — это не просто \"умнее думающий\" ИИ, а система, где Claude сам пишет сценарии оркестрации и запускает десятки и сотни подагентов в одной сессии. Каждый агент берёт свой кусок задачи, работает параллельно, а потом передаёт результат на проверку другим.\n\nКак это выглядит на практике:\n- Вы ставите Claude большую задачу (например, перенести кодовую базу или найти все баги в сервисе).\n- Claude сам делит проект на части и запускает агентов на каждый кусок.\n- Одни агенты — генераторы: пишут код, делают изменения, пишут тесты.\n- Другие — валидаторы: проверяют изменения, ищут ошибки, пытаются \"сломать\" результат.\n- Всё повторяется, пока агенты не сходятся на одном рабочем решении.\n\n> \"Claude — это не просто умнее думает. Он устраивает внутри себя дебаты по вашему коду, пока решение не выдержит всех атак.\"\n\nВ итоге вы поручаете Claude задачи, которые раньше требовали бы целую команду сеньоров, а ИИ берёт на себя всю координацию и многократную проверку.\n\n## Какие реальные задачи решают Dynamic Workflows?\n\nDynamic Workflows — не очередная демка, а реально рабочий инструмент, который уже используют для серьёзных инженерных задач. Anthropic приводит конкретные примеры:\n\n- Поиск багов по всей кодовой базе\n- Аудит производительности с помощью профилировщика\n- Усиление безопасности в тысячах файлов\n- Масштабные миграции (смена фреймворка, переход на новый API, портирование на другой язык)\n\nСамый впечатляющий кейс: разработчик Джарред Самнер с помощью Dynamic Workflows перенёс весь рантайм Bun с Zig на Rust — это примерно 750 000 строк кода. Claude автоматически размечал структуры, запускал сотни агентов для написания новых файлов Rust (на каждый файл по два ревьюера!), а в финале \"долбил\" тесты, пока не добился 99,8% прохождения. Весь процесс — от первого коммита до слияния — занял 11 дней.\n\n- Масштаб: сотни агентов работают одновременно\n- Автоматическое сохранение прогресса и продолжение после сбоев\n- Подходит для задач, где критична надёжность и качество\n\nТакого уровня автоматизации раньше не было ни у кого.\n\n## Как цикл генератор-валидатор повышает качество?\n\nГлавная фишка Dynamic Workflows — не просто параллельная работа агентов, а цикл генератор-валидатор. Claude делит рой на две роли:\n\n- Генераторы: пишут код, вносят изменения, добавляют тесты\n- Валидаторы: смотрят дифф, ищут крайние случаи, пытаются \"сломать\" результат\n\nЭтот цикл повторяется, пока решение не выдержит всю внутреннюю критику. По сути — это как GAN (генеративно-состязательная сеть), только для кода, а не картинок.\n\n> \"Это самое близкое к GAN для софта: вместо генерации фейковых картинок — генерация реальных изменений в коде с жёсткой критикой до победы.\"\n\nТакой подход позволяет ловить ошибки, которые обычные ИИ-программисты бы пропустили, и выдавать действительно надёжный результат — особенно важно для бизнес-критичных изменений.\n\n## Как использовать Dynamic Workflows в бизнесе уже сейчас?\n\nDynamic Workflows уже доступны в Claude Code и рассчитаны на работу часами или даже днями без присмотра. Как это может выглядеть у вас:\n\n- Ставите Claude задачу: миграция, рефакторинг, аудит\n- Запускаете процесс на ночь или на выходные — прогресс сохраняется сам\n- На выходе получаете результат, который прошёл несколько раундов ИИ-ревью\n\nДля предпринимателя это шанс решить задачи, которые раньше требовали отдельной команды, без найма новых людей и риска ошибок. Совет: начните с небольших задач, чтобы понять, сколько токенов и времени уходит на разные типы работ.\n\n- Не нужно следить за процессом — всё идёт само\n- На выходе — один согласованный результат\n- Если что-то прервалось — продолжит с того же места\n\n## Какие есть ограничения и что дальше?\n\nНесмотря на революцию, у Dynamic Workflows пока есть нюансы. Сейчас процесс немного \"чёрный ящик\": вы даёте задачу, а планирование идёт внутри Claude. В идеале хотелось бы видеть и редактировать план до запуска роя — добавлять свои условия, обязательные файлы, критерии успеха.\n\nПока вы просто получаете итог без доступа к этапам планирования. Это значит — меньше контроля над тем, как агенты подойдут к задаче. Но Anthropic уже работает над прозрачностью и возможностью влиять на процесс.\n\n- Планирование скрыто внутри, пользователь мало влияет на старт\n- На очень больших задачах токены \"съедаются\" быстро\n- Фича развивается, ждём новых обновлений\n\n> \"Если Anthropic добавит прозрачное планирование и даст больше рычагов, Dynamic Workflows станет стандартом для крупных рефакторингов и миграций.\"\n\n## Как Dynamic Workflows влияют на продуктивность и прибыль?\n\nГлавный итог: Dynamic Workflows позволяют делать то, что раньше было не по силам большинству компаний. Автоматизация координации, ревью и итераций снижает потребность в больших командах и ускоряет запуск.\n\n- Пример: 750 000 строк кода перенесены за 11 дней\n- Прохождение тестов — 99,8% (на реальном кейсе Bun)\n- Меньше времени на координацию — больше на стратегию\n\nДля бизнеса это снижение затрат, быстрый выход на рынок и возможность браться за амбициозные проекты без лишнего риска. По мере развития технологии появится больше прозрачности и контроля — и рои ИИ-агентов станут стандартом для серьёзных задач.\n\n## Часто задаваемые вопросы\n\n**Что такое рой ИИ-агентов?**\nРой — это группа ИИ-подагентов, которые параллельно решают разные части большой задачи. В Claude такие агенты координируются, проверяют друг друга и сходятся на лучшем решении.\n\n**Нужно ли быть программистом, чтобы использовать Dynamic Workflows?**\nНет. Технические знания не помешают, но система сама берёт на себя планирование и ревью. Можно ставить задачи на уровне бизнес-целей и получать готовый результат.\n\n**Насколько надёжны результаты Dynamic Workflows?**\nЦикл генератор-валидатор делает результат намного надёжнее, чем у обычных ИИ. На практике система ловит свои ошибки и выдаёт рабочий код.\n\n**Для каких задач лучше всего подходят Dynamic Workflows?**\nДля сложных, критичных задач — миграций, поиска багов, аудита безопасности. Там, где цена ошибки высока, рой агентов даёт максимальную пользу.\n\n**Можно ли управлять тем, как агенты работают с задачей?**\nПока управление ограничено, но Anthropic уже работает над тем, чтобы дать больше прозрачности и настроек пользователю.\n\n## Вывод: что делать прямо сейчас?\n\nDynamic Workflows в Claude — настоящий прорыв для любого бизнеса, где есть большие задачи по коду. Автоматизация координации и ревью открывает новые уровни продуктивности и надёжности. Хотите сэкономить время, деньги и обогнать конкурентов? Самое время попробовать рой агентов в деле.\n\nНачните с небольшой задачи в Claude Code — и посмотрите, как быстро и качественно ваш следующий проект может быть реализован.",
+      "tools_en": [
+        "Claude Dynamic Workflows"
+      ],
+      "tools_ru": [
+        "Claude Dynamic Workflows — инструмент для автоматизации сложных задач в коде с помощью роя ИИ-агентов"
+      ],
+      "results_en": "Automated porting of 750,000 lines of code in 11 days; reduced need for human coordination.",
+      "results_ru": "Автоматизированный перенос 750 000 строк кода за 11 дней; меньше ручной координации.",
+      "tag": "automation|coding|devops|productivity",
+      "source": "Web",
+      "source_url": "https://quasa.io/media/dynamic-workflows-in-claude-code-anthropic-s-first-real-agent-swarm-that-actually-ships",
+      "points": 287,
+      "date": "2026-06-04"
+    },
+    {
+      "id": "blackrock-genai-wealth",
+      "rank": 3,
       "title_en": "Agentic AI in Finance: BlackRock's GenAI Tool for Wealth Advisors",
       "title_ru": "Agentic AI в финансах: GenAI BlackRock для wealth-советников",
       "desc_en": "Discover how BlackRock's GenAI tool automates portfolio commentary for wealth advisors. Learn key benefits and implementation tips.",
@@ -31,7 +79,7 @@
     },
     {
       "id": "ai-automation-agency-case",
-      "rank": 2,
+      "rank": 4,
       "title_en": "AI Automation Agency: How Real Businesses Reach $10K/Month",
       "title_ru": "AI-автоматизация: как агентства выходят на $10K в месяц",
       "desc_en": "Discover how real AI automation agencies land clients and generate $10K+ monthly. Learn the proven business model and pitfalls. Start optimizing your business today!",
@@ -62,7 +110,7 @@
     },
     {
       "id": "claude-code-dynamic-workflows",
-      "rank": 3,
+      "rank": 5,
       "title_en": "Claude Code Dynamic Workflows: AI Automation for Complex Coding Tasks",
       "title_ru": "Claude Code Dynamic Workflows: автоматизация сложных задач с ИИ",
       "desc_en": "Discover how Claude Code Dynamic Workflows automates complex coding tasks with AI agents. Learn benefits, use cases, and how to start now.",
@@ -87,7 +135,7 @@
     },
     {
       "id": "claude-code-dynamic-workflows",
-      "rank": 4,
+      "rank": 6,
       "title_en": "Claude Code Dynamic Workflows: AI Automation for Complex Business Tasks",
       "title_ru": "Claude Code Dynamic Workflows: автоматизация сложных задач в бизнесе",
       "desc_en": "Explore how Claude Code Dynamic Workflows orchestrate AI agents for audits, research, and automation. Learn practical benefits for your business now.",
@@ -114,7 +162,7 @@
     },
     {
       "id": "claude-dynamic-workflows-usecase",
-      "rank": 5,
+      "rank": 7,
       "title_en": "Claude Dynamic Workflows: AI Automation at Scale for Coding Teams",
       "title_ru": "Claude Dynamic Workflows: автоматизация AI для команд разработчиков",
       "desc_en": "Discover how Claude Dynamic Workflows automate complex coding with up to 1,000 AI subagents. Learn practical benefits and get ahead now.",
@@ -139,7 +187,7 @@
     },
     {
       "id": "openclaw-orchestration-real-workflows",
-      "rank": 6,
+      "rank": 8,
       "title_en": "OpenClaw Automation: Real Workflow Orchestration Across Tools",
       "title_ru": "OpenClaw автоматизация: реальный оркестратор бизнес-процессов",
       "desc_en": "Discover how OpenClaw automates fragmented workflows across GitHub, Slack, and more. Learn actionable steps to streamline your business today.",
@@ -168,7 +216,7 @@
     },
     {
       "id": "ai-voice-agent-mold-busters",
-      "rank": 7,
+      "rank": 9,
       "title_en": "AI Voice Agents for Small Business: Mold Busters Case Study",
       "title_ru": "AI-агенты для малого бизнеса: кейс Mold Busters",
       "desc_en": "Discover how Mold Busters used AI voice agents to automate calls, qualify leads, and boost revenue. Learn actionable steps for your business.",
@@ -191,7 +239,7 @@
     },
     {
       "id": "ai-agent-os-hermes-openclaw",
-      "rank": 8,
+      "rank": 10,
       "title_en": "AI Agent Operating System: Automate Content With Hermes & OpenClaw",
       "title_ru": "AI Agent Operating System: автоматизация контента с Hermes и OpenClaw",
       "desc_en": "Discover how an AI Agent OS built with Hermes and OpenClaw automates video, image, and content creation. Learn how to streamline your business today.",
@@ -216,7 +264,7 @@
     },
     {
       "id": "ai-agents-small-business-2026",
-      "rank": 9,
+      "rank": 11,
       "title_en": "AI Agents for Small Business Automation 2026: Top Tools & Results",
       "title_ru": "AI-агенты для автоматизации малого бизнеса 2026: лучшие инструменты",
       "desc_en": "Discover how AI agents like My AI Front Desk, Jasper, and Motion streamline small business operations in 2026. Learn which tools deliver real results.",
@@ -241,7 +289,7 @@
     },
     {
       "id": "klarna-ai-customer-service",
-      "rank": 10,
+      "rank": 12,
       "title_en": "AI Agent Klarna: Customer Service Automation Saves $60M in 2025",
       "title_ru": "AI-агент Klarna: автоматизация поддержки клиентов сэкономила $60 млн",
       "desc_en": "Discover how Klarna's AI agent in customer service saved $60M and replaced 853 FTEs. Real-world ROI insights for CIS businesses. Read the full case study.",
@@ -264,7 +312,7 @@
     },
     {
       "id": "ai-agents-marketing-agency",
-      "rank": 11,
+      "rank": 13,
       "title_en": "AI Agents in Marketing: How 27 Virtual Employees Run a Business",
       "title_ru": "AI-агенты в маркетинге: Как 27 виртуальных сотрудников ведут бизнес",
       "desc_en": "Discover how a founder replaced employees with 27 AI agents to run a marketing agency. Learn the tools, workflow, and results. Read the full story!",
@@ -297,7 +345,7 @@
     },
     {
       "id": "image-to-cad-workflow",
-      "rank": 12,
+      "rank": 14,
       "title_en": "Claude AI Workflows: Image to CAD Automation for Business",
       "title_ru": "Claude AI Workflows: автоматизация Image to CAD для бизнеса",
       "desc_en": "Discover how Claude AI automates image-to-CAD conversion with workflows. Learn practical steps to boost productivity in your business.",
@@ -322,7 +370,7 @@
     },
     {
       "id": "ai-agent-integration-smb-cost",
-      "rank": 13,
+      "rank": 15,
       "title_en": "AI Agent Integration Cost: What Small Businesses Need to Know in 2026",
       "title_ru": "AI-агенты для малого бизнеса: сколько стоит интеграция в 2026 году",
       "desc_en": "Discover the real cost of AI agent integration for SMBs in 2026. Learn about hidden fees, ROI, and how to budget. Get expert tips now.",
@@ -357,7 +405,7 @@
     },
     {
       "id": "gpt-agents-productivity-automation",
-      "rank": 14,
+      "rank": 16,
       "title_en": "GPT Agents for Productivity: How Automation Redefines Workflows",
       "title_ru": "GPT-агенты для продуктивности: автоматизация меняет рабочие процессы",
       "desc_en": "Discover how GPT-powered agents automate tasks, cut delays, and boost productivity. Learn how to transform your business workflows today.",
@@ -384,7 +432,7 @@
     },
     {
       "id": "ai-agents-marketing-automation",
-      "rank": 15,
+      "rank": 17,
       "title_en": "AI Agents for Marketing Automation: Real-World Results and Strategies",
       "title_ru": "AI-агенты для маркетинга: реальные кейсы и стратегии автоматизации",
       "desc_en": "Discover how AI agents automate marketing, boost SEO, and create content at scale. Learn actionable steps for your business. Read the full guide!",
@@ -409,7 +457,7 @@
     },
     {
       "id": "ai-agents-marketing-airtable",
-      "rank": 16,
+      "rank": 18,
       "title_en": "AI Agents for Marketing: Top Use Cases and How to Build Them",
       "title_ru": "AI-агенты для маркетинга: лучшие кейсы и как их внедрить",
       "desc_en": "Discover how AI agents automate marketing tasks, boost productivity, and drive results. Learn real use cases and actionable steps to get started.",
@@ -434,7 +482,7 @@
     },
     {
       "id": "ai-customer-service-platforms",
-      "rank": 17,
+      "rank": 19,
       "title_en": "AI Customer Service Platforms: How Agents Are Transforming Support in 2026",
       "title_ru": "AI-платформы для клиентского сервиса: как агенты меняют поддержку в 2026",
       "desc_en": "Discover how AI agents boost sales and efficiency in customer service. Real results, top platforms, and actionable tips for your business.",
@@ -463,7 +511,7 @@
     },
     {
       "id": "ai-agents-enterprise-workflows",
-      "rank": 18,
+      "rank": 20,
       "title_en": "AI Agents in Enterprise: Replacing Traditional Workflows in 2026",
       "title_ru": "AI-агенты в бизнесе: как они заменяют старые процессы в 2026",
       "desc_en": "Discover how AI agents are transforming enterprise workflows, cutting costs and boosting efficiency. Learn real-world applications and practical steps.",
@@ -488,7 +536,7 @@
     },
     {
       "id": "ai-agent-revenue-usecases",
-      "rank": 19,
+      "rank": 21,
       "title_en": "AI Agent Use Cases: Real Revenue Results for Businesses",
       "title_ru": "AI-агенты в бизнесе: реальные кейсы и рост выручки",
       "desc_en": "Discover how AI agents drive revenue with real results. See proven use cases and learn how your business can benefit. Start leveraging AI today!",
@@ -513,7 +561,7 @@
     },
     {
       "id": "comparus-banking-assistant-ai",
-      "rank": 20,
+      "rank": 22,
       "title_en": "AI Agent Use Case: Comparus Banking Assistant Automates Customer Service",
       "title_ru": "AI-агент для банков: кейс Comparus и автоматизация клиентского сервиса",
       "desc_en": "Discover how Comparus uses IBM's AI agents to automate banking customer service. Learn the benefits and steps to start today.",
@@ -538,7 +586,7 @@
     },
     {
       "id": "claude-dream-ai-agents",
-      "rank": 21,
+      "rank": 23,
       "title_en": "Claude Dream AI Agents: Smarter Automation for Business Efficiency",
       "title_ru": "Claude Dream: AI-агенты для бизнеса — автоматизация и рост эффективности",
       "desc_en": "Discover how Claude Dream lets AI agents learn from experience, grade their own work, and boost business productivity. Read the full use case and get started.",
@@ -563,7 +611,7 @@
     },
     {
       "id": "chatgpt-workspace-agent-automation",
-      "rank": 22,
+      "rank": 24,
       "title_en": "ChatGPT Workspace Agent Automation: Streamline Email, Slack, and Linear Tasks",
       "title_ru": "ChatGPT Workspace Agent: автоматизация задач в Gmail, Slack и Linear",
       "desc_en": "Discover how ChatGPT workspace agents automate Gmail, Slack, and Linear tasks, saving hours weekly. Learn setup, benefits, and real use cases.",
@@ -594,7 +642,7 @@
     },
     {
       "id": "rachio-ai-customer-support",
-      "rank": 23,
+      "rank": 25,
       "title_en": "AI in Business: Rachio Automates Customer Support with Crescendo.ai",
       "title_ru": "ИИ в бизнесе: Rachio автоматизирует поддержку клиентов с Crescendo.ai",
       "desc_en": "Discover how Rachio used Crescendo.ai to automate customer support, cut costs by 30%, and boost efficiency. Learn how AI can transform your business today.",
@@ -617,7 +665,7 @@
     },
     {
       "id": "autonomous-financial-trading-ai",
-      "rank": 24,
+      "rank": 26,
       "title_en": "Autonomous Financial Trading AI: Transforming Markets in 2025",
       "title_ru": "Автоматизированный AI-трейдинг: революция на финансовых рынках 2025",
       "desc_en": "Discover how agentic AI is revolutionizing financial trading in 2025. Learn proven strategies and real results for your business.",
@@ -642,7 +690,7 @@
     },
     {
       "id": "ai-agents-microsoft-copilot",
-      "rank": 25,
+      "rank": 27,
       "title_en": "AI Agents Microsoft Copilot: Automate Your SMB for 2026 Success",
       "title_ru": "AI-агенты Microsoft Copilot: автоматизация бизнеса для успеха в 2026",
       "desc_en": "Discover how autonomous AI agents with Microsoft Copilot Studio boost SMB ROI in 2026. Learn how to automate and scale your business today.",
@@ -667,7 +715,7 @@
     },
     {
       "id": "ai-customer-service-salesforce",
-      "rank": 26,
+      "rank": 28,
       "title_en": "AI Customer Service Agents: Boost Efficiency and Satisfaction Fast",
       "title_ru": "AI-агенты поддержки: как ускорить сервис и повысить лояльность",
       "desc_en": "Discover how AI customer service agents from Salesforce automate support, reduce costs, and improve satisfaction. Learn key benefits and how to start.",
@@ -692,7 +740,7 @@
     },
     {
       "id": "clawsweeper-openclaw-maintenance-bot",
-      "rank": 27,
+      "rank": 29,
       "title_en": "OpenClaw AI Agent: Automating GitHub Issue and PR Management",
       "title_ru": "OpenClaw AI-бот: автоматизация работы с задачами и PR на GitHub",
       "desc_en": "Discover how ClawSweeper automates issue and PR handling for open-source projects. Save time and boost productivity. Read the full case study.",
@@ -719,7 +767,7 @@
     },
     {
       "id": "ai-agents-enterprise-salesforce",
-      "rank": 28,
+      "rank": 30,
       "title_en": "AI Agents Trends 2026: How Enterprise Automation Is Evolving",
       "title_ru": "AI-агенты 2026: как автоматизация меняет бизнес",
       "desc_en": "Discover how AI agents are transforming enterprise automation in 2026. Learn key trends, tools, and results. Start optimizing your business today!",
@@ -750,7 +798,7 @@
     },
     {
       "id": "cosupport-ai-customer-support",
-      "rank": 29,
+      "rank": 31,
       "title_en": "AI Customer Service Platform: Automate Support with CoSupport",
       "title_ru": "AI-платформа для поддержки: автоматизация сервиса с CoSupport",
       "desc_en": "Discover how CoSupport AI automates customer service, cuts costs, and boosts resolution rates. Learn how to implement AI support today.",
@@ -773,7 +821,7 @@
     },
     {
       "id": "openclaw-ai-management-team",
-      "rank": 30,
+      "rank": 32,
       "title_en": "OpenClaw AI Agents: Automate Management Tasks with 24/7 Virtual Team",
       "title_ru": "OpenClaw AI-агенты: автоматизация бизнес-рутины с виртуальной командой",
       "desc_en": "Discover how OpenClaw AI agents automate management, research, and content tasks 24/7. Learn actionable steps to boost your business productivity now.",
@@ -798,7 +846,7 @@
     },
     {
       "id": "ai-agents-business-automation-2026",
-      "rank": 31,
+      "rank": 33,
       "title_en": "AI Agents 2026: Business Automation, Custom Software & ROI",
       "title_ru": "AI-агенты 2026: автоматизация бизнеса и кастомные решения",
       "desc_en": "Explore how AI agents in 2026 automate business operations, boost decisions, and integrate with custom software. Learn practical steps for your company.",
@@ -827,7 +875,7 @@
     },
     {
       "id": "workspace-agents-slack-gong",
-      "rank": 32,
+      "rank": 34,
       "title_en": "Workspace Agents in ChatGPT: Automate Sales Briefs, Save Hours Weekly",
       "title_ru": "Workspace Agents в ChatGPT: автоматизация отчетов и экономия времени",
       "desc_en": "Discover how ChatGPT workspace agents automate sales research, summarize Gong calls, and post deal briefs to Slack. Boost team efficiency today.",
@@ -854,7 +902,7 @@
     },
     {
       "id": "ai-agents-production-enterprise",
-      "rank": 33,
+      "rank": 35,
       "title_en": "AI Agents in Production: How Enterprises Lead in 2026",
       "title_ru": "AI-агенты в бизнесе: как крупные компании внедряют ИИ в 2026",
       "desc_en": "Discover how AI agents are transforming customer service, research, and productivity in enterprises. Learn key adoption trends and actionable insights.",
@@ -881,7 +929,7 @@
     },
     {
       "id": "ai-content-automation-case",
-      "rank": 34,
+      "rank": 36,
       "title_en": "AI Content Automation: How House of Growth Doubled Output in 2026",
       "title_ru": "AI-контент-автоматизация: как House of Growth удвоили объём в 2026",
       "desc_en": "Discover how House of Growth used AI automation to double content output without hiring more staff. See real results and actionable tips.",
@@ -904,7 +952,7 @@
     },
     {
       "id": "ai-automation-small-business",
-      "rank": 35,
+      "rank": 37,
       "title_en": "AI Automation for Small Business: Top Use Cases Worth Trying Now",
       "title_ru": "AI-автоматизация для малого бизнеса: лучшие кейсы прямо сейчас",
       "desc_en": "Discover how AI automation solves real small business problems. Learn use cases, tools, and results. Start optimizing your workflow today!",
@@ -931,7 +979,7 @@
     },
     {
       "id": "ai-agent-marketing-automation",
-      "rank": 36,
+      "rank": 38,
       "title_en": "AI Agent Marketing Automation: How AI Agents Transform Campaigns",
       "title_ru": "AI-агенты для маркетинга: автоматизация кампаний и рост продаж",
       "desc_en": "Discover how AI agents automate marketing, boost speed, and personalize campaigns. Learn to start today with MindStudio. Read the full guide!",
@@ -956,7 +1004,7 @@
     },
     {
       "id": "ai-marketing-agents-salesforce",
-      "rank": 37,
+      "rank": 39,
       "title_en": "AI Marketing Agents: Transforming Campaign Automation in 2024",
       "title_ru": "AI-маркетинговые агенты: автоматизация кампаний в 2024 году",
       "desc_en": "Discover how AI marketing agents automate campaigns, personalize content, and save time. Learn how to boost your marketing now.",
@@ -983,7 +1031,7 @@
     },
     {
       "id": "intercom-ai-helpdesk-case",
-      "rank": 38,
+      "rank": 40,
       "title_en": "AI Helpdesk Intercom: Transforming Customer Support with Automation",
       "title_ru": "AI Helpdesk Intercom: автоматизация поддержки клиентов для бизнеса",
       "desc_en": "Discover how Intercom's AI Agent Fin automates customer support, boosts efficiency, and delivers seamless experiences. See real business results.",
@@ -1008,7 +1056,7 @@
     },
     {
       "id": "ai-agents-marketing-guide",
-      "rank": 39,
+      "rank": 41,
       "title_en": "AI Agents in Marketing: Transforming Campaigns and Content in 2026",
       "title_ru": "AI-агенты в маркетинге: трансформация кампаний и контента в 2026",
       "desc_en": "Discover how AI agents automate marketing workflows, boost revenue, and cut costs. Learn real use cases and start optimizing your strategy today.",
@@ -1035,7 +1083,7 @@
     },
     {
       "id": "ai-agent-saves-time",
-      "rank": 40,
+      "rank": 42,
       "title_en": "AI Agent Case Study: Save 80 Hours Weekly with Internal Automation",
       "title_ru": "AI-агент для бизнеса: экономия 80 часов в неделю на рутине",
       "desc_en": "Discover how an AI agent helped a legal-finance firm reclaim 80 hours weekly. Learn to boost productivity with smart automation. Read the full case study.",
@@ -1060,7 +1108,7 @@
     },
     {
       "id": "ai-invoice-automation-sme",
-      "rank": 41,
+      "rank": 43,
       "title_en": "AI Invoice Automation: How SMEs Cut Costs and Save Time in 2026",
       "title_ru": "AI автоматизация счетов: как малый бизнес экономит время и деньги",
       "desc_en": "Discover how AI invoice automation helps small businesses save 80% time and 2–3% per invoice. Learn proven steps to boost ROI.",
@@ -1087,7 +1135,7 @@
     },
     {
       "id": "ai-agentic-automation-enterprise",
-      "rank": 42,
+      "rank": 44,
       "title_en": "AI Automation Trends 2026: How Agentic Automation Transforms Enterprise",
       "title_ru": "Тренды AI-автоматизации 2026: как агентные решения меняют бизнес",
       "desc_en": "Discover how AI agent automation is slashing costs, boosting productivity and reshaping enterprise operations. See real trends and actionable steps.",
@@ -1116,7 +1164,7 @@
     },
     {
       "id": "claude-code-appstore-automation",
-      "rank": 43,
+      "rank": 45,
       "title_en": "Claude Code App Store Automation: AI Agents Streamline App Deployment",
       "title_ru": "Автоматизация App Store с Claude Code: ИИ-агенты ускоряют релизы",
       "desc_en": "Discover how Claude Code automates App Store submissions, saving hours and reducing errors. Learn how AI agents accelerate app launches. Read more!",
@@ -1143,7 +1191,7 @@
     },
     {
       "id": "chatgpt-agents-business-automation",
-      "rank": 44,
+      "rank": 46,
       "title_en": "ChatGPT Agents for Business: Automate Research, Support, and Content Fast",
       "title_ru": "ChatGPT Agents для бизнеса: автоматизация ресерча, поддержки и контента",
       "desc_en": "Discover how ChatGPT Agents automate research, customer support, and content creation. Boost efficiency and free up your team. Learn practical use cases now.",
@@ -1168,7 +1216,7 @@
     },
     {
       "id": "chatgpt-agent-lead-gen",
-      "rank": 45,
+      "rank": 47,
       "title_en": "ChatGPT Agent Mode for Lead Generation: Real Automation in Action",
       "title_ru": "ChatGPT Agent Mode для лидогенерации: реальный опыт автоматизации",
       "desc_en": "Discover how ChatGPT Agent Mode automates lead generation, saving hours weekly. Learn actionable steps to boost your client list today.",
@@ -1195,7 +1243,7 @@
     },
     {
       "id": "ai-agents-business-automation",
-      "rank": 46,
+      "rank": 48,
       "title_en": "AI Agents Business Automation: Real Use Cases for Productivity Gains",
       "title_ru": "AI-агенты для бизнеса: реальные кейсы автоматизации и роста эффективности",
       "desc_en": "Discover how AI agents automate business tasks, boost productivity, and cut costs. Real-world examples for entrepreneurs. Learn more now!",
@@ -1220,7 +1268,7 @@
     },
     {
       "id": "ai-customer-support-forethought",
-      "rank": 47,
+      "rank": 49,
       "title_en": "AI Customer Support: How Forethought Delivers 24/7 Service and ROI",
       "title_ru": "AI для поддержки клиентов: как Forethought увеличивает ROI и ускоряет сервис",
       "desc_en": "Discover how Forethought’s AI agents automate customer support, cut response times, and boost ROI. Learn how your business can benefit today.",
@@ -1247,7 +1295,7 @@
     },
     {
       "id": "decagon-ai-concierge-usecase",
-      "rank": 48,
+      "rank": 50,
       "title_en": "AI Concierge Decagon: Transforming Customer Service for Enterprises",
       "title_ru": "AI-консьерж Decagon: новый уровень сервиса для бизнеса",
       "desc_en": "Discover how Decagon's AI concierge boosts customer satisfaction, cuts costs, and drives revenue. Learn how to apply it in your business.",
@@ -1272,7 +1320,7 @@
     },
     {
       "id": "claude-code-agents-workflow",
-      "rank": 49,
+      "rank": 51,
       "title_en": "Claude Code Agents Workflow: Automate Project Management with AI",
       "title_ru": "Claude Code Agents: автоматизация управления проектами с помощью ИИ",
       "desc_en": "Discover how Claude Code agents streamline project workflows, automate team roles, and boost efficiency. Learn to apply AI for smarter business today.",
@@ -1295,7 +1343,7 @@
     },
     {
       "id": "ai-agents-whatsapp-automation",
-      "rank": 50,
+      "rank": 52,
       "title_en": "AI Automation in Business: Real WhatsApp Agent Case Study",
       "title_ru": "AI-автоматизация в бизнесе: кейс реального WhatsApp-агента",
       "desc_en": "Discover how AI agents automate WhatsApp challenges, boost engagement, and save 30+ hours/month. See real results and get inspired to start now!",
@@ -1326,7 +1374,7 @@
     },
     {
       "id": "sierra-ai-customer-experience",
-      "rank": 51,
+      "rank": 53,
       "title_en": "AI Customer Experience: How Sierra Transforms Business Interactions",
       "title_ru": "AI для клиентского опыта: как Sierra меняет бизнес-коммуникации",
       "desc_en": "Discover how Sierra's AI agents boost customer value, unify channels, and enable outcome-based pricing. See real results and get started today.",
@@ -1355,7 +1403,7 @@
     },
     {
       "id": "ai-agents-business-2026",
-      "rank": 52,
+      "rank": 54,
       "title_en": "AI Agents for Business 2026: Best Tools to Automate Your Company",
       "title_ru": "AI-агенты для бизнеса 2026: лучшие инструменты автоматизации компании",
       "desc_en": "Discover top AI agents for business automation in 2026. Learn how tools like UI Bakery save time and boost efficiency. Explore your options now!",
@@ -1386,7 +1434,7 @@
     },
     {
       "id": "claude-autonomous-agent-pays",
-      "rank": 53,
+      "rank": 55,
       "title_en": "Claude AI Agent: How to Build an Autonomous Agent That Pays for Services",
       "title_ru": "Claude AI агент: как создать автономного агента для оплаты сервисов",
       "desc_en": "Discover how a Claude AI agent autonomously pays for web services to complete tasks. Learn the workflow and boost your business automation today.",
@@ -1411,7 +1459,7 @@
     },
     {
       "id": "ai-agent-single-flow-case",
-      "rank": 54,
+      "rank": 56,
       "title_en": "AI Agent Workflows: Why Single-Agent Setups Outperform in Business",
       "title_ru": "AI-агенты в бизнесе: почему один агент эффективнее команды",
       "desc_en": "Discover why single-agent AI workflows often beat multi-agent setups in real business tasks. Learn how to optimize your automation today.",
@@ -1436,7 +1484,7 @@
     },
     {
       "id": "ai-agents-marketing-solutions",
-      "rank": 55,
+      "rank": 57,
       "title_en": "AI Agents for Marketing: Top Solutions, Benefits & Real Use Cases",
       "title_ru": "AI-агенты для маркетинга: лучшие решения, выгоды и реальные кейсы",
       "desc_en": "Discover how AI agents transform marketing with automation, personalization, and real-world impact. Learn benefits, features, and top solutions now.",
@@ -1459,7 +1507,7 @@
     },
     {
       "id": "ai-agents-automate-ops",
-      "rank": 56,
+      "rank": 58,
       "title_en": "AI Agents Automate Ops: Real-World Workflow Integration Example",
       "title_ru": "AI-агенты автоматизируют бизнес: реальный кейс интеграции",
       "desc_en": "Discover how AI agents automate business ops by linking Obsidian, ClickUp, and Discord. See real results and start streamlining your workflow today!",
@@ -1488,7 +1536,7 @@
     },
     {
       "id": "openclaw-real-use-cases",
-      "rank": 57,
+      "rank": 59,
       "title_en": "OpenClaw use cases: 500 real AI automations entrepreneurs need",
       "title_ru": "OpenClaw: 500 реальных кейсов ИИ-автоматизации для бизнеса",
       "desc_en": "Discover 500 real OpenClaw AI use cases, copy-paste prompts, and instant automations. Learn how to boost productivity and grow your business with AI.",
@@ -1511,7 +1559,7 @@
     },
     {
       "id": "ai-agent-sales-automation",
-      "rank": 58,
+      "rank": 60,
       "title_en": "AI Agent Sales Automation: OpenClaw Transforms Sales Workflow",
       "title_ru": "AI-агент автоматизация продаж: OpenClaw меняет работу отдела",
       "desc_en": "Discover how AI agents like OpenClaw can automate your sales cycle, save time, and boost revenue. Learn actionable steps to modernize your business.",
@@ -1536,7 +1584,7 @@
     },
     {
       "id": "openclaw-ai-sales-automation",
-      "rank": 59,
+      "rank": 61,
       "title_en": "OpenClaw AI for Sales Automation: Real-World Workflow and Results",
       "title_ru": "OpenClaw AI для автоматизации продаж: реальный кейс и результаты",
       "desc_en": "Discover how OpenClaw AI automates sales tasks, speeds up follow-ups, and boosts deal closures. Learn practical steps for your business.",
@@ -1559,7 +1607,7 @@
     },
     {
       "id": "ai-agents-small-business",
-      "rank": 60,
+      "rank": 62,
       "title_en": "AI Agents for Small Businesses: Top Tools and Real Results 2026",
       "title_ru": "AI-агенты для малого бизнеса: лучшие инструменты и реальные результаты 2026",
       "desc_en": "Discover the best AI agents for small businesses in 2026. Learn how to boost sales, automate tasks, and save time. Find your ideal tool now.",
@@ -1584,7 +1632,7 @@
     },
     {
       "id": "ai-agents-small-business",
-      "rank": 61,
+      "rank": 63,
       "title_en": "AI Agents for Small Business: 2026 Guide to Automation & Growth",
       "title_ru": "AI-агенты для малого бизнеса: гид по автоматизации и росту 2026",
       "desc_en": "Discover how AI agents transform small business: boost revenue, cut costs, and automate customer journeys. Read our 2026 guide for actionable insights.",
@@ -1609,7 +1657,7 @@
     },
     {
       "id": "ai-agent-teams-workflow",
-      "rank": 62,
+      "rank": 64,
       "title_en": "AI Agent Teams Workflow: Boost Coding Productivity with Claude",
       "title_ru": "AI-агенты Claude: автоматизация командной работы в кодинге",
       "desc_en": "Discover how Claude's AI agent teams accelerate coding tasks for businesses. Learn use cases, results, and how to get started today.",
@@ -1634,7 +1682,7 @@
     },
     {
       "id": "agent-flow-claude-visualization",
-      "rank": 63,
+      "rank": 65,
       "title_en": "Agent Flow Claude Code: Real-Time AI Agent Visualization for Business",
       "title_ru": "Agent Flow Claude Code: Визуализация AI-агентов в реальном времени для бизнеса",
       "desc_en": "Discover how Agent Flow reveals Claude Code agent decisions. Optimize AI workflows, debug faster, and boost productivity. Try this tool today!",
@@ -1659,7 +1707,7 @@
     },
     {
       "id": "ai-agent-loan-processing",
-      "rank": 64,
+      "rank": 66,
       "title_en": "AI Agent Loan Processing: 80% Cost Reduction in Mortgage Automation",
       "title_ru": "AI-агенты в ипотеке: автоматизация и снижение затрат на 80%",
       "desc_en": "Discover how AI agents cut mortgage loan processing costs by 80%. See real automation results and learn how your business can benefit today.",
@@ -1684,7 +1732,7 @@
     },
     {
       "id": "ai-agents-business-impact",
-      "rank": 65,
+      "rank": 67,
       "title_en": "AI Agents Statistics: Business Impact, ROI & Adoption Trends 2026",
       "title_ru": "AI-агенты для бизнеса: статистика, ROI и тренды внедрения 2026",
       "desc_en": "Discover how AI agents drive cost savings, boost sales ROI, and reshape business operations. See the latest 2026 stats and actionable insights.",
@@ -1709,7 +1757,7 @@
     },
     {
       "id": "ai-automation-energy-workflows",
-      "rank": 66,
+      "rank": 68,
       "title_en": "AI Automation Energy Sector: Replace Legacy Workflows, Boost Efficiency",
       "title_ru": "AI-автоматизация в энергетике: замена устаревших процессов и рост эффективности",
       "desc_en": "Discover how AI automation transforms energy sector workflows, cuts costs, and drives adoption. Learn actionable steps for your business.",
@@ -1732,7 +1780,7 @@
     },
     {
       "id": "ai-automation-roi-case",
-      "rank": 67,
+      "rank": 69,
       "title_en": "AI Automation ROI: Real Case Studies for Small Business Growth",
       "title_ru": "AI-автоматизация ROI: реальные кейсы для роста малого бизнеса",
       "desc_en": "Discover how AI automation boosts ROI for small businesses. See real case studies and actionable tips. Learn how to save time and grow today.",
@@ -1759,7 +1807,7 @@
     },
     {
       "id": "fin-ai-customer-service",
-      "rank": 68,
+      "rank": 70,
       "title_en": "AI Agent for Customer Service: Fin Boosts Resolution Rates Fast",
       "title_ru": "AI-агент для поддержки клиентов: Fin повышает эффективность",
       "desc_en": "Discover how Fin AI automates customer service, handles complex queries, and boosts resolution rates. Learn how to deploy Fin for your business today.",
@@ -1784,7 +1832,7 @@
     },
     {
       "id": "kelly-ai-multiple-projects",
-      "rank": 69,
+      "rank": 71,
       "title_en": "AI Agent Kelly: How to Manage Multiple Projects Simultaneously",
       "title_ru": "Искусственный интеллект Kelly: как вести несколько проектов одновременно",
       "desc_en": "Discover how Kelly AI agent helps manage multiple business projects at once. Boost productivity and streamline operations. Learn how it works now.",
@@ -1809,7 +1857,7 @@
     },
     {
       "id": "chatgpt-agent-outreach-list",
-      "rank": 70,
+      "rank": 72,
       "title_en": "ChatGPT Agent Use Case: Build Outreach Lists Fast for Marketing",
       "title_ru": "ChatGPT Agent: как быстро собирать списки для маркетинга",
       "desc_en": "Learn how ChatGPT Agent automates targeted outreach list building, saving hours for marketers. Discover step-by-step real-life workflow and tips.",
@@ -1834,7 +1882,7 @@
     },
     {
       "id": "ai-agents-b2b-marketing",
-      "rank": 71,
+      "rank": 73,
       "title_en": "AI Agents for B2B Marketing: 5 Real Agentic Use Cases",
       "title_ru": "AI-агенты для B2B-маркетинга: 5 реальных кейсов применения",
       "desc_en": "Discover 5 practical AI agent use cases for B2B marketers. Learn how agentic AI transforms ABM, saves time, and boosts results.",
@@ -1859,7 +1907,7 @@
     },
     {
       "id": "company-info-extraction-saas",
-      "rank": 72,
+      "rank": 74,
       "title_en": "Company Info Extraction AI: Automate B2B Research & CRM Updates",
       "title_ru": "Извлечение данных о компаниях с помощью ИИ: автоматизация B2B и CRM",
       "desc_en": "Discover how AI agents automate company info extraction, saving 15+ hours weekly and boosting CRM accuracy. Learn how your B2B team can benefit.",
@@ -1882,7 +1930,7 @@
     },
     {
       "id": "ai-claims-automation-insurance",
-      "rank": 73,
+      "rank": 75,
       "title_en": "AI Claims Automation: How Insurance Agents Cut Processing Time 46%",
       "title_ru": "AI-автоматизация заявок: как страховщики ускорили обработку на 46%",
       "desc_en": "Discover how a Dutch insurer used AI agents to automate 91% of claims, speed up processing by 46%, and boost NPS. Learn actionable steps for your business.",
@@ -1905,7 +1953,7 @@
     },
     {
       "id": "zendesk-ai-agents-cx",
-      "rank": 74,
+      "rank": 76,
       "title_en": "AI Agents Zendesk: Automate Customer Service for 80%+ CX Tasks",
       "title_ru": "AI-агенты Zendesk: автоматизация 80% задач поддержки клиентов",
       "desc_en": "Discover how Zendesk AI Agents automate customer support, cut costs, and boost CSAT. Real business results and steps to implement. Read now!",
@@ -1930,7 +1978,7 @@
     },
     {
       "id": "options-flow-data-parser",
-      "rank": 75,
+      "rank": 77,
       "title_en": "Options Flow Data Parser & Analysis System",
       "title_ru": "Парсер и система анализа потока опционов",
       "desc_en": "Claude-powered OpenClaw agent that ingests 6 months of institutional options data from Discord, creates SQLite database with vector search.",
@@ -1954,7 +2002,7 @@
     },
     {
       "id": "personal-assistant-saul",
-      "rank": 76,
+      "rank": 78,
       "title_en": "Saul: Full-Service Personal Assistant Agent",
       "title_ru": "Саул: Полнофункциональный агент персонального помощника",
       "desc_en": "Persistent PA with Google Workspace access, proactive scheduling, flight booking, and self-improvement capabilities via Telegram interface.",
@@ -1980,7 +2028,7 @@
     },
     {
       "id": "saul-personal-assistant",
-      "rank": 77,
+      "rank": 79,
       "title_en": "Saul: AI Personal Assistant with Google Workspace Integration",
       "title_ru": "Саул: ИИ-помощник с интеграцией Google Workspace",
       "desc_en": "A persistent AI assistant built with OpenClaw architecture that manages emails, calendars, bookings, and flight check-ins via Telegram.",
@@ -2010,7 +2058,7 @@
     },
     {
       "id": "whatsapp-saas-builder",
-      "rank": 78,
+      "rank": 80,
       "title_en": "WhatsApp SaaS Builder with OpenClaw",
       "title_ru": "Создатель SaaS через WhatsApp с OpenClaw",
       "desc_en": "Built a complete social app using OpenClaw + Minimax API through WhatsApp interface in just 48 minutes without frontend/backend.",
@@ -2031,7 +2079,7 @@
     },
     {
       "id": "btc-trading-bot",
-      "rank": 79,
+      "rank": 81,
       "title_en": "5-Minute BTC Trading Bot with OpenClaw",
       "title_ru": "Бот для торговли BTC за 5 минут с OpenClaw",
       "desc_en": "Built an automated trading bot for 5-minute BTC markets, scaling from $50 to $823 with 2x leverage opportunities.",
@@ -2052,7 +2100,7 @@
     },
     {
       "id": "restaurant-calling-automation",
-      "rank": 80,
+      "rank": 82,
       "title_en": "Automated Restaurant Calling System",
       "title_ru": "Система автоматических звонков в рестораны",
       "desc_en": "Created an AI system that automatically calls restaurants using voice AI, integrating OpenClaw with iMessage, browser, and Twilio voice API.",
@@ -2075,7 +2123,7 @@
     },
     {
       "id": "binance-trading-automation",
-      "rank": 81,
+      "rank": 83,
       "title_en": "Binance Automated Trading Bot Development",
       "title_ru": "Разработка автоматизированного торгового бота для Binance",
       "desc_en": "Developed a locally-run Binance trading bot using OpenClaw after continuous debugging, refining trading strategies and code implementation.",
@@ -2097,7 +2145,7 @@
     },
     {
       "id": "reddit-narrative-builder",
-      "rank": 82,
+      "rank": 84,
       "title_en": "Reddit Narrative Analysis with OpenClaw",
       "title_ru": "Анализ нарративов Reddit с OpenClaw",
       "desc_en": "Built a Reddit narrative builder using recursive scraping to analyze sentiment across subreddits for AI, sports, and travel topics.",
@@ -2119,7 +2167,7 @@
     },
     {
       "id": "automated-coding-tasks-github",
-      "rank": 83,
+      "rank": 85,
       "title_en": "Automated GitHub Issue Resolution with OpenClaw",
       "title_ru": "Автоматизация решения GitHub Issues с OpenClaw",
       "desc_en": "Automated minor coding tasks by creating GitHub PRs, iterating based on reviews, and managing the full development lifecycle.",
@@ -2140,7 +2188,7 @@
     },
     {
       "id": "tiktok-marketing-automation",
-      "rank": 84,
+      "rank": 86,
       "title_en": "TikTok Marketing Automation Earning $4K in 24 Hours",
       "title_ru": "Автоматизация маркетинга TikTok, заработавшая $4K за 24 часа",
       "desc_en": "Larry, an OpenClaw agent, fully automated marketing workflows generating 200k TikTok views, 200+ X followers, and new subscribers.",
@@ -2161,7 +2209,7 @@
     },
     {
       "id": "social-media-content-automation",
-      "rank": 85,
+      "rank": 87,
       "title_en": "Automated Social Media Content Generation for AI Network",
       "title_ru": "Автоматизированная генерация контента для ИИ социальной сети",
       "desc_en": "Complete automation system for posting and commenting on Moltbook using OpenClaw to generate sarcastic AI content with shell scripts.",
@@ -2182,7 +2230,7 @@
     },
     {
       "id": "vc-daily-briefing-automation",
-      "rank": 86,
+      "rank": 88,
       "title_en": "VC Daily Briefing Automation with OpenClaw",
       "title_ru": "Автоматизация ежедневных сводок для ВК с OpenClaw",
       "desc_en": "Automated morning briefings for VCs using cron jobs to analyze markets, portfolio updates, and news.",
@@ -2202,7 +2250,7 @@
     },
     {
       "id": "daily-deal-finder-crm",
-      "rank": 87,
+      "rank": 89,
       "title_en": "Daily Deal Finder CRM Automation",
       "title_ru": "Автоматизация CRM для поиска сделок",
       "desc_en": "OpenClaw agent that analyzes CRM data and sales transcripts to identify and book meetings with prospects.",
@@ -2223,7 +2271,7 @@
     },
     {
       "id": "daily-deal-finder-crm-agent",
-      "rank": 88,
+      "rank": 90,
       "title_en": "Daily Deal Finder - Automated CRM Sales Agent",
       "title_ru": "Daily Deal Finder - Автоматизированный CRM Агент Продаж",
       "desc_en": "OpenClaw agent that analyzes CRM data and sales transcripts to identify prospects and book meetings with major companies.",
@@ -2244,7 +2292,7 @@
     },
     {
       "id": "vc-morning-briefing-agent",
-      "rank": 89,
+      "rank": 91,
       "title_en": "VC Morning Briefing Automation Agent",
       "title_ru": "Агент Автоматизации Утренних Брифингов для ВК",
       "desc_en": "Automated morning briefing system for VCs using OpenClaw cron jobs to generate daily investment insights and market updates.",
@@ -2265,7 +2313,7 @@
     },
     {
       "id": "multi-agent-system-dennis",
-      "rank": 90,
+      "rank": 92,
       "title_en": "Dennis Multi-Agent System with Role Separation",
       "title_ru": "Мультиагентная Система Dennis с Разделением Ролей",
       "desc_en": "OpenClaw agent that creates and manages sub-agents with specific roles, using AGENTS.MD and SOUL.MD files for task separation.",
@@ -2287,7 +2335,7 @@
     },
     {
       "id": "fix-test-deploy-openclaw-agent",
-      "rank": 91,
+      "rank": 93,
       "title_en": "Fix, Test, and Deploy OpenClaw Agent With Claude Code",
       "title_ru": "Исправление, тестирование и развертывание OpenClaw агента с Claude Code",
       "desc_en": "Debugging and fixing a daily X article automation that stopped running, using Claude Code integration with OpenClaw.",
@@ -2309,7 +2357,7 @@
     },
     {
       "id": "jarvis-command-center-convex",
-      "rank": 92,
+      "rank": 94,
       "title_en": "OpenClaw Agent Command Center - Personal Jarvis System",
       "title_ru": "Командный центр OpenClaw агента - персональная система Джарвис",
       "desc_en": "Building a comprehensive life management system using OpenClaw and Convex, inspired by Tony Stark's Jarvis AI assistant.",
@@ -2331,7 +2379,7 @@
     },
     {
       "id": "multi-agent-system-dennis",
-      "rank": 93,
+      "rank": 95,
       "title_en": "Dennis: Multi-Agent System with Role-Based Sub-Agents",
       "title_ru": "Деннис: мультиагентная система с подагентами на основе ролей",
       "desc_en": "Creating a hierarchical agent system where the main OpenClaw agent spawns specialized sub-agents with defined roles and documentation.",
@@ -2353,7 +2401,7 @@
     },
     {
       "id": "browser-automation-data-entry",
-      "rank": 94,
+      "rank": 96,
       "title_en": "Browser Automation for Web Tasks & Data Entry",
       "title_ru": "Автоматизация браузера для веб-задач и ввода данных",
       "desc_en": "Daily browser automation for repetitive form filling, data extraction using OpenClaw's headless Chrome integration.",
@@ -2374,7 +2422,7 @@
     },
     {
       "id": "crypto-trading-autonomous-agent",
-      "rank": 95,
+      "rank": 97,
       "title_en": "24/7 Autonomous Crypto Trading Agent",
       "title_ru": "Автономный агент для торговли криптовалютой 24/7",
       "desc_en": "AI agent that trades crypto around the clock while sending Telegram updates about executed arbitrage opportunities.",
@@ -2395,7 +2443,7 @@
     },
     {
       "id": "game-development-autonomous",
-      "rank": 96,
+      "rank": 98,
       "title_en": "Autonomous Game Development While Sleeping",
       "title_ru": "Автономная разработка игр во время сна",
       "desc_en": "AI agent built a functioning game app with thousands of users overnight while the developer was sleeping.",
@@ -2417,7 +2465,7 @@
     },
     {
       "id": "browser-automation-forms",
-      "rank": 97,
+      "rank": 99,
       "title_en": "Browser Automation for Form Filling & Data Extraction",
       "title_ru": "Автоматизация браузера для заполнения форм и извлечения данных",
       "desc_en": "Daily browser automation using OpenClaw with Chrome integration for repetitive form filling and data extraction tasks.",
@@ -2438,7 +2486,7 @@
     },
     {
       "id": "autonomous-game-development",
-      "rank": 98,
+      "rank": 100,
       "title_en": "Autonomous Game Development & Deployment",
       "title_ru": "Автономная разработка и развертывание игр",
       "desc_en": "OpenClaw agent autonomously built and deployed a functioning game app that attracted thousands of users overnight.",
@@ -2453,48 +2501,6 @@
       "source": "Medium",
       "source_url": "https://medium.com/@alexrozdolskiy/10-wild-things-people-actually-built-with-openclaw-e18f487cb3e0",
       "points": 289,
-      "date": "2026-02-17"
-    },
-    {
-      "id": "crypto-trading-agent",
-      "rank": 99,
-      "title_en": "24/7 Crypto Trading with Telegram Updates",
-      "title_ru": "Круглосуточная торговля криптовалютой с обновлениями в Telegram",
-      "desc_en": "Autonomous crypto trading agent that executes arbitrage opportunities 24/7 and sends real-time Telegram notifications about trades.",
-      "desc_ru": "Автономный агент торговли криптовалютой, который выполняет арбитражные возможности 24/7 и отправляет уведомления в Telegram в реальном времени.",
-      "content_en": "## Autonomous Crypto Trading System\n\nA sophisticated OpenClaw implementation enables **24/7 cryptocurrency trading** without human intervention. The agent continuously monitors market conditions, identifies arbitrage opportunities, and executes trades across multiple exchanges while the user sleeps or focuses on other activities.\n\n## Real-Time Communication Integration\n\nThe system features **Telegram integration** that provides instant notifications about trading activities. The agent sends detailed updates about **arbitrage opportunities it just executed**, including trade details, profit margins, and market analysis, keeping the user informed of all financial decisions made on their behalf.\n\n## Risk Management and Autonomous Decision Making\n\nThis represents a significant leap in AI agent capabilities, where the system makes **decisions involving real money** without constant supervision. The agent must balance risk assessment, market timing, and profit optimization while operating within predefined parameters set by the user.\n\n## Market Opportunity Recognition\n\nThe agent demonstrates advanced pattern recognition by identifying and acting on arbitrage opportunities - price discrepancies between different exchanges that can be exploited for profit. This requires real-time data processing, rapid decision-making, and coordinated execution across multiple platforms simultaneously.\n\n## Business Automation Evolution\n\nThis use case exemplifies how OpenClaw agents are being deployed for serious financial operations, moving beyond simple task automation to complex business management involving substantial monetary transactions and strategic decision-making.",
-      "content_ru": "## Система автономной торговли криптовалютой\n\nСложная реализация OpenClaw обеспечивает **круглосуточную торговлю криптовалютой** без вмешательства человека. Агент непрерывно отслеживает рыночные условия, выявляет арбитражные возможности и выполняет сделки на нескольких биржах, пока пользователь спит или занимается другими делами.\n\n## Интеграция связи в реальном времени\n\nСистема включает **интеграцию с Telegram**, которая обеспечивает мгновенные уведомления о торговой деятельности. Агент отправляет подробные обновления о **только что выполненных арбитражных возможностях**, включая детали сделок, маржу прибыли и рыночный анализ.\n\n## Управление рисками и автономное принятие решений\n\nЭто представляет значительный скачок в возможностях ИИ-агентов, где система принимает **решения, связанные с реальными деньгами** без постоянного надзора. Агент должен балансировать оценку рисков, рыночное время и оптимизацию прибыли.\n\n## Распознавание рыночных возможностей\n\nАгент демонстрирует продвинутое распознавание паттернов, выявляя и действуя на основе арбитражных возможностей - ценовых расхождений между различными биржами. Это требует обработки данных в реальном времени и координированного выполнения на нескольких платформах.\n\n## Эволюция бизнес-автоматизации\n\nЭтот случай использования показывает, как агенты OpenClaw развертываются для серьезных финансовых операций, выходя за рамки простой автоматизации задач к сложному управлению бизнесом.",
-      "tools": [
-        "OpenClaw",
-        "Telegram",
-        "Cryptocurrency Exchanges"
-      ],
-      "results": "24/7 automated trading with real-time Telegram notifications",
-      "tag": "finance",
-      "source": "Medium",
-      "source_url": "https://medium.com/@alexrozdolskiy/10-wild-things-people-actually-built-with-openclaw-e18f487cb3e0",
-      "points": 251,
-      "date": "2026-02-17"
-    },
-    {
-      "id": "software-architecture-analysis",
-      "rank": 100,
-      "title_en": "Automated Software Architecture Analysis & Migration",
-      "title_ru": "Автоматизированный анализ архитектуры ПО и миграция",
-      "desc_en": "OpenClaw traverses code repositories to map dependencies, generate architecture summaries, refactor modules, and draft migration plans.",
-      "desc_ru": "OpenClaw обходит репозитории кода для картирования зависимостей, генерации сводок архитектуры, рефакторинга моду��ей и составления планов миграции.",
-      "content_en": "## Comprehensive Code Repository Analysis\n\nIn software engineering applications, OpenClaw demonstrates sophisticated capabilities by **traversing entire repositories** to understand complex codebases. The agent systematically analyzes code structure, identifying relationships between different components and modules across large software projects.\n\n## Dependency Mapping and Architecture Visualization\n\nThe system excels at **mapping dependency graphs** that show how different parts of the codebase interact with each other. OpenClaw generates comprehensive **architecture summaries** that provide clear overviews of system design, making it easier for development teams to understand and maintain complex software projects.\n\n## Intelligent Code Refactoring\n\nBeyond analysis, OpenClaw actively **refactors modules** to improve code quality, performance, and maintainability. The agent identifies areas where code can be optimized, consolidated, or restructured while preserving functionality and ensuring compatibility with existing systems.\n\n## Strategic Migration Planning\n\nOne of the most valuable features is OpenClaw's ability to **draft migration plans** for upgrading systems, moving between frameworks, or transitioning to new technologies. These plans include step-by-step procedures, risk assessments, and timeline estimates that help development teams execute complex technical migrations safely.\n\n## Enterprise Development Impact\n\nThis automation spans from mundane code maintenance tasks to strategic architectural decisions, demonstrating how AI agents can augment software development workflows at both tactical and strategic levels, potentially saving development teams hundreds of hours on large-scale projects.",
-      "content_ru": "## Комплексный анализ репозиториев кода\n\nВ приложениях разработки ПО OpenClaw демонстрирует сложные возможности, **обходя целые репозитории** для понимания сложных кодовых баз. Агент систематически анализирует структуру кода, выявляя отношения между различными компонентами и модулями в крупных проектах.\n\n## Картирование зависимостей и визуализация архитектуры\n\nСистема превосходно справляется с **картированием графов зависимостей**, показывающих взаимодействие различных частей кодовой базы. OpenClaw генерирует комплексные **сводки архитектуры**, предоставляющие четкие обзоры дизайна системы.\n\n## Интеллектуальный рефакторинг кода\n\nПомимо анализа, OpenClaw активно **рефакторит модули** для улучшения качества кода, производительности и поддерживаемости. Агент выявляет области, где код может быть оптимизирован, консолидирован или реструктурирован.\n\n## Стратегическое планирование миграции\n\nОдна из самых ценных функций - способность OpenClaw **составлять планы миграции** для обновления систем, перехода между фреймворками или миграции на новые технологии. Эти планы включают пошаговые процедуры, оценки рисков и временные оценки.\n\n## Влияние на корпоративную разработку\n\nЭта автоматизация охватывает от рутинных задач обслуживания кода до стратегических архитектурных решений, демонстрируя, как ИИ-агенты могут усилить рабочие процессы разработки ПО на тактическом и стратегическом уровнях.",
-      "tools": [
-        "OpenClaw",
-        "Code Repositories",
-        "Dependency Analysis Tools"
-      ],
-      "results": "Automated repository analysis, dependency mapping, architecture summaries, and migration plans",
-      "tag": "devops",
-      "source": "Medium",
-      "source_url": "https://medium.com/@vsankarayogi/openclaw-mac-minis-and-the-rise-of-domestic-agent-infrastructure-67041dbb73bf",
-      "points": 118,
       "date": "2026-02-17"
     }
   ]
