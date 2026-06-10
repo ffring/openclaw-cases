@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agentic AI в маркетинге: реальные кейсы и выгоды для бизнеса | OpenClaw Times</title>
+<meta name="description" content="Узнайте, как agentic AI меняет маркетинг: реальные кейсы, инструменты, выгоды. Примените решения для роста бизнеса уже сегодня!">
+<link rel="canonical" href="https://openclawtimes.com/case/agentic-ai-marketing-braze.html">
+<meta property="og:title" content="Agentic AI в маркетинге: реальные кейсы и выгоды для бизнеса">
+<meta property="og:description" content="Узнайте, как agentic AI меняет маркетинг: реальные кейсы, инструменты, выгоды. Примените решения для роста бизнеса уже сегодня!">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0a0b;--bg-card:#111113;--bg-hover:#1a1a1d;
+  --border:#222225;--text:#fafafa;--text-dim:#a0a0a5;--text-muted:#707075;
+  --accent:#ff6154;--accent-dim:rgba(255,97,84,0.12);
+  --green:#10b981;--blue:#3b82f6;--purple:#8b5cf6;--cyan:#06b6d4;--pink:#ec4899;--yellow:#f59e0b;--orange:#f97316;
+  --font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',monospace;
+}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+body{font-family:var(--font-sans);background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--accent);color:#fff}
+.container{max-width:900px;margin:0 auto;padding:0 20px}
+
+/* Header */
+header{border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:0;background:rgba(10,10,11,0.95);backdrop-filter:blur(12px);z-index:100}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;align-items:center;gap:8px;font-weight:700;font-size:20px}
+.logo span{color:var(--accent)}
+.header-right{display:flex;align-items:center;gap:16px}
+.lang-switch{display:flex;gap:4px;padding:4px;background:var(--bg-card);border-radius:8px;border:1px solid var(--border)}
+.lang-btn{padding:6px 10px;border-radius:6px;font-size:16px;transition:all .15s;cursor:pointer}
+.lang-btn:hover{background:var(--bg-hover)}
+.lang-btn.active{background:var(--accent-dim)}
+
+/* Search */
+.search-box{position:relative}
+.search-input{width:240px;padding:10px 16px 10px 40px;background:var(--bg-card);border:1px solid var(--border);border-radius:10px;color:var(--text);font-size:14px;transition:all .2s}
+.search-input:focus{outline:none;border-color:var(--accent);width:300px}
+.search-input::placeholder{color:var(--text-muted)}
+.search-icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--text-muted);font-size:14px}
+
+/* Hero */
+.hero{padding:48px 0 32px;text-align:center}
+.hero h1{font-size:clamp(28px,5vw,40px);font-weight:700;letter-spacing:-0.03em;margin-bottom:12px}
+.hero h1 span{color:var(--accent)}
+.hero p{font-size:16px;color:var(--text-dim);max-width:500px;margin:0 auto}
+
+/* Stats Bar */
+.stats-bar{display:flex;justify-content:center;gap:32px;padding:20px 0;margin-bottom:24px;border-bottom:1px solid var(--border)}
+.stat{text-align:center}
+.stat-value{font-size:24px;font-weight:700;font-family:var(--font-mono);color:var(--accent)}
+.stat-label{font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em}
+
+/* Categories */
+.categories{display:flex;gap:8px;padding:16px 0;overflow-x:auto;border-bottom:1px solid var(--border);margin-bottom:24px}
+.categories::-webkit-scrollbar{display:none}
+.cat-btn{padding:8px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:20px;font-size:13px;font-weight:500;color:var(--text-dim);cursor:pointer;transition:all .2s;white-space:nowrap}
+.cat-btn:hover{border-color:var(--text-muted);color:var(--text)}
+.cat-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* Featured Case */
+.featured-case{display:block;background:linear-gradient(135deg,var(--accent-dim),transparent);border:1px solid var(--accent);border-radius:16px;padding:24px;margin-bottom:32px;transition:all .2s}
+.featured-case:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(255,97,84,0.15)}
+.featured-badge{display:inline-block;padding:4px 12px;background:var(--accent);color:#fff;font-size:11px;font-weight:700;border-radius:20px;margin-bottom:16px;letter-spacing:0.05em}
+.featured-title{font-size:24px;font-weight:700;margin-bottom:12px}
+.featured-desc{font-size:15px;color:var(--text-dim);margin-bottom:16px;line-height:1.6}
+.featured-meta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+
+/* Case Cards */
+.cases-list{display:flex;flex-direction:column;gap:12px}
+.case-card{display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--bg-card);border:1px solid var(--border);border-radius:12px;transition:all .2s}
+.case-card:hover{border-color:var(--text-muted);background:var(--bg-hover);transform:translateX(4px)}
+.case-card.hidden{display:none}
+.case-rank{font-family:var(--font-mono);font-size:14px;color:var(--text-muted);min-width:28px}
+.case-body{flex:1;min-width:0}
+.case-title{font-size:16px;font-weight:600;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.case-desc{font-size:13px;color:var(--text-dim);margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.case-footer{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.case-source{font-size:11px;color:var(--text-muted)}
+.case-tools{font-size:11px;color:var(--text-dim);font-family:var(--font-mono)}
+.case-vote{display:flex;flex-direction:column;align-items:center;padding:8px 12px;background:var(--bg);border:1px solid var(--border);border-radius:8px;min-width:50px}
+.vote-arrow{color:var(--accent);font-size:12px}
+.vote-count{font-family:var(--font-mono);font-size:14px;font-weight:600}
+
+/* Tag Pills */
+.tag-pill{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.02em}
+.tag-pill.automation{background:rgba(16,185,129,0.15);color:var(--green)}
+.tag-pill.coding{background:rgba(59,130,246,0.15);color:var(--blue)}
+.tag-pill.productivity{background:rgba(249,115,22,0.15);color:var(--orange)}
+.tag-pill.research{background:rgba(139,92,246,0.15);color:var(--purple)}
+.tag-pill.devops{background:rgba(6,182,212,0.15);color:var(--cyan)}
+.tag-pill.marketing{background:rgba(236,72,153,0.15);color:var(--pink)}
+.tag-pill.finance{background:rgba(245,158,11,0.15);color:var(--yellow)}
+.meta-source{font-size:12px;color:var(--text-muted)}
+.meta-points{font-family:var(--font-mono);font-size:13px;color:var(--accent)}
+
+/* Footer */
+footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-align:center}
+.footer-author{font-size:15px;color:var(--text-dim);margin-bottom:20px}
+.footer-author a{color:var(--accent);font-weight:500}
+.footer-author a:hover{text-decoration:underline}
+.footer-divider{margin:0 8px;color:var(--text-muted)}
+.footer-cta{margin-bottom:24px}
+.cta-btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--accent);color:#fff;font-size:14px;font-weight:600;border-radius:10px;transition:all .2s}
+.cta-btn:hover{filter:brightness(1.1);transform:translateY(-2px)}
+.footer-links{display:flex;justify-content:center;gap:24px;margin-bottom:16px}
+.footer-links a{font-size:14px;color:var(--text-muted);transition:color .15s}
+.footer-links a:hover{color:var(--text)}
+.footer-copy{font-size:13px;color:var(--text-muted)}
+.footer-copy a{color:var(--accent)}
+
+/* Case Page */
+.case-page{padding:40px 0}
+.case-page .back{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--text-muted);margin-bottom:24px;transition:color .15s}
+.case-page .back:hover{color:var(--text)}
+.case-page h1{font-size:clamp(24px,4vw,32px);font-weight:700;margin-bottom:16px}
+.case-page .meta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:24px;padding-bottom:24px;border-bottom:1px solid var(--border)}
+.tools-section{margin:24px 0;padding:20px;background:var(--bg-card);border-radius:12px;border:1px solid var(--border)}
+.tools-section h4{font-size:13px;font-weight:600;text-transform:uppercase;color:var(--text-dim);margin-bottom:12px}
+.tools-list{display:flex;flex-wrap:wrap;gap:8px}
+.tool-tag{padding:6px 12px;background:var(--bg-hover);border-radius:6px;font-size:13px;font-family:var(--font-mono)}
+.results-section{margin:24px 0;padding:20px;background:var(--accent-dim);border-radius:12px;border:1px solid rgba(255,97,84,0.3)}
+.results-section h4{font-size:13px;font-weight:600;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.results-section p{font-size:15px;font-weight:500}
+.content{font-size:15px;line-height:1.7;color:var(--text-dim)}
+.content h2{font-size:20px;font-weight:600;color:var(--text);margin:32px 0 16px}
+.content h3{font-size:17px;font-weight:600;color:var(--text);margin:24px 0 12px}
+.content p{margin-bottom:16px}
+.content code{font-family:var(--font-mono);font-size:13px;padding:2px 6px;background:var(--bg-card);border-radius:4px;color:var(--accent)}
+.source-link{display:inline-flex;align-items:center;gap:8px;margin-top:32px;padding:12px 20px;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;font-size:14px;font-weight:500;transition:all .15s}
+.source-link:hover{border-color:var(--accent);background:var(--accent-dim)}
+
+/* No Results */
+.no-results{text-align:center;padding:48px 20px;color:var(--text-muted)}
+.no-results-icon{font-size:48px;margin-bottom:16px}
+
+@media(max-width:640px){
+  .header-inner{flex-wrap:wrap}
+  .search-input{width:100%}
+  .search-input:focus{width:100%}
+  .case-card{flex-wrap:wrap}
+  .case-vote{width:100%;flex-direction:row;justify-content:center;gap:8px}
+  .stats-bar{gap:20px}
+  .categories{gap:6px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="/" class="logo">🦞 OpenClaw <span>Times</span></a>
+      <div class="lang-switch">
+        <a href="/en/case/agentic-ai-marketing-braze.html" class="lang-btn ">🇬🇧</a>
+        <a href="/case/agentic-ai-marketing-braze.html" class="lang-btn active">🇷🇺</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="case-page">
+  <div class="container">
+    <a href="/" class="back">← Все кейсы</a>
+    <h1>Agentic AI в маркетинге: реальные кейсы и выгоды для бизнеса</h1>
+    <div class="meta">
+      <span class="tag-pill marketing">📣 Маркетинг</span>
+      <span style="color:var(--text-muted)">Web</span>
+      <span style="color:var(--text-muted);font-family:var(--font-mono)">10 июн 2026</span>
+      <span style="color:var(--accent);font-family:var(--font-mono)">▲ 263</span>
+    </div>
+    
+    
+    <div class="tools-section">
+      <h4>Инструменты</h4>
+      <div class="tools-list"><span class="tool-tag">BrazeAI™ Agents — автономное управление кампаниями на Braze</span><span class="tool-tag">Salesforce Einstein — автоматизация CRM и персонализации</span></div>
+    </div>
+    
+    <div class="results-section">
+      <h4>Результаты</h4>
+      <p>Автоматизирует планирование, сегментацию, создание контента и рассылки — экономит время и повышает точность.</p>
+    </div>
+    
+    <div class="content">Agentic AI в маркетинге: реальные кейсы и выгоды для бизнеса</p><p><h2>Почему Agentic AI в маркетинге важен именно сейчас</h2></p><p>Маркетинг меняется на глазах. Старые методы — ручная сегментация, жёсткие правила автоматизации, бесконечные A/B-тесты — уже не работают так, как раньше. Предприниматели, маркетологи и владельцы бизнеса в России и СНГ всё чаще сталкиваются с тем, что клиенты ждут персонального подхода, быстрых реакций и релевантных предложений. А маркетинговые команды застряли в инструментах, где всё приходится настраивать вручную. В итоге — упущенные возможности, лишние траты и выгоревшие сотрудники.</p><p>Agentic AI даёт шанс вырваться из этого круга. В отличие от привычной автоматизации, такие системы понимают бизнес-цели и сами действуют: планируют, запускают и оптимизируют кампании без постоянного участия человека. В этой статье вы узнаете, как реальные компании уже используют agentic AI, чтобы экономить время, повышать вовлечённость и получать больше продаж. Объясню простыми словами, что это такое, как работает и чем может быть полезно именно вам — с примерами и без сложных терминов.</p><p><h2>Чем Agentic AI отличается от обычной автоматизации</h2></p><p>Классическая автоматизация работает по жёстким правилам. Например: если клиент бросил корзину — отправь письмо. Всё просто, но если захотите что-то поменять или протестировать новую идею, придётся вручную всё переписывать и следить за логикой. Это отнимает время и силы.</p><p>Agentic AI работает по-другому. Вы задаёте цель, а не инструкции. Например, нужно вернуть клиентов, которые не открывали письма 60 дней. Такая система сама:</p><p><li>Анализирует данные о клиентах в реальном времени</li>
+<li>Выбирает, кого стоит вернуть</li>
+<li>Подбирает индивидуальное сообщение и канал (email, SMS, push)</li>
+<li>Запускает кампанию</li>
+<li>Смотрит, что сработало, и в следующий раз действует умнее</li></p><p>> «Agentic AI сам решает, кого и как вовлекать, какое сообщение и через какой канал отправить, запускает кампанию и учится на результатах, чтобы в следующий раз быть ещё точнее.»</p><p>Всё это — без ручной настройки и постоянного контроля со стороны маркетолога.</p><p><h2>Как Agentic AI реально работает в маркетинге</h2></p><p>Чтобы agentic AI приносил пользу, ему нужен доступ к свежим данным о клиентах и возможность напрямую действовать через ваши маркетинговые инструменты. Обычно всё строится на трёх слоях:</p><p>1. <strong>Данные</strong>: Единый профиль клиента, поведение, покупки, демография, сигналы в реальном времени. Если данные устарели или разбросаны по разным системам, AI будет ошибаться.
+2. <strong>Решения</strong>: AI анализирует, что знает о каждом человеке, сверяет с вашими целями и ограничениями, выбирает лучший шаг для каждого.
+3. <strong>Исполнение</strong>: AI сам создаёт кампании, пишет тексты, запускает рассылки и строит клиентские пути — без ручного труда.</p><p>BrazeAI™ Agents, например, используют потоковые данные и единые профили, чтобы каждое взаимодействие было максимально релевантным. По данным Braze за 2026 год, только 55% маркетологов реально обновляют и используют клиентские данные в реальном времени — значит, есть куда расти.</p><p><h2>Как бизнес использует Agentic AI для планирования и сегментации</h2></p><p>Сегментация и планирование кампаний — вечная головная боль маркетологов. Agentic AI берёт эту рутину на себя и делает всё точнее. Например, BrazeAI™ Agents позволяют:</p><p><li>Находить целевые аудитории на основе свежего поведения</li>
+<li>Автоматически обновлять сегменты по мере поступления новых данных</li>
+<li>Планировать кампании, которые подстраиваются под путь каждого клиента</li></p><p>Salesforce Einstein даёт похожие возможности для CRM: автоматизирует оценку лидов, персонализацию и построение клиентских маршрутов. Всё, что раньше приходилось делать вручную — теперь AI делает сам. Вы просто ставите цель, а система сама ищет пути.</p><p>Плюсы для бизнеса:
+<li>Быстрый запуск кампаний</li>
+<li>Более точное попадание в целевую аудиторию</li>
+<li>Рост вовлечённости и продаж</li></p><p>> «Планирование кампаний, сегментация, создание контента, оптимизация времени отправки и индивидуальные решения для каждого клиента — всё это agentic AI уже умеет делать на практике.»</p><p><h2>Как Agentic AI персонализирует контент и выбирает канал доставки</h2></p><p>Сегодня персонализация — не бонус, а требование рынка. Agentic AI умеет писать уникальные сообщения для каждого клиента и сам выбирает, как и когда их отправить. Например:</p><p><li>Генерирует индивидуальные тексты для каждого пользователя</li>
+<li>Сам решает, что лучше — email, SMS или push</li>
+<li>Определяет идеальное время отправки на основе поведения</li></p><p>Если один клиент любит получать SMS, AI отправит ему сообщение именно туда и в нужный момент. Другой предпочитает push — получит push. Система постоянно учится на результатах, чтобы каждое следующее касание было ещё эффективнее.</p><p>Раньше такой уровень персонализации был доступен только крупным компаниям с огромными командами. Теперь это доступно любому бизнесу — и всё работает без ручной рутины.</p><p><h2>Как Agentic AI учится и становится умнее со временем</h2></p><p>Главное преимущество agentic AI — постоянное обучение. Некоторые системы используют так называемое «вознаграждение»: AI пробует разные варианты, смотрит, что приносит лучший результат (например, больше продаж или вовлечённости), и автоматически меняет стратегию.</p><p>Как это выглядит на практике:</p><p><li>AI тестирует разные предложения, каналы и время</li>
+<li>Измеряет, что реально работает</li>
+<li>Сам корректирует подход — без ручных A/B-тестов</li></p><p>Всё это превращает маркетинг в замкнутый цикл: каждая новая кампания становится умнее и эффективнее предыдущей.</p><p>> «Некоторые agentic AI идут дальше: они постоянно экспериментируют, учатся на результатах и оптимизируют кампании под конкретные бизнес-метрики.»</p><p><h2>Какие инструменты уже дают такие возможности</h2></p><p>Сегодня agentic AI доступен не только гигантам. Вот два ярких примера из источника:</p><p><li><strong>BrazeAI™ Agents</strong> — полностью берёт на себя управление кампаниями, подбор аудитории, персонализацию сообщений и оптимизацию отправки.</li>
+<li><strong>Salesforce Einstein</strong> — внедряет agentic AI в CRM: автоматическая оценка лидов, построение клиентских маршрутов и персонализация на уровне каждого контакта.</li></p><p>Эти инструменты легко интегрируются с вашей маркетинговой экосистемой: подтягивают данные из хранилищ и запускают действия через email, SMS, push и другие каналы. Чем лучше у вас собраны и обновляются данные, тем круче работает AI.</p><p><h2>Часто задаваемые вопросы (FAQ)</h2></p><p><strong>Что такое agentic AI в маркетинге?</strong>
+Agentic AI — это автономные системы, которые сами планируют, запускают и оптимизируют маркетинговые кампании по бизнес-целям, а не по жёстким правилам. Всё работает почти без участия человека.</p><p><strong>Чем agentic AI отличается от обычной автоматизации?</strong>
+Обычная автоматизация — это набор триггеров и реакций. Agentic AI работает от цели: сам принимает решения, адаптируется к новым данным и учится на каждом шаге.</p><p><strong>Нужны ли технические знания, чтобы использовать agentic AI?</strong>
+Нет. Современные платформы делают всё за вас: вы просто задаёте цель и ограничения, а AI сам всё реализует.</p><p><strong>Может ли agentic AI персонализировать сообщения для каждого клиента?</strong>
+Да. Такие системы пишут уникальные тексты для каждого, сами выбирают канал и время отправки — всё автоматически.</p><p><strong>С чего начать внедрение agentic AI в бизнесе?</strong>
+Начните с объединения всех данных о клиентах в единую систему, а дальше подключайте платформы вроде BrazeAI™ Agents или Salesforce Einstein — они уже умеют работать по agentic AI.</p><p><h2>Заключение: что делать прямо сейчас</h2></p><p>Agentic AI — не фантастика, а уже рабочий инструмент, который меняет маркетинг. С помощью BrazeAI™ Agents и Salesforce Einstein компании автоматизируют рутину, добиваются настоящей персонализации и освобождают время для стратегии. Главное — собрать данные, поставить чёткие цели и доверить исполнение AI.</p><p>Если хотите идти в ногу с рынком, самое время попробовать agentic AI. Проверьте, как у вас устроены клиентские данные, и найдите процессы, где автоматизация даст быстрый эффект. Будущее маркетинга — за автономными, умными и результативными системами.</div>
+    
+    <a href="https://www.braze.com/resources/articles/agentic-ai-marketing-examples" target="_blank" class="source-link">
+      🔗 Открыть источник
+    </a>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-author">
+      Проект <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a>
+      <span class="footer-divider">·</span>
+      <a href="https://plaan.ai" target="_blank">Plaan.ai</a>
+    </div>
+    <div class="footer-cta">
+      <a href="https://t.me/ffring" target="_blank" class="cta-btn">
+        💬 Консультация по внедрению ИИ
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/openclaw/openclaw" target="_blank">GitHub</a>
+      <a href="https://discord.com/invite/clawd" target="_blank">Discord</a>
+    </div>
+    <div class="footer-copy">Собрано с помощью <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
