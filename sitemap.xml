@@ -2,13 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://openclawtimes.com/playground/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/fable-5-ban-reasons/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/fable-5-ban-reasons/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/fable-5-ban-reasons/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/fable-5-ban-reasons/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/fable-5-ban-reasons/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/deep-claude-ai-mind/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/deep-claude-ai-mind/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/deep-claude-ai-mind/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/deep-claude-ai-mind/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/deep-claude-ai-mind/"/>
   </url>
   <url>
     <loc>https://openclawtimes.com/playground/articles/apple-ai-features-2026/</loc>
@@ -489,25 +509,5 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/einstein-vs-feynman/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/einstein-vs-feynman/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/einstein-vs-feynman/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/inference-diffusion-world-models/</loc>
-    <lastmod>2026-05-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/inference-diffusion-world-models/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/inference-diffusion-world-models/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/inference-diffusion-world-models/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/inference-diffusion-world-models/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/ai-startup-ideas/</loc>
-    <lastmod>2026-05-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/ai-startup-ideas/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/ai-startup-ideas/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/ai-startup-ideas/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/ai-startup-ideas/"/>
   </url>
 </urlset>
