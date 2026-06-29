@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-агенты: автоматизация бизнеса 24/7 через Telegram | OpenClaw Times</title>
+<meta name="description" content="Узнайте, как команда AI-агентов автоматизирует бизнес через Telegram 24/7. Реальные кейсы и советы для роста эффективности — читайте сейчас!">
+<link rel="canonical" href="https://openclawtimes.com/case/ai-agent-team-telegram.html">
+<meta property="og:title" content="AI-агенты: автоматизация бизнеса 24/7 через Telegram">
+<meta property="og:description" content="Узнайте, как команда AI-агентов автоматизирует бизнес через Telegram 24/7. Реальные кейсы и советы для роста эффективности — читайте сейчас!">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0a0b;--bg-card:#111113;--bg-hover:#1a1a1d;
+  --border:#222225;--text:#fafafa;--text-dim:#a0a0a5;--text-muted:#707075;
+  --accent:#ff6154;--accent-dim:rgba(255,97,84,0.12);
+  --green:#10b981;--blue:#3b82f6;--purple:#8b5cf6;--cyan:#06b6d4;--pink:#ec4899;--yellow:#f59e0b;--orange:#f97316;
+  --font-sans:'Inter',system-ui,sans-serif;--font-mono:'JetBrains Mono',monospace;
+}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+body{font-family:var(--font-sans);background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--accent);color:#fff}
+.container{max-width:900px;margin:0 auto;padding:0 20px}
+
+/* Header */
+header{border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:0;background:rgba(10,10,11,0.95);backdrop-filter:blur(12px);z-index:100}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;align-items:center;gap:8px;font-weight:700;font-size:20px}
+.logo span{color:var(--accent)}
+.header-right{display:flex;align-items:center;gap:16px}
+.lang-switch{display:flex;gap:4px;padding:4px;background:var(--bg-card);border-radius:8px;border:1px solid var(--border)}
+.lang-btn{padding:6px 10px;border-radius:6px;font-size:16px;transition:all .15s;cursor:pointer}
+.lang-btn:hover{background:var(--bg-hover)}
+.lang-btn.active{background:var(--accent-dim)}
+
+/* Search */
+.search-box{position:relative}
+.search-input{width:240px;padding:10px 16px 10px 40px;background:var(--bg-card);border:1px solid var(--border);border-radius:10px;color:var(--text);font-size:14px;transition:all .2s}
+.search-input:focus{outline:none;border-color:var(--accent);width:300px}
+.search-input::placeholder{color:var(--text-muted)}
+.search-icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--text-muted);font-size:14px}
+
+/* Hero */
+.hero{padding:48px 0 32px;text-align:center}
+.hero h1{font-size:clamp(28px,5vw,40px);font-weight:700;letter-spacing:-0.03em;margin-bottom:12px}
+.hero h1 span{color:var(--accent)}
+.hero p{font-size:16px;color:var(--text-dim);max-width:500px;margin:0 auto}
+
+/* Stats Bar */
+.stats-bar{display:flex;justify-content:center;gap:32px;padding:20px 0;margin-bottom:24px;border-bottom:1px solid var(--border)}
+.stat{text-align:center}
+.stat-value{font-size:24px;font-weight:700;font-family:var(--font-mono);color:var(--accent)}
+.stat-label{font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em}
+
+/* Categories */
+.categories{display:flex;gap:8px;padding:16px 0;overflow-x:auto;border-bottom:1px solid var(--border);margin-bottom:24px}
+.categories::-webkit-scrollbar{display:none}
+.cat-btn{padding:8px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:20px;font-size:13px;font-weight:500;color:var(--text-dim);cursor:pointer;transition:all .2s;white-space:nowrap}
+.cat-btn:hover{border-color:var(--text-muted);color:var(--text)}
+.cat-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* Featured Case */
+.featured-case{display:block;background:linear-gradient(135deg,var(--accent-dim),transparent);border:1px solid var(--accent);border-radius:16px;padding:24px;margin-bottom:32px;transition:all .2s}
+.featured-case:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(255,97,84,0.15)}
+.featured-badge{display:inline-block;padding:4px 12px;background:var(--accent);color:#fff;font-size:11px;font-weight:700;border-radius:20px;margin-bottom:16px;letter-spacing:0.05em}
+.featured-title{font-size:24px;font-weight:700;margin-bottom:12px}
+.featured-desc{font-size:15px;color:var(--text-dim);margin-bottom:16px;line-height:1.6}
+.featured-meta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+
+/* Case Cards */
+.cases-list{display:flex;flex-direction:column;gap:12px}
+.case-card{display:flex;align-items:center;gap:16px;padding:16px 20px;background:var(--bg-card);border:1px solid var(--border);border-radius:12px;transition:all .2s}
+.case-card:hover{border-color:var(--text-muted);background:var(--bg-hover);transform:translateX(4px)}
+.case-card.hidden{display:none}
+.case-rank{font-family:var(--font-mono);font-size:14px;color:var(--text-muted);min-width:28px}
+.case-body{flex:1;min-width:0}
+.case-title{font-size:16px;font-weight:600;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.case-desc{font-size:13px;color:var(--text-dim);margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.case-footer{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.case-source{font-size:11px;color:var(--text-muted)}
+.case-tools{font-size:11px;color:var(--text-dim);font-family:var(--font-mono)}
+.case-vote{display:flex;flex-direction:column;align-items:center;padding:8px 12px;background:var(--bg);border:1px solid var(--border);border-radius:8px;min-width:50px}
+.vote-arrow{color:var(--accent);font-size:12px}
+.vote-count{font-family:var(--font-mono);font-size:14px;font-weight:600}
+
+/* Tag Pills */
+.tag-pill{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.02em}
+.tag-pill.automation{background:rgba(16,185,129,0.15);color:var(--green)}
+.tag-pill.coding{background:rgba(59,130,246,0.15);color:var(--blue)}
+.tag-pill.productivity{background:rgba(249,115,22,0.15);color:var(--orange)}
+.tag-pill.research{background:rgba(139,92,246,0.15);color:var(--purple)}
+.tag-pill.devops{background:rgba(6,182,212,0.15);color:var(--cyan)}
+.tag-pill.marketing{background:rgba(236,72,153,0.15);color:var(--pink)}
+.tag-pill.finance{background:rgba(245,158,11,0.15);color:var(--yellow)}
+.meta-source{font-size:12px;color:var(--text-muted)}
+.meta-points{font-family:var(--font-mono);font-size:13px;color:var(--accent)}
+
+/* Footer */
+footer{border-top:1px solid var(--border);padding:48px 0;margin-top:48px;text-align:center}
+.footer-author{font-size:15px;color:var(--text-dim);margin-bottom:20px}
+.footer-author a{color:var(--accent);font-weight:500}
+.footer-author a:hover{text-decoration:underline}
+.footer-divider{margin:0 8px;color:var(--text-muted)}
+.footer-cta{margin-bottom:24px}
+.cta-btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:var(--accent);color:#fff;font-size:14px;font-weight:600;border-radius:10px;transition:all .2s}
+.cta-btn:hover{filter:brightness(1.1);transform:translateY(-2px)}
+.footer-links{display:flex;justify-content:center;gap:24px;margin-bottom:16px}
+.footer-links a{font-size:14px;color:var(--text-muted);transition:color .15s}
+.footer-links a:hover{color:var(--text)}
+.footer-copy{font-size:13px;color:var(--text-muted)}
+.footer-copy a{color:var(--accent)}
+
+/* Case Page */
+.case-page{padding:40px 0}
+.case-page .back{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--text-muted);margin-bottom:24px;transition:color .15s}
+.case-page .back:hover{color:var(--text)}
+.case-page h1{font-size:clamp(24px,4vw,32px);font-weight:700;margin-bottom:16px}
+.case-page .meta{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:24px;padding-bottom:24px;border-bottom:1px solid var(--border)}
+.tools-section{margin:24px 0;padding:20px;background:var(--bg-card);border-radius:12px;border:1px solid var(--border)}
+.tools-section h4{font-size:13px;font-weight:600;text-transform:uppercase;color:var(--text-dim);margin-bottom:12px}
+.tools-list{display:flex;flex-wrap:wrap;gap:8px}
+.tool-tag{padding:6px 12px;background:var(--bg-hover);border-radius:6px;font-size:13px;font-family:var(--font-mono)}
+.results-section{margin:24px 0;padding:20px;background:var(--accent-dim);border-radius:12px;border:1px solid rgba(255,97,84,0.3)}
+.results-section h4{font-size:13px;font-weight:600;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.results-section p{font-size:15px;font-weight:500}
+.content{font-size:15px;line-height:1.7;color:var(--text-dim)}
+.content h2{font-size:20px;font-weight:600;color:var(--text);margin:32px 0 16px}
+.content h3{font-size:17px;font-weight:600;color:var(--text);margin:24px 0 12px}
+.content p{margin-bottom:16px}
+.content code{font-family:var(--font-mono);font-size:13px;padding:2px 6px;background:var(--bg-card);border-radius:4px;color:var(--accent)}
+.source-link{display:inline-flex;align-items:center;gap:8px;margin-top:32px;padding:12px 20px;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;font-size:14px;font-weight:500;transition:all .15s}
+.source-link:hover{border-color:var(--accent);background:var(--accent-dim)}
+
+/* No Results */
+.no-results{text-align:center;padding:48px 20px;color:var(--text-muted)}
+.no-results-icon{font-size:48px;margin-bottom:16px}
+
+@media(max-width:640px){
+  .header-inner{flex-wrap:wrap}
+  .search-input{width:100%}
+  .search-input:focus{width:100%}
+  .case-card{flex-wrap:wrap}
+  .case-vote{width:100%;flex-direction:row;justify-content:center;gap:8px}
+  .stats-bar{gap:20px}
+  .categories{gap:6px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="/" class="logo">🦞 OpenClaw <span>Times</span></a>
+      <div class="lang-switch">
+        <a href="/en/case/ai-agent-team-telegram.html" class="lang-btn ">🇬🇧</a>
+        <a href="/case/ai-agent-team-telegram.html" class="lang-btn active">🇷🇺</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="case-page">
+  <div class="container">
+    <a href="/" class="back">← Все кейсы</a>
+    <h1>AI-агенты: автоматизация бизнеса 24/7 через Telegram</h1>
+    <div class="meta">
+      <span class="tag-pill automation">⚡ Автоматизация</span>
+      <span style="color:var(--text-muted)">Twitter</span>
+      <span style="color:var(--text-muted);font-family:var(--font-mono)">29 июн 2026</span>
+      <span style="color:var(--accent);font-family:var(--font-mono)">▲ 219</span>
+    </div>
+    
+    
+    <div class="tools-section">
+      <h4>Инструменты</h4>
+      <div class="tools-list"><span class="tool-tag">OpenClaw — запуск и управление AI-агентами</span><span class="tool-tag">Hermes — развитие и эволюция команды агентов</span><span class="tool-tag">Telegram — удобный интерфейс для контроля</span></div>
+    </div>
+    
+    <div class="results-section">
+      <h4>Результаты</h4>
+      <p>Позволяет одному человеку управлять проектом на 115 000+ участников почти без ручной рутины</p>
+    </div>
+    
+    <div class="content"><h2>Введение</h2></p><p>Представьте: вы управляете бизнесом прямо с телефона, а команда AI-агентов работает за вас круглосуточно. Никаких просроченных дедлайнов, никакой рутины, никакого выгорания. Для предпринимателей и владельцев бизнеса в России и СНГ это уже не фантазия — это реальность, которую можно внедрить сегодня через Telegram.</p><p>Вести бизнес, особенно цифровой или международный, — значит постоянно держать в голове кучу задач: исследования, контент, обновления, проверки. Почти у каждого основателя болит голова от этого потока: дел слишком много, времени мало, а отставать нельзя. А что если большую часть рутины можно переложить на команду, которая не устает, не болеет, не уходит в отпуск и учится на ваших предпочтениях?</p><p>В этой статье вы узнаете, как Шубхам Сабу построил реальную команду AI-агентов, которая работает 24/7, управляет огромным open-source проектом и держит его всегда «в теме» — и всё это через привычный Telegram. Подробно разберём инструменты, процессы и результаты, чтобы вы могли понять, подходит ли такой подход вашему бизнесу.</p><p><h2>Как работает команда AI-агентов на практике?</h2></p><p>У Сабу это не просто эксперимент или демо, а реально рабочий процесс: шесть AI-агентов берут на себя ключевые задачи бизнеса днём и ночью. Это не просто чат-боты — они проактивно делают исследования, пишут черновики контента, проверяют код, собирают рассылки и при этом запоминают ваши решения и предпочтения.</p><p>Вся суть — в автоматизации. Агенты запускаются по расписанию (через Cron и «сердцебиения»), то есть не ждут команд, а сами инициируют нужные действия. Такой подход гарантирует, что работа не встанет, даже если вы офлайн или спите.</p><p>> «Шесть AI-агентов управляют всей моей жизнью, пока я сплю. Это не демо и не проект на выходные. Это реальная команда, которая работает 24/7 и не даёт мне отставать».</p><p>Ключевые фишки:
+<li>Автоматические расписания для рутинных задач</li>
+<li>Память о ваших предпочтениях, аудитории и прошлых решениях</li>
+<li>Самостоятельные и командные ревью для постоянного улучшения</li>
+<li>Финальные решения всегда остаются за человеком</li></p><p><h2>Чем такая AI-команда отличается от обычных ботов?</h2></p><p>В отличие от простых ботов, которые только отвечают на команды, у Сабу агенты работают как настоящая команда. Они запоминают контекст — ваши привычки, аудиторию, что сработало раньше — и используют это при принятии решений. У каждого агента своя роль, а их работу регулярно проверяют — и они сами, и «главный» агент (Monica), чтобы качество не падало.</p><p>Это не просто автоматизация, а умное делегирование. Агенты:
+<li>Каждый месяц анализируют свою работу</li>
+<li>Раз в две недели проходят командное ревью</li>
+<li>Важные вопросы сразу эскалируют владельцу</li></p><p>В итоге вы получаете все плюсы настоящей команды — проактивность, обучение, ответственность — но без затрат на найм и управление людьми.</p><p>> «Monica проверяет всю команду раз в две недели и ставит оценки. Они делают работу, но финальное слово всегда за мной».</p><p><h2>Как Telegram становится центром управления?</h2></p><p>Одна из самых крутых деталей: вся работа ведётся через Telegram. Никаких сложных дашбордов, никаких новых сервисов — всё в привычном мессенджере.</p><p>Через Telegram Сабу может:
+<li>Получать апдейты и ежедневные сигналы от агентов</li>
+<li>Согласовывать или отклонять их работу</li>
+<li>Принимать финальные решения по важным вопросам</li>
+<li>Управлять бизнесом «как CEO» прямо с телефона</li></p><p>Для России и СНГ это особенно актуально — Telegram тут главный канал для бизнеса. Если вы умеете пользоваться мессенджером, вы сможете контролировать свою AI-команду.</p><p><h2>Как масштабировать такой подход под реальные бизнес-задачи?</h2></p><p>AI-команда Сабу управляет open-source репозиторием «Awesome LLM Apps», который собрал больше 115 000 звёзд на GitHub. Это не игрушка, а огромный проект с мировой аудиторией. Агенты берут на себя:
+<li>Поиск новых инструментов и трендов</li>
+<li>Подготовку и обновление контента</li>
+<li>Проверку изменений в коде</li>
+<li>Ежедневные проактивные сигналы</li></p><p>Всё это — почти без ручного труда. Владелец подключается только для финальных решений или важных вопросов. Такая схема доказывает: AI-агенты могут брать на себя реальные, серьёзные задачи бизнеса, а не только «развлекуху».</p><p>> «Эти агенты управляют open-source репозиторием Awesome LLM Apps с 115 000+ звёзд и помогают мне быть в курсе благодаря ежедневным сигналам».</p><p><h2>Какие результаты даёт команда AI-агентов?</h2></p><p>Главное — экономия времени. Исследования, черновики, проверки — всё это автоматизируется, и Сабу может сосредоточиться на стратегии, а не на рутине. Агенты сами двигают процесс, ничего не забывают и не откладывают.</p><p>Другие плюсы:
+<li>Качество не падает благодаря постоянным ревью</li>
+<li>Решения принимаются на основе контекста и истории</li>
+<li>Можно реально управлять как CEO — с телефона, в дороге, из любой точки мира</li></p><p>Для предпринимателей это значит: больше времени на рост, меньше стресса и возможность масштабироваться без увеличения штата.</p><p><h2>Какие инструменты лежат в основе такого AI-процесса?</h2></p><p>Вся система Сабу строится на двух платформах:
+<li><strong>OpenClaw</strong> — стартовая точка для команды AI-агентов, отвечает за автоматизацию и расписания</li>
+<li><strong>Hermes</strong> — следующий этап, расширяет возможности и оптимизирует работу агентов</li></p><p>Обе платформы интегрируются с Telegram, так что пользоваться всем этим очень просто. Самое главное — агенты «помнят» контекст и учатся на ошибках, поэтому качество со временем только растёт.</p><p>> «OpenClaw — это старт, Hermes — развитие. И да, я управляю ими только через Telegram».</p><p><h2>Часто задаваемые вопросы (FAQ)</h2></p><p><strong>Нужны ли технические знания, чтобы всё это запустить?</strong></p><p>Если вы умеете пользоваться Telegram, сможете управлять AI-командой. Настройка может занять время, но в повседневной работе всё просто.</p><p><strong>Заменят ли AI-агенты моих сотрудников?</strong></p><p>AI-агенты идеально подходят для рутины и повторяющихся задач. Они освобождают команду для креатива и стратегии, а не увольняют людей.</p><p><strong>Насколько безопасно вести бизнес через Telegram?</strong></p><p>В России и СНГ Telegram — стандарт для бизнеса, у него сильная защита данных. Главное — соблюдать базовые правила безопасности аккаунта.</p><p><strong>Можно ли подстроить агентов под свой бизнес?</strong></p><p>Да. Агенты могут брать на себя разные роли: исследования, контент, ревью кода и многое другое — под ваши задачи.</p><p><strong>Что если AI-агент ошибётся?</strong></p><p>Вся система построена на эскалации: агенты делают рутину, а финальные решения всегда за вами. Регулярные проверки помогают вовремя ловить ошибки.</p><p><h2>Заключение</h2></p><p>AI-команды — это уже не фантастика, а реальный инструмент для автоматизации, роста и фокуса на важном. С такими платформами, как OpenClaw и Hermes, и привычным Telegram, бизнес в России и СНГ может внедрить 24/7 автоматизацию уже сегодня.</p><p>Если вы устали от рутины и хотите попробовать делегировать настоящему AI, начните изучать платформы агентов. Уже скоро вы сможете управлять бизнесом как CEO — прямо с телефона!</div>
+    
+    <a href="https://x.com/Saboo_Shubham_/status/2071293463447097625" target="_blank" class="source-link">
+      🔗 Открыть источник
+    </a>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-author">
+      Проект <a href="https://t.me/aiffring" target="_blank">Denis Ffring</a>
+      <span class="footer-divider">·</span>
+      <a href="https://plaan.ai" target="_blank">Plaan.ai</a>
+    </div>
+    <div class="footer-cta">
+      <a href="https://t.me/ffring" target="_blank" class="cta-btn">
+        💬 Консультация по внедрению ИИ
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/openclaw/openclaw" target="_blank">GitHub</a>
+      <a href="https://discord.com/invite/clawd" target="_blank">Discord</a>
+    </div>
+    <div class="footer-copy">Собрано с помощью <a href="https://openclaw.ai" target="_blank">OpenClaw</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
