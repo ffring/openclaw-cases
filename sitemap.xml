@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://openclawtimes.com/playground/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/grok-vs-claude-openai/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/grok-vs-claude-openai/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/grok-vs-claude-openai/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/grok-vs-claude-openai/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/grok-vs-claude-openai/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/ai-small-business/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/ai-small-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/ai-small-business/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/ai-small-business/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/ai-small-business/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/tracking-tech-ipos/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/tracking-tech-ipos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/tracking-tech-ipos/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/tracking-tech-ipos/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/tracking-tech-ipos/"/>
   </url>
   <url>
     <loc>https://openclawtimes.com/playground/articles/ai-video-editing/</loc>
@@ -479,35 +509,5 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/deep-claude-ai-mind/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/deep-claude-ai-mind/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/deep-claude-ai-mind/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/apple-ai-features-2026/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/apple-ai-features-2026/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/apple-ai-features-2026/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/apple-ai-features-2026/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/apple-ai-features-2026/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/fable-ai-ban/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/fable-ai-ban/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/fable-ai-ban/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/fable-ai-ban/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/fable-ai-ban/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/groww-product-strategy/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/groww-product-strategy/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/groww-product-strategy/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/groww-product-strategy/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/groww-product-strategy/"/>
   </url>
 </urlset>
