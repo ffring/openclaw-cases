@@ -2,13 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://openclawtimes.com/playground/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/innovations-ai-news/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/innovations-ai-news/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/innovations-ai-news/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/innovations-ai-news/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/innovations-ai-news/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/solo-ai-business/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/solo-ai-business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/solo-ai-business/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/solo-ai-business/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/solo-ai-business/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/bun-code-rewrite/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/bun-code-rewrite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/bun-code-rewrite/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/bun-code-rewrite/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/bun-code-rewrite/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/anthropic-structure-discovery/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/anthropic-structure-discovery/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/anthropic-structure-discovery/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/anthropic-structure-discovery/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/anthropic-structure-discovery/"/>
   </url>
   <url>
     <loc>https://openclawtimes.com/playground/articles/second-brain-claude-llm/</loc>
@@ -469,45 +509,5 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/openai-jalapeno-ai/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/openai-jalapeno-ai/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/openai-jalapeno-ai/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/ключевые-навыки-ИИ/</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/ключевые-навыки-ИИ/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/ключевые-навыки-ИИ/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/ключевые-навыки-ИИ/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/ключевые-навыки-ИИ/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/free-ai-skills/</loc>
-    <lastmod>2026-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/free-ai-skills/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/free-ai-skills/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/free-ai-skills/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/free-ai-skills/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/fable-5-ai-models/</loc>
-    <lastmod>2026-06-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/fable-5-ai-models/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/fable-5-ai-models/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/fable-5-ai-models/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/fable-5-ai-models/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/local-ai-models-glm/</loc>
-    <lastmod>2026-06-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/local-ai-models-glm/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/local-ai-models-glm/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/local-ai-models-glm/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/local-ai-models-glm/"/>
   </url>
 </urlset>
