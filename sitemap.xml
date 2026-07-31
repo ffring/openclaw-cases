@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://openclawtimes.com/playground/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/ai-1-percent-rule/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/ai-1-percent-rule/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/ai-1-percent-rule/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/ai-1-percent-rule/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/ai-1-percent-rule/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/abacus-ai-supercomputer/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/abacus-ai-supercomputer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/abacus-ai-supercomputer/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/abacus-ai-supercomputer/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/abacus-ai-supercomputer/"/>
+  </url>
+  <url>
+    <loc>https://openclawtimes.com/playground/articles/claude-code-browser/</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/claude-code-browser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/claude-code-browser/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/claude-code-browser/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/claude-code-browser/"/>
   </url>
   <url>
     <loc>https://openclawtimes.com/playground/articles/multi-gpu-efficiency-ai/</loc>
@@ -479,35 +509,5 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/clerk-cli-automation/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/clerk-cli-automation/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/clerk-cli-automation/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/kimi-k3-ai-revolution/</loc>
-    <lastmod>2026-07-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/kimi-k3-ai-revolution/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/kimi-k3-ai-revolution/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/kimi-k3-ai-revolution/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/kimi-k3-ai-revolution/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/openai-lawsuit-code-theft/</loc>
-    <lastmod>2026-07-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/openai-lawsuit-code-theft/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/openai-lawsuit-code-theft/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/openai-lawsuit-code-theft/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/openai-lawsuit-code-theft/"/>
-  </url>
-  <url>
-    <loc>https://openclawtimes.com/playground/articles/ai-news-claude-spotify-openai/</loc>
-    <lastmod>2026-07-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://openclawtimes.com/playground/articles/ai-news-claude-spotify-openai/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://openclawtimes.com/playground/articles/ai-news-claude-spotify-openai/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://openclawtimes.com/playground/articles/ai-news-claude-spotify-openai/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://openclawtimes.com/playground/articles/ai-news-claude-spotify-openai/"/>
   </url>
 </urlset>
